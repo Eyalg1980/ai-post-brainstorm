@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>הבריף של הבוקר · 30.7</title>
+<style>
+  :root{
+    --bg:#F7F5F0;
+    --ink:#1B2A4A;
+    --ink-soft:#5A6784;
+    --card:#FFFFFF;
+    --coral:#FF6B5E;
+    --yellow:#FFC940;
+    --teal:#2BB3A3;
+    --line:#E8E4DB;
+    --radius:18px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{
+    font-family:"Heebo","Rubik",-apple-system,"Segoe UI",sans-serif;
+    background:var(--bg);color:var(--ink);
+    padding:20px 16px 48px;
+    max-width:520px;margin:0 auto;
+    line-height:1.55;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+
+  /* Header */
+  .top{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:4px}
+  .brand{font-size:13px;font-weight:700;letter-spacing:.04em;color:var(--coral)}
+  .date{font-size:13px;color:var(--ink-soft)}
+  h1{font-size:26px;font-weight:900;line-height:1.25;margin:2px 0 18px}
+  h1 span{color:var(--coral)}
+
+  /* Idea cards */
+  .card{
+    background:var(--card);border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:18px 18px 16px;margin-bottom:14px;
+    box-shadow:0 1px 3px rgba(27,42,74,.05);
+    position:relative;overflow:hidden;
+  }
+  .card::before{
+    content:"";position:absolute;top:0;right:0;bottom:0;width:4px;background:var(--accent,var(--coral));
+  }
+  .tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+  .tag{
+    font-size:11.5px;font-weight:700;padding:4px 10px;border-radius:999px;
+    background:color-mix(in srgb, var(--accent,var(--coral)) 12%, white);
+    color:var(--accent,var(--coral));
+    border:1px dashed color-mix(in srgb, var(--accent,var(--coral)) 45%, white);
+  }
+  .tag.me{background:#FFF7DF;color:#9A7400;border-color:#EED89A}
+  .hook{font-size:18.5px;font-weight:800;line-height:1.4;margin-bottom:10px}
+  .label{font-size:11px;font-weight:700;color:var(--ink-soft);letter-spacing:.06em;margin-bottom:2px}
+  .angle{font-size:14.5px;color:#33405F;margin-bottom:10px}
+  .why{
+    font-size:13.5px;color:#33405F;background:#F3F1EA;
+    border-radius:12px;padding:9px 12px;margin-bottom:12px;
+  }
+  .why b{color:var(--ink)}
+  .src{
+    display:inline-flex;align-items:center;gap:6px;
+    font-size:12.5px;font-weight:600;text-decoration:none;
+    color:var(--ink);background:#EFF3FB;border:1px solid #DCE4F5;
+    padding:6px 12px;border-radius:999px;
+  }
+  .src small{color:var(--ink-soft);font-weight:400}
+
+  /* Articles */
+  h2{font-size:15px;font-weight:800;margin:26px 0 10px;display:flex;align-items:center;gap:8px}
+  h2::after{content:"";flex:1;height:1px;background:var(--line)}
+  .art{
+    display:block;text-decoration:none;color:inherit;
+    background:var(--card);border:1px solid var(--line);
+    border-radius:14px;padding:13px 15px;margin-bottom:10px;
+  }
+  .art b{font-size:14px;display:block;margin-bottom:3px;line-height:1.4}
+  .art p{font-size:13px;color:var(--ink-soft)}
+  .art .meta{font-size:11.5px;color:var(--coral);font-weight:700;margin-top:6px;display:block}
+
+  footer{
+    margin-top:28px;text-align:center;font-size:12px;color:var(--ink-soft);
+    border-top:1px dashed var(--line);padding-top:14px;
+  }
+</style>
+</head>
+<body>
+
+<div class="top">
+  <div class="brand">POST BRAINSTORM · דמו</div>
+  <div class="date">יום חמישי, 30 ביולי 2026</div>
+</div>
+<h1>בוקר טוב אייל,<br>הנה <span>3 רעיונות</span> להיום</h1>
+
+<!-- Idea 1: Weave, crossed with Eyal's work -->
+<div class="card" style="--accent:var(--coral)">
+  <div class="tags">
+    <span class="tag">Figma Weave</span>
+    <span class="tag me">✦ מאחורי הקלעים שלך</span>
+  </div>
+  <div class="hook">"בניתי וורקפלואו ב-Weave ללקוח. עוד שנה, הוא לא יהיה סוד מקצועי, הוא יהיה תוכן להורדה."</div>
+  <div class="label">הזווית</div>
+  <div class="angle">פיגמה פתחה פרסום של Weave Workflows בקומיוניטי: וורקפלואו הפך רשמית לסוג תוכן, כמו קבצי UI Kit פעם. מה זה אומר על מי שמוכר מומחיות בבניית וורקפלואים? להביא דוגמה אמיתית מהסדנאות שלך (Connecteam, DriveNets) ולטעון: הערך זז מהוורקפלואו עצמו אל היכולת לאבחן איזה וורקפלואו נכון לארגון.</div>
+  <div class="why"><b>למה עכשיו:</b> פיצ'ר דרופ של Config בתחילת החודש, פאנל Tools עם יותר מ-30 כלים ופרסום וורקפלואים לקומיוניטי. הנושא חם והקהל עוד מעכל.</div>
+  <a class="src" href="https://www.youtube.com/watch?v=nWx-wX9ykRM">🔗 Using Weave workflows · Figma <small>· 11.7</small></a>
+</div>
+
+<!-- Idea 2: AI teaching, crossed with JB course -->
+<div class="card" style="--accent:var(--teal)">
+  <div class="tags">
+    <span class="tag">הוראה והכשרה של AI</span>
+    <span class="tag me">✦ מתחבר לקורס נובמבר</span>
+  </div>
+  <div class="hook">"רק 14% מהסטודנטים מרגישים מוכנים ל-AI. הבעיה היא לא ידע, הם יודעים המון. הבעיה היא שאף אחד לא נתן להם לגעת."</div>
+  <div class="label">הזווית</div>
+  <div class="angle">מחקר של Pearson ו-AWS מראה פער בין ידע תיאורטי על AI לבין יכולת ליישם אותו בעבודה. בדיוק הפער שהשיטה שלך תוקפת: מהמופשט לאובייקט, כל מפגש נגמר בתוצר ביד. אפשר לספר איך בנוי התרגיל המתגלגל בקורס החדש בלי לחשוף הכל, ולסיים בעמדה: מלמדים AI כמו שמלמדים נהיגה, לא כמו שמלמדים תיאוריה.</div>
+  <div class="why"><b>למה עכשיו:</b> המחקר פורסם לפני שלושה ימים, ואתה בדיוק בונה את חבילת התוכן לשיווק הקורס. פוסט כזה עובד גם כתוכן וגם כקידום.</div>
+  <a class="src" href="https://learningnews.com/news/learning-news/2026/only-14-of-uk-learners-consider-themselves-ai-ready">🔗 Learning News · Pearson & AWS <small>· 27.7</small></a>
+</div>
+
+<!-- Idea 3: UX+AI opinion -->
+<div class="card" style="--accent:#7B61FF">
+  <div class="tags">
+    <span class="tag" style="--accent:#7B61FF">UX + AI</span>
+  </div>
+  <div class="hook">"הסוכנים כבר מעצבים מסכים. השאלה היחידה שנשארה למעצבים היא הכי חשובה: איפה עובר הגבול."</div>
+  <div class="label">הזווית</div>
+  <div class="angle">סיכום השבוע ב-AIUX עסק כולו בזה: מעצבים מגדירים Boundaries לסוכנים, נקודות עצירה אנושיות, הרשאות, שקיפות. זו עבודת UX חדשה לגמרי, לא לצייר את המסך אלא להחליט מתי בן אדם חייב להיות בלופ. עמדה טובה למי שמלמד Generative UI: זה הסילבוס האמיתי של 2027.</div>
+  <div class="why"><b>למה עכשיו:</b> דיון רץ השבוע בקהילה, כולל פרסום של NNG על עיצוב מסכים שנוצר על ידי AI. להיכנס אליו עכשיו זה להצטרף לשיחה קיימת, לא לפתוח אחת חדשה.</div>
+  <a class="src" href="https://www.aiuxdesign.guide/news/this-week-in-aiux-jul-27-agent-permissions-human-in-the-loop-checkpoints-and-ai-toggl">🔗 This Week in AIUX <small>· 27.7</small></a>
+</div>
+
+<h2>שווה קריאה היום</h2>
+
+<a class="art" href="https://www.figma.com/release-notes/">
+  <b>מה פיגמה שחררה ביולי</b>
+  <p>GPT-5.6 נכנס ל-Make, מסכים מגובי קוד עם Variables, ו-Auto Layout שמתיישר עם CSS. חומר גלם מצוין לפוסט "מה זה אומר בפועל".</p>
+  <span class="meta">Figma Release Notes</span>
+</a>
+
+<a class="art" href="https://learningnews.com/news/learning-news/2026/the-ld-industry's-ai-problem-isn't-adoption-it's-knowing-how-to-use-it-for-real-impact">
+  <b>הבעיה של עולם ההדרכה היא לא אימוץ AI, אלא שימוש נכון בו</b>
+  <p>דוח של Access Learning על האתגר המרכזי של 2026: החיבור בין AI, מיומנויות ומומחיות אנושית. מתכתב ישירות עם ההצעה שלך לארגונים.</p>
+  <span class="meta">Learning News · 30.6</span>
+</a>
+
+<a class="art" href="https://www.aiuxdesign.guide/news/ai-ux-daily-jul-28-claude-design-ai-in-threads-dms-and-the-designer-developer-h">
+  <b>איך נבנה Claude Design, ומה קורה ל-Handoff</b>
+  <p>הצצה לכלי העיצוב הפנימי של Anthropic, ולמה סוכני AI לאט לאט בולעים את תהליך המסירה בין מעצב למפתח.</p>
+  <span class="meta">AI UX Design Guide · 28.7</span>
+</a>
+
+<footer>
+  דמו · סקיצה ראשונה של כלי הברינסטורם היומי<br>
+  רעיון תפס אותך? כתוב לי "פתח את רעיון 2" ואבנה טיוטה מלאה
+</footer>
+
+</body>
+</html>
