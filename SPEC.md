@@ -38,11 +38,23 @@ The site is a 3-tab SPA: `index.html` renders `posts.json` (הבריף tab), `ap
     "color": "#FF6B5E",
     "me": "מאחורי הקלעים שלך" | null,
     "hook": "...", "angle": "...", "why": "...",
-    "srcUrl": "https://...", "srcLabel": "...", "srcDate": "D.M"
+    "srcUrl": "https://...", "srcLabel": "...", "srcDate": "D.M",
+    "prompts": { "image": "<English Higgsfield image prompt>", "video": "<English Higgsfield video prompt>" },
+    "used": false
   }],
   "articles": [{"title":"...","desc":"...","meta":"Source · D.M","url":"https://..."}]
 }
 ```
+### `prompts` (required on every idea, generated up front)
+Every idea ships with ready visual prompts so Eyal can copy and run them from the phone without another round trip. Write them in ENGLISH, no text-in-image, and open with one of the two house visual languages:
+- **Clay** (default for ביוגרפיה של אובייקט and anything playful): `Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field`
+- **Flat editorial** (default for data, industry and comparison ideas): `Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text`
+
+Then one concrete scene that carries the idea, plus the format. `image` ends with `, 1:1`; `video` ends with `, 9:16, 8 seconds` and describes motion. The app renders four copy buttons per idea: ויזואל לפוסט, רילס קצר, קרוסלה, טקסט גולמי. The last two are composed by the app itself, so do NOT write them. Buttons backed by a real prompt render green; the app falls back to a command to Claude when `prompts` is missing, so older days keep working.
+
+### `used`
+`used: true` means the idea already became a published post and should be skipped as a source of new ideas. The app also lets Eyal mark ideas locally in the browser; when he taps "שמור בקובץ" it copies a command listing the ids to flip in `posts.json`. Honor it: set `used: true` on those ids, keep everything else untouched, publish.
+
 All idea/article source URLs must be REAL pages you actually fetched or received from search results. Never invent URLs. Verify at least the primary source of each idea with WebFetch. Keep valid JSON (validate with `python3 -m json.tool`).
 
 ## Publish

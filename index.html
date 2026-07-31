@@ -62,6 +62,27 @@
   .src small{color:var(--soft);font-weight:400}
   .expand-btn{border:none;cursor:pointer;font-family:inherit;margin-inline-start:auto;background:var(--accent,var(--coral));color:#fff;font-size:12.5px;font-weight:700;padding:8px 14px;border-radius:999px;display:inline-flex;align-items:center;gap:5px}
   .expand-btn:active{transform:scale(.97)}
+
+  /* Ready prompts row */
+  .prompts{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 12px}
+  .p-btn{
+    border:1px dashed #CFD7E8;cursor:pointer;font-family:inherit;
+    background:#F5F7FC;color:#3B4A6B;font-size:11.5px;font-weight:700;
+    padding:6px 11px;border-radius:999px;display:inline-flex;align-items:center;gap:4px;
+  }
+  .p-btn.ready{background:#EAF7F4;border-color:#A9DED4;color:#1D7A6C}
+  .p-btn:active{transform:scale(.96)}
+
+  /* Used state */
+  .feed-bar{display:flex;align-items:center;gap:7px;flex-wrap:wrap;background:#EFEBE1;border-radius:14px;padding:8px 10px;margin-bottom:4px}
+  .feed-bar .cnt{font-size:11.5px;font-weight:700;color:#6B6349;margin-inline-end:auto}
+  .fb-btn{border:1px solid #DDD6C6;cursor:pointer;font-family:inherit;background:#fff;color:#5A6784;font-size:11.5px;font-weight:700;padding:6px 12px;border-radius:999px}
+  .fb-btn.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .use-btn{border:1px dashed #D8D2C2;cursor:pointer;font-family:inherit;background:#fff;color:var(--soft);font-size:11.5px;font-weight:700;padding:7px 12px;border-radius:999px}
+  .use-btn.on{background:#EAF7F4;border:1px solid #A9DED4;color:#1D7A6C}
+  .card.used{opacity:.5}
+  .card.used .hook{text-decoration:line-through;text-decoration-thickness:1px;text-decoration-color:#B9C0CF}
+  .tag.usedtag{background:#EAF7F4;color:#1D7A6C;border-color:#A9DED4}
   h2{font-size:14px;font-weight:800;margin:20px 0 10px;display:flex;align-items:center;gap:8px;color:var(--soft)}
   h2::after{content:"";flex:1;height:1px;background:var(--line)}
   .art{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 15px;margin-bottom:9px}
@@ -159,22 +180,69 @@ function showTab(id){
 }
 
 /* ---------- Brief feed ---------- */
+let FEED=null, PBANK=[];
+const LS_USED='apb_used', LS_HIDE='apb_hide_used';
+function usedSet(){try{return new Set(JSON.parse(localStorage.getItem(LS_USED)||'[]'))}catch(e){return new Set()}}
+function saveUsed(s){try{localStorage.setItem(LS_USED,JSON.stringify([...s]))}catch(e){}}
+function hideUsed(){return localStorage.getItem(LS_HIDE)==='1'}
+
+/* Four ready copy targets per idea. If the daily run supplied idea.prompts, they are pasted as-is
+   (ready prompts). Otherwise we build a command for Claude out of the idea itself. */
+function buildPrompts(idea,day){
+  const p=idea.prompts||{};
+  const ref='הרעיון: "'+idea.hook+'". הזווית: '+idea.angle;
+  return [
+    {k:'image', i:'🖼️', label:'ויזואל לפוסט', ready:!!p.image,
+     val: p.image ? ('צור לי תמונה בהיגספילד לפי הפרומפט הזה: '+p.image) :
+                    ('צור לי ויזואל לפוסט הזה: כתוב פרומפט תמונה באנגלית בשפה הוויזואלית של סימפלה, ואז הרץ אותו בהיגספילד. '+ref)},
+    {k:'video', i:'🎬', label:'רילס קצר', ready:!!p.video,
+     val: p.video ? ('צור לי סרטון בהיגספילד לפי הפרומפט הזה: '+p.video) :
+                    ('הפוך את הרעיון הזה לרילס של 15 עד 20 שניות: תסריט קצר, שוט ליסט ופרומפט וידאו מוכן להיגספילד ב-9:16. '+ref)},
+    {k:'carousel', i:'🎠', label:'קרוסלה', ready:!!p.carousel,
+     val: p.carousel || ('פרק את הרעיון הזה לקרוסלה של 6 עד 7 שקפים: כותרת לכל שקף, שורת גוף אחת, ושקף אחרון עם שאלה. '+ref)},
+    {k:'raw', i:'📝', label:'טקסט גולמי', ready:true,
+     val: 'הוק: '+idea.hook+'\n\nזווית: '+idea.angle+'\n\nלמה עכשיו: '+idea.why+'\n\nמקור: '+(idea.srcLabel||'')+' '+(idea.srcUrl||'')+'\n(בריף '+day.dateLabel+')'}
+  ];
+}
+
 function renderFeed(data){
+  if(data)FEED=data;
   const feed=document.getElementById('feed');
-  let html='';
-  const days=[...data.days].sort((a,b)=>b.date.localeCompare(a.date));
+  const used=usedSet(), hide=hideUsed();
+  PBANK=[];
+  const days=[...FEED.days].sort((a,b)=>b.date.localeCompare(a.date));
+  let total=0, nUsed=0, pending=[];
+  for(const day of days)for(const idea of (day.ideas||[])){
+    total++;
+    const isUsed=used.has(idea.id)||idea.used===true;
+    if(isUsed)nUsed++;
+    if(used.has(idea.id)&&idea.used!==true)pending.push(idea.id);
+  }
+  let html='<div class="feed-bar"><span class="cnt">'+nUsed+' נוצלו מתוך '+total+' רעיונות</span>';
+  html+='<button class="fb-btn'+(hide?' on':'')+'" id="fb-hide">'+(hide?'מציג רק פתוחים':'הסתר נוצלו')+'</button>';
+  if(pending.length)html+='<button class="fb-btn" id="fb-sync">שמור בקובץ ('+pending.length+')</button>';
+  html+='</div>';
   for(const day of days){
+    const ideas=(day.ideas||[]).filter(i=>!(hide&&(used.has(i.id)||i.used===true)));
+    if(!ideas.length&&hide)continue;
     html+='<section><div class="date-chip"><span>'+esc(day.dateLabel)+'</span></div>';
-    for(const idea of (day.ideas||[])){
+    for(const idea of ideas){
+      const isUsed=used.has(idea.id)||idea.used===true;
       const cmd='כתוב פוסט מלא בקול שלי מהרעיון הזה (בריף '+day.dateLabel+'): "'+idea.hook+'"';
-      html+='<article class="card" style="--accent:'+esc(idea.color||'#FF6B5E')+'">';
+      html+='<article class="card'+(isUsed?' used':'')+'" style="--accent:'+esc(idea.color||'#FF6B5E')+'">';
       html+='<div class="tags"><span class="tag">'+esc(idea.pillar)+'</span>';
       if(idea.me)html+='<span class="tag me">✦ '+esc(idea.me)+'</span>';
+      if(isUsed)html+='<span class="tag usedtag">✓ נוצל</span>';
       html+='</div><div class="hook">"'+esc(idea.hook)+'"</div>';
       html+='<div class="label">הזווית</div><div class="angle">'+esc(idea.angle)+'</div>';
       html+='<div class="why"><b>למה עכשיו:</b> '+esc(idea.why)+'</div>';
+      const pi=PBANK.push(buildPrompts(idea,day))-1;
+      html+='<div class="label">פרומפטים מוכנים</div><div class="prompts">';
+      PBANK[pi].forEach(p=>{html+='<button class="p-btn'+(p.ready?' ready':'')+'" data-p="'+pi+'" data-k="'+p.k+'">'+p.i+' '+p.label+'</button>'});
+      html+='</div>';
       html+='<div class="card-actions">';
       if(idea.srcUrl)html+='<a class="src" href="'+esc(idea.srcUrl)+'" target="_blank" rel="noopener">🔗 '+esc(idea.srcLabel||'מקור')+(idea.srcDate?' <small>· '+esc(idea.srcDate)+'</small>':'')+'</a>';
+      html+='<button class="use-btn'+(isUsed?' on':'')+'" data-use="'+esc(idea.id)+'">'+(isUsed?'✓ נוצל':'סמן כנוצל')+'</button>';
       html+='<button class="expand-btn" data-cmd="'+esc(cmd)+'">✍️ כתוב פוסט מלא</button>';
       html+='</div></article>';
     }
@@ -188,6 +256,18 @@ function renderFeed(data){
   }
   feed.innerHTML=html;
   feed.querySelectorAll('.expand-btn').forEach(b=>b.addEventListener('click',()=>copyCmd(b.dataset.cmd)));
+  feed.querySelectorAll('.p-btn').forEach(b=>b.addEventListener('click',()=>{
+    const p=(PBANK[+b.dataset.p]||[]).find(x=>x.k===b.dataset.k); if(p)copyCmd(p.val);
+  }));
+  feed.querySelectorAll('.use-btn').forEach(b=>b.addEventListener('click',()=>{
+    const s=usedSet(), id=b.dataset.use;
+    if(s.has(id))s.delete(id); else s.add(id);
+    saveUsed(s); renderFeed();
+  }));
+  const fh=document.getElementById('fb-hide');
+  if(fh)fh.addEventListener('click',()=>{localStorage.setItem(LS_HIDE,hide?'0':'1');renderFeed()});
+  const fs=document.getElementById('fb-sync');
+  if(fs)fs.addEventListener('click',()=>copyCmd('סמן את הרעיונות האלה כנוצלו ב-posts.json (used: true) ופרסם: '+pending.join(', ')));
 }
 
 /* ---------- Approaches ---------- */

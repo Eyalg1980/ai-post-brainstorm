@@ -14,7 +14,11 @@
           "why": "עדכון טרי מהשבוע שעבר עם תאריך תפוגה מוגדר. אף אחד בעברית עוד לא הסביר מה זה אומר לצוותים שעובדים עם סוכנים על הקובץ.",
           "srcUrl": "https://releasebot.io/updates/figma",
           "srcLabel": "Figma release notes · auto layout ו-CSS",
-          "srcDate": "24.7"
+          "srcDate": "24.7",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, 1:1. A clay UI frame holding a neat vertical stack of rectangular blocks, small glowing clay spacers wedged between them, a tiny clay ruler leaning against the stack, and one older cracked block set aside on the table with a small paper tag on it",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, 9:16, 8 seconds. Slow push-in on a clay stack of UI blocks; the spacers between them light up one by one and snap into perfect alignment; the last cracked block on the side crumbles softly into dust"
+          }
         },
         {
           "id": "2026-07-31-2",
@@ -26,7 +30,11 @@
           "why": "מספרים אמיתיים ועדכניים שמצדיקים בדיוק את הפוזיציה שאתה מוכר בנובמבר. עובד גם כתוכן מקצועי וגם כחומר שיווקי לקורס.",
           "srcUrl": "https://bipartisanpolicy.org/article/industries-with-the-fastest-growth-in-demand-for-ai-skills-july-2026/",
           "srcLabel": "Bipartisan Policy Center · Skills Data Dashboard",
-          "srcDate": "15.7"
+          "srcDate": "15.7",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, 1:1. Three workplaces in a row: an accountant desk with a ledger, a bank counter, and a recruiter desk, each with a small glowing node floating above it, all three nodes connected by one thin dashed line, while a distant tech office sits small and dim in the far background",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, 9:16, 8 seconds. Camera pans across the three workplaces as a glowing dashed line draws itself from desk to desk, each node popping to life in sequence, ending on the small dim tech office in the distance"
+          }
         },
         {
           "id": "2026-07-31-3",
@@ -38,7 +46,11 @@
           "why": "הדוח פורסם היום, המספרים חדים, וזו בדיוק הזווית שמחברת נגישות ו-AI בלי להטיף. פוסט שאפשר לפרסם מחר בבוקר.",
           "srcUrl": "https://jakobnielsenphd.substack.com/p/ux-roundup-20260731",
           "srcLabel": "Jakob Nielsen · UX Roundup",
-          "srcDate": "31.7"
+          "srcDate": "31.7",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, 1:1, split screen with a thin dashed divider down the middle. Right half: an early 2000s browser window full of tangled nested boxes and a knotted wire. Left half: the same page rebuilt as clean labelled semantic blocks with a small robot cursor gliding through them, holding a shopping bag",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, 9:16, 8 seconds. The messy tangled browser layout on the right untangles block by block and slides into clean labelled semantic rows on the left, a small robot cursor gliding smoothly through them at the end"
+          }
         }
       ],
       "articles": [
