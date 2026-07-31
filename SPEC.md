@@ -50,6 +50,24 @@ All idea/article source URLs must be REAL pages you actually fetched or received
 4. Verify with WebFetch that https://eyalg1980.github.io/ai-post-brainstorm/posts.json contains the new date (Pages takes ~1 min; the sandbox proxy blocks direct curl to github.io, use WebFetch).
 5. If the Google Drive connector is available, also save a copy of the day's brief data (optional, non-blocking) to simpla-workspace/projects/ai-post-brainstorm.
 
+## Formats library (Eyal-approved creative templates)
+Rotate these: at least one of the day's ideas should propose one of these formats explicitly in its `angle` ("פורמט: ..."). Never use the same format two days in a row.
+
+1. **סיפור עם לקח (à la Yuval Katsheler)** — long-form story post. Structure: cold open with one concrete, odd scene (a person, a date, a number) → chronological story in short punchy paragraphs (1-2 sentences each) → mid-story zoom-out to a principle → a personal beat ("גם אני...") connecting Eyal's own work → land on a present-day AI/product insight → one crisp closing law. Specific numbers and dates everywhere. Domains: tech/design history figures, tool origin stories, AI product sagas.
+2. **צ'ק-אין נבואה (à la Tal Florentin)** — thought-leadership essay: "אמרתי X, הנה מה שקרה בשטח". A prediction Eyal made (in class, workshop, post) + fresh field evidence (a meeting, a client, a release) + one strong metaphor + what comes next. Authority builder.
+3. **חידה ויזואלית + פרומפט בתגובה ראשונה** — an AI-generated image challenge (e.g. LEGO towers as character palettes). Post = image grid + one question line; the generation prompt goes in the first comment. High engagement, low effort. Domains: color palettes, famous UIs, design principles as objects.
+4. **רשימת כלים קצרה (à la janm_ux)** — "5 הכלים האהובים עליי ל-X": micro-tools lists (e.g. animated shader gradients: Framer Shaders, shaders.com, shadergradient.co, shaders.paper.design, meshgradient.com). Short, save-worthy, visual.
+5. **מדריך השוואתי עם מספרים** — comparative workflow guide (e.g. Claude vs Codex in a design flow: time, tokens, before/after). Real numbers from Eyal's own runs.
+
+## Standing topic pools (in addition to daily news)
+- **10 Modern Web UX Behaviors** — Eyal's bonus lesson C (course material): video scrubbing, sticky scroll sections, parallax, scroll-triggered reveals, magnetic buttons, custom cursors, bento grids, skeleton loading, optimistic UI, drag-to-reorder + the 4 golden rules (accessibility over wow, mobile first, max 2 behaviors per page, performance budget). Each behavior = a standalone post (what, when yes, when no, common mistake). Mark with `me`.
+- **UI/UX course syllabus** (AI Product Design & UX/UI, 30 lessons): each lesson topic is a post seed (Nielsen heuristics, MoSCoW, mood boards with Midjourney, design domains, color psychology, Mobbin patterns...). Mark with `me`.
+- **מיישם AI ואוטומציה syllabus** (no-code, Citizen Developers): MVP thinking, flowcharts, prompt engineering formulas, vibe coding, agentic AI, the rolling project method. Mark with `me`.
+- **Figma Motion** — new Config feature, little Hebrew content exists.
+- **Designing with AI workflows** — Claude / Codex / Google Stitch / Mobbin / Figma combinations.
+- **AI UGC / avatar ad tools** — e.g. arcads.ai (1,000+ AI actors for ads): what it means for content and marketing design.
+- **Storytellers to follow for inspiration** (do not copy, learn structure): Yuval Katsheler's story posts, Tal Florentin's essays.
+
 ## "Generate more" requests
 When Eyal pastes the command "צור עוד רעיונות" from the site, add 3 NEW ideas to TODAY's existing day object (ids continue: -4, -5, -6), same rules, then publish the same way.
 
