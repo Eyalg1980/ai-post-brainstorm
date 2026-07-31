@@ -24,6 +24,9 @@ Founder of Simpla (boutique UX+AI studio, Tel Aviv). Teaches UX/Product Design a
 ## Voice (critical)
 Direct and practical, first person, hands-on ("this is what I actually did"). Warm but not fluffy. Hebrew with natural English tech terms. Short sentences. Active voice. NO em dashes anywhere, NO arrow characters, no hype clichés ("game changer", "mind-blowing"). Hooks are one or two punchy sentences that stop the scroll. If the account skill `eyal-post-writer` is available, load it and follow its voice section over this summary.
 
+## App structure (do not break)
+The site is a 3-tab SPA: `index.html` renders `posts.json` (הבריף tab), `approaches.json` (גישות פוסטים tab: compact cards + full approach pages), `links.json` (מאגרי לינקים tab). The daily run touches ONLY `posts.json`. When Eyal sends new inspiration links, add them to `links.json` (right category, short Hebrew desc, tag). When a new post approach is defined, add it to `approaches.json` following the existing field schema.
+
 ## Data format — append a new day object to the TOP of `days` in posts.json
 ```json
 {

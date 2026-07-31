@@ -1,0 +1,86 @@
+{
+  "categories": [
+    {
+      "name": "כותבים ופוסטים להשראה",
+      "emoji": "✍️",
+      "links": [
+        {"title": "יובל קטשלר · פרופיל", "desc": "מאסטר הסיפור-עם-לקח. המנוע שפירקנו לתבניות 6-8", "url": "https://www.facebook.com/share/195LVMFwab/", "tag": "סטוריטלינג"},
+        {"title": "יובל · פיטר לבלס ו-12 הסטארטאפים", "desc": "לולאה אחת שנסגרת לפני פלטפורמה", "url": "https://www.facebook.com/share/1JrK2ETvoo/", "tag": "סטוריטלינג"},
+        {"title": "יובל · פרד דרסט והמספר שדלף", "desc": "ערוצי הפצה כמותג אישי", "url": "https://www.facebook.com/share/p/18wpbjxRGv/", "tag": "סטוריטלינג"},
+        {"title": "יובל · אבטחת סוכני AI", "desc": "פתחתם לו תיקייה, פתחתם לו את הבית", "url": "https://www.facebook.com/share/p/1FAQcYRgHk/", "tag": "סטוריטלינג"},
+        {"title": "יובל · ג'ק דורסי ובאזז", "desc": "אימפריות מתות מפרויקט צדדי", "url": "https://www.facebook.com/share/p/1HaqRBdvih/", "tag": "סטוריטלינג"},
+        {"title": "טל פלורנטין · סוף המבול הטכנולוגי", "desc": "צ'ק-אין נבואה קלאסי: ארגון בלי פיגמה, Builders עם Lovable", "url": "https://www.facebook.com/share/1K1JwrKtZu/", "tag": "מגמות"},
+        {"title": "חידת הלגו · ChatGPT ישראל", "desc": "ההשראה לתבנית חידה ויזואלית + פרומפט בתגובה", "url": "https://www.facebook.com/share/p/1MQ5doijTX/", "tag": "אנגייג'מנט"}
+      ]
+    },
+    {
+      "name": "כלי AI לעיצוב ותוכן",
+      "emoji": "🤖",
+      "links": [
+        {"title": "Arcads", "desc": "שחקני AI ליצירת מודעות UGC, יותר מ-1,000 אווטארים. שווה כתבה", "url": "https://www.arcads.ai/", "tag": "וידאו AI"},
+        {"title": "Open Arthouse", "desc": "מאגר קולות פתוחים (Open Calls) לאמני AI, עם דדליינים ותנאים", "url": "https://open-arthouse.com/", "tag": "אמנות AI"},
+        {"title": "Build Perfect Websites · AI Surfer", "desc": "וורקפלואו: Claude Code + סקילים + 21st.dev + Framer Motion לאתר בדקות", "url": "https://the-ai-surfer.remixr.io/build-perfect-websites", "tag": "vibe coding"},
+        {"title": "Claude Code Workshop", "desc": "סדנת Claude Code פתוחה של עדן ביבס, רפרנס למבנה סדנה", "url": "https://claude-code-workshop-orcin.vercel.app/", "tag": "סדנאות"},
+        {"title": "מקור מ-X (שיתוף גוגל)", "desc": "לפתוח ולתייג", "url": "https://share.google/NyGfatQ1uEO3aEGr7", "tag": "לתיוג"}
+      ]
+    },
+    {
+      "name": "אנימציה והתנהגויות ווב",
+      "emoji": "🎬",
+      "links": [
+        {"title": "ספריות אנימציות · רילס", "desc": "רילס עם ספריות אנימציה, נושא לרשימת כלים", "url": "https://www.facebook.com/share/r/199jcQbZSm/", "tag": "רשימת כלים"},
+        {"title": "GSAP ScrollTrigger", "desc": "הסטנדרט לאנימציות סקרול, מהטולקיט של שיעור הבונוס", "url": "https://gsap.com/scrolltrigger/", "tag": "ספרייה"},
+        {"title": "Framer Motion", "desc": "אנימציות ספרינג לריאקט", "url": "https://www.framer.com/motion/", "tag": "ספרייה"},
+        {"title": "Framer Shaders / shaders.com", "desc": "מהרילס של janm_ux: גרדיאנטים חיים", "url": "https://shaders.com", "tag": "שיידרים"},
+        {"title": "ShaderGradient", "desc": "גרדיאנטים אנימטיביים לפיגמה ולפריימר", "url": "https://shadergradient.co", "tag": "שיידרים"},
+        {"title": "Paper Shaders", "desc": "שיידרים מוכנים לעיצוב", "url": "https://shaders.paper.design", "tag": "שיידרים"},
+        {"title": "Mesh Gradient", "desc": "מש-גרדיאנטים לרקעים", "url": "https://meshgradient.com", "tag": "שיידרים"},
+        {"title": "Awwwards", "desc": "ה-state of the art של התנהגויות ווב", "url": "https://www.awwwards.com", "tag": "השראה"}
+      ]
+    },
+    {
+      "name": "סרטונים ומדריכים",
+      "emoji": "📺",
+      "links": [
+        {"title": "Figma Motion · מדריך", "desc": "הסבר מעולה על פיצ'ר המושן החדש, ואקום תוכן בעברית", "url": "https://youtu.be/wpx7Ps1dvcI", "tag": "Figma"},
+        {"title": "Designing With AI: Claude, Codex, Figma", "desc": "מדריך מלא, 142K צפיות. כולל השוואת זמן וטוקנים", "url": "https://www.youtube.com/watch?v=j_ZPV10bu54", "tag": "וורקפלואו"},
+        {"title": "Designing with AI · סרטון נוסף", "desc": "המשך הנושא", "url": "https://www.youtube.com/watch?v=1lrt3ITrwcc", "tag": "וורקפלואו"},
+        {"title": "Top 5 Features from Config 2026", "desc": "שורטס: חמשת הפיצ'רים הגדולים של הכנס", "url": "https://www.youtube.com/shorts/PztFPFEook0", "tag": "Figma"},
+        {"title": "מדריך יוטיוב · לתיוג", "desc": "לפתוח ולתייג", "url": "https://youtu.be/DVhSuQh2PSw", "tag": "לתיוג"},
+        {"title": "אפליקציות שימושיות למעצבים · רילס", "desc": "הרילס של janm_ux עם כלי השיידרים, רפרנס לפורמט רשימה", "url": "https://www.facebook.com/share/r/198DrnL8L6/", "tag": "רשימת כלים"}
+      ]
+    },
+    {
+      "name": "רילסים ופוסטים לתיוג",
+      "emoji": "📌",
+      "links": [
+        {"title": "רילס · לתיוג", "desc": "מהסבב האחרון של אייל", "url": "https://www.facebook.com/share/r/1DBFCf9BCd/", "tag": "לתיוג"},
+        {"title": "רילס · לתיוג", "desc": "מהסבב האחרון של אייל", "url": "https://www.facebook.com/share/r/1Bw2FaTy1i/", "tag": "לתיוג"},
+        {"title": "רילס · לתיוג", "desc": "מהסבב האחרון של אייל", "url": "https://www.facebook.com/share/r/18b8SuwTxB/", "tag": "לתיוג"},
+        {"title": "רילס · לתיוג", "desc": "מהסבב האחרון של אייל", "url": "https://www.facebook.com/share/r/1EQy48pgHG/", "tag": "לתיוג"},
+        {"title": "פוסט · לתיוג", "desc": "מהסבב האחרון של אייל", "url": "https://www.facebook.com/share/1YRC6WDVNb/", "tag": "לתיוג"},
+        {"title": "רילס · לתיוג", "desc": "מהסבב האחרון של אייל", "url": "https://www.facebook.com/share/r/17qcSm2CNw/", "tag": "לתיוג"}
+      ]
+    },
+    {
+      "name": "פרומפטים וחומרים שלך",
+      "emoji": "📝",
+      "links": [
+        {"title": "פרומפטים לעבודה · מסמך", "desc": "גם מאגר וגם נושא לפוסט בפני עצמו", "url": "https://docs.google.com/document/d/12YmKEk5jj43D2ZdAVakxboErkCFZ969mk0J2wtBbj3Q/edit", "tag": "פרומפטים"},
+        {"title": "10 התנהגויות UX מודרניות", "desc": "שיעור הבונוס שלך, מאגר לסדרת פוסטים שלמה", "url": "https://drive.google.com/file/d/1TwiHWgi4GbXwakXHdtQFYizZQVDlq38l/view", "tag": "חומר שלך"},
+        {"title": "סילבוס AI Product Design & UX/UI", "desc": "30 שיעורים, כל נושא הוא זרע לפוסט", "url": "https://drive.google.com/file/d/1U6KDUJRZjW7BxTQHf9mNuMzg1vKXoG0b/view", "tag": "חומר שלך"}
+      ]
+    },
+    {
+      "name": "מקורות המחקר היומי",
+      "emoji": "🔍",
+      "links": [
+        {"title": "Figma Release Notes", "desc": "מה פיגמה שחררה, מתעדכן שוטף", "url": "https://www.figma.com/release-notes/", "tag": "יומי"},
+        {"title": "Figmalion · Weave", "desc": "כל החדשות על Figma Weave במקום אחד", "url": "https://figmalion.com/topics/figma-weave", "tag": "יומי"},
+        {"title": "AI UX Design Guide · News", "desc": "דיילי על AI ו-UX", "url": "https://www.aiuxdesign.guide/news", "tag": "יומי"},
+        {"title": "Learning News", "desc": "חדשות L&D והכשרות", "url": "https://learningnews.com", "tag": "יומי"},
+        {"title": "Mobbin", "desc": "מאגר פטרנים של אפליקציות אמיתיות, מהסילבוס שלך", "url": "https://mobbin.com", "tag": "רפרנס"}
+      ]
+    }
+  ]
+}

@@ -8,49 +8,49 @@
 <style>
   :root{
     --bg:#F7F5F0; --ink:#1B2A4A; --soft:#5A6784; --card:#FFFFFF;
-    --coral:#FF6B5E; --teal:#2BB3A3; --line:#E8E4DB; --radius:18px;
+    --coral:#FF6B5E; --teal:#2BB3A3; --yellow:#FFC940; --purple:#7B61FF;
+    --line:#E8E4DB; --radius:18px;
   }
   *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
   html{scroll-behavior:smooth}
   body{
     font-family:"Heebo","Rubik",-apple-system,"Segoe UI",sans-serif;
     background:var(--bg);color:var(--ink);
-    padding:16px 16px 60px; max-width:520px;margin:0 auto; line-height:1.55;
+    padding:14px 16px 60px; max-width:520px;margin:0 auto; line-height:1.55;
   }
-  header{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+  header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
   .brand{font-size:14px;font-weight:900;letter-spacing:.03em;color:var(--coral)}
   .brand small{display:block;font-size:11px;font-weight:500;color:var(--soft);letter-spacing:0}
-
   .gen-btn{
     border:none;cursor:pointer;font-family:inherit;
-    background:var(--ink);color:#fff;font-size:13px;font-weight:700;
-    padding:10px 16px;border-radius:999px;display:inline-flex;align-items:center;gap:6px;
+    background:var(--ink);color:#fff;font-size:12.5px;font-weight:700;
+    padding:9px 15px;border-radius:999px;display:inline-flex;align-items:center;gap:6px;
     box-shadow:0 2px 8px rgba(27,42,74,.18);
   }
   .gen-btn:active{transform:scale(.97)}
 
-  .day{margin-bottom:8px}
-  .date-chip{
-    position:sticky;top:10px;z-index:5;text-align:center;margin:18px 0 14px;
-  }
-  .date-chip span{
-    display:inline-block;background:#E9E4D8;color:#6B6349;
-    font-size:12px;font-weight:700;padding:6px 16px;border-radius:999px;
+  /* Tabs */
+  nav{
+    position:sticky;top:8px;z-index:20;display:flex;gap:6px;
+    background:#EFEBE1;border-radius:999px;padding:4px;margin-bottom:16px;
     box-shadow:0 1px 4px rgba(27,42,74,.08);
   }
-  .card{
-    background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
-    padding:18px 18px 14px;margin-bottom:14px;
-    box-shadow:0 1px 3px rgba(27,42,74,.05); position:relative;overflow:hidden;
+  nav button{
+    flex:1;border:none;cursor:pointer;font-family:inherit;
+    background:transparent;color:var(--soft);font-size:13.5px;font-weight:700;
+    padding:9px 4px;border-radius:999px;transition:all .15s;
   }
+  nav button.active{background:#fff;color:var(--ink);box-shadow:0 1px 4px rgba(27,42,74,.12)}
+  .tab{display:none}
+  .tab.active{display:block}
+
+  /* Feed (brief) */
+  .date-chip{position:sticky;top:56px;z-index:5;text-align:center;margin:18px 0 14px}
+  .date-chip span{display:inline-block;background:#E9E4D8;color:#6B6349;font-size:12px;font-weight:700;padding:6px 16px;border-radius:999px;box-shadow:0 1px 4px rgba(27,42,74,.08)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 18px 14px;margin-bottom:14px;box-shadow:0 1px 3px rgba(27,42,74,.05);position:relative;overflow:hidden}
   .card::before{content:"";position:absolute;top:0;right:0;bottom:0;width:4px;background:var(--accent,var(--coral))}
   .tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
-  .tag{
-    font-size:11.5px;font-weight:700;padding:4px 10px;border-radius:999px;
-    background:color-mix(in srgb, var(--accent,var(--coral)) 12%, white);
-    color:var(--accent,var(--coral));
-    border:1px dashed color-mix(in srgb, var(--accent,var(--coral)) 45%, white);
-  }
+  .tag{font-size:11.5px;font-weight:700;padding:4px 10px;border-radius:999px;background:color-mix(in srgb, var(--accent,var(--coral)) 12%, white);color:var(--accent,var(--coral));border:1px dashed color-mix(in srgb, var(--accent,var(--coral)) 45%, white)}
   .tag.me{background:#FFF7DF;color:#9A7400;border-color:#EED89A}
   .hook{font-size:18px;font-weight:800;line-height:1.42;margin-bottom:10px}
   .label{font-size:11px;font-weight:700;color:var(--soft);letter-spacing:.06em;margin-bottom:2px}
@@ -58,34 +58,61 @@
   .why{font-size:13.5px;color:#33405F;background:#F3F1EA;border-radius:12px;padding:9px 12px;margin-bottom:12px}
   .why b{color:var(--ink)}
   .card-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;border-top:1px dashed var(--line);padding-top:11px;margin-top:2px}
-  .src{
-    display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:600;text-decoration:none;
-    color:var(--ink);background:#EFF3FB;border:1px solid #DCE4F5;padding:7px 12px;border-radius:999px;
-  }
+  .src{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:600;text-decoration:none;color:var(--ink);background:#EFF3FB;border:1px solid #DCE4F5;padding:7px 12px;border-radius:999px}
   .src small{color:var(--soft);font-weight:400}
-  .expand-btn{
-    border:none;cursor:pointer;font-family:inherit;margin-inline-start:auto;
-    background:var(--accent,var(--coral));color:#fff;font-size:12.5px;font-weight:700;
-    padding:8px 14px;border-radius:999px;display:inline-flex;align-items:center;gap:5px;
-  }
+  .expand-btn{border:none;cursor:pointer;font-family:inherit;margin-inline-start:auto;background:var(--accent,var(--coral));color:#fff;font-size:12.5px;font-weight:700;padding:8px 14px;border-radius:999px;display:inline-flex;align-items:center;gap:5px}
   .expand-btn:active{transform:scale(.97)}
-
   h2{font-size:14px;font-weight:800;margin:20px 0 10px;display:flex;align-items:center;gap:8px;color:var(--soft)}
   h2::after{content:"";flex:1;height:1px;background:var(--line)}
-  .art{
-    display:block;text-decoration:none;color:inherit;background:var(--card);
-    border:1px solid var(--line);border-radius:14px;padding:12px 15px;margin-bottom:9px;
-  }
+  .art{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 15px;margin-bottom:9px}
   .art b{font-size:14px;display:block;margin-bottom:2px;line-height:1.4}
   .art p{font-size:12.5px;color:var(--soft)}
   .art .meta{font-size:11px;color:var(--coral);font-weight:700;margin-top:5px;display:block}
 
-  #toast{
-    position:fixed;bottom:22px;right:50%;transform:translateX(50%) translateY(80px);
-    background:var(--ink);color:#fff;font-size:13px;font-weight:600;
-    padding:11px 18px;border-radius:999px;box-shadow:0 4px 16px rgba(27,42,74,.3);
-    transition:transform .25s ease;z-index:50;max-width:92%;text-align:center;
-  }
+  /* Approaches */
+  .ap-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 16px 14px;margin-bottom:12px;box-shadow:0 1px 3px rgba(27,42,74,.05);position:relative;overflow:hidden}
+  .ap-card::before{content:"";position:absolute;top:0;right:0;bottom:0;width:4px;background:var(--ac)}
+  .ap-head{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+  .ap-emoji{font-size:26px;line-height:1}
+  .ap-name{font-size:17px;font-weight:900}
+  .ap-tagline{font-size:13.5px;color:#33405F;margin-bottom:10px}
+  .ap-badges{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:12px}
+  .badge{font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:999px;background:#F3F1EA;color:#6B6349;border:1px solid #E8E2D2}
+  .ap-open{border:none;cursor:pointer;font-family:inherit;width:100%;background:color-mix(in srgb, var(--ac) 12%, white);color:var(--ac);font-size:13px;font-weight:800;padding:10px;border-radius:12px;border:1px dashed color-mix(in srgb, var(--ac) 40%, white)}
+  .ap-open:active{transform:scale(.98)}
+
+  /* Approach full page */
+  #ap-page{position:fixed;inset:0;background:var(--bg);z-index:50;overflow-y:auto;display:none;padding:14px 16px 60px}
+  #ap-page.open{display:block}
+  .ap-page-inner{max-width:520px;margin:0 auto}
+  .ap-back{border:none;cursor:pointer;font-family:inherit;background:#fff;border:1px solid var(--line);color:var(--ink);font-size:13px;font-weight:700;padding:8px 16px;border-radius:999px;margin-bottom:14px;box-shadow:0 1px 3px rgba(27,42,74,.08)}
+  .ap-hero{border-radius:20px;padding:22px 18px;margin-bottom:16px;color:#fff;position:relative;overflow:hidden}
+  .ap-hero .ap-emoji{font-size:38px;display:block;margin-bottom:6px}
+  .ap-hero h1{font-size:23px;font-weight:900;line-height:1.3;margin-bottom:4px}
+  .ap-hero p{font-size:14px;opacity:.92}
+  .sec{background:#fff;border:1px solid var(--line);border-radius:16px;padding:15px 16px;margin-bottom:11px}
+  .sec h3{font-size:13px;font-weight:800;color:var(--soft);letter-spacing:.04em;margin-bottom:8px;display:flex;align-items:center;gap:6px}
+  .sec p{font-size:14px;color:#33405F}
+  .sec ol{padding-inline-start:20px;font-size:14px;color:#33405F}
+  .sec ol li{margin-bottom:6px}
+  .sec ul{padding-inline-start:20px;font-size:14px;color:#33405F}
+  .sec ul li{margin-bottom:5px}
+  .chips{display:flex;gap:6px;flex-wrap:wrap}
+  .chip{font-size:12px;font-weight:700;padding:5px 12px;border-radius:999px;background:#F3F1EA;color:#6B6349}
+  .prompt-box{background:#1B2A4A;color:#DCE4F5;border-radius:12px;padding:12px;font-size:12px;direction:ltr;text-align:left;font-family:ui-monospace,monospace;line-height:1.5;margin-top:8px;word-break:break-word}
+  .copy-mini{border:none;cursor:pointer;font-family:inherit;background:var(--teal);color:#fff;font-size:12px;font-weight:700;padding:7px 14px;border-radius:999px;margin-top:8px}
+  .ex-hook{background:#FFF7DF;border:1px dashed #EED89A;border-radius:12px;padding:11px 13px;font-size:14px;font-weight:600;color:#6B5A1B}
+  .write-btn{border:none;cursor:pointer;font-family:inherit;width:100%;background:var(--ink);color:#fff;font-size:14px;font-weight:800;padding:13px;border-radius:14px;margin-top:4px;box-shadow:0 2px 8px rgba(27,42,74,.2)}
+
+  /* Links */
+  .lk-cat{margin-bottom:20px}
+  .lk-cat h2{margin-top:0}
+  .lk{display:block;text-decoration:none;color:inherit;background:#fff;border:1px solid var(--line);border-radius:14px;padding:11px 14px;margin-bottom:8px;position:relative}
+  .lk b{font-size:13.5px;display:block;line-height:1.4}
+  .lk p{font-size:12px;color:var(--soft);margin-top:1px}
+  .lk .lk-tag{position:absolute;top:10px;left:12px;font-size:10px;font-weight:700;padding:2px 8px;border-radius:999px;background:#EFF3FB;color:#4A5A80}
+
+  #toast{position:fixed;bottom:22px;right:50%;transform:translateX(50%) translateY(80px);background:var(--ink);color:#fff;font-size:13px;font-weight:600;padding:11px 18px;border-radius:999px;box-shadow:0 4px 16px rgba(27,42,74,.3);transition:transform .25s ease;z-index:60;max-width:92%;text-align:center}
   #toast.show{transform:translateX(50%) translateY(0)}
   footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--soft);border-top:1px dashed var(--line);padding-top:12px}
   .loading{text-align:center;color:var(--soft);padding:40px 0;font-size:14px}
@@ -94,21 +121,27 @@
 <body>
 
 <header>
-  <div class="brand">POST BRAINSTORM<small>הבריף היומי של אייל</small></div>
+  <div class="brand">POST BRAINSTORM<small>המערכת של אייל</small></div>
   <button class="gen-btn" onclick="copyCmd('צור עוד 3 רעיונות לפוסטים לבריף של היום, בנוסף לאלה שכבר יש, ועדכן את הדף')">⚡ צור עוד רעיונות</button>
 </header>
 
-<div id="feed" class="loading">טוען את הבריף...</div>
+<nav>
+  <button class="active" data-tab="feed" onclick="showTab('feed')">☕ הבריף</button>
+  <button data-tab="approaches" onclick="showTab('approaches')">🎯 גישות פוסטים</button>
+  <button data-tab="links" onclick="showTab('links')">🔗 מאגרי לינקים</button>
+</nav>
 
-<footer>
-  לחיצה על כפתור מעתיקה פקודה מוכנה. מדביקים אותה בקלוד, והוא כותב או מייצר ומעדכן את הדף.
-</footer>
+<div id="feed" class="tab active"><div class="loading">טוען את הבריף...</div></div>
+<div id="approaches" class="tab"><div class="loading">טוען גישות...</div></div>
+<div id="links" class="tab"><div class="loading">טוען לינקים...</div></div>
 
-<div id="toast">הפקודה הועתקה, הדבק אותה בקלוד 👌</div>
+<div id="ap-page"><div class="ap-page-inner" id="ap-page-content"></div></div>
+
+<footer>לחיצה על כפתור מעתיקה פקודה מוכנה. מדביקים בקלוד והוא ממשיך משם.</footer>
+<div id="toast">הועתק, הדבק בקלוד 👌</div>
 
 <script>
 function esc(s){return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
-
 function copyCmd(cmd){
   const done=()=>{const t=document.getElementById('toast');t.classList.add('show');clearTimeout(window._tt);window._tt=setTimeout(()=>t.classList.remove('show'),2600)};
   if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(cmd).then(done).catch(()=>fallback(cmd,done))}
@@ -119,22 +152,25 @@ function fallback(cmd,done){
   ta.select();try{document.execCommand('copy');done()}catch(e){prompt('העתק ידנית:',cmd)}
   document.body.removeChild(ta);
 }
+function showTab(id){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.id===id));
+  document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===id));
+  window.scrollTo({top:0});
+}
 
-function render(data){
+/* ---------- Brief feed ---------- */
+function renderFeed(data){
   const feed=document.getElementById('feed');
-  feed.classList.remove('loading');
   let html='';
   const days=[...data.days].sort((a,b)=>b.date.localeCompare(a.date));
   for(const day of days){
-    html+='<section class="day">';
-    html+='<div class="date-chip"><span>'+esc(day.dateLabel)+'</span></div>';
+    html+='<section><div class="date-chip"><span>'+esc(day.dateLabel)+'</span></div>';
     for(const idea of (day.ideas||[])){
       const cmd='כתוב פוסט מלא בקול שלי מהרעיון הזה (בריף '+day.dateLabel+'): "'+idea.hook+'"';
       html+='<article class="card" style="--accent:'+esc(idea.color||'#FF6B5E')+'">';
       html+='<div class="tags"><span class="tag">'+esc(idea.pillar)+'</span>';
       if(idea.me)html+='<span class="tag me">✦ '+esc(idea.me)+'</span>';
-      html+='</div>';
-      html+='<div class="hook">"'+esc(idea.hook)+'"</div>';
+      html+='</div><div class="hook">"'+esc(idea.hook)+'"</div>';
       html+='<div class="label">הזווית</div><div class="angle">'+esc(idea.angle)+'</div>';
       html+='<div class="why"><b>למה עכשיו:</b> '+esc(idea.why)+'</div>';
       html+='<div class="card-actions">';
@@ -154,9 +190,71 @@ function render(data){
   feed.querySelectorAll('.expand-btn').forEach(b=>b.addEventListener('click',()=>copyCmd(b.dataset.cmd)));
 }
 
-fetch('posts.json?v='+Date.now())
-  .then(r=>r.json()).then(render)
-  .catch(()=>{document.getElementById('feed').textContent='לא הצלחתי לטעון את הבריף, נסה לרענן'});
+/* ---------- Approaches ---------- */
+let APPROACHES=[];
+function renderApproaches(data){
+  APPROACHES=data.approaches;
+  const el=document.getElementById('approaches');
+  let html='<p style="font-size:13px;color:var(--soft);margin-bottom:14px">8 גישות מנותחות לעומק. לחיצה על דף גישה פותחת את המפרט המלא, כולל פרומפט מוכן לויזואל.</p>';
+  for(const a of APPROACHES){
+    html+='<div class="ap-card" style="--ac:'+esc(a.color)+'">';
+    html+='<div class="ap-head"><span class="ap-emoji">'+a.emoji+'</span><span class="ap-name">'+esc(a.name)+'</span></div>';
+    html+='<div class="ap-tagline">'+esc(a.tagline)+'</div>';
+    html+='<div class="ap-badges">'+a.badges.map(b=>'<span class="badge">'+esc(b)+'</span>').join('')+'</div>';
+    html+='<button class="ap-open" data-id="'+esc(a.id)+'">📄 דף גישה</button>';
+    html+='</div>';
+  }
+  el.innerHTML=html;
+  el.querySelectorAll('.ap-open').forEach(b=>b.addEventListener('click',()=>openApproach(b.dataset.id)));
+}
+function openApproach(id){
+  const a=APPROACHES.find(x=>x.id===id); if(!a)return;
+  const c=document.getElementById('ap-page-content');
+  let h='<button class="ap-back" onclick="closeApproach()">← חזרה לגישות</button>';
+  h+='<div class="ap-hero" style="background:'+esc(a.color)+'"><span class="ap-emoji">'+a.emoji+'</span><h1>'+esc(a.name)+'</h1><p>'+esc(a.tagline)+'</p></div>';
+  h+='<div class="sec"><h3>🧭 תחומים שאפשר להחיל עליהם</h3><div class="chips">'+a.domains.map(d=>'<span class="chip">'+esc(d)+'</span>').join('')+'</div></div>';
+  h+='<div class="sec"><h3>🏗️ המבנה, צעד אחרי צעד</h3><ol>'+a.structure.map(s=>'<li>'+esc(s)+'</li>').join('')+'</ol></div>';
+  h+='<div class="sec"><h3>🎨 ויזואל · '+esc(a.visual.type)+'</h3><p>'+esc(a.visual.desc)+'</p>';
+  if(a.visual.higgsfieldPrompt){
+    h+='<p style="margin-top:8px;font-size:12px;color:var(--soft)">פרומפט היגספילד ('+esc(a.visual.higgsfieldModel)+'), מחליפים את מה שבסוגריים:</p>';
+    h+='<div class="prompt-box">'+esc(a.visual.higgsfieldPrompt)+'</div>';
+    h+='<button class="copy-mini" onclick=\'copyCmd('+JSON.stringify('צור לי ויזואל בהיגספילד לפי הפרומפט הזה, מודל '+a.visual.higgsfieldModel+': '+a.visual.higgsfieldPrompt)+')\'>📋 העתק פקודת יצירה</button>';
+  }
+  h+='</div>';
+  h+='<div class="sec"><h3>📱 פלטפורמות</h3><ul>'+a.platforms.map(p=>'<li>'+esc(p)+'</li>').join('')+'</ul></div>';
+  h+='<div class="sec"><h3>👥 קהל יעד</h3><p>'+esc(a.audience)+'</p></div>';
+  h+='<div class="sec"><h3>💎 הערך שהגישה נותנת</h3><p>'+esc(a.value)+'</p></div>';
+  h+='<div class="sec"><h3>🔀 שילוב ופיתוח</h3><p>'+esc(a.combine)+'</p>';
+  if(a.series)h+='<p style="margin-top:6px"><b>רעיון לסדרה:</b> '+esc(a.series)+'</p>';
+  h+='</div>';
+  h+='<div class="sec"><h3>🚫 טעויות נפוצות</h3><ul>'+a.mistakes.map(m=>'<li>'+esc(m)+'</li>').join('')+'</ul></div>';
+  h+='<div class="sec"><h3>💬 דוגמת הוק</h3><div class="ex-hook">"'+esc(a.exampleHook)+'"</div></div>';
+  h+='<button class="write-btn" onclick=\'copyCmd('+JSON.stringify('כתוב פוסט מלא בקול שלי בגישת "'+a.name+'" (לפי דף הגישה באפליקציה). נושא: ')+')\'>✍️ כתוב פוסט בגישה הזאת</button>';
+  c.innerHTML=h;
+  document.getElementById('ap-page').classList.add('open');
+  document.getElementById('ap-page').scrollTop=0;
+}
+function closeApproach(){document.getElementById('ap-page').classList.remove('open')}
+
+/* ---------- Links ---------- */
+function renderLinks(data){
+  const el=document.getElementById('links');
+  let html='<p style="font-size:13px;color:var(--soft);margin-bottom:14px">כל ההשראות והמקורות של המערכת, לפי נושא. כל לינק הוא רעיון לפוסט או לסדרה.</p>';
+  for(const cat of data.categories){
+    html+='<div class="lk-cat"><h2>'+cat.emoji+' '+esc(cat.name)+'</h2>';
+    for(const l of cat.links){
+      html+='<a class="lk" href="'+esc(l.url)+'" target="_blank" rel="noopener"><span class="lk-tag">'+esc(l.tag)+'</span><b>'+esc(l.title)+'</b><p>'+esc(l.desc)+'</p></a>';
+    }
+    html+='</div>';
+  }
+  el.innerHTML=html;
+}
+
+/* ---------- Load ---------- */
+const v='?v='+Date.now();
+fetch('posts.json'+v).then(r=>r.json()).then(renderFeed).catch(()=>{document.getElementById('feed').textContent='לא הצלחתי לטעון את הבריף'});
+fetch('approaches.json'+v).then(r=>r.json()).then(renderApproaches).catch(()=>{document.getElementById('approaches').textContent='לא הצלחתי לטעון גישות'});
+fetch('links.json'+v).then(r=>r.json()).then(renderLinks).catch(()=>{document.getElementById('links').textContent='לא הצלחתי לטעון לינקים'});
 </script>
 </body>
 </html>
