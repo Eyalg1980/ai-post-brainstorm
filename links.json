@@ -72,6 +72,24 @@
       ]
     },
     {
+      "name": "סקילים והוורקפלואו החדש של מעצבים",
+      "emoji": "🧠",
+      "links": [
+        {"title": "ui-ux-pro-max-skill · GitHub", "desc": "92.4K כוכבים. מאגר ידע עיצובי כסקיל: קורפוסים של סגנונות, צבעים, פונטים והנמקות UX + סקריפטים כמנוע חיפוש. המוח של סקיל המעצב", "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill", "tag": "סקיל"},
+        {"title": "UUPM", "desc": "האתר הרשמי של ui-ux-pro-max", "url": "https://www.uupm.cc/", "tag": "סקיל"},
+        {"title": "Claude Skills for Designers", "desc": "הדירוג של דניאל בוארון: 12 סקילי העיצוב הטובים בגיטהאב, מסודרים לפי משימה", "url": "https://claude-skills-designers.vercel.app/", "tag": "דירוג"},
+        {"title": "SkillsMP · Skills Marketplace", "desc": "1.7 מיליון קובצי SKILL.md, חיפוש לפי מקצוע ותחום. לינק ישיר לחיפוש research", "url": "https://skillsmp.com/search?q=research", "tag": "מרקטפלייס"},
+        {"title": "Skills.sh", "desc": "אקוסיסטם הסקילים הפתוח + לידרבורד התקנות (frontend-design של אנתרופיק: 552K)", "url": "https://www.skills.sh/", "tag": "מרקטפלייס"},
+        {"title": "Taste Skill", "desc": "פריימוורק אנטי-סלופ לפרונטאנד: סקילים שעוצרים את הג'נריות של Cursor / Claude Code / v0", "url": "https://github.com/Leonxlnx/taste-skill", "tag": "סקיל"},
+        {"title": "SKILLS-IL", "desc": "מאגר סקילים ישראלי בעברית, 187 סקילים לפי קטגוריות (מהצילומים, לאתר את הדומיין)", "url": "https://www.google.com/search?q=SKILLS-IL+%D7%A1%D7%A7%D7%99%D7%9C%D7%99%D7%9D", "tag": "לתיוג"},
+        {"title": "Design.to.code · דניאל בוארון", "desc": "הסדנה של המרצה האורח שלך: מעצבים שמגישים PR עם Claude Code ופיגמה", "url": "https://designai.co.il/design-to-code/", "tag": "סדנה"},
+        {"title": "Lenny's Newsletter", "desc": "המוח מאחורי סקיל ה-Product Manager בוורקפלואו של דניאל", "url": "https://www.lennysnewsletter.com/", "tag": "ידע PM"},
+        {"title": "Wispr Flow", "desc": "הקלטת טקסט בדיבור לכל כלי, קונספט לפוסט על וורקפלואו קולי", "url": "https://wisprflow.ai/", "tag": "כלי"},
+        {"title": "Figma Developers · MCP", "desc": "נקודת פתיחה ל-Figma MCP ו-figma-use", "url": "https://www.figma.com/developers", "tag": "Figma"},
+        {"title": "Storybook", "desc": "בסיס לנושא Storybook MCP: סוכן שמכיר את ספריית הרכיבים החיה", "url": "https://storybook.js.org/", "tag": "כלי"}
+      ]
+    },
+    {
       "name": "מקורות המחקר היומי",
       "emoji": "🔍",
       "links": [

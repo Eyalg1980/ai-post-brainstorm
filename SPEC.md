@@ -77,6 +77,9 @@ Core mechanics: (a) cold open = one dated, hyper-specific, slightly odd scene; (
 - **Designing with AI workflows** — Claude / Codex / Google Stitch / Mobbin / Figma combinations.
 - **AI UGC / avatar ad tools** — e.g. arcads.ai (1,000+ AI actors for ads): what it means for content and marketing design.
 - **Storytellers to follow for inspiration** (do not copy, learn structure): Yuval Katsheler's story posts, Tal Florentin's essays.
+- **The new designer workflow (from Daniel Boaron's lecture — guest lecturer in Eyal's course, so `me` cross allowed)**: the 5-stage flow Feature Request → Shipped PR (Discovery via Jira/Slack/Mixpanel MCPs → Ideation/Design with PM skill + Product Designer skill + Figma MCP → optional UI Fix branch → Dev Prep with Code Review + Engineering Lead skills → Ship PR by parts); skill anatomy = 6 ingredients (Purpose, Triggers, Method, Org Context, Output, MCP & Tools; each skill = one markdown file); the DESIGN_CONTEXT.md pipeline (first run scans product = heavy, later runs read one file = cheap); the Use → Extend → Invent rule per element. Each of these is a post or a series.
+- **Skill marketplaces landscape**: skillsmp.com (1.7M SKILL.md files), skills.sh leaderboard (anthropic frontend-design 552K installs), SKILLS-IL (Hebrew, 187 skills), Taste Skill (anti-slop frontend), ui-ux-pro-max (92.4K stars). Great for a "מפת האקוסיסטם" post.
+- **Requested post concepts to develop**: Wispr Flow (voice-first workflow: dictate specs and prompts instead of typing); Figma MCP plugin; figma-use (agent drives Figma natively); Storybook MCP (the agent that knows your live component library); "סקיל = סט הוראות קבוע" (the one-file mental model explained to non-technical designers).
 
 ## "Generate more" requests
 When Eyal pastes the command "צור עוד רעיונות" from the site, add 3 NEW ideas to TODAY's existing day object (ids continue: -4, -5, -6), same rules, then publish the same way.
