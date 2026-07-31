@@ -1,0 +1,66 @@
+{
+  "days": [
+    {
+      "date": "2026-07-30",
+      "dateLabel": "יום חמישי, 30 ביולי",
+      "ideas": [
+        {
+          "id": "2026-07-30-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "בניתי ללקוח וורקפלואו ב-Weave. בעוד שנה הוא לא יהיה סוד מקצועי, הוא יהיה קובץ להורדה.",
+          "angle": "פיגמה פתחה פרסום של Weave Workflows בקומיוניטי: וורקפלואו הפך רשמית לסוג תוכן, כמו קבצי UI Kit פעם. מה זה עושה למי שמוכר מומחיות בבניית וורקפלואים? דוגמה אמיתית מהסדנאות, והטענה: הערך זז מהוורקפלואו עצמו אל היכולת לאבחן איזה וורקפלואו נכון לארגון.",
+          "why": "פיצ'ר דרופ של Config בתחילת החודש: פאנל Tools עם יותר מ-30 כלים ופרסום וורקפלואים לקומיוניטי. הנושא חם והקהל עוד מעכל.",
+          "srcUrl": "https://www.youtube.com/watch?v=nWx-wX9ykRM",
+          "srcLabel": "Using Weave workflows · Figma",
+          "srcDate": "11.7"
+        },
+        {
+          "id": "2026-07-30-2",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מתחבר לקורס נובמבר",
+          "hook": "רק 14% מהסטודנטים מרגישים מוכנים ל-AI. לא כי חסר להם ידע. כי אף אחד לא נתן להם לגעת.",
+          "angle": "מחקר של Pearson ו-AWS מראה פער בין ידע תיאורטי על AI לבין יכולת ליישם אותו בעבודה. בדיוק הפער שהשיטה שלך תוקפת: מהמופשט לאובייקט, כל מפגש נגמר בתוצר ביד. לספר איך בנוי התרגיל המתגלגל בלי לחשוף הכל, ולסגור בעמדה: מלמדים AI כמו נהיגה, לא כמו תיאוריה.",
+          "why": "המחקר פורסם לפני שלושה ימים, ואתה בדיוק בונה את חבילת התוכן לשיווק הקורס. פוסט כזה עובד גם כתוכן וגם כקידום.",
+          "srcUrl": "https://learningnews.com/news/learning-news/2026/only-14-of-uk-learners-consider-themselves-ai-ready",
+          "srcLabel": "Learning News · Pearson & AWS",
+          "srcDate": "27.7"
+        },
+        {
+          "id": "2026-07-30-3",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "הסוכנים כבר מעצבים מסכים. לנו נשארה ההחלטה הכי חשובה: איפה עובר הגבול.",
+          "angle": "סיכום השבוע ב-AIUX עסק כולו בזה: מעצבים מגדירים גבולות לסוכנים, נקודות עצירה אנושיות, הרשאות, שקיפות. זו עבודת UX חדשה, לא לצייר את המסך אלא להחליט מתי בן אדם חייב להיות בלופ. עמדה למי שמלמד Generative UI: זה הסילבוס האמיתי של 2027.",
+          "why": "דיון רץ השבוע בקהילה, כולל פרסום של NNG על עיצוב מסכים שנוצר על ידי AI. להיכנס עכשיו זה להצטרף לשיחה קיימת, לא לפתוח חדשה.",
+          "srcUrl": "https://www.aiuxdesign.guide/news/this-week-in-aiux-jul-27-agent-permissions-human-in-the-loop-checkpoints-and-ai-toggl",
+          "srcLabel": "This Week in AIUX",
+          "srcDate": "27.7"
+        }
+      ],
+      "articles": [
+        {
+          "title": "מה פיגמה שחררה ביולי",
+          "desc": "GPT-5.6 נכנס ל-Make, מסכים מגובי קוד עם Variables, ו-Auto Layout שמתיישר עם CSS.",
+          "meta": "Figma Release Notes",
+          "url": "https://www.figma.com/release-notes/"
+        },
+        {
+          "title": "הבעיה של עולם ההדרכה היא לא אימוץ AI, אלא שימוש נכון בו",
+          "desc": "דוח של Access Learning על האתגר המרכזי של 2026: החיבור בין AI, מיומנויות ומומחיות אנושית.",
+          "meta": "Learning News · 30.6",
+          "url": "https://learningnews.com/news/learning-news/2026/the-ld-industry's-ai-problem-isn't-adoption-it's-knowing-how-to-use-it-for-real-impact"
+        },
+        {
+          "title": "איך נבנה Claude Design, ומה קורה ל-Handoff",
+          "desc": "הצצה לכלי העיצוב הפנימי של Anthropic, ולמה סוכני AI בולעים לאט את תהליך המסירה בין מעצב למפתח.",
+          "meta": "AI UX Design Guide · 28.7",
+          "url": "https://www.aiuxdesign.guide/news/ai-ux-daily-jul-28-claude-design-ai-in-threads-dms-and-the-designer-developer-h"
+        }
+      ]
+    }
+  ]
+}
