@@ -3,168 +3,312 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <meta name="theme-color" content="#F7F5F0">
 <title>Post Brainstorm · אייל</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Rubik:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#F7F5F0; --ink:#1B2A4A; --soft:#5A6784; --card:#FFFFFF;
-    --coral:#FF6B5E; --teal:#2BB3A3; --yellow:#FFC940; --purple:#7B61FF;
-    --line:#E8E4DB; --radius:18px;
+    /* ONE accent for the whole app. This is Post Brainstorm's colour. */
+    --app:#FF6B5E;
+    --app-soft:#FFEDEB;
+    --app-line:#FFC9C3;
+    --paper:#F7F5F0; --ink:#141F3D; --soft:#5F6C8A; --white:#FFFFFF;
+    --line:#E4E0D6; --line2:#EDEAE1;
+    --radius:20px; --bar:61px;
   }
   *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
   html{scroll-behavior:smooth}
   body{
-    font-family:"Heebo","Rubik",-apple-system,"Segoe UI",sans-serif;
-    background:var(--bg);color:var(--ink);
-    padding:14px 16px 60px; max-width:520px;margin:0 auto; line-height:1.55;
+    font-family:"Rubik","Heebo",-apple-system,"Segoe UI",sans-serif;
+    background:var(--paper);color:var(--ink);
+    padding:0 14px 40px;max-width:520px;margin:0 auto;line-height:1.55;font-weight:400;
   }
-  header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
-  .brand{font-size:14px;font-weight:900;letter-spacing:.03em;color:var(--coral)}
-  .brand small{display:block;font-size:11px;font-weight:500;color:var(--soft);letter-spacing:0}
-  .gen-btn{
-    border:none;cursor:pointer;font-family:inherit;
-    background:var(--ink);color:#fff;font-size:12.5px;font-weight:700;
-    padding:9px 15px;border-radius:999px;display:inline-flex;align-items:center;gap:6px;
-    box-shadow:0 2px 8px rgba(27,42,74,.18);
-  }
-  .gen-btn:active{transform:scale(.97)}
 
-  /* Tabs */
-  nav{
-    position:sticky;top:8px;z-index:20;display:flex;gap:6px;
-    background:#EFEBE1;border-radius:999px;padding:4px;margin-bottom:16px;
-    box-shadow:0 1px 4px rgba(27,42,74,.08);
-  }
-  nav button{
-    flex:1;border:none;cursor:pointer;font-family:inherit;
-    background:transparent;color:var(--soft);font-size:13.5px;font-weight:700;
-    padding:9px 4px;border-radius:999px;transition:all .15s;
-  }
-  nav button.active{background:#fff;color:var(--ink);box-shadow:0 1px 4px rgba(27,42,74,.12)}
-  .tab{display:none}
-  .tab.active{display:block}
+  /* ===== one icon rule: single colour, always inherited ===== */
+  .ic{width:1.05em;height:1.05em;flex:none;vertical-align:-.16em;
+      fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+  .ic.lg{width:1.25em;height:1.25em}
 
-  /* Feed (brief) */
-  .date-chip{position:sticky;top:56px;z-index:5;text-align:center;margin:18px 0 14px}
-  .date-chip span{display:inline-block;background:#E9E4D8;color:#6B6349;font-size:12px;font-weight:700;padding:6px 16px;border-radius:999px;box-shadow:0 1px 4px rgba(27,42,74,.08)}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 18px 14px;margin-bottom:14px;box-shadow:0 1px 3px rgba(27,42,74,.05);position:relative;overflow:hidden}
-  .card::before{content:"";position:absolute;top:0;right:0;bottom:0;width:4px;background:var(--accent,var(--coral))}
+  /* ===== sticky app bar (the family pattern) ===== */
+  .appbar{
+    position:sticky;top:0;z-index:45;display:flex;align-items:center;gap:10px;
+    background:rgba(247,245,240,.94);backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--line);
+    margin:0 -14px;padding:calc(11px + env(safe-area-inset-top)) 14px 11px;
+  }
+  .back{width:38px;height:38px;min-width:38px;border-radius:50%;border:1.5px dashed var(--line);
+        background:none;color:var(--ink);display:flex;align-items:center;justify-content:center;
+        cursor:pointer;font-family:inherit;transition:opacity .18s,border-color .18s,color .18s}
+  .back svg{width:19px;height:19px;stroke:currentColor;stroke-width:2.2;fill:none;stroke-linecap:round;stroke-linejoin:round;display:block}
+  .back:disabled{opacity:.26;cursor:default}
+  .back:not(:disabled):active{border-color:var(--app);color:var(--app);border-style:solid}
+  .logo{flex:1;display:flex;align-items:center;justify-content:center;gap:9px;min-width:0}
+  .logo .mark{width:30px;height:30px;min-width:30px;border-radius:9px;background:var(--app);color:var(--white);
+              display:flex;align-items:center;justify-content:center}
+  .logo .mark svg{width:17px;height:17px;stroke:currentColor;stroke-width:1.9;fill:none;stroke-linecap:round;stroke-linejoin:round;display:block}
+  .logo .wm{font-family:"Poppins",sans-serif;font-size:16px;font-weight:300;letter-spacing:1.9px;
+            text-transform:uppercase;line-height:1.05;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .logo .wm b{font-weight:700;color:var(--app)}
+  .abspacer{width:38px;min-width:38px}
+
+  /* ===== hero ===== */
+  .hero{text-align:center;padding:22px 6px 2px}
+  .kicker{display:inline-flex;align-items:center;gap:6px;background:var(--ink);color:var(--app);
+          font-size:10.5px;font-weight:700;letter-spacing:.09em;padding:5px 14px;border-radius:999px;margin-bottom:12px}
+  .hero h1{font-weight:900;font-size:clamp(30px,9.5vw,40px);letter-spacing:-1px;line-height:1.05;
+           position:relative;display:inline-block;padding-bottom:16px}
+  .hero h1 .scribble{position:absolute;right:-6px;left:-6px;bottom:0;width:calc(100% + 12px);height:20px;pointer-events:none}
+  .hero .sub{font-size:12.5px;color:var(--soft);font-weight:500;margin-top:8px}
+  .gen-btn{display:flex;width:100%;align-items:center;justify-content:center;gap:7px;
+           border:none;cursor:pointer;font-family:inherit;background:var(--app);color:var(--white);
+           font-size:15px;font-weight:700;padding:14px 12px;border-radius:16px;margin:18px 0 0;
+           box-shadow:0 3px 14px rgba(255,107,94,.28)}
+  .gen-btn:active{transform:scale(.985)}
+
+  /* ===== tabs ===== */
+  .navwrap{position:sticky;top:var(--bar);z-index:30;background:var(--paper);padding:10px 0;margin:0 0 4px}
+  nav{display:flex;gap:5px;background:#ECE8DE;border-radius:999px;padding:4px}
+  nav button{flex:1;border:none;cursor:pointer;font-family:inherit;background:transparent;color:var(--soft);
+             font-size:12.5px;font-weight:600;padding:9px 2px;border-radius:999px;transition:all .15s;
+             display:inline-flex;align-items:center;justify-content:center;gap:5px}
+  nav button.active{background:var(--white);color:var(--app);box-shadow:0 1px 4px rgba(20,31,61,.12)}
+  .screen{display:none}
+  .screen.active{display:block}
+
+  /* ===== feed bar ===== */
+  .feed-bar{display:flex;align-items:center;gap:7px;flex-wrap:wrap;background:var(--white);
+            border:1.5px dashed var(--line);border-radius:16px;padding:9px 11px;margin-bottom:6px}
+  .feed-bar .cnt{font-size:11.5px;font-weight:600;color:var(--soft);margin-inline-end:auto;display:inline-flex;align-items:center;gap:6px}
+  .feed-bar .cnt b{color:var(--ink);font-weight:700}
+  .fb-btn{border:1.5px dashed var(--line);cursor:pointer;font-family:inherit;background:var(--white);color:var(--soft);
+          font-size:11.5px;font-weight:600;padding:6px 12px;border-radius:999px;display:inline-flex;align-items:center;gap:5px}
+  .fb-btn.on{background:var(--app);color:var(--white);border-color:var(--app);border-style:solid}
+  .fb-btn:active{transform:scale(.97)}
+
+  /* ===== idea cards ===== */
+  .date-chip{text-align:center;margin:20px 0 14px}
+  .date-chip span{display:inline-flex;align-items:center;gap:6px;background:var(--ink);color:var(--app);
+                  font-size:11.5px;font-weight:700;padding:6px 16px;border-radius:999px;letter-spacing:.02em}
+  .card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);
+        padding:17px 17px 14px;margin-bottom:14px;position:relative;overflow:hidden}
+  .card::before{content:"";position:absolute;top:0;right:0;bottom:0;width:4px;background:var(--app)}
   .tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
-  .tag{font-size:11.5px;font-weight:700;padding:4px 10px;border-radius:999px;background:color-mix(in srgb, var(--accent,var(--coral)) 12%, white);color:var(--accent,var(--coral));border:1px dashed color-mix(in srgb, var(--accent,var(--coral)) 45%, white)}
-  .tag.me{background:#FFF7DF;color:#9A7400;border-color:#EED89A}
-  .hook{font-size:18px;font-weight:800;line-height:1.42;margin-bottom:10px}
-  .label{font-size:11px;font-weight:700;color:var(--soft);letter-spacing:.06em;margin-bottom:2px}
-  .angle{font-size:14.5px;color:#33405F;margin-bottom:10px}
-  .why{font-size:13.5px;color:#33405F;background:#F3F1EA;border-radius:12px;padding:9px 12px;margin-bottom:12px}
-  .why b{color:var(--ink)}
-  .card-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;border-top:1px dashed var(--line);padding-top:11px;margin-top:2px}
-  .src{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:600;text-decoration:none;color:var(--ink);background:#EFF3FB;border:1px solid #DCE4F5;padding:7px 12px;border-radius:999px}
-  .src small{color:var(--soft);font-weight:400}
-  .expand-btn{border:none;cursor:pointer;font-family:inherit;margin-inline-start:auto;background:var(--accent,var(--coral));color:#fff;font-size:12.5px;font-weight:700;padding:8px 14px;border-radius:999px;display:inline-flex;align-items:center;gap:5px}
+  .tag{font-size:11px;font-weight:600;padding:4px 11px;border-radius:999px;
+       background:var(--app-soft);color:var(--app);border:1px dashed var(--app-line);
+       display:inline-flex;align-items:center;gap:4px}
+  .tag.ghost{background:none;color:var(--soft);border-color:var(--line)}
+  .hook{font-size:18px;font-weight:700;line-height:1.42;margin-bottom:12px}
+  .label{font-size:10.5px;font-weight:700;color:var(--soft);letter-spacing:.08em;margin-bottom:3px;
+         display:flex;align-items:center;gap:5px;text-transform:uppercase}
+  .angle{font-size:14.5px;color:#2C3757;margin-bottom:11px}
+  .why{font-size:13.5px;color:#2C3757;background:#F4F2EC;border-radius:13px;padding:10px 12px;margin-bottom:13px}
+  .why b{color:var(--app)}
+
+  .prompts{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 13px}
+  .p-btn{border:1.5px dashed var(--line);cursor:pointer;font-family:inherit;background:var(--white);color:var(--soft);
+         font-size:11.5px;font-weight:600;padding:6px 11px;border-radius:999px;
+         display:inline-flex;align-items:center;gap:5px}
+  .p-btn.ready{color:var(--ink);border-color:var(--app-line);border-style:solid}
+  .p-btn.ready::after{content:"";width:5px;height:5px;border-radius:50%;background:var(--app)}
+  .p-btn:active{background:var(--app-soft);transform:scale(.97)}
+
+  .card-actions{display:flex;flex-direction:column;gap:10px;align-items:stretch;
+                border-top:1.5px dashed var(--line2);padding-top:12px}
+  .act-row{display:flex;gap:8px;align-items:center}
+  .src{align-self:flex-start;max-width:100%;display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:600;
+       text-decoration:none;color:var(--ink);border:1.5px dashed var(--line);padding:7px 13px;border-radius:16px;background:var(--white)}
+  .src span{min-width:0}
+  .src small{color:var(--soft);font-weight:400;white-space:nowrap}
+  .icon-btn{border:1.5px dashed var(--line);cursor:pointer;font-family:inherit;background:var(--white);color:var(--soft);
+            width:34px;height:34px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:15px}
+  .icon-btn:active{color:var(--app);border-color:var(--app)}
+  .use-btn{border:1.5px dashed var(--line);cursor:pointer;font-family:inherit;background:var(--white);color:var(--soft);
+           font-size:11.5px;font-weight:600;padding:7px 12px;border-radius:999px;display:inline-flex;align-items:center;gap:5px}
+  .use-btn.on{background:var(--app-soft);border:1.5px solid var(--app-line);color:var(--app)}
+  .expand-btn{border:none;cursor:pointer;font-family:inherit;margin-inline-start:auto;background:var(--ink);color:var(--white);
+              font-size:12.5px;font-weight:600;padding:9px 15px;border-radius:999px;display:inline-flex;align-items:center;gap:6px}
   .expand-btn:active{transform:scale(.97)}
-
-  /* Ready prompts row */
-  .prompts{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 12px}
-  .p-btn{
-    border:1px dashed #CFD7E8;cursor:pointer;font-family:inherit;
-    background:#F5F7FC;color:#3B4A6B;font-size:11.5px;font-weight:700;
-    padding:6px 11px;border-radius:999px;display:inline-flex;align-items:center;gap:4px;
-  }
-  .p-btn.ready{background:#EAF7F4;border-color:#A9DED4;color:#1D7A6C}
-  .p-btn:active{transform:scale(.96)}
-
-  /* Used state */
-  .feed-bar{display:flex;align-items:center;gap:7px;flex-wrap:wrap;background:#EFEBE1;border-radius:14px;padding:8px 10px;margin-bottom:4px}
-  .feed-bar .cnt{font-size:11.5px;font-weight:700;color:#6B6349;margin-inline-end:auto}
-  .fb-btn{border:1px solid #DDD6C6;cursor:pointer;font-family:inherit;background:#fff;color:#5A6784;font-size:11.5px;font-weight:700;padding:6px 12px;border-radius:999px}
-  .fb-btn.on{background:var(--ink);color:#fff;border-color:var(--ink)}
-  .use-btn{border:1px dashed #D8D2C2;cursor:pointer;font-family:inherit;background:#fff;color:var(--soft);font-size:11.5px;font-weight:700;padding:7px 12px;border-radius:999px}
-  .use-btn.on{background:#EAF7F4;border:1px solid #A9DED4;color:#1D7A6C}
-  .wa-btn{border:1px solid #BFE7C9;cursor:pointer;font-family:inherit;background:#E9F8EE;color:#12704A;font-size:11.5px;font-weight:800;padding:7px 11px;border-radius:999px;display:inline-flex;align-items:center;gap:4px}
-  .wa-btn:active{transform:scale(.96)}
-  .wa-btn svg{width:14px;height:14px;fill:currentColor}
   .card.used{opacity:.5}
+  .card.used::before{background:var(--line)}
   .card.used .hook{text-decoration:line-through;text-decoration-thickness:1px;text-decoration-color:#B9C0CF}
-  .tag.usedtag{background:#EAF7F4;color:#1D7A6C;border-color:#A9DED4}
-  h2{font-size:14px;font-weight:800;margin:20px 0 10px;display:flex;align-items:center;gap:8px;color:var(--soft)}
-  h2::after{content:"";flex:1;height:1px;background:var(--line)}
-  .art{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 15px;margin-bottom:9px}
-  .art b{font-size:14px;display:block;margin-bottom:2px;line-height:1.4}
+
+  h2{font-size:12.5px;font-weight:700;margin:22px 0 10px;display:flex;align-items:center;gap:8px;
+     color:var(--soft);letter-spacing:.05em;text-transform:uppercase}
+  h2::after{content:"";flex:1;height:1.5px;background:var(--line);border-radius:2px}
+  .art{display:block;text-decoration:none;color:inherit;background:var(--white);border:1px solid var(--line);
+       border-radius:16px;padding:12px 15px;margin-bottom:9px}
+  .art b{font-size:14px;display:block;margin-bottom:2px;line-height:1.4;font-weight:600}
   .art p{font-size:12.5px;color:var(--soft)}
-  .art .meta{font-size:11px;color:var(--coral);font-weight:700;margin-top:5px;display:block}
+  .art .meta{font-size:10.5px;color:var(--app);font-weight:700;margin-top:6px;display:inline-flex;align-items:center;gap:4px}
 
-  /* Approaches */
-  .ap-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 16px 14px;margin-bottom:12px;box-shadow:0 1px 3px rgba(27,42,74,.05);position:relative;overflow:hidden}
-  .ap-card::before{content:"";position:absolute;top:0;right:0;bottom:0;width:4px;background:var(--ac)}
-  .ap-head{display:flex;align-items:center;gap:10px;margin-bottom:6px}
-  .ap-emoji{font-size:26px;line-height:1}
-  .ap-name{font-size:17px;font-weight:900}
-  .ap-tagline{font-size:13.5px;color:#33405F;margin-bottom:10px}
-  .ap-badges{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:12px}
-  .badge{font-size:10.5px;font-weight:700;padding:3px 9px;border-radius:999px;background:#F3F1EA;color:#6B6349;border:1px solid #E8E2D2}
-  .ap-open{border:none;cursor:pointer;font-family:inherit;width:100%;background:color-mix(in srgb, var(--ac) 12%, white);color:var(--ac);font-size:13px;font-weight:800;padding:10px;border-radius:12px;border:1px dashed color-mix(in srgb, var(--ac) 40%, white)}
-  .ap-open:active{transform:scale(.98)}
+  /* ===== approaches ===== */
+  .intro{font-size:13px;color:var(--soft);margin:2px 2px 14px;line-height:1.6}
+  .ap-card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);
+           padding:15px 16px 14px;margin-bottom:11px;position:relative;overflow:hidden;
+           cursor:pointer;display:block;width:100%;text-align:start;font-family:inherit;color:inherit}
+  .ap-card::before{content:"";position:absolute;top:0;right:0;bottom:0;width:4px;background:var(--app)}
+  .ap-head{display:flex;align-items:center;gap:11px;margin-bottom:6px}
+  .ap-ico{width:36px;height:36px;min-width:36px;border-radius:11px;background:var(--app-soft);color:var(--app);
+          display:flex;align-items:center;justify-content:center;font-size:19px}
+  .ap-name{font-size:16px;font-weight:700;flex:1}
+  .ap-head .go{color:var(--soft);font-size:15px;display:flex}
+  .ap-tagline{font-size:13.5px;color:#2C3757;margin-bottom:10px}
+  .ap-badges{display:flex;gap:5px;flex-wrap:wrap}
+  .badge{font-size:10.5px;font-weight:600;padding:3px 10px;border-radius:999px;
+         background:none;color:var(--soft);border:1px dashed var(--line)}
 
-  /* Approach full page */
-  #ap-page{position:fixed;inset:0;background:var(--bg);z-index:50;overflow-y:auto;display:none;padding:14px 16px 60px}
-  #ap-page.open{display:block}
-  .ap-page-inner{max-width:520px;margin:0 auto}
-  .ap-back{border:none;cursor:pointer;font-family:inherit;background:#fff;border:1px solid var(--line);color:var(--ink);font-size:13px;font-weight:700;padding:8px 16px;border-radius:999px;margin-bottom:14px;box-shadow:0 1px 3px rgba(27,42,74,.08)}
-  .ap-hero{border-radius:20px;padding:22px 18px;margin-bottom:16px;color:#fff;position:relative;overflow:hidden}
-  .ap-hero .ap-emoji{font-size:38px;display:block;margin-bottom:6px}
-  .ap-hero h1{font-size:23px;font-weight:900;line-height:1.3;margin-bottom:4px}
-  .ap-hero p{font-size:14px;opacity:.92}
-  .sec{background:#fff;border:1px solid var(--line);border-radius:16px;padding:15px 16px;margin-bottom:11px}
-  .sec h3{font-size:13px;font-weight:800;color:var(--soft);letter-spacing:.04em;margin-bottom:8px;display:flex;align-items:center;gap:6px}
-  .sec p{font-size:14px;color:#33405F}
-  .sec ol{padding-inline-start:20px;font-size:14px;color:#33405F}
-  .sec ol li{margin-bottom:6px}
-  .sec ul{padding-inline-start:20px;font-size:14px;color:#33405F}
-  .sec ul li{margin-bottom:5px}
+  .ap-hero{background:var(--ink);border-radius:var(--radius);padding:20px 18px;margin:16px 0 14px;color:var(--white);position:relative;overflow:hidden}
+  .ap-hero::after{content:"";position:absolute;top:-60px;inset-inline-start:-30px;width:170px;height:170px;border-radius:50%;
+                  background:radial-gradient(circle,rgba(255,107,94,.30),transparent 68%)}
+  .ap-hero .ap-ico{background:var(--app);color:var(--white);width:42px;height:42px;border-radius:13px;font-size:22px;margin-bottom:10px;position:relative;z-index:1}
+  .ap-hero h1{font-size:22px;font-weight:800;line-height:1.3;margin-bottom:4px;position:relative;z-index:1}
+  .ap-hero p{font-size:13.5px;opacity:.85;position:relative;z-index:1}
+  .sec{background:var(--white);border:1px solid var(--line);border-radius:16px;padding:15px 16px;margin-bottom:10px}
+  .sec h3{font-size:11.5px;font-weight:700;color:var(--soft);letter-spacing:.06em;margin-bottom:9px;
+          display:flex;align-items:center;gap:6px;text-transform:uppercase}
+  .sec p{font-size:14px;color:#2C3757}
+  .sec ol,.sec ul{padding-inline-start:19px;font-size:14px;color:#2C3757}
+  .sec ol li,.sec ul li{margin-bottom:6px}
+  .sec ol li::marker{color:var(--app);font-weight:700}
+  .sec ul li::marker{color:var(--app)}
   .chips{display:flex;gap:6px;flex-wrap:wrap}
-  .chip{font-size:12px;font-weight:700;padding:5px 12px;border-radius:999px;background:#F3F1EA;color:#6B6349}
-  .prompt-box{background:#1B2A4A;color:#DCE4F5;border-radius:12px;padding:12px;font-size:12px;direction:ltr;text-align:left;font-family:ui-monospace,monospace;line-height:1.5;margin-top:8px;word-break:break-word}
-  .copy-mini{border:none;cursor:pointer;font-family:inherit;background:var(--teal);color:#fff;font-size:12px;font-weight:700;padding:7px 14px;border-radius:999px;margin-top:8px}
-  .ex-hook{background:#FFF7DF;border:1px dashed #EED89A;border-radius:12px;padding:11px 13px;font-size:14px;font-weight:600;color:#6B5A1B}
-  .write-btn{border:none;cursor:pointer;font-family:inherit;width:100%;background:var(--ink);color:#fff;font-size:14px;font-weight:800;padding:13px;border-radius:14px;margin-top:4px;box-shadow:0 2px 8px rgba(27,42,74,.2)}
+  .chip{font-size:12px;font-weight:600;padding:5px 12px;border-radius:999px;background:none;color:var(--soft);border:1px dashed var(--line)}
+  .prompt-box{background:var(--ink);color:#D8DFF2;border-radius:13px;padding:12px;font-size:12px;direction:ltr;text-align:left;
+              font-family:ui-monospace,monospace;line-height:1.5;margin-top:8px;word-break:break-word}
+  .copy-mini{border:1.5px dashed var(--app-line);cursor:pointer;font-family:inherit;background:var(--app-soft);color:var(--app);
+             font-size:12px;font-weight:700;padding:8px 15px;border-radius:999px;margin-top:9px;display:inline-flex;align-items:center;gap:6px}
+  .ex-hook{background:var(--app-soft);border:1.5px dashed var(--app-line);border-radius:13px;padding:12px 13px;
+           font-size:14px;font-weight:500;color:#8A3229}
+  .write-btn{border:none;cursor:pointer;font-family:inherit;width:100%;background:var(--app);color:var(--white);
+             font-size:14.5px;font-weight:700;padding:14px;border-radius:16px;margin-top:6px;
+             display:flex;align-items:center;justify-content:center;gap:7px;box-shadow:0 3px 14px rgba(255,107,94,.28)}
 
-  /* Links */
+  /* ===== links ===== */
+  .lk-filters{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px;margin:0 0 14px;scrollbar-width:none}
+  .lk-filters::-webkit-scrollbar{display:none}
+  .fchip{flex:none;border:1.5px dashed var(--line);background:var(--white);color:var(--soft);cursor:pointer;font-family:inherit;
+         font-size:11.5px;font-weight:600;padding:7px 13px;border-radius:999px;display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+  .fchip.on{background:var(--app);color:var(--white);border-color:var(--app);border-style:solid}
   .lk-cat{margin-bottom:20px}
   .lk-cat h2{margin-top:0}
-  .lk{display:block;text-decoration:none;color:inherit;background:#fff;border:1px solid var(--line);border-radius:14px;padding:11px 14px;margin-bottom:8px;position:relative}
-  .lk b{font-size:13.5px;display:block;line-height:1.4}
-  .lk p{font-size:12px;color:var(--soft);margin-top:1px}
-  .lk .lk-tag{position:absolute;top:10px;left:12px;font-size:10px;font-weight:700;padding:2px 8px;border-radius:999px;background:#EFF3FB;color:#4A5A80}
+  .lk{display:block;text-decoration:none;color:inherit;background:var(--white);border:1px solid var(--line);
+      border-radius:15px;padding:12px 14px;margin-bottom:8px;position:relative}
+  .lk b{font-size:13.5px;display:block;line-height:1.4;font-weight:600;padding-inline-end:70px}
+  .lk p{font-size:12px;color:var(--soft);margin-top:2px}
+  .lk .lk-tag{position:absolute;top:11px;left:12px;font-size:10px;font-weight:700;padding:2px 9px;border-radius:999px;
+              background:var(--app-soft);color:var(--app)}
 
-  #toast{position:fixed;bottom:22px;right:50%;transform:translateX(50%) translateY(80px);background:var(--ink);color:#fff;font-size:13px;font-weight:600;padding:11px 18px;border-radius:999px;box-shadow:0 4px 16px rgba(27,42,74,.3);transition:transform .25s ease;z-index:60;max-width:92%;text-align:center}
+  /* ===== chrome ===== */
+  #toast{position:fixed;bottom:22px;right:50%;transform:translateX(50%) translateY(90px);background:var(--ink);color:var(--white);
+         font-size:13px;font-weight:600;padding:11px 18px;border-radius:999px;box-shadow:0 6px 20px rgba(20,31,61,.32);
+         transition:transform .25s ease;z-index:60;max-width:92%;text-align:center;display:inline-flex;align-items:center;gap:7px}
   #toast.show{transform:translateX(50%) translateY(0)}
-  footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--soft);border-top:1px dashed var(--line);padding-top:12px}
+  footer{margin-top:26px;text-align:center;font-size:11.5px;color:var(--soft);border-top:1.5px dashed var(--line);padding-top:14px;line-height:1.8}
+  .applinks{display:flex;gap:7px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
+  .applinks a{text-decoration:none;color:var(--soft);border:1.5px dashed var(--line);background:var(--white);
+              font-size:11.5px;font-weight:600;padding:6px 12px;border-radius:999px;display:inline-flex;align-items:center;gap:5px}
   .loading{text-align:center;color:var(--soft);padding:40px 0;font-size:14px}
 </style>
 </head>
 <body>
 
-<header>
-  <div class="brand">POST BRAINSTORM<small>המערכת של אייל</small></div>
-  <button class="gen-btn" onclick="copyCmd('צור עוד 3 רעיונות לפוסטים לבריף של היום, בנוסף לאלה שכבר יש, ועדכן את הדף')">⚡ צור עוד רעיונות</button>
-</header>
+<div class="appbar">
+  <button class="back" id="btn-back" onclick="goBack()" aria-label="חזרה" disabled><svg viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></button>
+  <div class="logo">
+    <span class="mark"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4"/><path d="M12 2.8a6.4 6.4 0 0 0-3.8 11.5c.5.4.8 1 .8 1.7h6c0-.7.3-1.3.8-1.7A6.4 6.4 0 0 0 12 2.8Z"/></svg></span>
+    <span class="wm">Post <b>Brainstorm</b></span>
+  </div>
+  <div class="abspacer"></div>
+</div>
 
-<nav>
-  <button class="active" data-tab="feed" onclick="showTab('feed')">💡 רעיונות לפוסטים</button>
-  <button data-tab="approaches" onclick="showTab('approaches')">🎯 גישות פוסטים</button>
-  <button data-tab="links" onclick="showTab('links')">🔗 מאגרי לינקים</button>
-</nav>
+<!-- ===================== main ===================== -->
+<div class="screen active" id="scr-app">
 
-<div id="feed" class="tab active"><div class="loading">טוען את הבריף...</div></div>
-<div id="approaches" class="tab"><div class="loading">טוען גישות...</div></div>
-<div id="links" class="tab"><div class="loading">טוען לינקים...</div></div>
+  <div class="hero">
+    <span class="kicker"><svg class="ic" viewBox="0 0 24 24"><path d="m13 2-8.5 11.2H12l-1 8.8 8.5-11.2H12l1-8.8Z"/></svg> מנוע הרעיונות לפוסטים</span>
+    <h1>רעיונות לפוסטים<svg class="scribble" viewBox="0 0 200 20" preserveAspectRatio="none"><path d="M6 12 C 44 4, 92 17, 138 8 C 162 3, 184 7, 195 11" stroke="#FF6B5E" stroke-width="4.2" fill="none" stroke-linecap="round"/><path d="M14 17 C 58 11, 104 19, 150 14 C 170 11, 184 13, 192 15" stroke="#FF6B5E" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".55"/></svg></h1>
+    <p class="sub">בריף יומי · גישות כתיבה · מאגרי השראה</p>
+  </div>
 
-<div id="ap-page"><div class="ap-page-inner" id="ap-page-content"></div></div>
+  <button class="gen-btn" id="gen-btn" onclick="copyCmd('צור עוד 3 רעיונות לפוסטים לבריף של היום, בנוסף לאלה שכבר יש, ועדכן את הדף')">
+    <svg class="ic lg" viewBox="0 0 24 24"><path d="m13 2-8.5 11.2H12l-1 8.8 8.5-11.2H12l1-8.8Z"/></svg> צור עוד רעיונות
+  </button>
 
-<footer>לחיצה על כפתור מעתיקה פקודה מוכנה. מדביקים בקלוד והוא ממשיך משם.</footer>
-<div id="toast">הועתק, הדבק בקלוד 👌</div>
+  <div class="navwrap"><nav>
+    <button class="active" data-tab="feed" onclick="showTab('feed')"><svg class="ic" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4"/><path d="M12 2.8a6.4 6.4 0 0 0-3.8 11.5c.5.4.8 1 .8 1.7h6c0-.7.3-1.3.8-1.7A6.4 6.4 0 0 0 12 2.8Z"/></svg> הבריף</button>
+    <button data-tab="approaches" onclick="showTab('approaches')"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.6"/><circle cx="12" cy="12" r="1"/></svg> גישות</button>
+    <button data-tab="links" onclick="showTab('links')"><svg class="ic" viewBox="0 0 24 24"><path d="M4 5.2C4 4 4.8 3.2 6 3.2h3.4c1.2 0 2 .8 2 2V21l-3.7-2.4L4 21Z"/><path d="M13.4 6.6 16.7 5.5c1.1-.4 2.2.1 2.5 1.2l3.1 9.4"/><path d="M11.4 9.6h8.4"/></svg> מאגרים</button>
+  </nav></div>
+
+  <div id="feed" class="tab"><div class="loading">טוען את הבריף...</div></div>
+  <div id="approaches" class="tab" style="display:none"><div class="loading">טוען גישות...</div></div>
+  <div id="links" class="tab" style="display:none"><div class="loading">טוען לינקים...</div></div>
+
+</div>
+
+<!-- ===================== approach page ===================== -->
+<div class="screen" id="scr-approach"><div id="ap-page-content"></div></div>
+
+<footer>
+  <div class="applinks">
+    <a href="https://eyalg1980.github.io/daily-board/"><svg class="ic" viewBox="0 0 24 24"><g transform="translate(24,0) scale(-1,1)"><path d="m3 6.6 1.8 1.8L8.3 4.9"/><path d="m3 13 1.8 1.8L8.3 11.3"/><path d="m3 19.4 1.8 1.8 3.5-3.3"/><path d="M11.8 6.4H21"/><path d="M11.8 12.9H21"/><path d="M11.8 19.4H21"/></g></svg> הלוח היומי</a>
+    <a href="https://eyalg1980.github.io/simpla-lab/daily-director/"><svg class="ic" viewBox="0 0 24 24"><path d="M3.4 8.2 20.4 5.6M3.4 8.2 4.9 17.9C5 18.9 5.9 19.6 6.9 19.4L19.5 17.5C20.5 17.4 21.2 16.4 21 15.4L19.6 6.1M3.4 8.2 3 5.6 20 3.1 20.4 5.6M8.2 7.5 6.2 4.3M13.2 6.7 11.3 3.6M18 6 16.2 2.9"/></svg> הבמאי היומי</a>
+    <a href="https://eyalg1980.github.io/simpla-lab/"><svg class="ic" viewBox="0 0 24 24"><path d="M9 3v6.5L4.3 17.6c-.8 1.4.2 3.1 1.8 3.1h11.8c1.6 0 2.6-1.7 1.8-3.1L15 9.5V3"/><path d="M7.6 3h8.8"/><path d="M7.2 14.4h9.6"/></svg> המעבדה</a>
+  </div>
+  לחיצה על כפתור מעתיקה פקודה מוכנה. מדביקים בקלוד והוא ממשיך משם.<br>
+  <span id="ver" style="opacity:.6"></span>
+</footer>
+<div id="toast"><svg class="ic" viewBox="0 0 24 24"><path d="m4.5 12.5 5 5 10-11"/></svg> הועתק, הדבק בקלוד</div>
 
 <script>
+const SITE_VER='v3 · 1.8 עיצוב מחדש';
+const SITE='https://eyalg1980.github.io/ai-post-brainstorm/';
+
+/* ---------- icon set: single colour, always currentColor ---------- */
+const I={
+  bolt:'<path d="m13 2-8.5 11.2H12l-1 8.8 8.5-11.2H12l1-8.8Z"/>',
+  bulb:'<path d="M9 18h6M10 21h4"/><path d="M12 2.8a6.4 6.4 0 0 0-3.8 11.5c.5.4.8 1 .8 1.7h6c0-.7.3-1.3.8-1.7A6.4 6.4 0 0 0 12 2.8Z"/>',
+  target:'<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.6"/><circle cx="12" cy="12" r="1"/>',
+  image:'<rect x="3" y="4.5" width="18" height="15" rx="3"/><circle cx="8.6" cy="10" r="1.6"/><path d="m4 17 4.6-4.3c.8-.8 2-.8 2.8 0L20 20"/>',
+  film:'<rect x="3" y="4.5" width="18" height="15" rx="3"/><path d="M8 4.5v15M16 4.5v15M3 12h18M3 8.2h5M3 15.8h5M16 8.2h5M16 15.8h5"/>',
+  cards:'<rect x="7" y="4" width="10" height="16" rx="2.4"/><path d="M4.6 7.2v9.6M19.4 7.2v9.6"/>',
+  text:'<path d="M6 3.5h8.5L19 8v12.5H6Z"/><path d="M14.2 3.5V8H19"/><path d="M9 12.5h6M9 16h4"/>',
+  link:'<path d="M10.2 13.8a3.6 3.6 0 0 0 5.2 0l2.9-3a3.7 3.7 0 0 0-5.2-5.2l-1.2 1.2"/><path d="M13.8 10.2a3.6 3.6 0 0 0-5.2 0l-2.9 3a3.7 3.7 0 0 0 5.2 5.2l1.2-1.2"/>',
+  check:'<path d="m4.5 12.5 5 5 10-11"/>',
+  pen:'<path d="M4 20.2 8.4 19 20 7.4a2.4 2.4 0 0 0-3.4-3.4L5 15.6Z"/><path d="m15.2 5.4 3.4 3.4"/>',
+  eyeoff:'<path d="M3 3.5 21 20.5"/><path d="M10.3 6.4A9.5 9.5 0 0 1 12 6.2c5 0 9 5.8 9 5.8a17 17 0 0 1-2.7 3.2M6.6 8.1A16.6 16.6 0 0 0 3 12s4 5.8 9 5.8c1.2 0 2.3-.3 3.3-.8"/><path d="M10.3 10.4a2.4 2.4 0 0 0 3.3 3.3"/>',
+  eye:'<path d="M3 12s4-5.8 9-5.8S21 12 21 12s-4 5.8-9 5.8S3 12 3 12Z"/><circle cx="12" cy="12" r="2.6"/>',
+  save:'<path d="M5 3.5h11L20.5 8v10.5a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2v-13a2 2 0 0 1 2-2Z"/><path d="M8 3.5v5h7"/><path d="M8 20.5v-6h8v6"/>',
+  wa:'<path d="M12 2.6A9.4 9.4 0 0 0 3.9 17L2.7 21.3l4.4-1.2A9.4 9.4 0 1 0 12 2.6Z"/><path d="M8.6 8c.3-.5.6-.5 1-.5h.5c.2 0 .4 0 .6.5l.7 1.7c.1.2 0 .4-.1.6l-.5.6c-.1.2-.2.4-.1.6.4.8 1.6 2 2.6 2.5.2.1.4 0 .6-.1l.6-.7c.2-.2.3-.2.6-.1l1.6.8c.3.1.4.3.4.5 0 .5-.4 1.4-.9 1.6-.4.2-1 .3-1.6.1-2.8-.7-5-3.2-5.8-5.2-.3-.7-.3-1.5 0-2.2Z"/>',
+  chev:'<path d="m14.5 5-6.5 7 6.5 7"/>',
+  copy:'<rect x="8.5" y="8.5" width="12" height="12" rx="2.6"/><path d="M15.5 5.5a2 2 0 0 0-2-2h-8a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2"/>',
+  news:'<path d="M4 5.5A1.8 1.8 0 0 1 5.8 3.7h10.4A1.8 1.8 0 0 1 18 5.5v13a1.8 1.8 0 0 0 1.8 1.8H5.8A1.8 1.8 0 0 1 4 18.5Z"/><path d="M18 8.5h1.2A1.8 1.8 0 0 1 21 10.3v8.2"/><path d="M7.2 7.5h7.6M7.2 11h7.6M7.2 14.5h4.6"/>',
+  cal:'<rect x="3" y="5" width="18" height="16" rx="2.6"/><path d="M3 10h18M8 3v4M16 3v4"/>',
+  ap_story:'<path d="M4 5.2C4 4 4.8 3.2 6 3.2h12c1.2 0 2 .8 2 2v13.6c0 1.2-.8 2-2 2H6c-1.2 0-2-.8-2-2Z"/><path d="M7.4 7.6h9.2M7.4 11.2h9.2M7.4 14.8h5.6"/>',
+  ap_class:'<path d="m12 3.4 9.2 4.4L12 12.2 2.8 7.8Z"/><path d="M6.4 10v5c0 1.6 2.5 2.9 5.6 2.9s5.6-1.3 5.6-2.9v-5"/><path d="M21.2 7.8v6"/>',
+  ap_object:'<path d="m12 2.8 8 4.4v9.6l-8 4.4-8-4.4V7.2Z"/><path d="m4 7.2 8 4.4 8-4.4M12 11.6V21.2"/>',
+  ap_time:'<circle cx="6.6" cy="12" r="3.2"/><circle cx="17.4" cy="12" r="3.2"/><path d="M9.8 12h4.4"/><path d="M6.6 5.6V8.8M17.4 15.2v3.2"/>',
+  ap_prophecy:'<circle cx="12" cy="10.4" r="6.4"/><path d="M6.6 17.6h10.8l1.4 3.2H5.2Z"/><path d="M9.4 8.6a3 3 0 0 1 2.6-2.2"/>',
+  ap_riddle:'<path d="M10.2 3.4h3.6v2.4a1.6 1.6 0 0 0 3.2 0V3.4h3.6v3.6h-2.4a1.6 1.6 0 0 0 0 3.2h2.4v3.6h-3.6v-2.4a1.6 1.6 0 0 0-3.2 0v2.4h-3.6"/><path d="M10.2 3.4H6.6v3.6H4.2a1.6 1.6 0 0 0 0 3.2h2.4v3.6h3.6"/><path d="M10.2 13.8v6.8H3.8"/>',
+  ap_tools:'<path d="M3.4 8.6a2 2 0 0 1 2-2h13.2a2 2 0 0 1 2 2v9.4a2 2 0 0 1-2 2H5.4a2 2 0 0 1-2-2Z"/><path d="M8.6 6.6V4.8c0-.8.6-1.4 1.4-1.4h4c.8 0 1.4.6 1.4 1.4v1.8"/><path d="M3.4 12.4h17.2M10.4 11v2.8h3.2V11"/>',
+  ap_numbers:'<path d="M3.6 20.4h16.8"/><rect x="5" y="12" width="3.6" height="6"/><rect x="10.2" y="7.6" width="3.6" height="10.4"/><rect x="15.4" y="4" width="3.6" height="14"/>',
+  c0:'<path d="M4 20.2 8.4 19 20 7.4a2.4 2.4 0 0 0-3.4-3.4L5 15.6Z"/><path d="m15.2 5.4 3.4 3.4"/>',
+  c1:'<rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 3v4M8.6 12.4h.02M15.4 12.4h.02M9.4 16h5.2"/>',
+  c2:'<rect x="3" y="4.5" width="18" height="15" rx="3"/><path d="M8 4.5v15M16 4.5v15M3 12h18"/>',
+  c3:'<rect x="3" y="4.5" width="18" height="13" rx="2.6"/><path d="m10.4 8.8 4.4 2.4-4.4 2.4Z"/><path d="M8.4 21h7.2"/>',
+  c4:'<path d="M6 3.6h12v17.2L12 17l-6 3.8Z"/>',
+  c5:'<path d="M6 3.5h8.5L19 8v12.5H6Z"/><path d="M14.2 3.5V8H19"/><path d="M9 12.5h6M9 16h4"/>',
+  c6:'<path d="M12 3.4c-2 0-3.4 1.3-3.6 3-1.6.3-2.8 1.6-2.8 3.3 0 .7.2 1.3.6 1.9-.7.6-1.1 1.5-1.1 2.5 0 1.9 1.6 3.4 3.6 3.4.2 1.5 1.6 2.7 3.3 2.7s3.1-1.2 3.3-2.7c2 0 3.6-1.5 3.6-3.4 0-1-.4-1.9-1.1-2.5.4-.6.6-1.2.6-1.9 0-1.7-1.2-3-2.8-3.3-.2-1.7-1.6-3-3.6-3Z"/><path d="M12 6.4v13.8"/>',
+  c7:'<circle cx="10.8" cy="10.8" r="6.6"/><path d="m15.6 15.6 4.4 4.4"/>'
+};
+function ico(name,cls){return '<svg class="ic'+(cls?' '+cls:'')+'" viewBox="0 0 24 24">'+(I[name]||'')+'</svg>'}
+
+/* ---------- helpers ---------- */
 function esc(s){return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
 function copyCmd(cmd){
   const done=()=>{const t=document.getElementById('toast');t.classList.add('show');clearTimeout(window._tt);window._tt=setTimeout(()=>t.classList.remove('show'),2600)};
@@ -176,92 +320,108 @@ function fallback(cmd,done){
   ta.select();try{document.execCommand('copy');done()}catch(e){prompt('העתק ידנית:',cmd)}
   document.body.removeChild(ta);
 }
-const SITE='https://eyalg1980.github.io/ai-post-brainstorm/';
-const WA_ICON='<svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.4 1.3 4.9L2 22l5.3-1.3c1.4.8 3 1.2 4.7 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18c-1.5 0-3-.4-4.2-1.2l-.3-.2-3.1.8.8-3-.2-.3C4.4 15 4 13.5 4 12c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8zm4.4-5.8c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8.9-.1.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.4-.4c.1-.2.2-.3.2-.4.1-.2 0-.3 0-.4 0-.1-.6-1.3-.8-1.8-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 2s.8 2.3.9 2.4c.1.2 1.6 2.5 3.9 3.4.5.2 1 .4 1.3.5.6.2 1.1.2 1.5.1.5-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1 0-.1-.2-.2-.4-.3z"/></svg>';
-function waShare(text){
-  const url='https://wa.me/?text='+encodeURIComponent(text);
-  window.open(url,'_blank','noopener');
-}
-function showTab(id){
-  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.id===id));
-  document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===id));
-  window.scrollTo({top:0});
-}
+function waShare(text){window.open('https://wa.me/?text='+encodeURIComponent(text),'_blank','noopener')}
 
-/* ---------- Brief feed ---------- */
-let FEED=null, PBANK=[], WABANK=[];
-const LS_USED='apb_used', LS_HIDE='apb_hide_used';
+/* ---------- navigation: one history stack, one back button ---------- */
+let navHist=[], cur={screen:'app',tab:'feed'};
+function stateKey(s){return s.screen+':'+(s.tab||'')+':'+(s.ap||'')}
+function syncBack(){document.getElementById('btn-back').disabled=navHist.length===0}
+function apply(s){
+  document.getElementById('scr-app').classList.toggle('active',s.screen==='app');
+  document.getElementById('scr-approach').classList.toggle('active',s.screen==='approach');
+  if(s.screen==='app'){
+    ['feed','approaches','links'].forEach(t=>{document.getElementById(t).style.display=(t===s.tab?'block':'none')});
+    document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===s.tab));
+    document.getElementById('gen-btn').style.display=(s.tab==='feed'?'flex':'none');
+  }
+  cur=s; syncBack(); window.scrollTo({top:0});
+}
+function go(s){
+  if(stateKey(s)===stateKey(cur))return;
+  navHist.push(cur); if(navHist.length>25)navHist.shift();
+  apply(s);
+  try{history.pushState({k:stateKey(s)},'')}catch(e){}
+}
+/* the phone's own back gesture walks the same stack */
+window.addEventListener('popstate',()=>{if(navHist.length)apply(navHist.pop())});
+function goBack(){if(!navHist.length)return; if(history.state&&history.state.k){history.back()}else{apply(navHist.pop())}}
+function showTab(id){go({screen:'app',tab:id})}
+
+/* ---------- brief feed ---------- */
+let FEED=null,PBANK=[],WABANK=[];
+const LS_USED='apb_used',LS_HIDE='apb_hide_used';
 function usedSet(){try{return new Set(JSON.parse(localStorage.getItem(LS_USED)||'[]'))}catch(e){return new Set()}}
 function saveUsed(s){try{localStorage.setItem(LS_USED,JSON.stringify([...s]))}catch(e){}}
 function hideUsed(){return localStorage.getItem(LS_HIDE)==='1'}
 
-/* Four ready copy targets per idea. If the daily run supplied idea.prompts, they are pasted as-is
-   (ready prompts). Otherwise we build a command for Claude out of the idea itself. */
+/* Four ready copy targets per idea. JSON-supplied prompts are copied as-is,
+   missing ones fall back to a command for Claude. */
 function buildPrompts(idea,day){
   const p=idea.prompts||{};
   const ref='הרעיון: "'+idea.hook+'". הזווית: '+idea.angle;
   return [
-    {k:'image', i:'🖼️', label:'ויזואל לפוסט', ready:!!p.image,
-     val: p.image ? ('צור לי תמונה בהיגספילד לפי הפרומפט הזה: '+p.image) :
-                    ('צור לי ויזואל לפוסט הזה: כתוב פרומפט תמונה באנגלית בשפה הוויזואלית של סימפלה, ואז הרץ אותו בהיגספילד. '+ref)},
-    {k:'video', i:'🎬', label:'רילס קצר', ready:!!p.video,
-     val: p.video ? ('צור לי סרטון בהיגספילד לפי הפרומפט הזה: '+p.video) :
-                    ('הפוך את הרעיון הזה לרילס של 15 עד 20 שניות: תסריט קצר, שוט ליסט ופרומפט וידאו מוכן להיגספילד ב-9:16. '+ref)},
-    {k:'carousel', i:'🎠', label:'קרוסלה', ready:!!p.carousel,
-     val: p.carousel || ('פרק את הרעיון הזה לקרוסלה של 6 עד 7 שקפים: כותרת לכל שקף, שורת גוף אחת, ושקף אחרון עם שאלה. '+ref)},
-    {k:'raw', i:'📝', label:'טקסט גולמי', ready:true,
-     val: 'הוק: '+idea.hook+'\n\nזווית: '+idea.angle+'\n\nלמה עכשיו: '+idea.why+'\n\nמקור: '+(idea.srcLabel||'')+' '+(idea.srcUrl||'')+'\n(בריף '+day.dateLabel+')'}
+    {k:'image',ic:'image',label:'ויזואל',ready:!!p.image,
+     val:p.image?('צור לי תמונה בהיגספילד לפי הפרומפט הזה: '+p.image):
+                 ('צור לי ויזואל לפוסט הזה: כתוב פרומפט תמונה באנגלית בשפה הוויזואלית של סימפלה, ואז הרץ אותו בהיגספילד. '+ref)},
+    {k:'video',ic:'film',label:'רילס קצר',ready:!!p.video,
+     val:p.video?('צור לי סרטון בהיגספילד לפי הפרומפט הזה: '+p.video):
+                 ('הפוך את הרעיון הזה לרילס של 15 עד 20 שניות: תסריט קצר, שוט ליסט ופרומפט וידאו מוכן להיגספילד ב-9:16. '+ref)},
+    {k:'carousel',ic:'cards',label:'קרוסלה',ready:!!p.carousel,
+     val:p.carousel||('פרק את הרעיון הזה לקרוסלה של 6 עד 7 שקפים: כותרת לכל שקף, שורת גוף אחת, ושקף אחרון עם שאלה. '+ref)},
+    {k:'raw',ic:'text',label:'טקסט גולמי',ready:true,
+     val:'הוק: '+idea.hook+'\n\nזווית: '+idea.angle+'\n\nלמה עכשיו: '+idea.why+'\n\nמקור: '+(idea.srcLabel||'')+' '+(idea.srcUrl||'')+'\n(בריף '+day.dateLabel+')'}
   ];
 }
 
 function renderFeed(data){
   if(data)FEED=data;
   const feed=document.getElementById('feed');
-  const used=usedSet(), hide=hideUsed();
-  PBANK=[]; WABANK=[];
+  const used=usedSet(),hide=hideUsed();
+  PBANK=[];WABANK=[];
   const days=[...FEED.days].sort((a,b)=>b.date.localeCompare(a.date));
-  let total=0, nUsed=0, pending=[];
+  let total=0,nUsed=0,pending=[];
   for(const day of days)for(const idea of (day.ideas||[])){
     total++;
     const isUsed=used.has(idea.id)||idea.used===true;
     if(isUsed)nUsed++;
     if(used.has(idea.id)&&idea.used!==true)pending.push(idea.id);
   }
-  let html='<div class="feed-bar"><span class="cnt">'+nUsed+' נוצלו מתוך '+total+' רעיונות</span>';
-  html+='<button class="fb-btn'+(hide?' on':'')+'" id="fb-hide">'+(hide?'מציג רק פתוחים':'הסתר נוצלו')+'</button>';
-  if(pending.length)html+='<button class="fb-btn" id="fb-sync">שמור בקובץ ('+pending.length+')</button>';
-  html+='<button class="wa-btn" id="fb-wa">'+WA_ICON+' שתף את האפליקציה</button>';
+  let html='<div class="feed-bar"><span class="cnt">'+ico('check')+'<b>'+nUsed+'</b> נוצלו מתוך '+total+'</span>';
+  html+='<button class="fb-btn'+(hide?' on':'')+'" id="fb-hide">'+ico(hide?'eye':'eyeoff')+(hide?'מציג פתוחים':'הסתר נוצלו')+'</button>';
+  if(pending.length)html+='<button class="fb-btn" id="fb-sync">'+ico('save')+'שמור ('+pending.length+')</button>';
+  html+='<button class="fb-btn" id="fb-wa">'+ico('wa')+'שתף</button>';
   html+='</div>';
   for(const day of days){
     const ideas=(day.ideas||[]).filter(i=>!(hide&&(used.has(i.id)||i.used===true)));
     if(!ideas.length&&hide)continue;
-    html+='<section><div class="date-chip"><span>'+esc(day.dateLabel)+'</span></div>';
+    html+='<section><div class="date-chip"><span>'+ico('cal')+esc(day.dateLabel)+'</span></div>';
     for(const idea of ideas){
       const isUsed=used.has(idea.id)||idea.used===true;
       const cmd='כתוב פוסט מלא בקול שלי מהרעיון הזה (בריף '+day.dateLabel+'): "'+idea.hook+'"';
-      html+='<article class="card'+(isUsed?' used':'')+'" style="--accent:'+esc(idea.color||'#FF6B5E')+'">';
+      html+='<article class="card'+(isUsed?' used':'')+'">';
       html+='<div class="tags"><span class="tag">'+esc(idea.pillar)+'</span>';
-      if(idea.me)html+='<span class="tag me">✦ '+esc(idea.me)+'</span>';
-      if(isUsed)html+='<span class="tag usedtag">✓ נוצל</span>';
+      if(idea.me)html+='<span class="tag ghost">'+ico('pen')+esc(idea.me)+'</span>';
+      if(isUsed)html+='<span class="tag ghost">'+ico('check')+'נוצל</span>';
       html+='</div><div class="hook">"'+esc(idea.hook)+'"</div>';
-      html+='<div class="label">הזווית</div><div class="angle">'+esc(idea.angle)+'</div>';
+      html+='<div class="label">'+ico('target')+'הזווית</div><div class="angle">'+esc(idea.angle)+'</div>';
       html+='<div class="why"><b>למה עכשיו:</b> '+esc(idea.why)+'</div>';
       const pi=PBANK.push(buildPrompts(idea,day))-1;
-      html+='<div class="label">פרומפטים מוכנים</div><div class="prompts">';
-      PBANK[pi].forEach(p=>{html+='<button class="p-btn'+(p.ready?' ready':'')+'" data-p="'+pi+'" data-k="'+p.k+'">'+p.i+' '+p.label+'</button>'});
+      html+='<div class="label">'+ico('copy')+'פרומפטים מוכנים</div><div class="prompts">';
+      PBANK[pi].forEach(p=>{html+='<button class="p-btn'+(p.ready?' ready':'')+'" data-p="'+pi+'" data-k="'+p.k+'">'+ico(p.ic)+p.label+'</button>'});
       html+='</div>';
       html+='<div class="card-actions">';
-      if(idea.srcUrl)html+='<a class="src" href="'+esc(idea.srcUrl)+'" target="_blank" rel="noopener">🔗 '+esc(idea.srcLabel||'מקור')+(idea.srcDate?' <small>· '+esc(idea.srcDate)+'</small>':'')+'</a>';
+      if(idea.srcUrl)html+='<a class="src" href="'+esc(idea.srcUrl)+'" target="_blank" rel="noopener">'+ico('link')+'<span>'+esc(idea.srcLabel||'מקור')+(idea.srcDate?' <small>· '+esc(idea.srcDate)+'</small>':'')+'</span></a>';
       const wi=WABANK.push('"'+idea.hook+'"\n\n'+idea.angle+'\n\n'+(idea.srcUrl?'מקור: '+idea.srcUrl+'\n\n':'')+'מתוך הבריף של '+day.dateLabel+':\n'+SITE)-1;
-      html+='<button class="wa-btn" data-wa="'+wi+'">'+WA_ICON+'</button>';
-      html+='<button class="use-btn'+(isUsed?' on':'')+'" data-use="'+esc(idea.id)+'">'+(isUsed?'✓ נוצל':'סמן כנוצל')+'</button>';
-      html+='<button class="expand-btn" data-cmd="'+esc(cmd)+'">✍️ כתוב פוסט מלא</button>';
-      html+='</div></article>';
+      html+='<div class="act-row">';
+      html+='<button class="icon-btn" data-wa="'+wi+'" aria-label="שיתוף בוואטסאפ">'+ico('wa')+'</button>';
+      html+='<button class="use-btn'+(isUsed?' on':'')+'" data-use="'+esc(idea.id)+'">'+ico('check')+(isUsed?'נוצל':'סמן כנוצל')+'</button>';
+      html+='<button class="expand-btn" data-cmd="'+esc(cmd)+'">'+ico('pen')+'כתוב פוסט מלא</button>';
+      html+='</div></div></article>';
     }
     if(day.articles&&day.articles.length){
-      html+='<h2>שווה קריאה</h2>';
+      html+='<h2>'+ico('news')+'שווה קריאה</h2>';
       for(const a of day.articles){
-        html+='<a class="art" href="'+esc(a.url)+'" target="_blank" rel="noopener"><b>'+esc(a.title)+'</b><p>'+esc(a.desc)+'</p><span class="meta">'+esc(a.meta)+'</span></a>';
+        html+='<a class="art" href="'+esc(a.url)+'" target="_blank" rel="noopener"><b>'+esc(a.title)+'</b><p>'+esc(a.desc)+'</p><span class="meta">'+ico('link')+esc(a.meta)+'</span></a>';
       }
     }
     html+='</section>';
@@ -269,14 +429,14 @@ function renderFeed(data){
   feed.innerHTML=html;
   feed.querySelectorAll('.expand-btn').forEach(b=>b.addEventListener('click',()=>copyCmd(b.dataset.cmd)));
   feed.querySelectorAll('.p-btn').forEach(b=>b.addEventListener('click',()=>{
-    const p=(PBANK[+b.dataset.p]||[]).find(x=>x.k===b.dataset.k); if(p)copyCmd(p.val);
+    const p=(PBANK[+b.dataset.p]||[]).find(x=>x.k===b.dataset.k);if(p)copyCmd(p.val);
   }));
   feed.querySelectorAll('.use-btn').forEach(b=>b.addEventListener('click',()=>{
-    const s=usedSet(), id=b.dataset.use;
-    if(s.has(id))s.delete(id); else s.add(id);
-    saveUsed(s); renderFeed();
+    const s=usedSet(),id=b.dataset.use;
+    if(s.has(id))s.delete(id);else s.add(id);
+    saveUsed(s);renderFeed();
   }));
-  feed.querySelectorAll('.wa-btn[data-wa]').forEach(b=>b.addEventListener('click',()=>waShare(WABANK[+b.dataset.wa])));
+  feed.querySelectorAll('.icon-btn[data-wa]').forEach(b=>b.addEventListener('click',()=>waShare(WABANK[+b.dataset.wa])));
   const fw=document.getElementById('fb-wa');
   if(fw)fw.addEventListener('click',()=>waShare('Post Brainstorm, הרעיונות לפוסטים של היום:\n'+SITE));
   const fh=document.getElementById('fb-hide');
@@ -285,67 +445,75 @@ function renderFeed(data){
   if(fs)fs.addEventListener('click',()=>copyCmd('סמן את הרעיונות האלה כנוצלו ב-posts.json (used: true) ופרסם: '+pending.join(', ')));
 }
 
-/* ---------- Approaches ---------- */
+/* ---------- approaches ---------- */
 let APPROACHES=[];
+const AP_ICON={'story-lesson':'ap_story','class-to-field':'ap_class','object-bio':'ap_object','two-points':'ap_time',
+               'prophecy-checkin':'ap_prophecy','visual-riddle':'ap_riddle','tools-shortlist':'ap_tools','numbers-compare':'ap_numbers'};
+function apIcon(id){return ico(AP_ICON[id]||'target')}
 function renderApproaches(data){
   APPROACHES=data.approaches;
   const el=document.getElementById('approaches');
-  let html='<p style="font-size:13px;color:var(--soft);margin-bottom:14px">8 גישות מנותחות לעומק. לחיצה על דף גישה פותחת את המפרט המלא, כולל פרומפט מוכן לויזואל.</p>';
+  let html='<p class="intro">'+APPROACHES.length+' גישות מנותחות לעומק. כל דף גישה מכיל את המבנה, הוויזואל, טעויות נפוצות ופרומפט מוכן.</p>';
   for(const a of APPROACHES){
-    html+='<div class="ap-card" style="--ac:'+esc(a.color)+'">';
-    html+='<div class="ap-head"><span class="ap-emoji">'+a.emoji+'</span><span class="ap-name">'+esc(a.name)+'</span></div>';
+    html+='<button class="ap-card" data-id="'+esc(a.id)+'">';
+    html+='<div class="ap-head"><span class="ap-ico">'+apIcon(a.id)+'</span><span class="ap-name">'+esc(a.name)+'</span><span class="go">'+ico('chev')+'</span></div>';
     html+='<div class="ap-tagline">'+esc(a.tagline)+'</div>';
     html+='<div class="ap-badges">'+a.badges.map(b=>'<span class="badge">'+esc(b)+'</span>').join('')+'</div>';
-    html+='<button class="ap-open" data-id="'+esc(a.id)+'">📄 דף גישה</button>';
-    html+='</div>';
+    html+='</button>';
   }
   el.innerHTML=html;
-  el.querySelectorAll('.ap-open').forEach(b=>b.addEventListener('click',()=>openApproach(b.dataset.id)));
+  el.querySelectorAll('.ap-card').forEach(b=>b.addEventListener('click',()=>openApproach(b.dataset.id)));
 }
 function openApproach(id){
-  const a=APPROACHES.find(x=>x.id===id); if(!a)return;
+  const a=APPROACHES.find(x=>x.id===id);if(!a)return;
   const c=document.getElementById('ap-page-content');
-  let h='<button class="ap-back" onclick="closeApproach()">← חזרה לגישות</button>';
-  h+='<div class="ap-hero" style="background:'+esc(a.color)+'"><span class="ap-emoji">'+a.emoji+'</span><h1>'+esc(a.name)+'</h1><p>'+esc(a.tagline)+'</p></div>';
-  h+='<div class="sec"><h3>🧭 תחומים שאפשר להחיל עליהם</h3><div class="chips">'+a.domains.map(d=>'<span class="chip">'+esc(d)+'</span>').join('')+'</div></div>';
-  h+='<div class="sec"><h3>🏗️ המבנה, צעד אחרי צעד</h3><ol>'+a.structure.map(s=>'<li>'+esc(s)+'</li>').join('')+'</ol></div>';
-  h+='<div class="sec"><h3>🎨 ויזואל · '+esc(a.visual.type)+'</h3><p>'+esc(a.visual.desc)+'</p>';
+  let h='<div class="ap-hero"><span class="ap-ico">'+apIcon(a.id)+'</span><h1>'+esc(a.name)+'</h1><p>'+esc(a.tagline)+'</p></div>';
+  h+='<div class="sec"><h3>'+ico('target')+'תחומים שאפשר להחיל עליהם</h3><div class="chips">'+a.domains.map(d=>'<span class="chip">'+esc(d)+'</span>').join('')+'</div></div>';
+  h+='<div class="sec"><h3>'+ico('text')+'המבנה, צעד אחרי צעד</h3><ol>'+a.structure.map(s=>'<li>'+esc(s)+'</li>').join('')+'</ol></div>';
+  h+='<div class="sec"><h3>'+ico('image')+'ויזואל · '+esc(a.visual.type)+'</h3><p>'+esc(a.visual.desc)+'</p>';
   if(a.visual.higgsfieldPrompt){
     h+='<p style="margin-top:8px;font-size:12px;color:var(--soft)">פרומפט היגספילד ('+esc(a.visual.higgsfieldModel)+'), מחליפים את מה שבסוגריים:</p>';
     h+='<div class="prompt-box">'+esc(a.visual.higgsfieldPrompt)+'</div>';
-    h+='<button class="copy-mini" onclick=\'copyCmd('+JSON.stringify('צור לי ויזואל בהיגספילד לפי הפרומפט הזה, מודל '+a.visual.higgsfieldModel+': '+a.visual.higgsfieldPrompt)+')\'>📋 העתק פקודת יצירה</button>';
+    h+='<button class="copy-mini" onclick=\'copyCmd('+JSON.stringify('צור לי ויזואל בהיגספילד לפי הפרומפט הזה, מודל '+a.visual.higgsfieldModel+': '+a.visual.higgsfieldPrompt)+')\'>'+ico('copy')+'העתק פקודת יצירה</button>';
   }
   h+='</div>';
-  h+='<div class="sec"><h3>📱 פלטפורמות</h3><ul>'+a.platforms.map(p=>'<li>'+esc(p)+'</li>').join('')+'</ul></div>';
-  h+='<div class="sec"><h3>👥 קהל יעד</h3><p>'+esc(a.audience)+'</p></div>';
-  h+='<div class="sec"><h3>💎 הערך שהגישה נותנת</h3><p>'+esc(a.value)+'</p></div>';
-  h+='<div class="sec"><h3>🔀 שילוב ופיתוח</h3><p>'+esc(a.combine)+'</p>';
+  h+='<div class="sec"><h3>'+ico('film')+'פלטפורמות</h3><ul>'+a.platforms.map(p=>'<li>'+esc(p)+'</li>').join('')+'</ul></div>';
+  h+='<div class="sec"><h3>'+ico('bulb')+'קהל יעד</h3><p>'+esc(a.audience)+'</p></div>';
+  h+='<div class="sec"><h3>'+ico('bolt')+'הערך שהגישה נותנת</h3><p>'+esc(a.value)+'</p></div>';
+  h+='<div class="sec"><h3>'+ico('cards')+'שילוב ופיתוח</h3><p>'+esc(a.combine)+'</p>';
   if(a.series)h+='<p style="margin-top:6px"><b>רעיון לסדרה:</b> '+esc(a.series)+'</p>';
   h+='</div>';
-  h+='<div class="sec"><h3>🚫 טעויות נפוצות</h3><ul>'+a.mistakes.map(m=>'<li>'+esc(m)+'</li>').join('')+'</ul></div>';
-  h+='<div class="sec"><h3>💬 דוגמת הוק</h3><div class="ex-hook">"'+esc(a.exampleHook)+'"</div></div>';
-  h+='<button class="write-btn" onclick=\'copyCmd('+JSON.stringify('כתוב פוסט מלא בקול שלי בגישת "'+a.name+'" (לפי דף הגישה באפליקציה). נושא: ')+')\'>✍️ כתוב פוסט בגישה הזאת</button>';
+  h+='<div class="sec"><h3>'+ico('eyeoff')+'טעויות נפוצות</h3><ul>'+a.mistakes.map(m=>'<li>'+esc(m)+'</li>').join('')+'</ul></div>';
+  h+='<div class="sec"><h3>'+ico('pen')+'דוגמת הוק</h3><div class="ex-hook">"'+esc(a.exampleHook)+'"</div></div>';
+  h+='<button class="write-btn" onclick=\'copyCmd('+JSON.stringify('כתוב פוסט מלא בקול שלי בגישת "'+a.name+'" (לפי דף הגישה באפליקציה). נושא: ')+')\'>'+ico('pen','lg')+'כתוב פוסט בגישה הזאת</button>';
   c.innerHTML=h;
-  document.getElementById('ap-page').classList.add('open');
-  document.getElementById('ap-page').scrollTop=0;
+  go({screen:'approach',ap:a.id});
 }
-function closeApproach(){document.getElementById('ap-page').classList.remove('open')}
 
-/* ---------- Links ---------- */
+/* ---------- links ---------- */
+let LINKS=null,lkFilter=-1;
 function renderLinks(data){
+  if(data)LINKS=data;
   const el=document.getElementById('links');
-  let html='<p style="font-size:13px;color:var(--soft);margin-bottom:14px">כל ההשראות והמקורות של המערכת, לפי נושא. כל לינק הוא רעיון לפוסט או לסדרה.</p>';
-  for(const cat of data.categories){
-    html+='<div class="lk-cat"><h2>'+cat.emoji+' '+esc(cat.name)+'</h2>';
+  let html='<p class="intro">כל ההשראות והמקורות של המערכת, לפי נושא. כל לינק הוא רעיון לפוסט או לסדרה.</p>';
+  html+='<div class="lk-filters"><button class="fchip'+(lkFilter<0?' on':'')+'" data-f="-1">הכל</button>';
+  LINKS.categories.forEach((c,i)=>{html+='<button class="fchip'+(lkFilter===i?' on':'')+'" data-f="'+i+'">'+ico('c'+(i%8))+esc(c.name)+'</button>'});
+  html+='</div>';
+  LINKS.categories.forEach((cat,i)=>{
+    if(lkFilter>=0&&lkFilter!==i)return;
+    html+='<div class="lk-cat"><h2>'+ico('c'+(i%8))+esc(cat.name)+'</h2>';
     for(const l of cat.links){
       html+='<a class="lk" href="'+esc(l.url)+'" target="_blank" rel="noopener"><span class="lk-tag">'+esc(l.tag)+'</span><b>'+esc(l.title)+'</b><p>'+esc(l.desc)+'</p></a>';
     }
     html+='</div>';
-  }
+  });
   el.innerHTML=html;
+  el.querySelectorAll('.fchip').forEach(b=>b.addEventListener('click',()=>{lkFilter=+b.dataset.f;renderLinks()}));
 }
 
-/* ---------- Load ---------- */
+/* ---------- load ---------- */
+document.getElementById('ver').textContent='גרסת דף: '+SITE_VER;
+apply({screen:'app',tab:'feed'});
 const v='?v='+Date.now();
 fetch('posts.json'+v).then(r=>r.json()).then(renderFeed).catch(()=>{document.getElementById('feed').textContent='לא הצלחתי לטעון את הבריף'});
 fetch('approaches.json'+v).then(r=>r.json()).then(renderApproaches).catch(()=>{document.getElementById('approaches').textContent='לא הצלחתי לטעון גישות'});
