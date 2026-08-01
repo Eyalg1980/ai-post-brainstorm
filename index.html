@@ -221,6 +221,87 @@
   .applinks a{text-decoration:none;color:var(--soft);border:1.5px dashed var(--line);background:var(--white);
               font-size:11.5px;font-weight:600;padding:6px 12px;border-radius:999px;display:inline-flex;align-items:center;gap:5px}
   .loading{text-align:center;color:var(--soft);padding:40px 0;font-size:14px}
+
+  /* ============================================================
+     DESKTOP · min-width 1024px
+     תוספת בלבד. שום כלל מעל השורה הזו לא השתנה, ולכן המובייל זהה.
+     ============================================================ */
+  @media (min-width:1024px){
+    :root{ --rail:236px; --band:1400px; --gut:28px; --railx:max(0px, calc(50% - (var(--band) / 2))); }
+
+    body{
+      max-width:var(--band);
+      padding:0 var(--gut) 56px;
+      padding-inline-start:calc(var(--rail) + var(--gut));
+    }
+
+    /* --- ראש הסרגל: לוגו וכפתור חזרה --- */
+    .appbar{
+      position:fixed; top:0; left:auto; right:var(--railx);
+      width:var(--rail); height:104px;
+      margin:0; padding:18px 16px 0;
+      flex-direction:column; align-items:stretch; gap:10px;
+      background:transparent; backdrop-filter:none; border-bottom:none;
+      z-index:51;
+    }
+    .appbar .back{ order:2; align-self:flex-start; margin-inline-start:2px }
+    .appbar .logo{ order:1; flex:none; justify-content:center }
+    .abspacer{ display:none }
+
+    /* --- הטאבים הופכים לסרגל צד --- */
+    .navwrap{
+      position:fixed; top:0; bottom:0; left:auto; right:var(--railx);
+      width:var(--rail); z-index:50;
+      padding:104px 12px 24px; background:var(--paper);
+      border-inline-end:1px solid var(--line);
+    }
+    .navwrap nav{ flex-direction:column; gap:4px; border-radius:18px }
+    .navwrap nav button{
+      flex:none; justify-content:flex-start; gap:10px;
+      padding:11px 14px; border-radius:14px; text-align:start;
+    }
+    /* הוורדמארק חייב להתכווץ כדי להיכנס לרוחב הסרגל */
+    .logo{ gap:8px }
+    .logo .wm{ font-size:13px; letter-spacing:1.1px }
+    /* הסרגל נשאר גם בדף גישה, אחרת הפריסה קופצת */
+    #scr-app:not(.active){ display:block }
+    #scr-app:not(.active) > *:not(.navwrap){ display:none !important }
+
+    /* --- הבריף: פיד רב-טורי --- */
+    #feed section{
+      display:grid; grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:18px; align-items:start;
+    }
+    #feed section > .date-chip, #feed section > h2{ grid-column:1/-1 }
+    .card{ margin-bottom:0 }
+    .card-actions{ flex-direction:row; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px }
+    .hero p{ max-width:none }
+
+    /* --- גישות: רשת כרטיסים. ה-JS כותב display inline, לכן ההתאמה לפי ה-attribute --- */
+    #approaches[style*="block"]{
+      display:grid !important; grid-template-columns:repeat(2,minmax(0,1fr));
+      gap:14px; align-items:start;
+    }
+    #approaches > .intro{ grid-column:1/-1 }
+    .ap-card{ margin-bottom:0 }
+
+    /* --- מאגרים: לינקים בטורים, צ'יפים נשברים לשורות --- */
+    .lk-filters{ flex-wrap:wrap; overflow-x:visible }
+    .lk-cat{ display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; align-items:start }
+    .lk-cat > h2{ grid-column:1/-1 }
+    .lk{ margin-bottom:0 }
+
+    /* --- דף גישה מלא --- */
+    #ap-page-content{ columns:2; column-gap:26px }
+    #ap-page-content > .sec{ break-inside:avoid }
+    #ap-page-content > .ap-hero, #ap-page-content > .write-btn{ column-span:all }
+    .write-btn{ max-width:420px; margin-inline:auto }
+  }
+
+  @media (min-width:1500px){
+    #feed section, #approaches[style*="block"], .lk-cat{ grid-template-columns:repeat(3,minmax(0,1fr)) }
+    #ap-page-content{ columns:3 }
+  }
 </style>
 </head>
 <body>
@@ -274,7 +355,7 @@
 <div id="toast"><svg class="ic" viewBox="0 0 24 24"><path d="m4.5 12.5 5 5 10-11"/></svg> הועתק, הדבק בקלוד</div>
 
 <script>
-const SITE_VER='v3 · 1.8 עיצוב מחדש + צבע לפי תגית';
+const SITE_VER='v4 · 1.8 רספונסיבי לדסקטופ';
 const SITE='https://eyalg1980.github.io/ai-post-brainstorm/';
 
 /* ---------- tag colours: every idea / approach carries its own accent ---------- */
