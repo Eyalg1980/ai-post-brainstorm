@@ -61,15 +61,13 @@
 
   /* ===== hero ===== */
   .hero{text-align:center;padding:22px 6px 2px}
-  .kicker{display:inline-flex;align-items:center;gap:6px;background:var(--ink);color:var(--app);
-          font-size:10.5px;font-weight:700;letter-spacing:.09em;padding:5px 14px;border-radius:999px;margin-bottom:12px}
   .hero h1{font-weight:900;font-size:clamp(30px,9.5vw,40px);letter-spacing:-1px;line-height:1.05;
            position:relative;display:inline-block;padding-bottom:16px}
   .hero h1 .scribble{position:absolute;right:-6px;left:-6px;bottom:0;width:calc(100% + 12px);height:20px;pointer-events:none}
   .hero .sub{font-size:12.5px;color:var(--soft);font-weight:500;margin-top:8px}
   .gen-btn{display:flex;width:100%;align-items:center;justify-content:center;gap:7px;
            border:none;cursor:pointer;font-family:inherit;background:var(--app);color:var(--white);
-           font-size:15px;font-weight:700;padding:14px 12px;border-radius:16px;margin:18px 0 0;
+           font-size:15px;font-weight:700;padding:14px 12px;border-radius:16px;margin:2px 0 16px;
            box-shadow:0 3px 14px rgba(255,107,94,.28)}
   .gen-btn:active{transform:scale(.985)}
 
@@ -272,7 +270,8 @@
       display:grid; grid-template-columns:repeat(2,minmax(0,1fr));
       gap:18px; align-items:start;
     }
-    #feed section > .date-chip, #feed section > h2{ grid-column:1/-1 }
+    #feed section > .date-chip, #feed section > h2, #feed section > .gen-btn{ grid-column:1/-1 }
+    #feed section > .gen-btn{ max-width:420px; margin-inline:auto }
     .card{ margin-bottom:0 }
     .card-actions{ flex-direction:row; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px }
     .hero p{ max-width:none }
@@ -319,14 +318,9 @@
 <div class="screen active" id="scr-app">
 
   <div class="hero">
-    <span class="kicker"><svg class="ic" viewBox="0 0 24 24"><path d="m13 2-8.5 11.2H12l-1 8.8 8.5-11.2H12l1-8.8Z"/></svg> מנוע הרעיונות לפוסטים</span>
     <h1>רעיונות לפוסטים<svg class="scribble" viewBox="0 0 200 20" preserveAspectRatio="none"><path d="M6 12 C 44 4, 92 17, 138 8 C 162 3, 184 7, 195 11" stroke="#FF6B5E" stroke-width="4.2" fill="none" stroke-linecap="round"/><path d="M14 17 C 58 11, 104 19, 150 14 C 170 11, 184 13, 192 15" stroke="#FF6B5E" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".55"/></svg></h1>
     <p class="sub">בריף יומי · גישות כתיבה · מאגרי השראה</p>
   </div>
-
-  <button class="gen-btn" id="gen-btn" onclick="copyCmd('צור עוד 3 רעיונות לפוסטים לבריף של היום, בנוסף לאלה שכבר יש, ועדכן את הדף')">
-    <svg class="ic lg" viewBox="0 0 24 24"><path d="m13 2-8.5 11.2H12l-1 8.8 8.5-11.2H12l1-8.8Z"/></svg> צור עוד רעיונות
-  </button>
 
   <div class="navwrap"><nav>
     <button class="active" data-tab="feed" onclick="showTab('feed')"><svg class="ic" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4"/><path d="M12 2.8a6.4 6.4 0 0 0-3.8 11.5c.5.4.8 1 .8 1.7h6c0-.7.3-1.3.8-1.7A6.4 6.4 0 0 0 12 2.8Z"/></svg> הבריף</button>
@@ -355,7 +349,7 @@
 <div id="toast"><svg class="ic" viewBox="0 0 24 24"><path d="m4.5 12.5 5 5 10-11"/></svg> הועתק, הדבק בקלוד</div>
 
 <script>
-const SITE_VER='v4 · 1.8 רספונסיבי לדסקטופ';
+const SITE_VER='v5 · 1.8 כפתור היצירה מתחת לרעיונות';
 const SITE='https://eyalg1980.github.io/ai-post-brainstorm/';
 
 /* ---------- tag colours: every idea / approach carries its own accent ---------- */
@@ -442,7 +436,6 @@ function apply(s){
   if(s.screen==='app'){
     ['feed','approaches','links'].forEach(t=>{document.getElementById(t).style.display=(t===s.tab?'block':'none')});
     document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===s.tab));
-    document.getElementById('gen-btn').style.display=(s.tab==='feed'?'flex':'none');
   }
   cur=s; syncBack(); window.scrollTo({top:0});
 }
@@ -501,6 +494,7 @@ function renderFeed(data){
   if(pending.length)html+='<button class="fb-btn" id="fb-sync">'+ico('save')+'שמור ('+pending.length+')</button>';
   html+='<button class="fb-btn" id="fb-wa">'+ico('wa')+'שתף</button>';
   html+='</div>';
+  let firstDay=true;
   for(const day of days){
     const ideas=(day.ideas||[]).filter(i=>!(hide&&(used.has(i.id)||i.used===true)));
     if(!ideas.length&&hide)continue;
@@ -529,6 +523,11 @@ function renderFeed(data){
       html+='<button class="expand-btn" data-cmd="'+esc(cmd)+'">'+ico('pen')+'כתוב פוסט מלא</button>';
       html+='</div></div></article>';
     }
+    /* the generate button lives under the newest day's ideas, not at the top of the page */
+    if(firstDay){
+      html+='<button class="gen-btn" id="gen-btn">'+ico('bolt','lg')+'צור עוד רעיונות</button>';
+      firstDay=false;
+    }
     if(day.articles&&day.articles.length){
       html+='<h2>'+ico('news')+'שווה קריאה</h2>';
       for(const a of day.articles){
@@ -548,6 +547,8 @@ function renderFeed(data){
     saveUsed(s);renderFeed();
   }));
   feed.querySelectorAll('.icon-btn[data-wa]').forEach(b=>b.addEventListener('click',()=>waShare(WABANK[+b.dataset.wa])));
+  const gb=document.getElementById('gen-btn');
+  if(gb)gb.addEventListener('click',()=>copyCmd('צור עוד 3 רעיונות לפוסטים לבריף של היום, בנוסף לאלה שכבר יש, ועדכן את הדף'));
   const fw=document.getElementById('fb-wa');
   if(fw)fw.addEventListener('click',()=>waShare('Post Brainstorm, הרעיונות לפוסטים של היום:\n'+SITE));
   const fh=document.getElementById('fb-hide');
