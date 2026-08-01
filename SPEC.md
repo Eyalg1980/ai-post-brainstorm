@@ -63,7 +63,7 @@ All idea/article source URLs must be REAL pages you actually fetched or received
 3. Commit, then push BOTH branches using the token provided in your instructions:
    `git -c credential.helper='!f() { echo "username=x-access-token"; echo "password=<TOKEN>"; }; f' push origin main && git branch -f gh-pages main && git -c credential.helper=... push origin gh-pages`
 4. Verify with WebFetch that https://eyalg1980.github.io/ai-post-brainstorm/posts.json contains the new date (Pages takes ~1 min; the sandbox proxy blocks direct curl to github.io, use WebFetch).
-5. If the Google Drive connector is available, also save a copy of the day's brief data (optional, non-blocking) to simpla-workspace/projects/ai-post-brainstorm.
+5. Save the day's brief to Drive (do not skip it, it is the searchable archive). Folder: simpla-workspace/projects/ai-post-brainstorm, id `1OqiOKrrZViW3zZ9DlB_Ui7ZhvYNuvE4n`. File name `brief-YYYY-MM-DD.html`, a small RTL HTML page with the day's hooks, angles, why-now, source links and the ready image/video prompts. Upload with `create_file` using `textContent`, `contentMimeType: text/html` and `disableConversionToGoogleType: true`. If the connector is unavailable, say so in the run summary instead of silently skipping.
 
 ## Formats library (Eyal-approved creative templates)
 Rotate these: at least one of the day's ideas should propose one of these formats explicitly in its `angle` ("פורמט: ..."). Never use the same format two days in a row.
