@@ -11,6 +11,9 @@ Founder of Simpla (boutique UX+AI studio, Tel Aviv). Teaches UX/Product Design a
 3. UX + AI in general (color #7B61FF)
 4. Behind-the-scenes of Eyal's own work — cross one of the day's ideas with what he is actually doing now (mark with the `me` field)
 
+### Colour rule (required, do not skip)
+The pillar colour is not decoration, it is how Eyal scans the feed. Every idea object MUST carry the exact `color` hex of its pillar (the three above). The app reads that hex and re-points its local accent variables, so the card's top stripe, its pillar chip, its icons, the "למה עכשיו" highlight and its active button states all come out in the pillar colour. App chrome (app bar, tabs, hero, date chips, footer) stays coral #FF6B5E always. If a new pillar is ever added, give it a hex that is clearly distinct from the existing three and record it here. Same rule in `approaches.json`: every approach carries its own `color`, and its card plus its full approach page (hero glow, list markers, section icons, example-hook box, write button) render in it.
+
 ## Daily flow
 1. Research TODAY, fresh sources only (last ~7 days). Good starting points:
    - https://www.figma.com/release-notes/ and https://figmalion.com/topics/figma-weave

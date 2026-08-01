@@ -13,10 +13,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Rubik:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
   :root{
-    /* ONE accent for the whole app. This is Post Brainstorm's colour. */
+    /* App accent: chrome (app bar, tabs, hero, footer) is always coral. */
     --app:#FF6B5E;
     --app-soft:#FFEDEB;
     --app-line:#FFC9C3;
+    /* Content accent: each card overrides these inline with its tag colour. */
+    --c:var(--app); --c-soft:var(--app-soft); --c-line:var(--app-line);
+    --c-deep:#8A3229; --c-glow:rgba(255,107,94,.28);
     --paper:#F7F5F0; --ink:#141F3D; --soft:#5F6C8A; --white:#FFFFFF;
     --line:#E4E0D6; --line2:#EDEAE1;
     --radius:20px; --bar:61px;
@@ -95,27 +98,31 @@
   .date-chip span{display:inline-flex;align-items:center;gap:6px;background:var(--ink);color:var(--app);
                   font-size:11.5px;font-weight:700;padding:6px 16px;border-radius:999px;letter-spacing:.02em}
   .card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);
-        padding:17px 17px 14px;margin-bottom:14px;position:relative;overflow:hidden}
-  .card::before{content:"";position:absolute;top:0;right:0;bottom:0;width:4px;background:var(--app)}
+        padding:18px 17px 14px;margin-bottom:14px;position:relative;overflow:hidden}
+  /* the tag stripe: full-width bar at the top of the card, in the tag colour */
+  .card::before{content:"";position:absolute;top:0;inset-inline:0;height:4px;background:var(--c)}
+  /* every icon inside a card inherits that card's tag colour */
+  .card .label .ic,.card .tag .ic,.card .src .ic,.card .why .ic{color:var(--c)}
   .tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
   .tag{font-size:11px;font-weight:600;padding:4px 11px;border-radius:999px;
-       background:var(--app-soft);color:var(--app);border:1px dashed var(--app-line);
+       background:var(--c-soft);color:var(--c);border:1px dashed var(--c-line);
        display:inline-flex;align-items:center;gap:4px}
+  .tag .dot{width:7px;height:7px;border-radius:50%;background:var(--c);flex:none}
   .tag.ghost{background:none;color:var(--soft);border-color:var(--line)}
   .hook{font-size:18px;font-weight:700;line-height:1.42;margin-bottom:12px}
   .label{font-size:10.5px;font-weight:700;color:var(--soft);letter-spacing:.08em;margin-bottom:3px;
          display:flex;align-items:center;gap:5px;text-transform:uppercase}
   .angle{font-size:14.5px;color:#2C3757;margin-bottom:11px}
   .why{font-size:13.5px;color:#2C3757;background:#F4F2EC;border-radius:13px;padding:10px 12px;margin-bottom:13px}
-  .why b{color:var(--app)}
+  .why b{color:var(--c)}
 
   .prompts{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 13px}
   .p-btn{border:1.5px dashed var(--line);cursor:pointer;font-family:inherit;background:var(--white);color:var(--soft);
          font-size:11.5px;font-weight:600;padding:6px 11px;border-radius:999px;
          display:inline-flex;align-items:center;gap:5px}
-  .p-btn.ready{color:var(--ink);border-color:var(--app-line);border-style:solid}
-  .p-btn.ready::after{content:"";width:5px;height:5px;border-radius:50%;background:var(--app)}
-  .p-btn:active{background:var(--app-soft);transform:scale(.97)}
+  .p-btn.ready{color:var(--ink);border-color:var(--c-line);border-style:solid}
+  .p-btn.ready::after{content:"";width:5px;height:5px;border-radius:50%;background:var(--c)}
+  .p-btn:active{background:var(--c-soft);transform:scale(.97)}
 
   .card-actions{display:flex;flex-direction:column;gap:10px;align-items:stretch;
                 border-top:1.5px dashed var(--line2);padding-top:12px}
@@ -126,10 +133,10 @@
   .src small{color:var(--soft);font-weight:400;white-space:nowrap}
   .icon-btn{border:1.5px dashed var(--line);cursor:pointer;font-family:inherit;background:var(--white);color:var(--soft);
             width:34px;height:34px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-size:15px}
-  .icon-btn:active{color:var(--app);border-color:var(--app)}
+  .icon-btn:active{color:var(--c);border-color:var(--c)}
   .use-btn{border:1.5px dashed var(--line);cursor:pointer;font-family:inherit;background:var(--white);color:var(--soft);
            font-size:11.5px;font-weight:600;padding:7px 12px;border-radius:999px;display:inline-flex;align-items:center;gap:5px}
-  .use-btn.on{background:var(--app-soft);border:1.5px solid var(--app-line);color:var(--app)}
+  .use-btn.on{background:var(--c-soft);border:1.5px solid var(--c-line);color:var(--c)}
   .expand-btn{border:none;cursor:pointer;font-family:inherit;margin-inline-start:auto;background:var(--ink);color:var(--white);
               font-size:12.5px;font-weight:600;padding:9px 15px;border-radius:999px;display:inline-flex;align-items:center;gap:6px}
   .expand-btn:active{transform:scale(.97)}
@@ -151,9 +158,9 @@
   .ap-card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);
            padding:15px 16px 14px;margin-bottom:11px;position:relative;overflow:hidden;
            cursor:pointer;display:block;width:100%;text-align:start;font-family:inherit;color:inherit}
-  .ap-card::before{content:"";position:absolute;top:0;right:0;bottom:0;width:4px;background:var(--app)}
+  .ap-card::before{content:"";position:absolute;top:0;inset-inline:0;height:4px;background:var(--c)}
   .ap-head{display:flex;align-items:center;gap:11px;margin-bottom:6px}
-  .ap-ico{width:36px;height:36px;min-width:36px;border-radius:11px;background:var(--app-soft);color:var(--app);
+  .ap-ico{width:36px;height:36px;min-width:36px;border-radius:11px;background:var(--c-soft);color:var(--c);
           display:flex;align-items:center;justify-content:center;font-size:19px}
   .ap-name{font-size:16px;font-weight:700;flex:1}
   .ap-head .go{color:var(--soft);font-size:15px;display:flex}
@@ -164,29 +171,30 @@
 
   .ap-hero{background:var(--ink);border-radius:var(--radius);padding:20px 18px;margin:16px 0 14px;color:var(--white);position:relative;overflow:hidden}
   .ap-hero::after{content:"";position:absolute;top:-60px;inset-inline-start:-30px;width:170px;height:170px;border-radius:50%;
-                  background:radial-gradient(circle,rgba(255,107,94,.30),transparent 68%)}
-  .ap-hero .ap-ico{background:var(--app);color:var(--white);width:42px;height:42px;border-radius:13px;font-size:22px;margin-bottom:10px;position:relative;z-index:1}
+                  background:radial-gradient(circle,var(--c-glow),transparent 68%)}
+  .ap-hero .ap-ico{background:var(--c);color:var(--white);width:42px;height:42px;border-radius:13px;font-size:22px;margin-bottom:10px;position:relative;z-index:1}
   .ap-hero h1{font-size:22px;font-weight:800;line-height:1.3;margin-bottom:4px;position:relative;z-index:1}
   .ap-hero p{font-size:13.5px;opacity:.85;position:relative;z-index:1}
   .sec{background:var(--white);border:1px solid var(--line);border-radius:16px;padding:15px 16px;margin-bottom:10px}
+  .sec h3 .ic{color:var(--c)}
   .sec h3{font-size:11.5px;font-weight:700;color:var(--soft);letter-spacing:.06em;margin-bottom:9px;
           display:flex;align-items:center;gap:6px;text-transform:uppercase}
   .sec p{font-size:14px;color:#2C3757}
   .sec ol,.sec ul{padding-inline-start:19px;font-size:14px;color:#2C3757}
   .sec ol li,.sec ul li{margin-bottom:6px}
-  .sec ol li::marker{color:var(--app);font-weight:700}
-  .sec ul li::marker{color:var(--app)}
+  .sec ol li::marker{color:var(--c);font-weight:700}
+  .sec ul li::marker{color:var(--c)}
   .chips{display:flex;gap:6px;flex-wrap:wrap}
   .chip{font-size:12px;font-weight:600;padding:5px 12px;border-radius:999px;background:none;color:var(--soft);border:1px dashed var(--line)}
   .prompt-box{background:var(--ink);color:#D8DFF2;border-radius:13px;padding:12px;font-size:12px;direction:ltr;text-align:left;
               font-family:ui-monospace,monospace;line-height:1.5;margin-top:8px;word-break:break-word}
-  .copy-mini{border:1.5px dashed var(--app-line);cursor:pointer;font-family:inherit;background:var(--app-soft);color:var(--app);
+  .copy-mini{border:1.5px dashed var(--c-line);cursor:pointer;font-family:inherit;background:var(--c-soft);color:var(--c);
              font-size:12px;font-weight:700;padding:8px 15px;border-radius:999px;margin-top:9px;display:inline-flex;align-items:center;gap:6px}
-  .ex-hook{background:var(--app-soft);border:1.5px dashed var(--app-line);border-radius:13px;padding:12px 13px;
-           font-size:14px;font-weight:500;color:#8A3229}
-  .write-btn{border:none;cursor:pointer;font-family:inherit;width:100%;background:var(--app);color:var(--white);
+  .ex-hook{background:var(--c-soft);border:1.5px dashed var(--c-line);border-radius:13px;padding:12px 13px;
+           font-size:14px;font-weight:500;color:var(--c-deep)}
+  .write-btn{border:none;cursor:pointer;font-family:inherit;width:100%;background:var(--c);color:var(--white);
              font-size:14.5px;font-weight:700;padding:14px;border-radius:16px;margin-top:6px;
-             display:flex;align-items:center;justify-content:center;gap:7px;box-shadow:0 3px 14px rgba(255,107,94,.28)}
+             display:flex;align-items:center;justify-content:center;gap:7px;box-shadow:0 3px 14px var(--c-glow)}
 
   /* ===== links ===== */
   .lk-filters{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px;margin:0 0 14px;scrollbar-width:none}
@@ -266,8 +274,29 @@
 <div id="toast"><svg class="ic" viewBox="0 0 24 24"><path d="m4.5 12.5 5 5 10-11"/></svg> הועתק, הדבק בקלוד</div>
 
 <script>
-const SITE_VER='v3 · 1.8 עיצוב מחדש';
+const SITE_VER='v3 · 1.8 צבע לפי תיוג';
 const SITE='https://eyalg1980.github.io/ai-post-brainstorm/';
+
+/* ---------- tag colours: every idea / approach carries its own accent ---------- */
+const PALETTE=['#FF6B5E','#2BB3A3','#7B61FF','#FFC940','#3D8BFF','#E8598B','#F2A03D','#1B2A4A'];
+const PILLAR_C={'Figma Weave':'#FF6B5E','הוראה והכשרה של AI':'#2BB3A3','UX + AI':'#7B61FF'};
+function hex2rgb(h){h=(h||'').replace('#','');if(h.length===3)h=h.split('').map(x=>x+x).join('');
+  return [parseInt(h.slice(0,2),16)||0,parseInt(h.slice(2,4),16)||0,parseInt(h.slice(4,6),16)||0]}
+function toHex(a){return '#'+a.map(v=>Math.max(0,Math.min(255,Math.round(v))).toString(16).padStart(2,'0')).join('')}
+function tint(h,t){return toHex(hex2rgb(h).map(v=>v+(255-v)*t))}
+function shade(h,t){return toHex(hex2rgb(h).map(v=>v*(1-t)))}
+function hashPick(s){let h=0;for(let i=0;i<(s||'').length;i++)h=(h*31+s.charCodeAt(i))>>>0;return PALETTE[h%PALETTE.length]}
+function tagColor(o){
+  const c=o&&o.color;
+  if(c&&/^#[0-9a-fA-F]{6}$/.test(c))return c;
+  return PILLAR_C[o&&o.pillar]||hashPick((o&&(o.pillar||o.name||o.id))||'');
+}
+/* returns an inline style string that re-points --c and friends for one card */
+function cvars(hex){
+  const [r,g,b]=hex2rgb(hex);
+  return '--c:'+hex+';--c-soft:'+tint(hex,.89)+';--c-line:'+tint(hex,.60)
+       +';--c-deep:'+shade(hex,.40)+';--c-glow:rgba('+r+','+g+','+b+',.28)';
+}
 
 /* ---------- icon set: single colour, always currentColor ---------- */
 const I={
@@ -398,8 +427,9 @@ function renderFeed(data){
     for(const idea of ideas){
       const isUsed=used.has(idea.id)||idea.used===true;
       const cmd='כתוב פוסט מלא בקול שלי מהרעיון הזה (בריף '+day.dateLabel+'): "'+idea.hook+'"';
-      html+='<article class="card'+(isUsed?' used':'')+'">';
-      html+='<div class="tags"><span class="tag">'+esc(idea.pillar)+'</span>';
+      const col=tagColor(idea);
+      html+='<article class="card'+(isUsed?' used':'')+'" style="'+cvars(col)+'">';
+      html+='<div class="tags"><span class="tag"><i class="dot"></i>'+esc(idea.pillar)+'</span>';
       if(idea.me)html+='<span class="tag ghost">'+ico('pen')+esc(idea.me)+'</span>';
       if(isUsed)html+='<span class="tag ghost">'+ico('check')+'נוצל</span>';
       html+='</div><div class="hook">"'+esc(idea.hook)+'"</div>';
@@ -455,7 +485,7 @@ function renderApproaches(data){
   const el=document.getElementById('approaches');
   let html='<p class="intro">'+APPROACHES.length+' גישות מנותחות לעומק. כל דף גישה מכיל את המבנה, הוויזואל, טעויות נפוצות ופרומפט מוכן.</p>';
   for(const a of APPROACHES){
-    html+='<button class="ap-card" data-id="'+esc(a.id)+'">';
+    html+='<button class="ap-card" data-id="'+esc(a.id)+'" style="'+cvars(tagColor(a))+'">';
     html+='<div class="ap-head"><span class="ap-ico">'+apIcon(a.id)+'</span><span class="ap-name">'+esc(a.name)+'</span><span class="go">'+ico('chev')+'</span></div>';
     html+='<div class="ap-tagline">'+esc(a.tagline)+'</div>';
     html+='<div class="ap-badges">'+a.badges.map(b=>'<span class="badge">'+esc(b)+'</span>').join('')+'</div>';
@@ -467,6 +497,7 @@ function renderApproaches(data){
 function openApproach(id){
   const a=APPROACHES.find(x=>x.id===id);if(!a)return;
   const c=document.getElementById('ap-page-content');
+  c.setAttribute('style',cvars(tagColor(a)));
   let h='<div class="ap-hero"><span class="ap-ico">'+apIcon(a.id)+'</span><h1>'+esc(a.name)+'</h1><p>'+esc(a.tagline)+'</p></div>';
   h+='<div class="sec"><h3>'+ico('target')+'תחומים שאפשר להחיל עליהם</h3><div class="chips">'+a.domains.map(d=>'<span class="chip">'+esc(d)+'</span>').join('')+'</div></div>';
   h+='<div class="sec"><h3>'+ico('text')+'המבנה, צעד אחרי צעד</h3><ol>'+a.structure.map(s=>'<li>'+esc(s)+'</li>').join('')+'</ol></div>';
