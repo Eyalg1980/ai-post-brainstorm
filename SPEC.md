@@ -27,6 +27,14 @@ The pillar colour is not decoration, it is how Eyal scans the feed. Every idea o
 ## Voice (critical)
 Direct and practical, first person, hands-on ("this is what I actually did"). Warm but not fluffy. Hebrew with natural English tech terms. Short sentences. Active voice. NO em dashes anywhere, NO arrow characters, no hype clichés ("game changer", "mind-blowing"). Hooks are one or two punchy sentences that stop the scroll. If the account skill `eyal-post-writer` is available, load it and follow its voice section over this summary.
 
+## Design language (do not break, do not re-introduce)
+Post Brainstorm is one app in the Daily Board family (Daily Board, Daily Director, Post Brainstorm). Rules settled 1.8.2026:
+- **Two levels of colour, and only two.** App chrome (sticky app bar, tab pills, hero, date chips, generate button, footer) is ALWAYS the app's own colour, coral `#FF6B5E`. Content is coloured by its tag, per the Colour rule above: each card re-points the local `--c` / `--c-soft` / `--c-line` / `--c-deep` / `--c-glow` variables to its pillar or approach hex, and everything inside that card follows. Never invent a third level, and never hard-code a hex inside a component.
+- **Icons are single-colour inline stroke SVG** that inherit `currentColor`, from the `.ic` class and the `I{}` icon map at the top of the script in `index.html`. NO emojis in the UI. The leftover `emoji` fields in `approaches.json` and `links.json` are legacy and unused, do not render them and do not add new ones. A new approach or category needs a new entry in the icon map, not an emoji.
+- **Sticky app bar** on every screen: round dashed back button on the right driven by the `navHist` stack, wordmark centred, `Post` in ink and `Brainstorm` in coral. Any new screen must be registered in `apply()` and reached through `go()`, so both the in-app back button and the phone's own back gesture keep working.
+- Base palette: paper `#F7F5F0`, ink `#141F3D`, white cards, dashed pills, Rubik + Poppins. Same Simpla family as the Daily Board and the Daily Director.
+Bump `SITE_VER` in `index.html` on any UI change, Eyal's in-app browser caches aggressively.
+
 ## App structure (do not break)
 The site is a 3-tab SPA: `index.html` renders `posts.json` (הבריף tab), `approaches.json` (גישות פוסטים tab: compact cards + full approach pages), `links.json` (מאגרי לינקים tab). The daily run touches ONLY `posts.json`. When Eyal sends new inspiration links, add them to `links.json` (right category, short Hebrew desc, tag). When a new post approach is defined, add it to `approaches.json` following the existing field schema.
 
