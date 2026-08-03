@@ -230,40 +230,24 @@
     body{
       max-width:var(--band);
       padding:0 var(--gut) 56px;
-      padding-inline-start:calc(var(--rail) + var(--gut));
     }
 
-    /* --- ראש הסרגל: לוגו וכפתור חזרה --- */
+    /* --- ה-appbar נשאר header עליון, נמתח על כל רוחב התוכן --- */
     .appbar{
-      position:fixed; top:0; left:auto; right:var(--railx);
-      width:var(--rail); height:104px;
-      margin:0; padding:18px 16px 0;
-      flex-direction:column; align-items:stretch; gap:10px;
-      background:transparent; backdrop-filter:none; border-bottom:none;
-      z-index:51;
+      margin:0 calc(var(--gut) * -1);
+      padding:calc(12px + env(safe-area-inset-top)) var(--gut) 12px;
     }
-    .appbar .back{ order:2; align-self:flex-start; margin-inline-start:2px }
-    .appbar .logo{ order:1; flex:none; justify-content:center }
-    .abspacer{ display:none }
+    .appbar .logo{ flex:1; justify-content:flex-start }
 
-    /* --- הטאבים הופכים לסרגל צד --- */
+    /* --- הטאבים: שורת header מתחת ללוגו, לא סרגל צד --- */
     .navwrap{
-      position:fixed; top:0; bottom:0; left:auto; right:var(--railx);
-      width:var(--rail); z-index:50;
-      padding:104px 12px 24px; background:var(--paper);
-      border-inline-end:1px solid var(--line);
+      top:62px;
+      margin:0 calc(var(--gut) * -1) 8px;
+      padding:10px var(--gut) 12px;
+      border-bottom:1px solid var(--line);
     }
-    .navwrap nav{ flex-direction:column; gap:4px; border-radius:18px }
-    .navwrap nav button{
-      flex:none; justify-content:flex-start; gap:10px;
-      padding:11px 14px; border-radius:14px; text-align:start;
-    }
-    /* הוורדמארק חייב להתכווץ כדי להיכנס לרוחב הסרגל */
-    .logo{ gap:8px }
-    .logo .wm{ font-size:13px; letter-spacing:1.1px }
-    /* הסרגל נשאר גם בדף גישה, אחרת הפריסה קופצת */
-    #scr-app:not(.active){ display:block }
-    #scr-app:not(.active) > *:not(.navwrap){ display:none !important }
+    .navwrap nav{ max-width:620px; margin:0 auto }
+    .navwrap nav button{ padding:10px 6px; font-size:14px }
 
     /* --- הבריף: פיד רב-טורי --- */
     #feed section{
