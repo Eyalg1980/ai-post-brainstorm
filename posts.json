@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-08-03",
+      "dateLabel": "יום שני, 3 באוגוסט",
+      "ideas": [
+        {
+          "id": "2026-08-03-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": "מהשיטה בכיתה שלך",
+          "hook": "סטודנט הצביע על המסך ואמר: זה מרגיש צפוף. הוא לא ידע להסביר למה. השבוע פיגמה הפכה בדיוק את הרגע הזה לפיצ'ר.",
+          "angle": "פורמט: מהכיתה לשטח. בשיטת הבנייה בכיתה שלך הסטודנט לא מזיז פיקסלים. הוא מסמן על הפיגמה מה מפריע, מתאר בכמה מילים, וקלוד ממשיך לבנות. ב-30.7 פיגמה שחררה את פאנל העריכה החדש של Make: מסמנים נקודה על המסך, מתארים כוונה, והסוכן מבצע. שליטה עדינה במרווחים, טיפוגרפיה ולייאאוט, לצד אנוטציות חופשיות. העיקרון שהכיתה לימדה אותך לפני שהכלי הגיע: לולאת התיקון, לא הג'נרוט הראשון, היא הממשק האמיתי בין מעצב לסוכן. מי שיודע לנסח מה מפריע לו שווה יותר ממי שיודע לגרור.",
+          "why": "הפיצ'ר שוחרר ב-30.7 וכמעט אין עליו תוכן בעברית. וזה בדיוק הטיעון שאתה מלמד: הכוונה חשובה מהקליק.",
+          "srcUrl": "https://www.figma.com/release-notes/",
+          "srcLabel": "Figma Release Notes",
+          "srcDate": "30.7",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A large hand drawn coral circle marks one spot on a minimal wireframe screen, a small speech bubble rises from the marked point toward a friendly rounded cursor character, and a dashed orbit loops between them showing the correction cycle, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A dashed coral circle draws itself around a cramped spot on a minimal wireframe screen, a small speech bubble pops from the mark, and the layout answers by easing apart, elements gliding into aligned positions with soft snaps, calm confident motion graphics mood, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-03-2",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": null,
+          "hook": "מיליון דולר, 20 מעצבי הדרכה, 16 חודשים. ככה נראתה תוכנית מנהלים אחת במארס לפני AI. מה שנשאר ממנה זה משפט אחד: תרגול, לא צריכת תוכן.",
+          "angle": "פורבס פרסמו ב-30.7 סקירה על הדור החדש של למידה ארגונית. מארס בנו מחדש את תוכנית המנהלים החדשים שלהם, בערך 1,500 מנהלים, עם אימון AI וסימולציות אישיות במקום עוד סרטונים. GE HealthCare מריצים רול-פליי מול AI למתמחים ומדווחים על יותר הצעות עבודה בסוף התוכנית. מקינזי מדדו שיפור של כ-20 אחוז במיומנויות תקשורת של עובדים חדשים. וסגן הנשיא של Mars University סגר את זה: תרגול, ולא צריכת תוכן, הוא המדד האמיתי ללמידה. זו בדיוק הפילוסופיה של מהמופשט לאובייקט. כל מפגש נגמר בתוצר ביד, לא במצגת בעיניים.",
+          "why": "90 אחוז מההנהלות מדרגות עכשיו את הלמידה וההדרכה כפונקציית ה-HR שבה AI מייצר הכי הרבה ערך, עלייה מ-74 אחוז ב-2025. מי שמוכר סדנאות צריך עמדה על זה השבוע.",
+          "srcUrl": "https://www.forbes.com/sites/jeannemeister/2026/07/30/how-corporate-learning-is-being-transformed-by-ai/",
+          "srcLabel": "Forbes, Jeanne Meister",
+          "srcDate": "30.7",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay person sits across a tiny table from a friendly round clay robot, mid conversation practice, both leaning in, a tall stack of untouched clay textbooks pushed aside at the edge of the table, warm encouraging mood, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay person rehearses a presentation gesture across a tiny table from a friendly round clay robot, the robot nods and claps its stubby hands, and in the background a tall stack of untouched clay textbooks slowly topples over, gentle stop-motion rhythm, warm playful mood, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-03-3",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "MoonPay שחררו כספת תשלומים שנותנת לקלוד ול-GPT לסגור עסקה לבד. מהשבוע יש צ'קאאוט שאף בן אדם לא יראה.",
+          "angle": "PayBox של MoonPay הוא מהאינטגרציות הראשונות ברמת פרודקשן שנבנו לתשלומים של סוכנים, לא של בני אדם: הסוכן מקבל הרשאה ותקרה, ומבצע. ובאותו שבוע נילסן מדווח ש-41 אחוז מהקונים כבר מתחילים מחקר מוצר אצל עוזר AI, יותר מה-38 אחוז שנכנסים לאתר המותג. עבודת ה-UX החדשה היא לא מסך הרכישה אלא מסכי האמון: איפה עוצרים את הסוכן לאישור אנושי, איך נראית תקרת הוצאה, ומה המשתמש רואה אחרי שהעסקה כבר קרתה בלעדיו. הצ'קאאוט הצטמק. מסך ההרשאה הוא המגרש החדש.",
+          "why": "ההשקה דווחה ב-1.8. מי שמעצב איקומרס יקבל את השאלה הזאת מהלקוח שלו בחודשים הקרובים, ועדיף להגיע אליה עם תשובה.",
+          "srcUrl": "https://www.aiuxdesign.guide/news/ai-ux-daily-aug-1-agent-ready-web-design-agent-payments-accessibility-debt-and",
+          "srcLabel": "AI UX Design Guide",
+          "srcDate": "1.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A small friendly rounded robot stands at a minimal checkout counter holding one large coral coin, while a human figure watches from behind a thin dashed glass wall with a single oversized approval toggle, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A small rounded robot slides a large coral coin across a minimal checkout counter, a dashed ring rotates around an oversized approval toggle until it clicks on, and a thin receipt unrolls between the robot and a watching human figure, crisp minimal motion, thoughtful mood, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Coursera משקיעה 100 מיליון דולר במיזם הלמידה של אנדרו אנג",
+          "desc": "קורסרה קונה שליש מ-LearnVector, סטארטאפ חינוך ה-AI של אנדרו אנג. הכסף הגדול זז מלמידה על AI ללמידה עם AI.",
+          "meta": "Learning News · 30.7",
+          "url": "https://learningnews.com/news/learning-news/2026/coursera-invests-100m-in-andrew-ngs-ai-learning-venture"
+        },
+        {
+          "title": "AI מוציא את הלמידה הארגונית מהכיתה אל תוך העבודה",
+          "desc": "BCG על המעבר מקורסים לסימולציות ותרגול בתוך זרימת העבודה. מסגרת טובה לשיחות מכירה על סדנאות.",
+          "meta": "BCG · 2026",
+          "url": "https://www.bcg.com/publications/2026/ai-is-moving-corporate-learning-out-of-the-classroom"
+        },
+        {
+          "title": "30 הימים הראשונים עם AI בזרימת העיצוב",
+          "desc": "מדריך פרקטי של UX Magazine לשילוב AI בעבודת מעצב, שבוע אחרי שבוע. מתאים לשתף עם סטודנטים שמתחילים.",
+          "meta": "UX Magazine · 2026",
+          "url": "https://uxmag.com/articles/your-first-30-days-with-ai-in-your-design-workflow"
+        }
+      ]
+    },
+    {
       "date": "2026-07-31",
       "dateLabel": "יום שישי, 31 ביולי",
       "ideas": [
