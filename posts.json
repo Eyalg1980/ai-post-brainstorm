@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-08-04",
+      "dateLabel": "יום שלישי, 4 באוגוסט",
+      "ideas": [
+        {
+          "id": "2026-08-04-1",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": null,
+          "hook": "ארגונים מלמדים עובדים לדבר על AI, ודוחים את הלימוד לעבוד איתו. מחקר חדש נתן לפער הזה שם.",
+          "angle": "לפי הסקירה ב-Learning News מ-29.7, מעסיקים משקיעים ב-AI ליטרסי לתפקיד הנוכחי ודוחים תוכניות הסבה רחבות לאחר כך. הפוסט: ליטרסי בלי תוצר הוא הרצאה. שלושה מבחנים שמפרידים בין קורס שמדבר על AI לקורס שבסופו רץ כלי: מה נשאר פתוח במחשב בסוף המפגש, מי מריץ את התוצר ביום שאחרי, ומה נמדד חוץ משביעות רצון. סיום: הסבה אמיתית לא מתחילה בתוכנית ענק, היא מתחילה בזה שכל מפגש נגמר באובייקט עובד.",
+          "why": "המחקר פורסם ב-29.7, בדיוק כשכל מנהל הדרכה סוגר תקציבי 2027 ומחליט אם לקנות עוד הרצאות או סדנאות שמייצרות תוצר.",
+          "srcUrl": "https://learningnews.com/news/learning-news/2026/ai-training-lags-workplace-adoption-as-reskilling-gap-grows",
+          "srcLabel": "Learning News",
+          "srcDate": "29.7",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A wide gap between two cliff edges, on one side a tiny figure at a lectern with an empty speech bubble, on the other side a glowing workbench with small tools, a thin dashed bridge half built reaching across the gap, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A dashed bridge draws itself plank by plank from a lecture podium on one cliff toward a glowing workbench on the other cliff, a small figure walks across as each plank appears, camera tracks slowly sideways, calm confident mood, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-04-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "מ-2.8 תוכן שנוצר ב-AI באירופה חייב להגיד את זה בקול. נולד רכיב ממשק חדש: התווית. ועדיין אין לו פטרן מוסכם.",
+          "angle": "סעיף 50 של חוק ה-AI האירופי נכנס השבוע לאכיפה: חובת שקיפות על תוכן סינתטי, סימון דיפ-פייק, קנסות עד 7 אחוז מהמחזור. מעצבים קיבלו סטייט חדש לעצב: תווית גילוי שלא הורסת את החוויה ולא נקברת בפוטר. הפוסט ממפה שלוש גישות: תווית מערכת קבועה, גילוי בנקודת המגע בתוך הצ'אט או על התמונה, וגילוי נדחה שנפתח בלחיצה. הטענה: כמו באנרי העוגיות ב-2018, מי שיעצב את זה טוב מוקדם יקבע את הפטרן לכולם. אפשר לעשות את זה רע, ואפשר לעשות מזה שפה.",
+          "why": "החובה נכנסה לאכיפה ב-2.8.2026, השבוע ממש. כל מוצר עם תוכן גנרטיבי שנוגע באירופה צריך תשובה עיצובית עכשיו, לא ברבעון הבא.",
+          "srcUrl": "https://aiagentstore.ai/ai-agent-news/this-week",
+          "srcLabel": "AI Agent Store · סיכום שבועי",
+          "srcDate": "3.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A large friendly rounded label tag tied with a string to a picture frame holding an abstract generated landscape, small dashed sparkles around the tag, a chat bubble and a video player waiting in line below for their own tags, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A rounded label tag swings gently on its string, then hops onto a chat bubble, a video player and a photo card one by one, each object receives its small tag with a soft bounce, camera pulls back to reveal a tidy labeled grid, playful precise mood, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-04-3",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": "מהמופשט לאובייקט, השיטה שלך",
+          "hook": "ב-2016 פיגמה החליפה את הארטבורד בפריים, וכולם חשבו שזה שינוי שם. עשור אחרי, זה הרכיב שסוכנים חושבים בו.",
+          "angle": "פורמט: ביוגרפיה של אובייקט. הפריים נולד כמלבן ציור, ירש את הארטבורד של סקצ' ואילוסטרייטור, למד לקנן פריים בתוך פריים, קיבל ב-2019 אוטו לייאאוט והפך ממסגרת לתבנית התנהגות. היום, כשסוכן בונה מסך דרך MCP, הפריים הוא יחידת המחשבה שלו: מה שהיה קו מתאר למעצב הפך API למכונה. פרק חדש בסדרה, על האובייקט הכי בסיסי בקובץ.",
+          "why": "פרקי ביוגרפיה של אובייקט רצים אצלך עכשיו גם כסדרת וידאו בבמאי היומי. הפריים הוא הפרק שמחבר את הסדרה לפיגמה, נכס אחד בשני ערוצים.",
+          "srcUrl": "https://help.figma.com/hc/en-us/articles/360041539473-Frames-in-Figma-Design",
+          "srcLabel": "Figma Learn · Frames",
+          "srcDate": "4.8",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A proud rectangular clay picture frame standing on tiny legs on a museum pedestal, smaller baby frames nesting inside it like matryoshka dolls, a tiny clay robot arm gently placing one more baby frame inside, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A large clay picture frame opens like a book and rows of neat little clay frames march inside, arranging themselves into a tidy layout while a tiny clay robot arm conducts them like an orchestra, gentle push-in, warm playful mood, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "עובדים לומדים AI בזמן שהביקוש למשרות חשופות ל-AI יורד",
+          "desc": "חמישה מדדי שוק עבודה שמראים למה כולם לומדים AI דווקא כשהמשרות סביבו מתכווצות. רקע מצוין לפוסט על הפער בין ליטרסי להסבה.",
+          "meta": "Learning News · 28.7",
+          "url": "https://learningnews.com/news/learning-news/2026/workers-build-ai-skills-as-demand-weakens-for-ai-exposed-jobs"
+        },
+        {
+          "title": "The last interface: האם הסוכנים מחסלים את העיצוב כמו שאנחנו מכירים אותו",
+          "desc": "מסה ב-UX Collective על היום שבו הממשק האחרון הוא שיחה, ומה נשאר למעצבים לעצב. מתחבר ישירות לפוסט התווית של היום.",
+          "meta": "UX Collective",
+          "url": "https://uxdesign.cc/the-last-interface-6f488a54fc4e"
+        },
+        {
+          "title": "דוח Synthesia: מצב ה-AI בלמידה ופיתוח 2026",
+          "desc": "דוח שנתי עם מספרים על אימוץ AI בהדרכה ארגונית. חומר גלם לטיעונים מול לקוחות ומנהלי L&D.",
+          "meta": "Synthesia · דוח 2026",
+          "url": "https://www.synthesia.io/reports/ai-in-learning-and-development-report-2026"
+        }
+      ]
+    },
+    {
       "date": "2026-08-03",
       "dateLabel": "יום שני, 3 באוגוסט",
       "ideas": [
