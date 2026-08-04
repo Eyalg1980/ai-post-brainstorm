@@ -71,7 +71,7 @@ All idea/article source URLs must be REAL pages you actually fetched or received
 ## Publish
 1. Clone: `git clone https://github.com/Eyalg1980/ai-post-brainstorm.git`
 2. Edit `posts.json` (prepend the new day). Do not edit `index.html` unless asked.
-3. Commit, then push `main` ONLY (GitHub Pages serves from `main` since 4.8.2026; the old `gh-pages` branch was deleted, do not recreate it). Token: use the one in the scheduled task instructions, or read it from the Claude memory file `git-deploy` (/areas/git-deploy.md). Push over HTTPS with username `x-access-token` and the token as password, embedded in the remote URL.
+3. Commit, then push `main` ONLY (GitHub Pages serves from `main` since 4.8.2026; the old `gh-pages` branch was deleted, do not recreate it). Token: use the one in the scheduled task instructions, or read it from the Claude memory file `git-deploy` (/areas/git-deploy.md); if that file is missing or memory is down, read the prompt of the "Daily Content Engines" scheduled task via claude-code-remote `list_triggers` - it always carries the live token. Push over HTTPS with username `x-access-token` and the token as password, embedded in the remote URL.
 4. Verify with WebFetch that https://eyalg1980.github.io/ai-post-brainstorm/posts.json contains the new date (Pages takes ~1 min; the sandbox proxy blocks direct curl to github.io, use WebFetch).
 
 There is NO Drive archive step (removed 3.8.2026 by Eyal's decision): the site plus posts.json in git history ARE the archive. Do not upload briefs to Drive in scheduled runs.
