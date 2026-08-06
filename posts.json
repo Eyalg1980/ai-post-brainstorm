@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-08-06",
+      "dateLabel": "יום חמישי, 6 באוגוסט",
+      "ideas": [
+        {
+          "id": "2026-08-06-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "ב-3.8 פיגמה מחקה את המושג Project. במקומו: תיקיות בעשר רמות עומק. הסדר בקבצים הפך רשמית לעבודת עיצוב.",
+          "angle": "פוסט פרקטי מהשטח: תיקיות מקוננות עד עשר רמות, צבע לכל תיקייה, וירושת הרשאות מהתיקייה שמעל. זה נשמע פיצ'ר מנהלה, אבל זו בעצם ארכיטקטורת מידע של הצוות עצמו. שלושה חוקים שאפשר לאמץ מחר בבוקר: מקסימום שלוש רמות לפרויקט חי, שם תיקייה מתחיל בלקוח ולא בפורמט, וארכיון הוא תיקייה ולא מחיקה. סיום בשאלה: כמה רמות עומק יש אצלכם עכשיו?",
+          "why": "שוחרר ב-3.8 לכל הצוותים. השבוע כל סייד-בר בפיגמה נראה אחרת, וכל צוות שואל את עצמו איך לסדר את הבית מחדש.",
+          "srcUrl": "https://www.figma.com/release-notes/",
+          "srcLabel": "Figma Release Notes",
+          "srcDate": "3.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A towering staircase built from nested paper folders ten levels deep, each folder tab marked with a small colored dot, a tiny designer figure climbing the staircase carrying a bright yellow frame, 1:1",
+            "video": "Flat editorial vector illustration style, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients. Nested paper folders unfold one out of another like origami forming a rising staircase, a tiny designer figure climbs it carrying a glowing yellow frame and places it into the top folder which lights up, camera slowly tilts upward following the climb, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-06-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "סוכן AI עיצב לבד וקיבל 69 מתוך 100. הוסיפו לו חוזה כתוב לקומפוננטה, והציון קפץ ל-100. מסמך אחד עשה את ההבדל.",
+          "angle": "מחקר חדש של Smart Interface Design Patterns על component contracts: חוקים בשפה פשוטה שמגדירים לקומפוננטה מה מותר ומה אסור לסוכן לעשות איתה. בלי חוזה הסוכן סוחף את המערכת לאט, עם חוזה הוא מיישר קו. הפוסט: איך כותבים חוזה כזה בפועל, שלושה סעיפים, מתי כן, מתי לא, ומה אסור לשבור. השורה התחתונה: מערכת עיצוב שרק בני אדם יודעים לקרוא היא כבר חצי מערכת.",
+          "why": "המחקר פורסם השבוע, ובמקביל השיח על design systems קריאים למכונות בשיא. מי שמנסח חוזים עכשיו קובע איך הסוכנים יעצבו אצלו בעוד שנה.",
+          "srcUrl": "https://www.aiuxdesign.guide/news/ai-ux-daily-aug-4-component-contracts-voice-architecture-and-ai-agents-that-li",
+          "srcLabel": "AI UX Design Guide, מחקר Component Contracts",
+          "srcDate": "4.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A large paper contract sheet with a round wax seal standing beside a single UI button component, a thin dashed line binding them together, an abstract gauge needle swept fully to the top, small drifting button clones fading in the background, 1:1",
+            "video": "Flat editorial vector illustration style, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients. A single button component multiplies into slightly crooked copies drifting apart, then a paper contract sheet with a wax seal slides in and every copy snaps into one perfect aligned row, an abstract gauge needle sweeps upward to full, slow satisfying settle, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-06-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מהקורס שלך",
+          "hook": "בהרצאת אורח בקורס שלי נתן דניאל בוארון לכיתה שתי דרכים לבנות סקיל. הראשונה לא מתחילה בכתיבה. היא מתחילה בלעשות.",
+          "angle": "פורמט: מהכיתה לשטח. רגע אמיתי מהכיתה: ההבחנה של בוארון בין תעשה ואז תסכם, עושים משהו פעמיים בצ'אט, מבקשים מקלוד לסכם את זה לקובץ SKILL.md ובודקים בשיחה נקייה, לבין תתאר ותייצר, מתארים שישה מרכיבים במילים פשוטות ומקבלים סקיל. מהרגע הקטן לעיקרון הגדול: סקיל הוא לא קוד, הוא זיכרון ארגוני בקובץ אחד. ולסיום מה שהכיתה לימדה אותי: החסם הוא פחד מכתיבה, אז מתחילים מעשייה.",
+          "why": "אנתרופיק פרסמו מדריך רשמי לבניית סקילים והשוק מוצף מרקטפלייסים. מי שמלמד את זה בעברית עכשיו תופס מגרש כמעט ריק.",
+          "srcUrl": "https://claude.com/blog/how-to-create-skills-key-steps-limitations-and-examples",
+          "srcLabel": "Claude Blog, המדריך הרשמי לסקילים",
+          "srcDate": "6.8",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. Two pairs of clay hands at two small desks, one pair sculpting a tiny working machine directly from a lump of clay, the other pair arranging six round beads in a row on a small clay board, a friendly open clay book standing between the desks, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. Two pairs of clay hands work side by side, one sculpts a small machine from a lump of clay in quick jumpy stop-motion steps, the other lines up six round beads on a clay board, then both creations light up and shake hands, gentle playful rhythm, camera slowly pushes in, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "בדיקת אמצע שנה לתחזיות ה-AI של נילסן",
+          "desc": "יאקוב נילסן חוזר לתחזיות 2026 שלו ובודק מול השטח: מה פגע, מה פספס, ומה זז מהר מהצפוי. שיעור בענווה תחזיתית.",
+          "meta": "UX Tigers · אמצע 2026",
+          "url": "https://www.uxtigers.com/post/2026-predictions-halfway"
+        },
+        {
+          "title": "השבוע ב-AIUX: מי מאשר פעולה של סוכן",
+          "desc": "סיכום שבועי: פלואו אישור לפעולות סוכן, מה משתמש יכול לבדוק ולהפוך, פערי נגישות ודפוסי handoff בין אדם לסוכן.",
+          "meta": "AI UX Design Guide · 3.8",
+          "url": "https://www.aiuxdesign.guide/news/this-week-in-aiux-aug-3-ai-agent-confirmation-flows-accessibility-gaps-and-handoff-p"
+        },
+        {
+          "title": "המאגר הרשמי של אנתרופיק לסקילים",
+          "desc": "ריפו ציבורי עם סקילים מוכנים לקריאה ולהעתקה, כולל skill-creator שבונה סקילים בעצמו. חומר גלם מצוין לכיתה.",
+          "meta": "GitHub · Anthropic",
+          "url": "https://github.com/anthropics/skills"
+        }
+      ]
+    },
+    {
       "date": "2026-08-04",
       "dateLabel": "יום שלישי, 4 באוגוסט",
       "ideas": [
