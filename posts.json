@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-08-07",
+      "dateLabel": "יום שישי, 7 באוגוסט",
+      "ideas": [
+        {
+          "id": "2026-08-07-1",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "הקורס שלך בנובמבר מכשיר בדיוק את המעבר הזה: מאפס רקע טכני ליישום",
+          "hook": "10,000 משרות טכניות פתוחות בשנה, בתעשייה אחת. קמפיין הגיוס הלאומי שלהם מודה בשקט: אין את מי לגייס. יש את מי להכשיר.",
+          "angle": "פורמט: שתי נקודות בזמן. סצנה א: 1986, חניך במפעל תעופה לומד ארבע שנים לפני שנוגע במטוס אמיתי. סצנה ב: 2026, ענקיות התעופה מודיעות על קמפיין גיוס לאומי מול 10,000 משרות טכניות לא מאוישות בשנה, והדרך היחידה לסגור את הפער היא הכשרה מואצת שנשענת על AI. הנחיתה היא מה שלא השתנה: מסלול מובנה, חניכה אמיתית, ותוצאה מוחשית בסוף כל שלב. בדיוק העקרונות שעובדים גם בכיתה של מיישמי AI בלי רקע טכני. סיום: מי שיודע להכשיר מהר הוא התשתית של 2026, לא מי שיודע לגייס.",
+          "why": "פורסם ב-3.8: התעשייה הכי מהונדסת בעולם עוברת רשמית ממצב גיוס למצב הכשרה. כשזה קורה שם, הכשרת AI מפסיקה להיות נישה של מחלקות L&D והופכת לתשתית עסקית.",
+          "srcUrl": "https://learningnews.com/news/learning-news/2026/aerospace-industry-tackles-10000-annual-technical-vacancies",
+          "srcLabel": "Learning News",
+          "srcDate": "3.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Split composition: on one side a tiny apprentice figure at the foot of a huge vintage airplane wing with a tall ladder of many rungs, on the other side a modern worker at a glowing desk with a short bright three-step staircase rising to the same wing, a thin dashed line connecting both scenes, 1:1",
+            "video": "Flat editorial vector illustration style, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients. A tall ladder with dozens of rungs leans against a vintage airplane wing while a tiny figure climbs slowly, then the ladder morphs into a short bright staircase of three wide glowing steps and the figure walks up quickly onto the wing, camera pans slowly from the old scene to the new one, clean minimal motion, leave clear negative space at the top for Hebrew titling, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-07-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "העיצוב שלך מושלם. והסוכן שקונה בשביל המשתמש שלך לא רואה אותו בכלל. הוא מנחש.",
+          "angle": "פוסט על השכבה שאף אחד לא צייר: הסמנטיקה. כשסוכן ממלא טופס או משלים רכישה בשביל המשתמש, הוא לא רואה פיקסלים. הוא קורא שמות, תפקידים והיררכיה. זה הופך את ה-naming מהרגל מסודר לדליברבל עיצובי. שלושה דברים שמעצב יכול למסור כבר השבוע: שמות שכבות שמתארים תפקיד ולא צורה, היררכיה שמספרת את הפלואו בלי להסתכל על המסך, וסטייטים עם שמות אמיתיים במקום Variant 2. סיום בשאלה: אם מחר סוכן היה קורא את הקובץ שלכם בקול, מה הוא היה מבין?",
+          "why": "השיח על agent readable design עלה השבוע שלב: מנתונים על אחוזי הצלחה של סוכנים, למדריכים מעשיים למעצבים איך לכתוב את השכבה שהסוכן באמת קורא.",
+          "srcUrl": "https://medium.com/design-bootcamp/ai-cant-see-your-design-so-it-guesses-c50e3695f01a",
+          "srcLabel": "Bootcamp · Medium",
+          "srcDate": "2026",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A beautiful polished interface screen stands like a painting on an easel, while a small robot with a white cane touches a tangle of unlabeled wireframe boxes floating behind the canvas, one bright yellow name tag glowing on a single box, 1:1",
+            "video": "Flat editorial vector illustration style, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients. A polished interface screen dissolves into a cloud of grey unlabeled boxes as a small robot approaches, the robot hesitates, then bright yellow name tags attach to each box one by one and the boxes snap into a clear ordered flow the robot walks through confidently, slow steady camera push in, leave clear negative space at the top for Hebrew titling, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-07-3",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "מאה פקודות, גישה מלאה לקנבס, בלי פלאגין רשמי. הקהילה נתנה לסוכנים ידיים בתוך פיגמה לפני פיגמה.",
+          "angle": "פוסט על figma-use, כלי קוד פתוח שנותן לסוכן שליטה מלאה בפיגמה משורת הפקודה: יוצר צורות, טקסט וקומפוננטות, מגדיר סטיילים, מייצא תמונות. הזווית: זה לא עוד design to code. זה code to design. הקובץ הופך ל-API, והסוכן עובד בתוך הקנבס במקום לייצא ממנו. מה הייתי מנסה ראשון: ביקורת מיקרוקופי על קובץ אמיתי מול גייד סטייל, יישור טוקנים בכל המסכים בבת אחת, ובניית סט וריאנטים שלם מפקודה אחת. ובשורה האחרונה: פיגמה בעצמה דוחפת עכשיו סוכן רשמי עם כלים מותאמים, והמרוץ בין הגרסה הרשמית לפתוחה הוא הסיפור האמיתי.",
+          "why": "בשבוע שבו פיגמה מרחיבה את ה-Design Agent הרשמי שלה עם כלים מותאמים וקונטקסט, הגרסה הפתוחה של הקהילה כבר עובדת. הפער בין שני הכיוונים הוא בדיוק המקום שמעניין לכתוב ממנו.",
+          "srcUrl": "https://github.com/dannote/figma-use",
+          "srcLabel": "GitHub · dannote/figma-use",
+          "srcDate": "7.8",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay robot hand holding a tiny sculpting chisel carves neat interface shapes, buttons and frames directly onto a clay canvas propped on an artist easel, curls of clay shavings on the desk, a row of tiny finished clay components lined up beside it, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay robot hand sculpts a clay canvas: with each tap of its tiny chisel a new interface element pops into place, buttons align themselves, text blocks straighten, a misaligned component snaps into a neat grid, the robot hand steps back and the finished screen gleams, gentle stop-motion jitter, camera slowly pushes in, leave negative space at the top for Hebrew titling, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "הסוכן של פיגמה מקבל כלים מותאמים וקונטקסט רחב",
+          "desc": "הבלוג הרשמי על הרחבת ה-Design Agent: כלים מותאמים אישית, קונטקסט עמוק יותר וסקילים. הצד הרשמי של המרוץ שהקהילה כבר רצה בו.",
+          "meta": "Figma Blog · 2026",
+          "url": "https://www.figma.com/blog/agent-custom-tools-context-skills/"
+        },
+        {
+          "title": "טרנדים בלמידה ארגונית 2026: המבט מהשטח",
+          "desc": "לא עוד תחזיות מלמעלה: מה שמנהלי L&D מדווחים שקורה בפועל עם AI, תקציבים ומדידה. חומר גלם טוב לפוסטים של הפילר החינוכי.",
+          "meta": "eLearning Industry · 2026",
+          "url": "https://elearningindustry.com/corporate-ld-trends-2026-the-view-from-the-trenches"
+        },
+        {
+          "title": "קרב מודלי הווידאו 2026: Kling v3 מול Hailuo 02 מול Gen-4.5",
+          "desc": "השוואה עדכנית בין מודלי הווידאו המובילים. שימו לב למתודולוגיה: אותו פרומפט על כל המודלים, בדיוק הפורמט ששווה לגייר לעברית.",
+          "meta": "AI Magicx · 2026",
+          "url": "https://www.aimagicx.com/blog/ai-video-generation-showdown-2026"
+        }
+      ]
+    },
+    {
       "date": "2026-08-06",
       "dateLabel": "יום חמישי, 6 באוגוסט",
       "ideas": [
