@@ -1,6 +1,83 @@
 {
  "days": [
   {
+   "date": "2026-08-11",
+   "dateLabel": "יום שלישי, 11 באוגוסט",
+   "ideas": [
+    {
+     "id": "2026-08-11-1",
+     "pillar": "Figma Weave",
+     "color": "#FF6B5E",
+     "me": null,
+     "hook": "גריד בפיגמה יצא עכשיו לגרסה כללית. גרירת עמודות ושורות, מיקום אוטומטי, בלי לגעת באוטו לייאאוט המקונן שבנית עד עכשיו.",
+     "angle": "פורמט: רשימת כלים קצרה. Grid יצא ל-GA עם שינוי סדר עמודות ושורות בגרירה ומיקום אוטומטי לפריטים חדשים. שלוש נקודות לפוסט: אחת, מסכי דאטה (טבלאות, לוחות שנה, מטריצת הרשאות) לא צריכים יותר ריבוי Auto Layout מקונן, זו שכבה אחת. שתיים, ה'בניתי 40 פריימים מקוננים בשביל טבלה' הופך ל'שורה אחת של Grid', והפער הזה שווה פוסט לבד. שלוש, בכיתה זה אומר פחות זמן על יישור פיקסלים ויותר על מבנה מידע, בדיוק מה שהשיטה שלך דורשת.",
+     "why": "יצא ל-GA השבוע, שדרוג ישיר לזרימת העבודה של כל מי שבונה מסכי דאטה בפיגמה, כולל אתה וכולל הסטודנטים.",
+     "srcUrl": "https://www.figma.com/release-notes/",
+     "srcLabel": "Figma Release Notes",
+     "srcDate": "11.8",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A neat grid of small yellow squares rearranging themselves with no visible hand, two squares mid swap trailing a soft coral motion streak, one empty dashed cell glowing coral waiting to be filled, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Small yellow squares drop into an empty grid one row at a time with no visible hand, two squares near the center slide past each other swapping places, the last empty dashed cell pulses coral and fills last, camera slowly pulls back to reveal a completed grid, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-08-11-2",
+     "pillar": "UX + AI",
+     "color": "#7B61FF",
+     "me": null,
+     "hook": "נילסן נורמן קבעו מסגרת בת חמש אותיות כדי להחליט אם כלי AI שווה להישאר בזרימת העבודה שלך. רוב הכלים נופלים באות הרביעית.",
+     "angle": "מסגרת PROVE שפורסמה ב-nngroup.com ב-7.8: Problem alignment, Risk, Output quality, Velocity, Experience. הרעיון המרכזי, לא בודקים כלי AI מול דמו, בודקים אותו מול המשימה החוזרת שלך, ואת ה-Velocity מודדים כזמן כולל כולל בדיקה ותיקון, לא רק זמן היצור. זה בדיוק ההבדל בין וואו זה מהיר לבין זה חוסך לי זמן באמת. הפוסט: לתרגם את חמש האותיות לשאלה אחת פרקטית שכל מעצב יכול לשאול לפני שהוא מאמץ כלי חדש, עם דוגמה אחת מהעבודה שלך שבה כלי נפל דווקא ב-Velocity.",
+     "why": "המסגרת פורסמה ב-7.8, פרקטית וקלה לשימוש מיידי, וממש עכשיו מסתובבת בקהילת ה-UX.",
+     "srcUrl": "https://www.nngroup.com/articles/prove-framework/",
+     "srcLabel": "Nielsen Norman Group",
+     "srcDate": "7.8",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Five bold letters P R O V E standing in a clean horizontal row at center frame, the letter V glowing coral brighter than the rest, a small dashed stopwatch icon floating beside it, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A giant letter P rises center screen and bursts into five falling letters that lock into a horizontal row one by one, camera holds on the letter V as a small dashed stopwatch icon spins rapidly then freezes and glows coral, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-08-11-3",
+     "pillar": "הוראה והכשרה של AI",
+     "color": "#2BB3A3",
+     "me": "ההחלטה מה-2.8 להדגים בכיתה את שתי הטכניקות באותו שיעור, לא לבחור ביניהן",
+     "hook": "סינמהגרף מול גלילה שמניעה וידאו. שתי טכניקות מעשר ההתנהגויות המודרניות בשיעור הבונוס שלי, ואני מדגים לסטודנטים את שתיהן באותו שיעור השבוע, לא בוחר ביניהן.",
+     "angle": "משיעור הבונוס C, 10 Modern Web UX Behaviors: סינמהגרף, וידאו לופ קצר שמחליף תמונת גיבור סטטית, מול גלילה שמניעה וידאו, כשהגלילה עצמה שולטת בזמן הווידאו. ההחלטה מה-2.8: לא לבחור טכניקה אחת להדגמה, אלא להראות את שתיהן live על אותו מוצר סטודנט, כדי שהכיתה תראה את ההבדל בתחושה ולא רק בקוד. הפוסט: מה כל טכניקה עושה טוב, מתי כן ומתי לא לפי הכללים הזהובים של השיעור, נגישות לפני וואו ומקסימום שתי התנהגויות במסך, ואיך זה נראה כשמדגימים את שתיהן זו לצד זו.",
+     "why": "מדגים את זה השבוע בכיתה בפועל, זה הרגע לתעד את זה כפוסט תוך כדי שהחומר טרי.",
+     "srcUrl": "https://eyalg1980.github.io/simpla-lab/hachug-sheli/",
+     "srcLabel": "החוג שלי, הדגמת סינמהגרף וגלילה",
+     "srcDate": "2.8",
+     "prompts": {
+      "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. Two small clay picture frames side by side on a wooden shelf, the left one looping a tiny clay wave endlessly, the right one connected to a small clay hand crank that a tiny figure turns to scrub a filmstrip forward, 1:1, no text",
+      "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. Camera pans slowly between two clay picture frames on a shelf, the left frame loops a small wave smoothly and endlessly, the right frame jerks forward frame by frame as a tiny clay hand cranks it faster, both frames end glowing softly side by side, gentle handmade stop motion jitter, 9:16, 8 seconds"
+     },
+     "used": false
+    }
+   ],
+   "articles": [
+    {
+     "title": "Config 2026: New Materials, New Tools and a More Expressive Canvas",
+     "desc": "הסיכום הרשמי של פיגמה לקונפיג 2026, כולל כיוון החומרים והקנבס. רקע טוב להבנת לאן Grid וה-Agent שייכים.",
+     "meta": "Figma Blog · 2026",
+     "url": "https://www.figma.com/blog/config-2026-recap/"
+    },
+    {
+     "title": "Good from Afar, But Far from Good: AI Prototyping in Real Design Contexts",
+     "desc": "מאמר של נילסן נורמן על הפער בין פרוטוטייפ AI שנראה טוב מרחוק לבין כזה שעומד בבדיקה אמיתית.",
+     "meta": "NN/g · 2026",
+     "url": "https://www.nngroup.com/articles/ai-prototyping/"
+    },
+    {
+     "title": "Higgsfield News, אוגוסט 2026",
+     "desc": "סיכום עדכונים חודשי של היגספילד, רלוונטי ישירות לכלי העבודה של הבמאי היומי.",
+     "meta": "mean.ceo · אוגוסט 2026",
+     "url": "https://blog.mean.ceo/higgsfield-news-august-2026/"
+    }
+   ]
+  },
+  {
    "date": "2026-08-09",
    "dateLabel": "יום ראשון, 9 באוגוסט",
    "ideas": [
