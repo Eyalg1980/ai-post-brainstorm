@@ -1,6 +1,83 @@
 {
  "days": [
   {
+   "date": "2026-08-14",
+   "dateLabel": "יום שישי, 14 באוגוסט",
+   "ideas": [
+    {
+     "id": "2026-08-14-1",
+     "pillar": "Figma Weave",
+     "color": "#FF6B5E",
+     "me": null,
+     "hook": "אנתרופיק השיקו כלי שהופך פרומפט לפרוטוטייפ, ואמרו בפה מלא שהוא לא בשביל מעצבים. זה בדיוק הקהל שפיגמה מעולם לא ניסתה לשרת.",
+     "angle": "פורמט: צ'ק-אין נבואה. בקורס שלי אני חוזר על זה כבר תקופה: AI לא בא להחליף מעצבים בפיגמה, הוא בא לתת כלי עיצוב למי שמעולם לא היה מעצב. קלוד דיזיין, שיצא בגרסת מחקר, מוכיח את זה מילה במילה. הוא בונה פרוטוטייפים, מצגות וחומרי שיווק משיחה, אבל אנתרופיק עצמם אומרים שהקהל שלו הוא מייסדים ומנהלי מוצר, לא מעצבים מקצועיים, בזמן שפיגמה עם 80 עד 90 אחוז נתח שוק אצל מעצבים נשארת בדיוק במקום שלה. שני כלים, שני קהלים, אפס התנגשות אמיתית.",
+     "why": "אני עדיין רואה מעצבים בכיתה נבהלים מכל כלי AI חדש כמו איום. הכלי הזה לא בא בשבילם בכלל, וזה בדיוק מה שמרגיע.",
+     "srcUrl": "https://venturebeat.com/technology/anthropic-just-launched-claude-design-an-ai-tool-that-turns-prompts-into-prototypes-and-challenges-figma",
+     "srcLabel": "Anthropic just launched Claude Design, VentureBeat",
+     "srcDate": "14.8",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Two distinct dashed-outline rectangle panels side by side, one containing a small pen-tool icon representing a professional design tool, the other containing a simple chat-bubble icon representing a conversational prompt tool, a thin vertical dividing line between them with no overlap, calm equal-sized panels, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A chat-bubble icon on the left morphs smoothly into a simple wireframe rectangle, while a separate pen-tool icon on the right stays fixed and outlined, camera holds static, both icons pulse once together in coral to show they coexist rather than compete, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-08-14-2",
+     "pillar": "UX + AI",
+     "color": "#7B61FF",
+     "me": null,
+     "hook": "פסטיבל סרטי AI בקזחסטן קיבל יותר מ-1,500 סרטים מ-90 מדינות, ופשוט האריך את ההרשמה בשבועיים כי לא הספיק לעכל את הכמות.",
+     "angle": "בזמן שאני עוקב אחרי אסטנה בשביל הבמאי היומי, ראיתי שהם עברו את ה-1,500 הגשות מ-90 מדינות והחליטו להאריך את ההרשמה מ-15.8 ל-31.8 כדי להספיק לשפוט את הכמות. זה לא סיפור על תחרות אחת, זה מדד אמון: כלים כמו Kling והיגספילד עברו מ'ניסוי' ל'כלי הפקה' מספיק כדי שאלפי יוצרים יגישו סרט גמור, לא דמו. השאלה שמעניינת אותי היא לא כמה סרטים הוגשו, אלא כמה מהם בכלל היו קיימים לפני שנה.",
+     "why": "אני באמצע הגשה לתחרות דומה בעצמי. המספר הזה, 1,500 הגשות, הוא הדרך הכי פשוטה להסביר למישהו שלא נוגע בכלים האלה כמה מהר זה זז.",
+     "srcUrl": "https://qazinform.com/news/astana-ai-film-festival-extends-its-submission-deadline-0f7a55",
+     "srcLabel": "Astana AI Film Festival extends its submission deadline, Qazinform",
+     "srcDate": "14.8",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single dashed-outline calendar page icon with one date crossed out and a new later date circled in coral, a small film-strip icon floating beside it, calm centered composition, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A dashed-outline calendar page counts forward day by day then snaps to a new later date circled in coral, a small stack of film-strip icons grows taller beside it as the date moves, camera holds static, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-08-14-3",
+     "pillar": "הוראה והכשרה של AI",
+     "color": "#2BB3A3",
+     "me": "מהעדכון שעשית עם אסף פינקלשטיין השבוע לסילבוס של מיישם AI ואוטומציה",
+     "hook": "השבוע מחקתי משלושה מסלולי פרויקט סגורים בקורס שלי לתא אחד: כל סטודנט בוחר את הנושא שלו כבר בשיעור הראשון.",
+     "angle": "עשיתי עם אסף פינקלשטיין שני מפגשי עבודה השבוע ובנינו מחדש את כל הסילבוס של מיישם AI ואוטומציה, שבעה מודולים, 29 מפגשים. השינוי הכי גדול לא היה בתוכן, הוא היה בוויתור: המסלולים הסגורים שהיו לנו, CRM, פורטל לקוחות, ניהול מלאי, ירדו. עכשיו כל סטודנט בוחר נושא משלו כבר בשיעור הראשון ובונה אותו לאורך כל הקורס, כולל מודול האוטומציות עם n8n בשיעורים 23 עד 28.",
+     "why": "אני מאמין בזה כבר שנה בכיתה: תרגיל שכולם עושים על אותו נושא לומדים ממנו הכי פחות. הפעם בניתי את זה ישירות לתוך הסילבוס במקום להסתמך על זה שכל סטודנט יעשה את זה לבד.",
+     "srcUrl": "https://eyalg1980.github.io/daily-board/jb53500/",
+     "srcLabel": "האתר של קורס 53500, מיישם AI ואוטומציה",
+     "srcDate": "13.8",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Three separate dashed-outline pathway icons merging into a single open pathway icon rendered solid coral, minimal geometric composition, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Three separate dashed-outline pathway icons slide together and merge into one open pathway icon that turns solid coral and pulses once, camera holds static, 9:16, 8 seconds"
+     },
+     "used": false
+    }
+   ],
+   "articles": [
+    {
+     "title": "MCP 2026-07-28: הליבה חסרת המצב שמגיעה לקלוד",
+     "desc": "הגרסה שמפשטת את הפרוטוקול לפני שהוא מתרחב עוד, רלוונטי גם למי שבונה כלים על MCP",
+     "meta": "Claude by Anthropic · 28.7",
+     "url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude"
+    },
+    {
+     "title": "חוזי קומפוננטות וסכמות",
+     "desc": "הפריימינג המקורי מאחורי הרעיון שכבר ראיתי מיושם דרך Smart Interface Design Patterns",
+     "meta": "Nathan Curtis, Substack · אוגוסט 2026",
+     "url": "https://nathanacurtis.substack.com/p/component-contracts-and-schemas"
+    },
+    {
+     "title": "Higgsfield Global Film Festival, כל התנאים",
+     "desc": "עמוד ההגשה הרשמי, כולל חבר השופטים ולוח הזמנים המלא עד אוקטובר",
+     "meta": "Higgsfield · עודכן אוגוסט 2026",
+     "url": "https://higgsfield.ai/contests/higgsfield-global-film-festival"
+    }
+   ]
+  },
+  {
    "date": "2026-08-13",
    "dateLabel": "יום חמישי, 13 באוגוסט",
    "ideas": [
