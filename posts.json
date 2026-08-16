@@ -1,6 +1,83 @@
 {
  "days": [
   {
+   "date": "2026-08-16",
+   "dateLabel": "יום ראשון, 16 באוגוסט",
+   "ideas": [
+    {
+     "id": "2026-08-16-1",
+     "pillar": "Figma Weave",
+     "color": "#FF6B5E",
+     "me": null,
+     "hook": "פיגמה הפכה השבוע את הסקילים הרשמיים שלה ל-MCP לזמינים בבטא לכל בעל מושב בתשלום, ואת התשתית שאני מלמד בכיתה כפרויקט אישי הם ארזו כמוצר מדף.",
+     "angle": "פורמט: סיפור עם לקח. MCP, פרוטוקול שאנתרופיק פרסמה בנובמבר 2024 כדי לתת לסוכני AI גישה אחידה לכלים חיצוניים, הפך תוך פחות משנתיים לשפה המשותפת שגם פיגמה מדברת בה. תשעה סקילים רשמיים כמו figma-use ו-figma-generate-library כבר זמינים בבטא, כלומר הסוכן לא רק פותח קובץ ריק, הוא נכנס לקנבס עם ידע מובנה על איך לבנות קומפוננטות ומשתנים נכון. הסיפור מתחיל בפרוטוקול טכני משעמם וגומר במעצב שכותב הוראות קבועות לעוזר שלו, בדיוק מה שאני מבקש מהסטודנטים לעשות בקורס מיישם AI.",
+     "why": "פרסמו את זה ב14.8, שלושה ימים לפני שהקבוצה שלי מגיעה לשיעור אנטומיית הסקיל. עכשיו יש דוגמה חיה מפיגמה עצמה, לא רק תיאוריה שלי.",
+     "srcUrl": "https://help.figma.com/hc/en-us/articles/39166810751895-Figma-skills-for-MCP",
+     "srcLabel": "Figma skills for MCP, Figma Help Center",
+     "srcDate": "14.8",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single dashed-outline rectangle panel containing nine small identical rounded icon tiles arranged in a neat grid, one tile glowing brighter in coral than the rest, calm balanced composition, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Nine small rounded icon tiles arranged in a grid, one by one each tile receives a coral outline pulse in sequence left to right top to bottom, camera holds completely static, calm mechanical rhythm, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-08-16-2",
+     "pillar": "UX + AI",
+     "color": "#7B61FF",
+     "me": null,
+     "hook": "פיגמה פרסמו לראשונה מספרים אמיתיים על כמה זמן Figma Make חוסך, לא עוד הבטחה שיווקית אלא מדידה בפועל.",
+     "angle": "אחרי חודשים שבהם כל כלי AI מבטיח לחסוך זמן בלי להראות איך מדדו את זה, פיגמה יצאו עם נתונים על הזמן שחוסך Figma Make בזרימת עבודה אמיתית. זה בדיוק סוג המספר שאני מחפש כשאני בונה את השיעור ההשוואתי בקורס, כי סטודנטים לא מתרגשים מהמשפט AI חוסך זמן, הם מתרגשים ממספר קונקרטי שהם יכולים לבדוק בעצמם על הפרויקט שלהם.",
+     "why": "יצא ב12.8, ארבעה ימים לפני היום, ועדיין כמעט אף אחד לא דיבר על זה בעברית.",
+     "srcUrl": "https://www.aiuxdesign.guide/news",
+     "srcLabel": "Prototype Fidelity, Figma Make Metrics, and Tactile Motion, AI UX Daily",
+     "srcDate": "12.8",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A simple dashed-outline bar chart with three bars of ascending height, the tallest bar filled in warm yellow, a thin coral clock icon floating above the chart, calm centered composition, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A dashed-outline bar chart with three bars, the tallest bar in warm yellow grows smoothly upward from zero to full height while a thin coral clock icon above ticks backward once, camera holds static, single smooth motion, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-08-16-3",
+     "pillar": "הוראה והכשרה של AI",
+     "color": "#2BB3A3",
+     "me": "משיעור הבונוס שלך על 10 ההתנהגויות המודרניות באתרים, ההתנהגות שעדיין לא הגעת אליה בכיתה בפועל",
+     "hook": "בנטו גריד זו לא טרנד עיצובי חדש, זו קופסת אוכל יפנית שהפכה למערכת פריסה, ורוב האתרים שמשתמשים בה היום שוברים את שני הכללים הכי חשובים שלה.",
+     "angle": "אחת ההתנהגויות בשיעור הבונוס שלי על 10 ההתנהגויות המודרניות באתרים. בנטו גריד, תאים לא אחידים בגדלים שונים שיוצרים מבט מיידי על מה חשוב, שאול משם שמשמעו קופסת ארוחה יפנית מחולקת לתאים. הכלל הראשון שרוב האתרים שוברים: לא יותר משני גדלי תא דומיננטיים במסך אחד, אחרת זה נהיה בלגן ויזואלי במקום היררכיה. הכלל השני: על מובייל התאים חוזרים לערימה אחת, לא מתכווצים לגודל בלתי קריא.",
+     "why": "עוד לא לימדתי את ההתנהגות הזו בכיתה בפועל, וזה בדיוק הרגע לכתוב עליה לפני השיעור הבא.",
+     "srcUrl": "https://eyalg1980.github.io/simpla-lab/hachug-sheli/",
+     "srcLabel": "10 התנהגויות מודרניות באתרים, שיעור בונוס C",
+     "srcDate": "16.8",
+     "prompts": {
+      "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay bento box with unevenly sized compartments, one large square compartment and several small rectangular ones, sculpted with visible thumbprint texture, no text, 1:1",
+      "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay bento box with unevenly sized compartments sits on a table, one by one small clay shapes representing content blocks pop up gently into each compartment with a soft stop-motion bounce, camera holds static, 9:16, 8 seconds"
+     },
+     "used": false
+    }
+   ],
+   "articles": [
+    {
+     "title": "Got Skills? Make the Figma Agent a Better Collaborator",
+     "desc": "פיגמה עצמם מסבירים איך סקילים הופכים את הסוכן לשחקן צוות עם מוסכמות, לא רק מבצע פקודות.",
+     "meta": "Figma Blog · 14.8",
+     "url": "https://www.figma.com/blog/got-skills-make-the-figma-agent-a-better-collaborator/"
+    },
+    {
+     "title": "Measuring Time Savings From Figma Make",
+     "desc": "המספרים הראשונים שפיגמה עצמם מפרסמים על כמה Figma Make באמת חוסך זמן בזרימת עבודה.",
+     "meta": "Figma Blog · 12.8",
+     "url": "https://www.figma.com/blog/measuring-time-savings-from-figma-make/"
+    },
+    {
+     "title": "The State of AI in UX & Product Design: 2026",
+     "desc": "סקירה רחבה על לאן AI לוקח את מקצוע העיצוב השנה, טובה כרקע לשיעור.",
+     "meta": "Designlab · 2026",
+     "url": "https://designlab.com/blog/ai-in-ux-product-design-trends-2026"
+    }
+   ]
+  },
+  {
    "date": "2026-08-14",
    "dateLabel": "יום שישי, 14 באוגוסט",
    "ideas": [
