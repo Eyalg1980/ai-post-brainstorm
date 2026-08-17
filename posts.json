@@ -1,6 +1,83 @@
 {
  "days": [
   {
+   "date": "2026-08-17",
+   "dateLabel": "יום שני, 17 באוגוסט",
+   "ideas": [
+    {
+     "id": "2026-08-17-1",
+     "pillar": "Figma Weave",
+     "color": "#FF6B5E",
+     "me": null,
+     "hook": "פיגמה נתנו למנהלי צוות מגבלת קרדיטים אישית לכל חבר צוות ב-AI, ואפשרו לעצור מעצב באמצע החודש לפני שהחשבון מתרסק.",
+     "angle": "ב-5.8 פיגמה הוסיפו Custom credit limit בהגדרות הצוות, מגבלה אישית על כמה קרדיטים AI כל חבר מקבל, בכל המוצרים כולל Make ו-Weave. עד עכשיו רק ה-admin ראה כמה קרדיטים נשארו לכל הצוות ביחד, בלי פירוט לפי אדם. אני מריץ סדנאות Weave לארגונים כמו Connecteam ו-Empathy, וזו בדיוק השאלה הראשונה שמנהל שואל בפגישת המכירה: מה קורה כשמישהו אחד צורך הכל. עכשיו יש תשובה בהגדרות, לא רק הבטחה בפגישה.",
+     "why": "יצא לפני 12 יום, וזה בדיוק סוג הפיצ'ר שאני צריך להראות בכל הצעת מחיר של סדנה מהיום והלאה.",
+     "srcUrl": "https://www.figma.com/release-notes/",
+     "srcLabel": "Figma Release Notes, AI Credit Controls",
+     "srcDate": "5.8",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A dashed-outline settings panel with a row of small identical avatar icon tiles, one tile paired with a small gauge bar filled exactly halfway in coral, calm balanced composition, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Slow pan across a dashed settings panel as one coral gauge bar fills steadily and stops precisely at the midpoint with a soft pulse, minimal motion, no text, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-08-17-2",
+     "pillar": "UX + AI",
+     "color": "#7B61FF",
+     "me": null,
+     "hook": "קלוד התחיל לסמן בשקט טקסט שהוא כתב, לא כדי לתפוס רמאים, כדי שתדע מתי הטקסט מולך כבר לא שלך.",
+     "angle": "ב-15.8 עלה ש-Claude מוסיף watermark לטקסט שהוא מייצר, ולצידו כלים חדשים להערכת אמינות סוכן ומקור מידע לפני שסומכים עליו בזרימת עבודה. זה חלק מגל רחב יותר של governance על תוכן AI, בדיוק כשאני כותב הצעות מחיר דו לשוניות ללקוחות כמו DriveNets שרוצים לדעת בדיוק איפה הטקסט האנושי נגמר וה-AI מתחיל. השאלה כבר לא אם להשתמש ב-AI בכתיבה מקצועית, זו איך מתעדים את זה.",
+     "why": "זה בדיוק השבוע שבו אני מכין הצעות מחיר, אז השאלה של תיוג תוכן AI לא תיאורטית אצלי עכשיו.",
+     "srcUrl": "https://www.aiuxdesign.guide/news",
+     "srcLabel": "AIUX News, Claude Watermarks AI Text",
+     "srcDate": "15.8",
+     "prompts": {
+      "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay robot pressing a round rubber stamp onto a curled paper scroll, leaving a faint glowing coral mark, no text, 1:1",
+      "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. The small clay robot presses the stamp once onto the scroll, a faint coral glow blooms then settles into a soft outline, gentle stop motion cadence, no text, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-08-17-3",
+     "pillar": "הוראה והכשרה של AI",
+     "color": "#2BB3A3",
+     "me": "מאחורי הקלעים שלך",
+     "hook": "סטודנטית שאלה אותי למה היא צריכה לכתוב PRD לפני שהיא נוגעת בפיגמה בכלל, והתשובה שנתתי לה הפכה להיות התרגיל הכי חשוב בקורס.",
+     "angle": "פורמט: מהכיתה לשטח. השבוע יצא לקורס UI/UX (45900) תרגיל בלי מספר: PRD מלא, מסך ראשי אחד ב-High Fidelity, ובין שלושה לחמישה מסכים ב-Low Fidelity, הגשה ב-27.8. סטודנטית אחת רצתה לדלג ישר לפיגמה כי AI כבר עושה מסך יפה תוך דקה. עצרתי אותה, כי מסך יפה בלי PRD הוא בדיוק מה ש-AI כבר יודע לעשות לבד בלעדיה. הלקח שהיא לימדה אותי: הכלי הכי מסוכן היום הוא לא כלי גרוע, זה כלי מהיר מדי שמדלג בדיוק על השלב שבו את עדיין לא יודעת מה את בונה.",
+     "why": "התרגיל יצא בדיוק השבוע, וזה הרגע שבו אני רואה בזמן אמת מי מהסטודנטים באמת הפנים את ההבדל בין לבקש מסך לבין לבנות מוצר.",
+     "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+     "srcLabel": "קורס UI/UX, קטלוג 45900",
+     "srcDate": "13.8",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A dashed-outline document icon with abstract short text lines on the left, connected by a thin dashed line to a small polished screen mockup icon on the right, calm balanced composition, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera slowly pushes from the dashed document icon along the connecting line toward the screen mockup icon, which softly brightens as focus reaches it, no text, 9:16, 8 seconds"
+     },
+     "used": false
+    }
+   ],
+   "articles": [
+    {
+     "title": "Nested Folders Come to Every Figma Product",
+     "desc": "פיגמה מחליפים את מערכת הפרויקטים בתיקיות מקוננות עד עשר רמות, בכל המוצרים כולל Make ו-Buzz.",
+     "meta": "Figma Release Notes · 3.8",
+     "url": "https://www.figma.com/release-notes/"
+    },
+    {
+     "title": "Dopamine Loops and Building Design Systems with AI Teams",
+     "desc": "איך צוותי סוכנים בונים קומפוננטות מוכנות לפרודקשן, ומה זה עושה לתהליך האישור בצוות עיצוב.",
+     "meta": "AIUX News · 13.8",
+     "url": "https://www.aiuxdesign.guide/news"
+    },
+    {
+     "title": "EU AI Strict Guidelines, Figma Skills, Microsoft Kills",
+     "desc": "רגולציית תיוג AI חדשה באיחוד האירופי, וקונסולידציה של Copilot אצל מיקרוסופט.",
+     "meta": "AIUX News · 14.8",
+     "url": "https://www.aiuxdesign.guide/news"
+    }
+   ]
+  },
+  {
    "date": "2026-08-16",
    "dateLabel": "יום ראשון, 16 באוגוסט",
    "ideas": [
