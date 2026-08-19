@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-08-19",
+      "dateLabel": "יום רביעי, 19 באוגוסט",
+      "ideas": [
+        {
+          "id": "2026-08-19-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "פיגמה נתנה לאדמינים כפתור אחד שמסמן ספרייה, תבנית או Make kit בתור מומלץ, ופתאום יש למי שאחראי על איכות בסטודיו כלי אמיתי, לא רק הרשאות.",
+          "angle": "פיצ'ר חדש מ17.8, Recommended Resources. אדמין מסמן סקילים, תבניות, ספריות ו-Make kits, וכל פריט מסומן מקבל וי ותוספת טולטיפ שאומרת בדיוק מי המליץ עליו. עד עכשיו ניהול איכות של תוכן AI בצוות היה תלוי בזיכרון ובווטסאפ פנימי, מי בכלל יודע שיש תבנית טובה. עכשיו זו שכבת governance רשמית בתוך פיגמה עצמה, בדיוק כשכל צוות מתמודד עם עשרות גרסאות שנוצרות עם AI.",
+          "why": "יצא לפני יומיים, ועדיין כמעט אף אחד לא כתב על זה בעברית. וזו בדיוק השאלה שאני מקבל מכל לקוח שמתחיל לעבוד עם AI בצוות: איך אני יודע על מה לסמוך.",
+          "srcUrl": "https://releasebot.io/updates/figma",
+          "srcLabel": "Figma Release Notes, Recommended Resources",
+          "srcDate": "17.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single dashed-outline card with a small checkmark badge glowing in warm yellow pinned to its top corner, three identical plain cards beside it without the badge, calm balanced composition, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Four identical dashed-outline cards in a row, a small checkmark badge fades in with a soft glow onto only the second card, camera holds completely static, single calm motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-19-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "כלי AI מתחילים להסביר לך למה הם המליצו את מה שהם המליצו, לא רק מה להחליט. זה ההבדל בין אמון לצייתנות.",
+          "angle": "סקירה מ17.8 של AI UX Daily על trust signals, agent flows ו responsible AI disclosure שהופכים מסעיף באחריות משפטית לפיצ'ר UX ממשי. סוכן שמראה את שרשרת ההחלטה שלו, לא רק את התוצאה, נותן למשתמש נקודת בדיקה. זה עולם שונה לגמרי מבאנר הסכמה שאף אחד לא קורא.",
+          "why": "כי אני שומע את זה כל שבוע אצל לקוחות. הם מבקשים פיצ'ר AI, ובפגישה השנייה שואלים איך המשתמש ידע שזה AI ולמה זה בדיוק החליט ככה. זו שאלת UX מרכזית עכשיו, לא הערת שוליים משפטית.",
+          "srcUrl": "https://www.aiuxdesign.guide/news/this-week-in-aiux-aug-17-ai-labeling-agent-flows-and-responsible-ai-disclosure",
+          "srcLabel": "This Week in AIUX, AI UX Design Guide",
+          "srcDate": "17.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A dashed-outline speech bubble containing a simple branching path diagram in warm yellow, one path highlighted in coral leading to a small checkmark, calm centered composition, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A dashed-outline speech bubble with a branching path diagram inside, the coral path draws itself smoothly from start to a small checkmark, camera holds static, single smooth motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-19-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מהרצאת האורח של דניאל בוארון בקורס שלך",
+          "hook": "סטודנט שאל אותי השבוע למה הוא צריך לכתוב סקיל אם הוא כבר יודע לכתוב פרומפט טוב. עניתי לו במשפט אחד שעכשיו פותח לי כל שיעור.",
+          "angle": "פורמט: מהכיתה לשטח. פרומפט הוא בקשה חד פעמית, ידנית, לא עקבית בין הרצה להרצה. סקיל הוא זיכרון מתמשך, מופעל אוטומטית, זהה בכל פעם, ומשותף לכל הצוות בלי לשכתב אותו מחדש. זו המסגרת שדניאל בוארון הביא בהרצאת אורח בקורס שלי, ומאז אני פותח איתה כל שיעור על סקילים, כולל השיעור על 1.7 מיליון קבצי SKILL.md שכבר יושבים במאגר אחד.",
+          "why": "זו השאלה שכל סטודנט שואל בשבוע השני של הקורס, ועד ההרצאה של דניאל לא הייתה לי תשובה בת משפט אחד. עכשיו יש.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/hachug-sheli/",
+          "srcLabel": "הרצאת אורח, דניאל בוארון, קורס AI Product Design",
+          "srcDate": "19.8",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. Two small clay speech bubbles side by side, the left one plain and empty, the right one filled with a tiny clay brain shape, no text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. Two small clay speech bubbles side by side, a tiny clay brain shape slowly rises up into the right bubble with a gentle stop-motion bounce while the left bubble stays empty, camera holds static, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Higgsfield News, August 2026 (Startup Edition)",
+          "desc": "סיכום עדכני של כל מה שקרה השבוע אצל היגספילד, טוב בתור בדיקה מהירה לפני שכותבים רעיון תחרות חדש.",
+          "meta": "Mean.ceo · 2026",
+          "url": "https://blog.mean.ceo/higgsfield-news-august-2026/"
+        },
+        {
+          "title": "AI UX Daily, Aug 16: Design System Clarity, Agent Chaos UX, and Mico's Quiet Exit",
+          "desc": "על תקני מערכות עיצוב, כאוס בפלואו של סוכני AI, ופרישה שקטה של אווטאר Copilot של מיקרוסופט.",
+          "meta": "AI UX Design Guide · 16.8",
+          "url": "https://www.aiuxdesign.guide/news/ai-ux-daily-aug-16-design-system-clarity-agent-chaos-ux-and-micos-quiet-exit"
+        },
+        {
+          "title": "Connecting Figma and Weave",
+          "desc": "הפוסט הרשמי של פיגמה על איך Weave מתחבר לקנבס הראשי, רקע טוב למי שעדיין מבלבל בין השניים.",
+          "meta": "Figma Blog · 2026",
+          "url": "https://www.figma.com/blog/connecting-figma-and-weave/"
+        }
+      ]
+    },
+    {
       "date": "2026-08-18",
       "dateLabel": "יום שלישי, 18 באוגוסט",
       "ideas": [
