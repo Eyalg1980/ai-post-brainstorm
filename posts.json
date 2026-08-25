@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-08-25",
+      "dateLabel": "יום שלישי, 25 באוגוסט",
+      "ideas": [
+        {
+          "id": "2026-08-25-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "פיגמה לא עשו כנס בשביל זה. הם פשוט שחררו את זה בשקט, שלוש פעמים באוגוסט.",
+          "angle": "פורמט: רשימת כלים קצרה. שלושה עדכונים שקטים שפיגמה שחררה באוגוסט 2026 בלי הרעש של קונפיג, וכולם עונים על אותה שאלה, מי בעצם שולט על מה שסוכן ה-AI עושה בקובץ שלך. ב-24.8 הרשאה ארגונית מרוכזת ל-MCP server, מנהלי IT מחברים סוכנים דרך ספק זהות במקום שכל מעצב יאשר שוב ושוב. ב-13.8 חנות סקילים בתוך פיגמה עצמה, יותר מחמישים סקילים לזרימות עיצוב שאפשר לגלות וליצור מהקשר הקובץ. ב-5.8 מגבלת קרדיטים אישית לכל משתמש, כדי שאף אחד לא יריץ סוכן בלי גבול. שלושתם ביחד הם לא פיצ'רים, הם תשתית ממשל.",
+          "why": "כי בכל הדרכה שאני נותן על MCP וסוכנים בעיצוב, השאלה הראשונה שעולה היא לא מה הסוכן יודע לעשות, היא מי מרשה לו לעשות את זה. עד השבוע התשובה הייתה תלוית ארגון. עכשיו פיגמה בנתה לזה כלי.",
+          "srcUrl": "https://releasebot.io/updates/figma",
+          "srcLabel": "Figma Release Notes, הרשאה ארגונית ל-MCP",
+          "srcDate": "24.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A simple rounded shield shape at the center with a small plug icon nested inside it, three thin dashed lines radiating outward to three small identical robot-agent icons, one line glowing warm yellow to show it is the only permitted connection. Clean diagrammatic composition, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Three small robot-agent icons each reach a dashed line toward a central shield with a plug icon, two lines fade and retract while the third snaps into place and glows warm yellow, a thin coral ring closes around the shield to seal it. Camera holds static, crisp mechanical motion with a short pause at the end, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-25-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "קלוד קיבל סורק נגישות. מיקרוסופט כתבו מדריך נימוסים לסוכן AI בפגישה הראשונה שלו איתך. שתי חברות ענק, אותה מסקנה.",
+          "angle": "כתבה מ-24.8.2026 באתר AI UX Design Guide מרכזת שני מהלכים מאותו שבוע. קונקטור נגישות חדש בקלוד בודק תוכן שנוצר מול תקן לפני שהוא יוצא. מדריך עיצוב סוכנים של מיקרוסופט מגדיר בפירוט את זרימת ה-onboarding הראשונה של סוכן, מה הוא צריך להסביר על עצמו, מתי לבקש הרשאה ומתי לא. השבועות האחרונים כל שיח AI ועיצוב היה על יכולת, מה הסוכן כבר יודע לעשות. עכשיו הוא עובר לתהליך, מי כותב לסוכן את הכללים לפני שהוא בכלל פועל.",
+          "why": "כי זה בדיוק השלב שאני מלמד בקורס מיישם AI אחרי ה-MVP, ברגע שהכלי כבר עובד השאלה משתנה מאיך בונים אותו לאיך הוא מתנהג מול משתמש שלא כתב אותו. עכשיו יש לזה שני מדריכים אמיתיים מחברות שמשקיעות בזה כסף, לא רק תיאוריה.",
+          "srcUrl": "https://www.aiuxdesign.guide/news",
+          "srcLabel": "This Week in AIUX, מיקרוסופט ונגישות בקלוד",
+          "srcDate": "24.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A small simplified robot-agent icon standing at an open doorway outline, a thin dashed checklist floating beside it with three short ticked lines, a simple eye icon glowing warm yellow above the doorway frame. Clean diagrammatic composition, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A small robot-agent icon steps toward an open doorway outline, pauses as a dashed checklist unrolls beside it and its three lines tick one by one, then a simple eye icon above the frame glows warm yellow and the agent steps through. Camera holds static, calm deliberate motion, one beat of stillness at the end, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-25-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "סטודנטית שלי בנתה כפתור שנדלק ירוק לפני שהשרת בכלל ענה. חשבתי שזו טעות. זו התנהגות עם שם.",
+          "angle": "התנהגות מספר תשע בשיעור הבונוס שלי על עשר ההתנהגויות המודרניות באתרים, Optimistic UI. הממשק מניח שהפעולה הצליחה ומעדכן מיד, ומתקן אחורה רק אם השרת אומר אחרת. מתי כן, פעולות הפיכות בסיכון נמוך, לייק, הוספה לעגלה, סימון וי. מתי לא, תשלום, מחיקה, כל פעולה שאי אפשר לבטל בשקט אחרי שהמשתמש כבר המשיך הלאה. הטעות הכי נפוצה שאני רואה בכיתה, להראות הצלחה בלי לבנות גם את מסלול הנפילה, וכשהשרת כן נכשל המשתמש כבר לא שם לב.",
+          "why": "כי דווקא השבוע, כשסוכני AI מתחילים לפעול לפני שהמשתמש מאשר כל צעד, ההיגיון של Optimistic UI כבר לא רק כפתור לייק, הוא הופך לשאלה שאני צריך להסביר גם על ממשקי סוכנים.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "קורס UI/UX 45900, שיעור הבונוס על 10 התנהגויות UX",
+          "srcDate": "25.8",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay button glowing bright teal sitting on a cream surface, a tiny clay server shape further back still turning grey and unlit. No text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A clay hand presses a small clay button which instantly glows bright teal, a tiny clay server shape behind it only lights up a beat later, then on a second press the button glows teal again but the server stays dark and a small clay crack appears across the button. Slow top down camera drifting in, stop-motion judder, warm and gently comic, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Enterprise-Managed Authorization for Figma MCP",
+          "desc": "פיגמה נותנת למנהלי IT שליטה מרוכזת על החיבור בין MCP server לסוכני AI, דרך ספק זהות במקום אישור ידני חוזר.",
+          "meta": "Releasebot · 24.8",
+          "url": "https://releasebot.io/updates/figma"
+        },
+        {
+          "title": "This Week in AIUX: Microsoft's Agent Design and Claude's Accessibility Scanning",
+          "desc": "סיכום שבועי שמראה איך שתי חברות ענק עוברות מיכולת של סוכן לממשל שלו, מדריך נימוסים למיקרוסופט וסורק נגישות לקלוד.",
+          "meta": "AI UX Design Guide · 24.8",
+          "url": "https://www.aiuxdesign.guide/news"
+        },
+        {
+          "title": "Alibaba Launches Wan3.0, a 30-Second AI Video Model",
+          "desc": "עליבאבא שחררו מודל וידאו שמכפיל את אורך הקליפ למקסימום ל-30 שניות, עם קול רב לשוני וסנכרון הבעות פנים. שווה מעקב גם למי שעובד בהיגספילד.",
+          "meta": "Dataconomy · 24.8",
+          "url": "https://dataconomy.com/2026/08/24/alibaba-launches-wan30-a-30-second-ai-video-generation-model/"
+        }
+      ]
+    },
+    {
       "date": "2026-08-24",
       "dateLabel": "יום שני, 24 באוגוסט",
       "ideas": [
