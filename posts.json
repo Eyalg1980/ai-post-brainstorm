@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-08-26",
+      "dateLabel": "יום רביעי, 26 באוגוסט",
+      "ideas": [
+        {
+          "id": "2026-08-26-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "כתבו השבוע שהפרוטוטייפ שלך משקר לך. לא בזדון, פשוט כי הוא לא יודע להתנהג, רק לזכור מה סימנת מראש.",
+          "angle": "כתבה מ-25.8.2026 באתר AI UX Design Guide טוענת שפרוטוטייפים בפיגמה מייצגים לא נכון התנהגות אמיתית, כי הם מכונת מצבים סגורה, אתה מחבר פריים לפריים מראש וזה יכול להראות רק מה שציירת. Weave הפוך, אתה מתאר תנועה ותחושה במילים והמערכת מייצרת רצף אמיתי בלי שתחווט אף חיבור. אותה מטרה, פרוטוטייפ, שני מנגנונים הפוכים, אחד מבוסס רשאות מראש ואחד מבוסס תיאור. בסדנאות שלי זו בדיוק הנקודה שבה סטודנטים נתקעים, הם עדיין מנסים לחוט את הכל כמו בפיגמה קלאסי במקום לתאר את התנועה.",
+          "why": "כי המאמר יצא השבוע ומדבר בדיוק על הפער שאני מראה בכל סדנת Weave, בין עיצוב שמחכה שתחווט לו כל מצב לבין עיצוב שמבין תיאור.",
+          "srcUrl": "https://www.aiuxdesign.guide/news/ai-ux-daily-aug-25-figmas-prototyping-limits-alt-text-reality-check-and-mcp-aut",
+          "srcLabel": "AI UX Design Guide, מגבלות הפרוטוטייפ של פיגמה",
+          "srcDate": "25.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. On the left a rigid grid of small connected rectangle frames joined by straight dashed arrows, on the right a single smooth flowing coral ribbon shape moving freely with no boxes around it. Clean diagrammatic split composition, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A rigid grid of small connected rectangle frames on the left sits static and locked, while on the right a smooth coral ribbon shape begins to flow and bend freely on its own, the ribbon's motion warm yellow glow growing as it moves. Camera holds static, calm confident motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-26-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "בדיקה חדשה של NN Group מראה שאנשים כבר לא מזהים תמונת AI מול תמונת סטוק. אפס, לא כמעט אפס.",
+          "angle": "כתבה מ-22.8.2026 באתר AI UX Design Guide מסכמת מחקר שימושיות טרי של Nielsen Norman Group, משתמשים אמיתיים הביטו בזוגות תמונות ולא הצליחו להבדיל אמינה בין תמונה שנוצרה ב-AI לתמונת סטוק רגילה. עד לפני שנה הסימנים היו ברורים, ידיים מוזרות, עיניים ריקות, טקסט שבור. עכשיו הבדיקה עצמה נכשלת. זה אומר שכל טיעון עיצובי נגד שימוש בתמונות AI במסך מוצר, שהמשתמש ירגיש שזה מזויף, כבר לא עומד בעדות.",
+          "why": "כי זה בדיוק הטיעון שאני שומע כל שבוע מלקוחות שמהססים להשתמש בתמונות AI במסכי מוצר, והמחקר הזה סותר אותו בעדות ישירה מהשבוע.",
+          "srcUrl": "https://www.aiuxdesign.guide/news/ai-ux-daily-aug-22-accessibility-in-claude-figma-spacing-update-ai-images-hold-",
+          "srcLabel": "AI UX Design Guide, מחקר NN Group על תמונות AI",
+          "srcDate": "22.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Two identical simple photo frame icons side by side, one thin dashed label above reads nothing, a small magnifying glass icon hovers between them with a question mark replaced by a warm yellow equals sign. Clean diagrammatic composition, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A small magnifying glass icon drifts slowly between two identical simple photo frame icons, pausing on each in turn, then a warm yellow equals sign fades in between them and glows softly. Camera holds static, quiet deliberate motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-26-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "יש לי שתי דרכים ללמד סטודנט לכתוב סקיל, ואף אחת מהן לא מתחילה במילים תכתוב פרומפט טוב.",
+          "angle": "פורמט: מדריך השוואתי עם מספרים. מהרצאת האורח של דניאל בוארון בקורס שלי, שתי דרכים לבנות סקיל. דרך אחת, תעשה ואז תסכם, עושים את המשימה פעמיים בצ'אט, אם זה יצא טוב מבקשים מקלוד לסכם את זה לקובץ SKILL.md ובודקים בשיחה חדשה. דרך שנייה, תתאר ותייצר, מתארים ישר במילים את שישה המרכיבים הקבועים, מטרה, טריגרים, שיטה, הקשר ארגוני, פלט, וכלים וMCP. בשתי הדרכים התוצאה זהה במבנה, קובץ אחד חובה שהוא SKILL.md, שתי תיקיות רשות שנטענות רק כשצריך, references ו-scripts. ההבדל האמיתי הוא לא באיכות התוצאה, הוא בכמה פעמים אתה חוזר על עצמך לפני שהמערכת זוכרת.",
+          "why": "כי השבוע בכיתה בדיוק חצי מהסטודנטים בחרו כל דרך, וההבדל בזמן שלקח לכל קבוצה עד שהסקיל עבד בשיחה חדשה היה הדבר הכי ברור שראיתי מתחילת הקורס.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "קורס UI/UX 45900, הרצאת האורח של דניאל בוארון",
+          "srcDate": "26.8",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. Two small clay paths side by side leading to the same single clay file icon labeled with a tiny embossed dot pattern, one path has two small footprint marks pressed into it, the other has one flowing groove. No text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. Two small clay paths run side by side toward the same single clay file icon, a tiny clay figure walks the left path in two distinct steps leaving footprints, while on the right path a groove smoothly carves itself in one continuous motion, both figures arrive at the file icon together and it lights up teal. Slow tracking camera, gentle stop-motion judder, warm and satisfying, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Figma's Prototyping Limits, Alt Text Reality Check and MCP Auth Changes",
+          "desc": "מאמר שבועי שבוחן למה פרוטוטייפים בפיגמה לא מייצגים התנהגות אמיתית, למה בדיקת alt text אוטומטית יוצרת ביטחון שווא, ואיך שינויי הרשאות MCP משפיעים על זרימות עבודה עם סוכנים.",
+          "meta": "AI UX Design Guide · 25.8",
+          "url": "https://www.aiuxdesign.guide/news/ai-ux-daily-aug-25-figmas-prototyping-limits-alt-text-reality-check-and-mcp-aut"
+        },
+        {
+          "title": "Accessibility in Claude, Figma Spacing Update, AI Images Hold Up in Testing",
+          "desc": "סורק נגישות חדש בקלוד, מצבי ריווח חדשים באוטו לייאאוט של פיגמה, ומחקר NN Group שמראה שמשתמשים כבר לא מבחינים בין תמונת AI לתמונת סטוק.",
+          "meta": "AI UX Design Guide · 22.8",
+          "url": "https://www.aiuxdesign.guide/news/ai-ux-daily-aug-22-accessibility-in-claude-figma-spacing-update-ai-images-hold-"
+        },
+        {
+          "title": "AI Literacy in 2026: Why L&D Needs More Than a One-Off AI Course",
+          "desc": "טיעון לכך שהדרכת AI חד פעמית לא מספיקה, וש-L&D צריך תוכנית אוריינות AI מתמשכת בתוך זרימת העבודה עצמה, לא כסדנה בצד.",
+          "meta": "eXact Learning Solutions",
+          "url": "https://www.exactls.com/uncategorized/ai-literacy-in-2026-why-ld-needs-more-than-a-one-off-ai-course/"
+        }
+      ]
+    },
+    {
       "date": "2026-08-25",
       "dateLabel": "יום שלישי, 25 באוגוסט",
       "ideas": [
