@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-08-27",
+      "dateLabel": "יום חמישי, 27 באוגוסט",
+      "ideas": [
+        {
+          "id": "2026-08-27-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "פיגמה נתנו לך מחק וגרור-למלא בשכבת הוקטור. לא AI, סתם יד. וזה בדיוק מה שהיה חסר.",
+          "angle": "עדכון מ-24.8.2026 בהערות הגרסה של פיגמה מוסיף שתי פעולות ידניות לעריכת וקטור, מחיקה ישירה של קווי מסלול על הקנבס וגרירה למילוי או צביעה מחדש של כמה אזורים בבת אחת. זה לא כלי AI, זו בדיוק התגובה הנכונה לעולם שבו ה-AI מייצר את הדראפט הראשון של האייקון או הוקטור, אבל תמיד נשארות שלוש שגיאות קטנות שצריך לתקן ביד. הפער בין מהירות הייצור למהירות התיקון היה נקודת החיכוך האמיתית בסדנאות Weave שלי, ועכשיו הוא נסגר.",
+          "why": "הפיצ'ר שוחרר ב-24.8.2026 ומאמת ישירות בהערות הגרסה של פיגמה.",
+          "srcUrl": "https://releasebot.io/updates/figma",
+          "srcLabel": "Figma Release Notes, אוגוסט 2026",
+          "srcDate": "24.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A hand-held eraser tool clears noisy stray vector strokes off a messy AI-generated icon while a drag-fill motion floods clean shapes beside it with flat color, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A cursor drags an eraser across a cluttered AI-generated vector icon, noisy strokes vanishing one by one, then a fill drag sweeps flat color into the cleaned shapes in one smooth motion, static camera, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-27-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "NN Group פרסמו מילון מונחים ל-AI. לא כי זה מגניב, כי בלי זה חצי מהחדר בפגישה מהנהן ולא מבין.",
+          "angle": "כתבה מ-21.8.2026 של Nielsen Norman Group היא בעצם מילון מונחים, טוקנים, חלון הקשר, סוכנים, evals, prompt injection, מוסבר בשפה פשוטה לאנשי מוצר ועיצוב. הסימן המעניין הוא לא התוכן, הוא זה שגוף מחקר UX ותיק בכלל ראה צורך לפרסם מילון. כשחצי מהמונחים בפגישת דיזיין רוויו הם ז'רגון AI, ואנשים מהנהנים במקום לשאול, יש בעיה שקטה שמאטה כל שיחת מוצר.",
+          "why": "הכתבה פורסמה ב-21.8.2026 באתר nngroup.com, בתוך חלון שבעת הימים.",
+          "srcUrl": "https://www.nngroup.com/articles/artificial-intelligence-glossary/",
+          "srcLabel": "NN/g, Artificial Intelligence: Glossary",
+          "srcDate": "21.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. An open dictionary floats with small abstract glyph icons rising off the page representing tokens, a context window, an agent, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Index cards flip one by one revealing abstract glyph icons in sequence, camera static, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-27-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מפגש 27.8.2026 בקורס UI/UX 45900, וידאו סקראבינג ומצגת בסט פרקטיסס לדפי נחיתה",
+          "hook": "הוידאו שמתקדם רק כשאתה גולל. נולד ב-2015, עבר תחנה בקינמגרף, והיום ה-AI מצלם בשבילך.",
+          "angle": "פורמט: ביוגרפיה של אובייקט. 2015, סיפורי סקרול ארוכים כמו Snow Fall של הניו יורק טיימס מלמדים את הרשת שגלילה יכולה להריץ עלילה. 2018, הסינמגרף נכנס כתחליף קליל, וידאו לופ שקט בלי כפתור פליי. 2023, אפל תופרים אותו לסרגל הגלילה עצמו, כל פיקסל גלילה זז פריים בוידאו. 2026, ה-AI מייצר את חומר הגלם עצמו, בלי מצלמה ובלי צלם. בדיוק היום, ב-27.8.2026, זה השיעור שאני מעביר בקורס 45900, וידאו סקראבינג ומצגת בסט פרקטיסס לדפי נחיתה, כדי שהסטודנטים יבנו גיבור לדף הנחיתה שלהם בלי סטודיו צילום. מה שלא השתנה מ-2015: את תשומת הלב עדיין קונים פיקסל גלילה אחד בכל פעם.",
+          "why": "מתקיים היום, 27.8.2026, במפגש עם הסטודנטים שלי בקורס UI/UX 45900.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "סטטוס קורס 45900",
+          "srcDate": "27.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A phone screen frame shows a video frozen mid frame tied to a vertical scrollbar track, small year markers 2015 2018 2023 2026 float beside the track, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A hand scrolls a vertical track and a video advances frame by frame in perfect sync with the scroll motion, static camera, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "One AI Output Is an Example, Not an Evaluation",
+          "desc": "NN/g מזכירים שפלט AI בודד הוא דוגמה, לא הערכה. צריך כמה קלטים, חזרות, ומדד ביטחון סטטיסטי לפני שקובעים אם משהו עובד.",
+          "meta": "NN/g · 14.8",
+          "url": "https://www.nngroup.com/articles/eval-ai-output/"
+        },
+        {
+          "title": "Figma bets on human judgment at Config 2026 while the AI powering its canvas belongs to someone else",
+          "desc": "ניתוח ביקורתי על קונפיג 2026, פיגמה ממשיכה להדגיש שיקול דעת אנושי בזמן שהמנוע שמריץ את הקנבס שלה שייך לצד שלישי.",
+          "meta": "The Decoder · אוגוסט 2026",
+          "url": "https://the-decoder.com/figma-bets-on-human-judgment-at-config-2026-while-the-ai-powering-its-canvas-belongs-to-someone-else/"
+        },
+        {
+          "title": "Config 2026: Weave brings a new layer of precision design workflows to Figma",
+          "desc": "סיכום איך Weave מוסיפה שכבת דיוק לתהליכי עבודה בפיגמה, מזווית שלא הופיעה עדיין בבריף.",
+          "meta": "Diginomica · אוגוסט 2026",
+          "url": "https://diginomica.com/config-2026-weave-layer-precision-design-workflows-figma"
+        }
+      ]
+    },
+    {
       "date": "2026-08-26",
       "dateLabel": "יום רביעי, 26 באוגוסט",
       "ideas": [
