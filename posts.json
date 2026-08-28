@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-08-28",
+      "dateLabel": "יום שישי, 28 באוגוסט",
+      "ideas": [
+        {
+          "id": "2026-08-28-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "פיגמה שברו את הצ'אט של הסוכן מהתיבה. עכשיו הוא חלון בפני עצמו, ואתה בוחר איפה הוא יושב.",
+          "angle": "עדכון מ-26.8.2026 בהערות הגרסה של פיגמה מוסיף לאפליקציית הדסקטופ, מק ווינדוס, אפשרות לפתוח את פאנל הצ'אט של הסוכן לחלון נפרד משלו, ולמקם אותו איפה שרוצים בלי לאבד קשר לכלים ולטאבים האחרים. עד עכשיו הפאנל היה נעול לתוך אותה תיבה שיושבת ליד הקנבס, ומתחרה איתו על אותו שטח מסך בדיוק ברגע שהכי צריך לראות את שניהם. זו בדיוק הנקודה הראשונה שתקועה אצל סטודנטים בסדנת Weave, מישהו כותב פרומפט, רוצה להשוות בין מה שהסוכן כותב לבין מה שקורה על הקנבס, והתיבה מכסה בדיוק את החלק שהוא צריך לראות. עכשיו זה שני חלונות אמיתיים, בדיוק כמו שכבר קורה בעורכי קוד עם פאנל ה-AI על מסך שני.",
+          "why": "העדכון שוחרר ב-26.8.2026 ומאומת ישירות מהערות הגרסה של פיגמה.",
+          "srcUrl": "https://releasebot.io/updates/figma",
+          "srcLabel": "Figma Release Notes, אוגוסט 2026",
+          "srcDate": "26.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A small chat bubble window detaches from the corner of a larger canvas frame and floats free to the side, connected by a thin dashed tether line, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A small chat bubble window peels away from a docked corner inside a larger canvas frame, drifting to an open position beside it as a thin dashed tether line stretches between them, camera holds static, calm confident motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-28-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "פיגמה הוסיפו לאוטו לייאאוט שתי מילים, Around ו-Evenly. זה נשמע קטנטן. זה בדיוק מה שמפריד בין דיזיין שנראה כמו קוד לדיזיין שהופך לקוד.",
+          "angle": "עדכון מ-21.8.2026 בהערות הגרסה של פיגמה מוסיף לאוטו לייאאוט שני מצבי ריווח חדשים שמדברים ישר בשפת CSS, Around עם רווח מלא בין פריטים וחצי רווח בקצוות, ו-Evenly עם רווח זהה לחלוטין בכל מקום, בעוד ההתנהגות הישנה שהייתה ברירת המחדל קיבלה שם רשמי, Between, כדי להתאים למינוח הדפדפן. זה נשמע כמו פרט טכני זעיר, אבל אלו בדיוק שלוש הדרכים ש-justify-content מפזר רווח בדפדפן, ועכשיו יש להן אותו שם משני צידי הגבול בין עיצוב לקוד. כשסוכן AI, או מפתח אנושי, לוקח פריים מפיגמה והופך אותו לקוד שרץ, אם המודל השתמש בהתפלגות הלא נכונה הפלט זז כמה פיקסלים ומישהו מבזבז עשרים דקות לחפש למה. לתת לזה אותו שם בשני העולמות מוחק בדיוק את הניחוש הזה.",
+          "why": "העדכון שוחרר ב-21.8.2026 בהערות הגרסה של פיגמה, בתוך חלון שבעת הימים.",
+          "srcUrl": "https://releasebot.io/updates/figma",
+          "srcLabel": "Figma Release Notes, אוגוסט 2026",
+          "srcDate": "21.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Three small rows of rectangle blocks each spaced differently, one clustered tight with gaps only at the center, one with identical gaps everywhere, one with half gaps only at the two ends, a thin coral code bracket icon hovers beside the middle row, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Three rows of small rectangle blocks rearrange their spacing one at a time, tight center gaps, then identical gaps everywhere, then half gaps at the ends, a thin coral code bracket icon pulses beside each row as it settles, camera holds static, precise mechanical motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-28-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "פרומפט הוא בקשה חד פעמית. סקיל הוא זיכרון קבוע. משפט אחד שינה איך הכיתה שלי חושבת על קלוד.",
+          "angle": "מסבב שני של הרצאת האורח של דניאל בוארון בקורס שלי, המשפט שמסביר הכל בלי מונחים טכניים: פרומפט הוא בקשה, ידני, חד פעמי, לא עקבי, צריך להסביר מחדש כל שיחה. סקיל הוא זיכרון, רץ אוטומטית, עקבי במאה אחוז, ומשותף לכל הצוות בלי שאף אחד יצטרך להסביר שוב. מתחת למשפט יש מבנה קבוע, קובץ אחד חובה שנקרא SKILL.md, ושתי תיקיות רשות שנטענות רק כשצריך, references ו-scripts, כך שהמערכת לא טוענת דבר שהיא לא צריכה. ההימור שהוא הציע לסטודנטים, סקילים הם ספר הכללים של ה-AI שלך, סוכנים הם צוות מקביל, ו-Design.md הוא מערכת העיצוב שלך כתובה בשביל מכונה, וסגר במשפט שנשאר תלוי בכיתה, תוריד את הפחד לפספס ותבנה את ארגז הכלים שלך.",
+          "why": "כי זה המשפט שהופך את הרגע שבו סטודנט מקליד את אותה בקשה בפעם השלישית לרגע שבו הוא בונה קובץ אחד שזוכר בשבילו, וזה קרה השבוע ממש בכיתה שלי.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "קורס UI/UX 45900, הרצאת האורח של דניאל בוארון, סבב שני",
+          "srcDate": "26.8",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small crumpled clay note dissolving into fine dust on the left, beside a solid engraved clay tablet standing upright and glowing gently teal on the right, no text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small crumpled clay note slowly dissolves into fine dust on the left, while on the right a solid engraved clay tablet rises up from the surface and begins to glow gently teal, a tiny clay hand reaches toward the tablet at the end, slow deliberate stop-motion judder, warm and satisfying, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Figma hides real behaviour, and why chat won",
+          "desc": "עדכון יומי שמראה איך כלי עיצוב מסתירים פערי יכולת אמיתיים, ולמה ממשק צ'אט ניצח כרגע כפורמט ברירת המחדל לאינטראקציה עם AI.",
+          "meta": "AI UX Design Guide · 26.8",
+          "url": "https://www.aiuxdesign.guide/news"
+        },
+        {
+          "title": "מה נראה כמו סוכן AI",
+          "desc": "פיגמה מוסיפים חלון צ'אט צף לסוכן, Webflow משתלבים בתוך ChatGPT, ושיטות עיצוב חדשות ללוחות בקרה שמשנים התנהגות מתחילות להתגבש.",
+          "meta": "AI UX Design Guide · 27.8",
+          "url": "https://www.aiuxdesign.guide/news"
+        },
+        {
+          "title": "Connecting Figma and Weave",
+          "desc": "איך Weave בעצם מתחברת למוצר הליבה של פיגמה, הרקע הטכני שמסביר למה עדכוני סוכן כמו הצ'אט הצף משפיעים ישירות על זרימת העבודה בקנבס.",
+          "meta": "Figma Blog",
+          "url": "https://www.figma.com/blog/connecting-figma-and-weave/"
+        }
+      ]
+    },
+    {
       "date": "2026-08-27",
       "dateLabel": "יום חמישי, 27 באוגוסט",
       "ideas": [
