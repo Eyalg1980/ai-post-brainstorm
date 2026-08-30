@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-08-30",
+      "dateLabel": "יום ראשון, 30 באוגוסט",
+      "ideas": [
+        {
+          "id": "2026-08-30-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "פיגמה עצרו את הייצוא החד פעמי. עכשיו מדברים על קשר שנשאר פתוח בין המסך לקוד שנוצר ממנו.",
+          "angle": "עדכון מ-28.8.2026, פיגמה מפרטים איך סוכן AI שומר סנכרון פעיל בין העיצוב בפיגמה לקוד שהוא מייצר ממנו, לא ייצוא חד פעמי של תמונה קפואה ברגע נתון. זה בדיוק החור שראיתי בכל סדנת Weave, מעצב מייצא, מפתח משנה שורה, ומהרגע הזה שני העולמות כבר לא מדברים. הכיוון החדש הוא שהעדכון יכול לזרום גם חזרה, מקוד שממשיך להשתנות אל המסך. זה לא סוגר את כל הפער בין דיזיין לקוד, אבל זה נוגע בכיוון ההפוך שאף כלי לא טיפל בו עד עכשיו.",
+          "why": "כי זה נכנס בדיוק לתוך השבוע שבו Config 2026 שם code native design tools במרכז, וזה ההבדל בין הדגמה על במה לכלי שאני שם מול לקוח.",
+          "srcUrl": "https://www.aiuxdesign.guide/news",
+          "srcLabel": "aiuxdesign.guide, עדכון יומי",
+          "srcDate": "28.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Two rectangular panels connected by a thin glowing coral line, left panel a wireframe screen sketch, right panel a block of code lines, a small sync arrow icon sitting on the connecting line, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Two rectangular panels connected by a thin coral line, left panel a wireframe screen, right panel a block of code, the connecting line pulses with a traveling light as an edit ripples from the code panel back into the wireframe panel and a shape shifts in response, smooth confident motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-30-2",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מסבב ההרצאה של דניאל בוארון בקורס שלי, פרומפט מול סקיל",
+          "hook": "בקהילה שחררו השבוע marketplace עם 82 פלאגינים, 155 סקילים ו-117 סוכני משנה. פקודה אחת, וזה מותקן.",
+          "angle": "Build with Claude, מרקטפלייס קהילתי בקוד פתוח ורישיון MIT, פורסם ב-23.8.2026 ומרכז 82 פלאגינים, 155 סקילים, 117 סוכני משנה, 177 פקודות ו-33 hooks, ובהם סוכנים ייעודיים לבדיקת נגישות WCAG, מחקר אקדמי עם ציטוטים ואבטחת API. זו ההוכחה בשטח למשפט שלימדתי את הכיתה שלי בסבב השני של ההרצאה של דניאל בוארון, שסקיל הוא זיכרון קבוע ולא בקשה חד פעמית. עכשיו יש קהילה שלמה שבונה על המודל הזה, לא רק דוגמה אחת על הלוח.",
+          "why": "כי זה קרה בדיוק בשבוע שבו לימדתי את המשפט הזה, וזה ההבדל בין להסביר מודל מנטלי לבין להראות מאה חמישים וחמישה סקילים שכבר רצים לפיו.",
+          "srcUrl": "https://blockchain.news/ainews/claude-marketplace-accelerates-agent-setup",
+          "srcLabel": "Blockchain News",
+          "srcDate": "23.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A grid of small identical rounded tiles filling most of the frame like a plugin marketplace, one tile in coral glowing slightly brighter than the rest, a single downward arrow icon above the grid pointing into that tile, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A grid of small rounded tiles fills the frame, one coral tile pulses as a single downward arrow drops into it, the tile locks into place with a soft glow and the surrounding tiles gently ripple outward once, calm confident motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-30-3",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "2015, מסך טעינה זה עיגול שמסתובב. 2026, מסך טעינה זה השלד של המסך שעוד לא נטען. אותה בעיה, תשובה הפוכה.",
+          "angle": "פורמט: שתי נקודות בזמן. 2015, ה-spinner שולט, עיגול מסתובב שאומר רק חכה בלי לרמוז כמה. 2018, פייסבוק ולינקדאין מנרמלים skeleton screens, קווים אפורים בצורת התוכן שעוד לא הגיע. 2026, כל אפליקציה עם AI בפנים מתמודדת עם אותה בעיה בקנה מידה אחר, תגובת מודל שיכולה לקחת חצי שנייה או שמונה שניות, ואי אפשר להראות עיגול טעינה במשך שמונה שניות בלי שהמשתמש יברח. skeleton loading פותר את זה כי הוא מראה את הצורה של מה שמגיע, לא רק שמשהו קורה. מה שלא השתנה מ-2015, המשתמש סולח על ההמתנה כשהוא מבין למה הוא מחכה, ולא סולח כשהוא רק בוהה בעיגול.",
+          "why": "כי כל כלי AI שאני מלמד עכשיו בקורס נתקל בדיוק בבעיית ההמתנה הזאת, וזו ההתנהגות שעוד לא נתתי לה פוסט משלה משיעור הבונוס.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "שיעור הבונוס, עשר התנהגויות UX מודרניות, קורס 45900",
+          "srcDate": "24.8",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. On the left a small round clay spinner mid spin looking worn and dusty, on the right a clean clay tablet embossed with soft rectangular ridges shaped like content blocks, glowing gently teal, no text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small worn clay spinner keeps turning on the left and slowly crumbles into dust, while on the right a clay tablet with soft rectangular ridges rises up and the ridges smoothly reshape into a finished clay picture, slow deliberate stop-motion judder, warm and satisfying, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "The Agent Skills Ecosystem in 2026: Who's Building, What's Working, and What's Next",
+          "desc": "מיפוי מלא של מי בונה מה בשוק הסקילים לסוכנים, ולאן זה הולך.",
+          "meta": "Agentman · אוגוסט 2026",
+          "url": "https://agentman.ai/blog/agent-skills-ecosystem-report-2026"
+        },
+        {
+          "title": "Figma Unveils AI Agents and Code-Native Design Tools at Config 2026",
+          "desc": "הרקע המלא מאחורי הכיוון ה-code native שפיגמה דוחפים החודש.",
+          "meta": "Analytics India Magazine · אוגוסט 2026",
+          "url": "https://analyticsindiamag.com/ai-news/figma-unveils-ai-agents-and-code-native-design-tools-at-config-2026"
+        },
+        {
+          "title": "AI News Briefs Bulletin Board for August 2026",
+          "desc": "סבב שבועי קצר על מה שקורה ב-AI, לסינון מהיר.",
+          "meta": "Radical Data Science · 20.8",
+          "url": "https://radicaldatascience.wordpress.com/2026/08/20/ai-news-briefs-bulletin-board-for-august-2026/"
+        }
+      ]
+    },
+    {
       "date": "2026-08-28",
       "dateLabel": "יום שישי, 28 באוגוסט",
       "ideas": [
