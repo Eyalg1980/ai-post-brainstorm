@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-08-31",
+      "dateLabel": "יום שני, 31 באוגוסט",
+      "ideas": [
+        {
+          "id": "2026-08-31-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "פיגמה עדכנו קרדיטים ב-25.8. וויב יוצא מבטא בעוד כמה שבועות, ואז הוא צורך מאותה קרן קרדיטים כמו כל כלי AI אחר בפיגמה.",
+          "angle": "עדכון רשמי של פיגמה מ-25.8.2026, תוכניות פרו מקבלות פי שניים קרדיטים באותו מחיר, ותוכניות ארגון ואנטרפרייז פי 1.6, בלי פעולה נדרשת מהצד שלך. אבל הפרט שחשוב יותר לכל מי שמריץ סדנת וויב אצל לקוח, כלי וויב וסוכן העיצוב של פיגמה עוברים מבטא פתוח וחינמי לזמינות כללית בעוד כמה שבועות, ואז הם שואבים מאותה קרן קרדיטים כמו כל כלי AI אחר, עם עלות קבועה לכל כלי. ארגונים יכולים כבר עכשיו להוריד את נתוני השימוש שלהם מתקופת הבטא כדי לתכנן קדימה.",
+          "why": "כי השאלה הראשונה שכל לקוח שואל בפגישת פתיחה של סדנת וויב היא כמה זה עולה, ועד עכשיו התשובה הייתה זה חינם בינתיים. עכשיו יש תאריך יעד לתכנן סביבו.",
+          "srcUrl": "https://help.figma.com/hc/en-us/articles/42614902212887-AI-credit-updates-FAQ",
+          "srcLabel": "Figma Help Center, AI credit updates FAQ",
+          "srcDate": "25.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A round badge shaped like a beta tag cracking open, small glowing yellow coin shapes spilling out and flowing into a thin coral meter bar below it, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A round beta badge cracks open and small yellow coin shapes spill out one by one, flowing down into a thin coral meter bar that fills up step by step as each coin lands, calm confident motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-31-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": "מהמשפט שלימדת השבוע בקורס, מהרצאת האורח של דניאל בוארון, פרומפט מול סקיל",
+          "hook": "Webflow לא רק חיברו את עצמם לצ'אטג'יפיטי. הם בנו לעצמם סקילים, אותה מילה בדיוק שלימדתי בכיתה השבוע.",
+          "angle": "עדכון מ-24.8.2026, Webflow זמינים עכשיו גם בתוך Codex, לצד החיבור הקיים לצ'אטג'יפיטי, דרך סקילים מובנים שמפעילים משימות בשפה טבעית. אפשר לבקש בדיקת SEO ונגישות וקישורים שבורים, ניהול תוכן ב-CMS, ולידציה של קוד לפני פריסה, הכל דרך משפט אחד. ההבדל המהותי מפרומפט רגיל, הסוכן לא מנחש רק מהמשפט שלך, הוא שולף הקשר אמיתי מהאתר החי לפני שהוא מבצע. זו בדיוק ההגדרה שלימדתי מהרצאת האורח של דניאל בוארון, פרומפט הוא בקשה חד פעמית, סקיל הוא זיכרון קבוע, ועכשיו יש לה דוגמה ממקום שלגמרי לא קשור לענן של Anthropic.",
+          "why": "כי זה קרה בדיוק בשבוע שאחרי שלימדתי את המשפט הזה, וזה ההבדל בין להסביר מודל מנטלי לכיתה לבין להראות לה שהוא כבר רץ בפלטפורמת נוקוד שלמה.",
+          "srcUrl": "https://webflow.com/blog/webflow-is-now-available-in-codex-and-chatgpt",
+          "srcLabel": "Webflow Blog",
+          "srcDate": "24.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. On the left a small torn paper note icon fading out, on the right a rounded gear icon glowing steady yellow with a thin loop line circling back into itself, a faint dashed line connecting both to a small browser window icon below, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A torn paper note icon on the left crumples and fades, while a rounded gear icon on the right glows and its loop line keeps circling steadily, a thin dashed line pulses from the gear down into a small browser window icon, confident continuous motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-08-31-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "משיעור הבונוס שלך על 10 ההתנהגויות המודרניות באתרים, ההתנהגות התשיעית",
+          "hook": "הלב שמתמלא לפני שהשרת בכלל ידע שלחצת עליו נולד בערך ב2012, וסוכני ה-AI של היום מחיו אותו בגרסה חדשה.",
+          "angle": "פורמט: ביוגרפיה של אובייקט. Optimistic UI, ההתנהגות התשיעית בשיעור הבונוס שלי על 10 ההתנהגויות המודרניות באתרים. נולדה בערך ב2012, כשטוויטר ואינסטגרם עברו מכפתור לייק שמחכה לאישור שרת ללב שמתמלא באדום מיד עם הנגיעה. זה נדבק מהר לכל אפליקציה ניידת, כי חצי שנייה של המתנה על כל נגיעה קטנה הופכת אפליקציה מהירה למרגישה איטית. הכלל הראשון שרוב האתרים שוברים, אין מסלול חזרה גלוי כשהשרת בסוף מחזיר כישלון, הלייק פשוט נעלם בלי הסבר והמשתמש חושב שהוא השתגע. הכלל השני, זה מיועד רק לפעולות זולות והפיכות, לייק, מעקב, עגלה, ולא לפעולות שאי אפשר לבטל בקלות כמו תשלום או מחיקה סופית, ששם דווקא loading אמיתי הוא הבחירה הבטוחה. היום, עם תשובות AI שיכולות לקחת שנייה עד שמונה שניות, אותו pattern חוזר בגרסה חדשה, הממשק מציג תגובה זמנית לפני שהמודל בכלל סיים.",
+          "why": "כי זו ההתנהגות התשיעית מתוך העשר בשיעור הבונוס, ועדיין לא כתבתי עליה, וזה ממש הבן דוד של סקלטון לואדינג שכתבתי עליו השבוע.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/hachug-sheli/",
+          "srcLabel": "10 התנהגויות מודרניות באתרים, שיעור בונוס C",
+          "srcDate": "31.8",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay heart icon filling solid red with a happy glow sitting on a clay button, a thin dashed clay outline behind it showing where it will snap back to if it fails, no text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay heart icon fills in confidently with a happy bounce, then a tiny clay warning triangle flickers beside it and the heart wobbles and snaps back to a dashed outline, slow deliberate stop-motion judder, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Adobe Adds Direct Image Markup To Photoshop",
+          "desc": "פיצ'ר סימון ישיר על תמונה בתוך פוטושופ, עוד סימן לאן כלי העריכה עם AI נעים.",
+          "meta": "Dataconomy · 28.8",
+          "url": "https://dataconomy.com/2026/08/28/adobe-photoshop-markup-ai-editing-tools/"
+        },
+        {
+          "title": "Adobe Brings ACR's Powerful Non-Destructive Exposure Tools Into Photoshop Itself",
+          "desc": "כלי חשיפה לא הרסניים מ-Camera Raw עוברים ישירות לתוך פוטושופ.",
+          "meta": "PetaPixel · 27.8",
+          "url": "https://petapixel.com/2026/08/27/adobe-brings-acrs-powerful-non-destructive-exposure-tools-into-photoshop-itself/"
+        },
+        {
+          "title": "Webflow's New OpenAI Codex Integration Simplifies Site Management",
+          "desc": "כתבה נוספת על אינטגרציית Webflow עם Codex, זווית מנוע חיפוש ואוטומציה של תחזוקת אתר.",
+          "meta": "Search Engine Journal · אוגוסט 2026",
+          "url": "https://www.searchenginejournal.com/webflows-new-openai-codex-integration-simplifies-site-management/586931/"
+        }
+      ]
+    },
+    {
       "date": "2026-08-30",
       "dateLabel": "יום ראשון, 30 באוגוסט",
       "ideas": [
