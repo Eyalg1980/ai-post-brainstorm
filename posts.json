@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-09-01",
+      "dateLabel": "יום שלישי, 1 בספטמבר",
+      "ideas": [
+        {
+          "id": "2026-09-01-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "פיגמה מושן כבר שבועיים בגרסה כללית, ותוכן בעברית עליה כמעט ואין.",
+          "angle": "פורמט: רשימת כלים קצרה. פיגמה מושן יצאה בזמינות כללית ב-Config 2026 עם ציר זמן (timeline) וקיי-פריימים, תבניות אנימציה מוכנות, וייצוא ישיר לחמישה פורמטים, CSS, JSON, React, MP4, WebM, Animated SVG ו-GIF. חמישה שימושים שכבר עובדים לי בסדנת Weave: אחת, מראים ללקוח את המעבר בין שני מצבי כפתור בלי לצאת לכלי אנימציה נפרד. שתיים, מייצאים ישר ל-React כדי שהמפתח מקבל ערכים ולא רק סרטון להעתיק. שלוש, בונים פרוטוטייפ עם תחושת תנועה אמיתית כבר בהצגה הראשונה ללקוח, לא רק בגרסה הסופית. ארבע, מקצרים דיון על כמה זמן האנימציה כי רואים אותה על ציר זמן קונקרטי במקום לשמוע תיאור. חמש, שולפים GIF מהיר לסלايдס בלי לפתוח תוכנת עריכה. אף כלי לפני זה לא נתן את כל זה בלי לצאת מפיגמה.",
+          "why": "כי בכל סדנת Weave עדיין שואלים אותי איך מראים תנועה בלי לצאת לכלי חיצוני, וזה בדיוק מה שפיגמה מושן פותרת, אבל כמעט ואין עליה תוכן בעברית.",
+          "srcUrl": "https://www.cmswire.com/digital-experience/figma-launches-code-layers-motion-at-config-2026/",
+          "srcLabel": "CMSWire, Figma Launches Code Layers & Motion at Config 2026",
+          "srcDate": "24.6",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A small rectangular timeline strip with five glowing yellow diamond keyframe markers evenly spaced along it, a thin coral play-head line crossing through the middle marker, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A thin coral play-head line glides steadily across a rectangular timeline strip with five yellow diamond keyframe markers, each marker pulses softly as the play-head passes it, calm confident motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-01-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "השבוע כתבו את זה בפירוש: AI משגר פיצ'רים מהר יותר משיטה שמסוגלת להעריך אותם.",
+          "angle": "מהסיכום השבועי שפורסם ב-31.8.2026, המושג שחוזר הוא חוב UX חדש, לא חוב טכני. צוותי מוצר משחררים יכולות AI בקצב של שבועות, ובודקים אותן בקצב של רבעונים. התוצאה, פיצ'ר שנראה מדהים בדמו, בלי שאף אחד בדק מה קורה כשהמודל טועה, מתבלבל, או פשוט לוקח שמונה שניות לענות. באותו שבוע ממש דווח גם על עלייה בשימוש בסוכני AI שקוראים שפת עיצוב קיימת של חברה לבד, בלי סטייל גייד כתוב, מה שאומר שהמכשולים הישנים לאימוץ AI בעיצוב נעלמים מהר יותר מהמכשולים החדשים של להעריך את מה שהוא מייצר.",
+          "why": "כי כל שיעור שאני מלמד עכשיו על AI בעיצוב נתקל בדיוק בפער הזה, יכולת הבנייה רצה הרבה יותר מהר מיכולת השיפוט, וזה הפער שהתלמידים שלי צריכים ללמוד לגשר עליו לפני שהם בכלל פותחים כלי.",
+          "srcUrl": "https://www.aiuxdesign.guide/news",
+          "srcLabel": "AI UX Design Guide, סיכום שבועי",
+          "srcDate": "31.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A fast coral rocket-shaped arrow racing ahead on the right, a slower dashed yellow measuring ruler icon trailing behind on the left, a widening gap between them marked with a small dashed bracket, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A coral rocket-shaped arrow races forward while a yellow measuring ruler icon trails behind at a slower steady pace, the gap between them visibly widening as a dashed bracket stretches to track the distance, calm confident motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-01-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "משיעור הבונוס שלך על 10 ההתנהגויות המודרניות באתרים, ההתנהגות העשירית והאחרונה ברשימה",
+          "hook": "תלמידה בכיתה שלי גררה כרטיס למקום הלא נכון, ותפסה משהו שלקח לתעשייה עשר שנים להבין.",
+          "angle": "פורמט: מהכיתה לשטח. ההתנהגות העשירית והאחרונה בשיעור הבונוס שלי על עשר ההתנהגויות המודרניות באתרים, drag-to-reorder, גרירה לסידור מחדש. במפגש האחרון תלמידה גררה כרטיס משימה בלוח שבנתה, שחררה אותו במקום שהוא נופל בין שני כרטיסים אחרים, וחיכתה. שום דבר לא זז מיד. היא שאלה אם זה תקוע. זה בדיוק הבאג שהתעשייה נלחמת בו כבר עשור, המרחק בין הרגע שהאצבע משחררת לרגע שהממשק מאשר שהוא הבין איפה הכרטיס נוחת. הכלל שלימדתי אחרי הרגע הזה, אינדיקציה חזותית של מיקום ההנחה חייבת להופיע לפני השחרור, לא אחריו, אחרת המשתמש בודק את עצמו ולא את הממשק. זה הכלל הרביעי מתוך ארבעת הכללים הזהב שסוגרים את השיעור, מקסימום שתי התנהגויות לעמוד, אבל drag-to-reorder כמעט תמיד צריך את המשוב הזה בלבד כדי לעבוד.",
+          "why": "כי זו ההתנהגות שסוגרת את השיעור, ובאותו מפגש ממש תלמידה נתקלה בה על המסך שלה בלי שידעה שיש לזה שם.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/hachug-sheli/",
+          "srcLabel": "10 התנהגויות מודרניות באתרים, שיעור בונוס C",
+          "srcDate": "1.9",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay task card mid-drag between two other clay cards on a board, a thin dashed clay outline glowing softly in the gap showing exactly where it will land, no text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay task card lifts and drags between two other cards, a dashed clay outline glows in the gap as it approaches, the card settles into the outline and the other cards nudge apart to make room, slow deliberate stop-motion judder, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Figma Launches Code Layers & Motion at Config 2026",
+          "desc": "רקע מלא על מה שהוצג ב-Config 2026, כולל מושן, קוד לייארס וסוכני AI.",
+          "meta": "CMSWire · יוני 2026",
+          "url": "https://www.cmswire.com/digital-experience/figma-launches-code-layers-motion-at-config-2026/"
+        },
+        {
+          "title": "Higgsfield turns a US$1M festival into creator growth",
+          "desc": "ניתוח איך היגספילד הופכים תחרות של מיליון דולר למנוע גיוס יוצרים לפלטפורמה.",
+          "meta": "Content Grip · אוגוסט 2026",
+          "url": "https://www.contentgrip.com/higgsfield-film-festival-growth/"
+        },
+        {
+          "title": "Astana AI Film Festival draws over 1,900 submissions from more than 90 countries",
+          "desc": "עדכון על התחרות הבינלאומית שסגרה השבוע את ההגשות, קונטקסט לחודש התחרויות.",
+          "meta": "Qazinform · אוגוסט 2026",
+          "url": "https://qazinform.com/news/astana-ai-film-festival-draws-over-1900-submissions-from-more-than-90-countries-07ecd7/amp"
+        }
+      ]
+    },
+    {
       "date": "2026-08-31",
       "dateLabel": "יום שני, 31 באוגוסט",
       "ideas": [
