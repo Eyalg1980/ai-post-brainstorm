@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-09-02",
+      "dateLabel": "יום רביעי, 2 בספטמבר",
+      "ideas": [
+        {
+          "id": "2026-09-02-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "אם שם הקומפוננטה בדיזיין סיסטם שלך לא מסביר למה היא קיימת, סוכן AI שקורא את הריפו שלך יציע אותה לאדם הלא נכון.",
+          "angle": "פורמט: צ'ק-אין נבואה. בכל סדנת דיזיין סיסטמס אני חוזר על אותו כלל: אם קוראים לקומפוננטה שם בלי לכתוב למה היא קיימת ומתי בוחרים אותה על פני הווריאנט השכן, מישהו יבחר לא נכון. עד השבוע ה'מישהו' הזה תמיד היה בן אדם שיכול לשאול חבר לצוות. עדכון מ-30.8.2026 מראה שעכשיו זה גם סוכן AI, וסוכן לא שואל. סוכנים כבר מאנדקסים ריפואים של דיזיין סיסטמס, קוראים קוד קומפוננטות ותיעוד, ומזהים המלצות דרך שמות התבניות בשפה של המערכת עצמה. המשפט המדויק מהעדכון: בדקו עכשיו את תיעוד הקומפוננטות שלכם, אם לשמות התבניות אין רציונל כתוב, סוכן שקורא את הריפו שלכם יציג את הקומפוננטה הלא נכונה לאדם הלא נכון. זה הופך את מודול הדיזיין סיסטמס שאני מלמד ממודול על עקביות ויזואלית למודול על מה שמכונה קוראת, כי לבן אדם היה תמיד הקשר מסביב, לסוכן יש רק את השם והרציונל הכתוב.",
+          "why": "כי זה בדיוק הפער שסוגר את מודול 3 בקורס שלי, לימדתי שנייטרינג הוא סטייל, ועכשיו מתברר שהוא תשתית.",
+          "srcUrl": "https://www.aiuxdesign.guide/news/ai-ux-daily-aug-30-design-system-agents-ai-creativity-costs-and-persistent-code",
+          "srcLabel": "AI UX Design Guide, ניוזלטר יומי",
+          "srcDate": "30.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A rounded button-shaped component icon inside a dashed box with a small blank tag attached, a second identical component icon beside it with a filled text-scroll tag and a soft yellow highlight ring around it, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A coral cursor hovers over a component icon with a blank tag and a small red X blinks, then glides to a second identical component icon whose tag fills with scrolling text lines as a yellow checkmark pulses beside it, calm confident motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-02-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "דוח שיצא השבוע אומר את מה שכל מרצה עיצוב מרגיש בבטן: ה-AI לא רק חוסך לג'וניורים זמן, הוא גם גונב להם את השיעור.",
+          "angle": "מאותו עדכון של 30.8.2026, ניתוח שנשען על דוח CBI: אוטומציה מצמצמת עבודת עיצוב לג'וניורים, והבעיה האמיתית היא לא איבוד משרות אלא איבוד ההזדמנות ללמוד. כשה-AI מטפל בשלב הייצור, הג'וניור לא עובר את מחזור ההחלטה המלא, לא את הכיוונים שנפסלו, לא את הרציונל שנשאר מאחורי הכיוון שנבחר. ההמלצה המצוטטת: ארגנו מחדש פרויקטי onboarding כך שמעצבים ג'וניורים עדיין יבצעו מחזור החלטה מלא, גם כשה-AI מטפל בעבודת הייצור סביבו. באותו עדכון בדיוק מדווח גם על עבודה על סוכן Codex מתמשך של OpenAI, שממשיך לפעול ברקע בין שיחות במקום לעצור, וההמלצה שם דומה במהות: לתכנן בכוונה כפתורי עצירה והמשכה גלויים, לא לסמוך על כך שהמשתמש יזכור שהסוכן עוד עובד.",
+          "why": "כי בדיוק את זה אני בודק בכל תרגיל שאני נותן עכשיו: לא אם הפלט טוב, אלא אם התלמיד יכול להסביר למה הוא הגיע אליו.",
+          "srcUrl": "https://www.aiuxdesign.guide/news/ai-ux-daily-aug-30-design-system-agents-ai-creativity-costs-and-persistent-code",
+          "srcLabel": "AI UX Design Guide, ניוזלטר יומי, מבוסס דוח CBI",
+          "srcDate": "30.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A steering wheel icon wrapped in dashed training-wheel circles, a small coral sensor icon glowing on a dashboard beneath it, a faint yellow question mark hovering above, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A steering wheel wrapped in dashed training-wheel circles turns on its own as a coral sensor icon glows steadily on the dashboard below it, a yellow question mark flickers above and slowly fades, calm confident motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-02-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "משיעור הבונוס שלך על 10 ההתנהגויות המודרניות באתרים, ההתנהגות הראשונה ברשימה, וממפגש 24.8 בקורס UI/UX 45900",
+          "hook": "תלמידה בכיתה שלי בנתה גיבור עם וידאו סקראבינג מושלם, ורק כששיתפה את הקישור מהנייד שלה היא גילתה שהוא שוקל יותר מכל שאר הדף ביחד.",
+          "angle": "וידאו סקראבינג, ההתנהגות הראשונה בשיעור הבונוס שלי על עשר ההתנהגויות המודרניות באתרים. וידאו שרץ קדימה ואחורה לפי מיקום הגלילה של המשתמש, לא לפי זמן. במפגש השני של קורס 45900 (24.8), בשיעור שהוקדש לדף נחיתה ולווידאו סקראבינג, תלמידה בנתה גיבור עם קליפ שנע בול לפי הסקרול, וזה נראה מדהים על המסך של הסטודיו. רק כששיתפה את הקישור מהנייד שלה היא גילתה שקובץ הווידאו לבדו שוקל יותר מכל שאר עמוד הבית. הכלל שהיא לימדה את עצמה בטעות, והפכתי לכלל רשמי בשיעור: משקל קטע הסקראבינג צריך להיבדק בזמן הבנייה, לא רק אחרי ההעלאה, כי על רשת מקומית בסטודיו אין שום דרך להרגיש כמה זה כבד על חיבור סלולרי אמיתי. הכלל השני שסוגר את זה הוא הכלל הראשון מארבעת הכללים הזהב של השיעור, מקסימום שתי התנהגויות בעמוד: וידאו סקראבינג כמעט תמיד עולה את שתי ההתנהגויות בעצמו כי הוא כבד, אז לא משלבים אותו עם עוד התנהגות כבדה כמו פאראלקס באותו עמוד.",
+          "why": "כי זו ההתנהגות הראשונה מתוך העשר בשיעור הבונוס שעדיין לא כתבתי עליה, וזה קרה ממש במפגש השני של הקורס הנוכחי, לא סיפור ישן.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/hachug-sheli/",
+          "srcLabel": "10 התנהגויות מודרניות באתרים, שיעור בונוס C",
+          "srcDate": "2.9",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay smartphone screen showing a video thumbnail mid-scrub with a thick loading bar beneath it, a tiny clay weight icon pressing down on the corner of the screen, no text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay smartphone screen plays a video-scrub hero smoothly at first, then a heavy clay weight icon drops onto the corner of the screen and the scrubbing stutters and slows to a crawl, slow deliberate stop-motion judder, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "AI UX Daily, Aug 30: Design System Agents, AI Creativity Costs and Persistent Codex",
+          "desc": "המקור המלא של שני רעיונות היום, כולל הציטוט המדויק על שמות קומפוננטות וסוכני AI.",
+          "meta": "AI UX Design Guide · 30.8",
+          "url": "https://www.aiuxdesign.guide/news/ai-ux-daily-aug-30-design-system-agents-ai-creativity-costs-and-persistent-code"
+        },
+        {
+          "title": "8 UX Patterns for AI-Native Products in 2026",
+          "desc": "מיפוי של תבניות UX חדשות שנולדו ספציפית בשביל מוצרי AI, לא הותאמו מעולם הממשקים הישן.",
+          "meta": "UX Collective, Bootcamp · 2026",
+          "url": "https://medium.com/design-bootcamp/8-ux-patterns-for-ai-native-workflows-in-2026-c469c35d7513"
+        },
+        {
+          "title": "10 UX design shifts you can't ignore in 2026",
+          "desc": "סקירה על השינויים המהותיים בעבודת ה-UX השנה, לא רשימת טרנדים שטחית.",
+          "meta": "UX Collective · 2026",
+          "url": "https://uxdesign.cc/10-ux-design-shifts-you-cant-ignore-in-2026-8f0da1c6741d"
+        }
+      ]
+    },
+    {
       "date": "2026-09-01",
       "dateLabel": "יום שלישי, 1 בספטמבר",
       "ideas": [
