@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-09-06",
+      "dateLabel": "יום ראשון, 6 בספטמבר",
+      "ideas": [
+        {
+          "id": "2026-09-06-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "עד השבוע אופסיטי בפיגמה היה מספר קבוע על השכבה, לא ערך שאפשר לשלוט בו ממקום אחד. עכשיו זה משתנה לכל דבר, ואת זה מרגישים בכל קומפוננטה עם מצב disabled שבנית אי פעם.",
+          "angle": "פורמט: שתי נקודות בזמן. נקודה ראשונה, כל דיזיין סיסטם עד השבוע הזה: כדי לקבל כפתור disabled באפור שקוף שישים אחוז היה צריך לשכפל את הקומפוננטה, לנתק אותה מהספרייה, ולקבוע אופסיטי ידני על המופע. כל פעם שצבע המותג התעדכן, מישהו היה צריך לחזור ולתקן ידנית כל מופע מנותק כזה בנפרד. נקודה שנייה, 3.9.2026: פיגמה הוציאו שליטה על אופסיטי דרך משתנים, בלי לנתק את הקומפוננטה מספריית הצבעים. אפשר לאלייס אופסיטי בדיוק כמו שמאלייסים צבע, לכל שכבת overlay, scrim או מצב disabled. מה שלא השתנה בין שתי הנקודות: הבעיה מעולם לא הייתה טכנית, היא הייתה ניהולית, מי בסטודיו אחראי על העקביות כשיש מאה מופעים. פיגמה פתרו את החלק הטכני, השאלה מי מגדיר את חוקי האופסיטי בדיזיין סיסטם נשארת בדיוק אותה שאלה.",
+          "why": "כי כל שיעור דיזיין סיסטמס שאני מלמד כולל את הרגע שבו מישהו שואל למה יש חמישה גוונים שונים של אפור מנוטרל בקבצים שלו, וזו התשובה המדויקת: לא היה איך למנוע את זה עד השבוע.",
+          "srcUrl": "https://releasebot.io/updates/figma",
+          "srcLabel": "Releasebot, סיכום עדכוני Figma",
+          "srcDate": "3.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A vertical split composition: left side shows five identical square component icons each with a different disconnected fade percentage and a small broken chain link icon beneath each one; right side shows five identical square icons all faded to the same soft tone, connected by one single coral thread running through all of them ending in a small diamond variable icon, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Vertical split screen, left side five disconnected fading squares flicker independently and out of sync, then a clean wipe transition crosses to the right side where five squares breathe in unison at the same rate, linked by one glowing coral thread, calm confident pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-06-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "NN/Group פרסמו השבוע מדריך שאומר בפירוש מה שקשה להודות בו בקול: AI עדיין לא מוכן לקחת על עצמו עבודת UX שלמה, אבל התפקיד של מעצב UX כבר לא אותו תפקיד.",
+          "angle": "המדריך, שיצא ב-4.9.2026, בונה טענה בשלושה שלבים. ראשית, AI עדיין לא מוכן להחליף עבודת UX במלואה, אבל ארגונים דוחפים צוותים לאמץ כלים כדי להגדיל תפוקה, כלומר הלחץ לא נעצר גם כשהכלי לא בשל מספיק. שנית, הערך המרכזי של תפקיד ה-UX עובר מעיצוב הממשק עצמו להגדרת צורך המשתמש, ניסוח כוונה מדויק לסוכן, ופיקוח על התוצר, כלומר אצירת הקשר בשביל ה-AI הופכת למיומנות מרכזית ולא צדדית. שלישית, מחקר עדיין דורש בני אדם אמיתיים: מידע שנוצר על ידי AI לא מחליף נתונים מאנשים אמיתיים, אז השלב הזה בתהליך נשאר אנושי גם כשכל השאר מואץ. בסטודיו זה בדיוק החלק שהכי קשה להסביר: לא פחות עבודת UX, עבודה אחרת.",
+          "why": "כי המילה שחוזרת שוב ושוב בשיחות על AI היא חיסכון בזמן, וכמעט אף פעם לא עולה השאלה מה קורה לתפקיד עצמו כשהעבודה שהוא עשה עד עכשיו מואצת. המדריך הזה נותן ניסוח מדויק לתשובה, בלי להישמע מגונן.",
+          "srcUrl": "https://www.nngroup.com/articles/ai-work-study-guide/",
+          "srcLabel": "Nielsen Norman Group, מדריך שימוש ב-AI לעבודת UX",
+          "srcDate": "4.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A figure at a drafting table holds a thin leash connected to a small trotting mechanical robot that draws a wireframe on the table, the figure's posture calm and directing rather than drawing, one hand pointing at a specific spot on the wireframe, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. The figure briefly draws directly on the wireframe with a pencil, then sets the pencil down, picks up a thin leash, and a small robot trots into frame and continues the linework on its own while the figure watches and gestures direction, steady observant pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-06-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מהעבודה שלך על סילבוס מיישם AI ואוטומציה (53500) לנובמבר",
+          "hook": "בקורס מיישם AI שאני מלמד בנובמבר יש מתח שעוד לא סגרתי לגמרי: וייב קודינג אמור להגיע רק במודול 3, אבל אני רוצה טעימה ממנו כבר במודול 1, בלי לפגוע בתהליך השלב-אחר-שלב.",
+          "angle": "מהסילבוס העדכני של מיישם AI ואוטומציה, שבעה מודולים, כשמודול 1 הוא רעיון ופרומפטים ומודול 3 הוא אפיון ובנייה, שם וייב קודינג נכנס לראשונה בתהליך המלא. הבעיה שזיהיתי בעצמי: אם התלמיד הראשון שלי, בקהל בלי רקע טכני בכלל, רואה מסך שזז רק במודול השלישי, הוא כבר איבד את התחושה שדחפה אותו להירשם מלכתחילה, את הקסם של לראות משהו קם על המסך תוך דקות. ההצעה שעל השולחן, ועדיין לא סגורה סופית: טעימת פרונט-אנד קלה כבר במודולים הראשונים, בלי לוותר על תרשים הזרימה ועל תהליך האוטומציה שמגיעים אחר כך במודול 6. זה בדיוק המתח שכל מורה ל-AI מרגיש היום, בין הקסם המיידי לבין הבנייה המסודרת.",
+          "why": "כי זו לא שאלה תיאורטית, זה קורס שנפתח בנובמבר וצריך להחליט את זה בפועל בסילבוס, לא רק לדבר עליו בכיתה.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb53500/",
+          "srcLabel": "האתר הפנימי של קורס 53500, מיישם AI ואוטומציה",
+          "srcDate": "5.9",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay figure stands at a crossroads made of clay path tiles, one path paved with neat numbered flowchart tiles leading far into the distance, the other path glowing with wobbly floating pixel blocks that flicker to life one at a time, the figure looking back and forth between the two paths, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. The clay figure takes one excited step onto the glowing pixel path, a small screen-shaped clay block pops up in front of it, then the figure pauses, turns back, and takes a step toward the flowchart path instead, torn between both, gentle bouncy stop motion timing, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Control Opacity at Scale",
+          "desc": "פיגמה מאפשרת לשלוט באופסיטי דרך משתנים בלי לנתק קומפוננטות מספריית הצבעים.",
+          "meta": "Releasebot · 3.9",
+          "url": "https://releasebot.io/updates/figma"
+        },
+        {
+          "title": "Using AI for UX Work: Study Guide",
+          "desc": "NN/Group על איך תפקיד ה-UX זז מעיצוב ממשק להגדרת כוונה ופיקוח על AI.",
+          "meta": "Nielsen Norman Group · 4.9",
+          "url": "https://www.nngroup.com/articles/ai-work-study-guide/"
+        },
+        {
+          "title": "Generative Plugins & Shaders: MCP Expansion",
+          "desc": "עדכון פיגמה שמאפשר לסוכני צד שלישי לעבוד עם שיידרים ופלאגינים גנרטיביים דרך MCP.",
+          "meta": "Releasebot · 1.9",
+          "url": "https://releasebot.io/updates/figma"
+        }
+      ]
+    },
+    {
       "date": "2026-09-04",
       "dateLabel": "יום שישי, 4 בספטמבר",
       "ideas": [
