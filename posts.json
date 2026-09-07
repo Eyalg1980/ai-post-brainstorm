@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-09-07",
+      "dateLabel": "יום שני, 7 בספטמבר",
+      "ideas": [
+        {
+          "id": "2026-09-07-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "חמישה כלים שבאמת פתוחים לי בטאבים השבוע, לא רשימת המלצות שכתבתי פעם ולא נגעתי בה מאז",
+          "angle": "פורמט: רשימת כלים קצרה. וויב פיגמה בשביל ג'נרציה ראשונה של מסך או וידאו, קלוד קוד בשביל להפוך את זה לרכיב אמיתי שרץ, מובין בשביל רפרנס אפליקציה חי בלי לצלם מסך ולשמור בתיקייה, גוגל סטיץ' בשביל אב טיפוס מהיר כשעוד אין דיזיין סיסטם, וקלוד הרגיל בצ'אט בשביל לנסח את הפרומפט לפני שהוא בכלל נכנס לאחד מהכלים האלה. הרשימה הזאת התחלפה שלוש פעמים מאז יוני, וזו בדיוק הנקודה, זה לא כלי קבוע, זו זרימה",
+          "why": "כל פעם שתלמיד שואל אותי מה הכלי הכי טוב, האמת היא שאין תשובה נכונה לשאלה הזאת. יש רצף של כלים שכל אחד עושה דבר אחד טוב, וזה הפוסט שסוף סוף כותב את הרצף בלי להתחמק",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/",
+          "srcLabel": "מהסטודיו של סימפלה, הכלים שבשימוש בפועל",
+          "srcDate": "7.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Five simple geometric tool icons arranged in a loose flowing sequence connected by a thin dashed arrow line, each icon abstract and distinct, a canvas frame, a code bracket, a mobile screen grid, a sketch outline, a speech bubble, suggesting a workflow rather than a toolbox, 1:1",
+            "video": "Flat editorial vector illustration style, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, no gradients, no text. Five abstract geometric tool icons appear one at a time along a thin dashed arrow path, each icon drawing itself in with a quick line animation before the arrow continues to the next, camera holds static, calm steady pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-07-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "מאמר שיצא השבוע אומר משהו שאני חוזר עליו בכל סדנת דיזיין סיסטמס, רק בניסוח הרבה יותר חד",
+          "angle": "עדכון מ6.9.2026, כתבה שמסכמת דיון על UX ארגוני בעידן הסוכנים, כשיש AI שפועל בתוך המוצר לא מספיק שהעיצוב ייראה טוב, הוא חייב להיות חזוי. אם כפתור נראה קצת אחרת בכל מסך, לא רק בן אדם מתבלבל, גם הסוכן שמנסה לפעול בתוך המוצר. הכתבה כותבת את זה כבעיית נגישות בעצם, פטרן לא עקבי הוא כשל נגישות גם לאדם עם קורא מסך וגם לסוכן AI שמנסה לנווט",
+          "why": "זה בדיוק המשפט שאני אומר בכל סדנת דיזיין סיסטמס ומקבל תגובה מנומסת ומתעניינת בלי שבאמת מאמינים לי. עכשיו יש לזה מאמר עם תאריך",
+          "srcUrl": "https://stephaniewalter.design/blog/pixels-of-the-week-september-6-2026/",
+          "srcLabel": "Pixels of the Week, Stéphanie Walter",
+          "srcDate": "6.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A grid of identical small UI button shapes, all aligned except one slightly rotated and off the grid line, subtle glow around the misaligned one in warm yellow, 1:1",
+            "video": "Flat editorial vector illustration style, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, no gradients, no text. A grid of identical small UI button shapes fills in one by one in coral, then one shape near the center rotates slightly out of alignment and pulses in warm yellow, camera static, quiet deliberate pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-07-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "משיעור הבונוס שלך על 10 ההתנהגויות המודרניות באתרים, ההתנהגות השישית ברשימה",
+          "hook": "ההתנהגות שהכי הרבה סטודנטים מוסיפים בלי לשאול אותי, custom cursors, היא גם זו שהכי קל להגזים בה",
+          "angle": "custom cursors, ההתנהגות השישית בשיעור הבונוס שלי על עשר ההתנהגויות המודרניות באתרים. סמן שמשנה צורה או תוכן כשעוברים מעל אזור מסוים באתר, לא חץ רגיל. מתי כן, כשיש סיפור אחד ברור שהסמן מספר, כמו גלריית תיק עבודות שבה הסמן הופך לאייקון תצוגה. מתי לא, כשזה רק כי אפשר, ואז המשתמש מאבד את הסמן הרגיל של הדפדפן ומתבלבל לגמרי איפה הוא בעמוד. הטעות הכי נפוצה שאני רואה בכיתה, מפעילים custom cursor על כל האתר, לא רק על האזור שבאמת צריך אותו",
+          "why": "השבוע סטודנטית הראתה לי גרסה שבה הסמן משתנה על כל עמוד, כולל התפריט והפוטר, ולקח לה חצי שיעור להבין למה זה מרגיש לא נעים בלי שהיא ידעה להסביר בדיוק למה",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/hachug-sheli/",
+          "srcLabel": "10 התנהגויות מודרניות באתרים, שיעור בונוס C",
+          "srcDate": "7.9",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay cursor arrow character mid transformation into a tiny clay eye icon, one hand still shaping the eye's clay lid, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow teal palette, soft studio lighting, shallow depth of field. A clay cursor arrow character walks stop motion style across a cream tabletop then morphs frame by frame into a small clay eye icon as it crosses over a clay picture frame, playful bouncy motion, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Enterprise UX at the limit: Why small patterns determine whether software and AI can scale",
+          "desc": "טיעון שדפוסי UI לא עקביים הם לא רק עניין קוסמטי, הם חוסמים גם נגישות וגם ניווט של סוכני AI בתוך המוצר",
+          "meta": "Futurice · דרך Pixels of the Week, 6.9",
+          "url": "https://www.futurice.com/blog/enterprise-ux-patterns-ai-scale"
+        },
+        {
+          "title": "The State of AI in UX & Product Design: 2026",
+          "desc": "סקירה רחבה של איך AI משנה את זרימת העבודה של מעצבי מוצר השנה, רקע טוב למי שמלמד את זה",
+          "meta": "Designlab",
+          "url": "https://designlab.com/blog/ai-in-ux-product-design-trends-2026"
+        },
+        {
+          "title": "Claude Code Changelog, ספטמבר 2026",
+          "desc": "יומן שינויים חי של קלוד קוד, שווה מעקב למי שמריץ ריצות אוטומטיות כמו שלושת המנועים היומיים שלי",
+          "meta": "Gradually.ai · ספטמבר 2026",
+          "url": "https://www.gradually.ai/en/changelogs/claude-code/"
+        }
+      ]
+    },
+    {
       "date": "2026-09-06",
       "dateLabel": "יום ראשון, 6 בספטמבר",
       "ideas": [
