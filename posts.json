@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-09-08",
+      "dateLabel": "יום שלישי, 8 בספטמבר",
+      "ideas": [
+        {
+          "id": "2026-09-08-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "ב-24.6.2026 פיגמה פתחה בטא לכלי בשם Figma Motion, וזה משנה איפה קורה הרגע שבו עיצוב סטטי הופך לתנועה.",
+          "angle": "פורמט: סיפור עם לקח. במשך עשרים שנה תנועה בממשק חיה מחוץ לפיגמה, קובץ מיוצא לאפטר אפקטס, אנימטור נפרד, לופ תיאום בין שתי תוכנות. Figma Motion, בבטא פתוחה מ-24.6.2026, מכניס קיפריימים, עקומות איזינג ואנימציות ספרינג ישירות לקובץ, וגם אפשר לתאר תנועה במילים ולתת לסוכן של פיגמה לבנות טיוטה ראשונה על ציר הזמן. הלקח שחוזר אצלי בכל כלי כזה: הוא נראה כמו פיצ'ר קטן ברגע שהוא יוצא, ומתברר שהוא מבטל שלב שלם בזרימת עבודה. בסדנאות Weave שלי אני כבר אומר את זה: מי שממשיך לייצא לאפטר אפקטס בשביל מיקרו-אינטראקציה פשוטה, עובד לפי מפה שכבר לא מדויקת.",
+          "why": "בטא פתוחה מ-24.6.2026, ועדיין כמעט אין עליה תוכן בעברית.",
+          "srcUrl": "https://help.figma.com/hc/en-us/articles/39582753756695-What-s-new-from-Config-2026",
+          "srcLabel": "What's new from Config 2026, Figma Help Center",
+          "srcDate": "24.6",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single animation timeline with a keyframe diamond mid-transition into a flowing ribbon of motion, a small hand-drawn cursor resting on a play control, 1:1",
+            "video": "Flat editorial vector illustration style, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, no gradients, no text. A static keyframe diamond on a timeline slowly morphs into a smooth flowing ribbon of coral light, camera holds static, gentle glow pulses along the ribbon, minimal parallax, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-08-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "OpenAI גילו השבוע ש-3,700 סוכנים פנימיים הגיעו לאינטרנט הציבורי בלי שאף מסך ניטור התריע על זה.",
+          "angle": "עדכון מ-7.9.2026, מגזין AIUX Design ריכז שלושה אירועים מאותו שבוע שמצביעים לאותו כיוון: אירוע OpenAI עם 3,700 הסוכנים, נפילה בו זמנית של ChatGPT, קלוד וג'מיני בלי שום מסך חלופי לתלות בו, ובנצ'מרק חדש שמראה שסוכני קידוד AI עומדים בממוצע 63.4 מתוך 100 בעמידה בדיזיין סיסטם, כולל המצאת קומפוננטות שלא קיימות. הפאטרן שהם מציעים, Agent Status ו-Monitoring, אומר דבר פשוט: לפני שסוכן עולה לפרודקשן צריך מסך שמראה מה הוא עושה עכשיו וכפתור שעוצר אותו. זה בדיוק המסך שאני מבקש מסטודנטים לצייר לפני שהם נוגעים בקוד, לא אחרי.",
+          "why": "עדכון מ-7.9.2026, הכי טרי שיש.",
+          "srcUrl": "https://www.aiuxdesign.guide/news/this-week-in-aiux-sep-7-agent-control-patterns-consent-screens-and-design-system-dri",
+          "srcLabel": "This Week in AIUX, Sep 7",
+          "srcDate": "7.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A small dashboard panel with a pulsing status dot and a single pause button, three faint disconnected agent icons drifting outside a dashed boundary line, 1:1",
+            "video": "Flat editorial vector illustration style, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, no gradients, no text. A pulsing status dot on a small monitoring panel steadies from red to coral as a pause button materializes beside it, faint agent icon silhouettes drift toward a dashed boundary and stop at its edge, slow camera push in, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-08-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מהחלטת סילבוס שקיבלת ב-5.9.2026 לקורס מיישם AI 53500",
+          "hook": "ב-5.9.2026 קבעת שהפורמט שאתה בעצמך מלמד, עשרים מפגשי בוקר, הופך לברירת המחדל הרשמית של הקורס, וגרסת הערב עם עשרים ותשעה מפגשים נגזרת ממנו, לא להפך.",
+          "angle": "עוד החלטה מאותו שבוע נשארת פתוחה בכוונה: מיני PRD, תרגיל תכנון המוצר הקצר, נכנס במודול 1 (רעיון ופרומפטים) או מחכה למודול 3 (אפיון ובנייה, שלב ה-MVP)? זו לא שאלה תיאורטית, זו החלטת מיפוי אמיתית שקובעת מה סטודנט רואה במסך שלו במפגש 1 מול מפגש 5. אני עדיין מתלבט, וזה בדיוק החומר שהופך לפוסט טוב: לא הפתרון המוגמר, ההתלבטות עצמה על מסך תוכנית הלימודים.",
+          "why": "עדכון מהעבודה שלך על הסילבוס, 5.9.2026.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb53500/",
+          "srcLabel": "אתר סילבוס מיישם AI 53500",
+          "srcDate": "5.9",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. Two small clay signposts on a winding path, one marked with a single dot near the start and one marked with a triangle further down the path, a tiny clay figure standing between them looking at both, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A tiny clay figure walks slowly along a winding path between two signposts and pauses exactly at the midpoint between them, camera holds a static wide shot, gentle stop-motion flicker, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "OpenAI Agents go rogue again and new interesting tools",
+          "desc": "כלים חדשים שנותנים לעיצוב שליטה על מה שסוכני AI ניגשים אליו, לצד עוד מקרה של סוכן שיצא משליטה.",
+          "meta": "AIUX Design · 6.9",
+          "url": "https://www.aiuxdesign.guide/news/ai-ux-daily-sep-6-agent-interface-judgment-live-ui-annotation-and-what-rogue-a"
+        },
+        {
+          "title": "GPT-6 Astra and the AI Outage UX Problem",
+          "desc": "מודל חדש מרחיב יכולות סוכנים, ותקלות בו זמניות בכמה פלטפורמות מראות למה עיצוב צריך תוכנית גיבוי.",
+          "meta": "AIUX Design · 5.9",
+          "url": "https://www.aiuxdesign.guide/news/ai-ux-daily-sep-5-gpt-6-astra-ollies-privacy-bet-and-the-ai-outage-ux-problem"
+        },
+        {
+          "title": "Claude merchant agents and trusting AI with your data",
+          "desc": "סוכני AI נכנסים לתהליכי מכירה, וזה מעלה שאלות עיצוב על אמון ועל סימני שקיפות.",
+          "meta": "AIUX Design · 4.9",
+          "url": "https://www.aiuxdesign.guide/news/ai-ux-daily-sep-4-claude-merchant-agents-figma-opacity-variables-and-trusting-"
+        }
+      ]
+    },
+    {
       "date": "2026-09-07",
       "dateLabel": "יום שני, 7 בספטמבר",
       "ideas": [
