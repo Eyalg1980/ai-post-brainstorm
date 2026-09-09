@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-09-09",
+      "dateLabel": "יום רביעי, 9 בספטמבר",
+      "ideas": [
+        {
+          "id": "2026-09-09-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "בסדנת Weave האחרונה תלמיד ביקש מהסוכן להזיז כפתור קצת ימינה, וגילה שהאתגר האמיתי הוא לכתוב פרומפט מדיד, לא רק ברור.",
+          "angle": "פורמט: מהכיתה לשטח. הרגע היה קטן ופשוט. תלמיד רצה שהסוכן יזיז כפתור בקובץ פיגמה, וכתב את זה כמו שכותבים לחבר, קצת ימינה. הסוכן הזיז אותו, אבל לא לאותו מקום שהתלמיד דמיין, כי קצת ימינה זה לא ערך. חזרנו ותרגמנו את זה לפיקסלים ולעוגן יישור, ואז זה עבד בדיוק. זה בדיוק ההבדל בין לתת הנחיה לבן אדם, שממלא פערים מהקשר, לבין לתת הנחיה לסוכן בתוך Weave, שצריך את אותה דיוק שדרישת קבלה טובה צריכה. אני רואה את זה כמעט בכל סדנה, וזה עדיין לא הפך אצלי לכלל שאני אומר בקול בתחילת השיעור.",
+          "why": "קורה כמעט בכל סדנת Weave שאני מעביר, ועדיין לא כתבתי עליו למרות שהוא חוזר.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/",
+          "srcLabel": "מהסטודיו של סימפלה, סדנאות Weave",
+          "srcDate": "9.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single UI button icon with a faint dashed measurement ruler beside it showing an exact pixel value, a small cursor arrow hovering precisely at the ruler's marked point, 1:1",
+            "video": "Flat editorial vector illustration style, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, no gradients, no text. A UI button drifts vaguely to the right and stops at an uncertain position, then a thin dashed ruler with an exact pixel marker appears beside it and the button snaps precisely onto the marked point, camera holds static, calm confident pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-09-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "אנתרופיק הוציאו את ה-Skills API לגרסה יציבה ב-20.8.2026, וזה משנה מי בכלל יכול לבנות כלי AI לצוות עיצוב.",
+          "angle": "עד עכשיו, כשמעצב רצה כלי AI שחוזר על עצמו בדיוק אותו דבר בכל פעם, היו שתי אפשרויות, לחזור על אותו פרומפט ארוך שוב ושוב, או לבקש ממהנדס לבנות משהו יציב. ה-Skills API, שיצא ל-GA ב-20.8.2026 יחד עם Files API, פותח אפשרות שלישית, לארוז הוראות קבועות וקבצי רפרנס לכלי אחד שנקרא בקריאת API, בלי לכתוב שורת קוד. זה בדיוק הפער שאני מסביר בכיתה בין פרומפט חד פעמי לזיכרון קבוע, רק שעכשיו יש לו גם ממשק תכנותי ולא רק תיאור מושגי. הצוותים הראשונים שינצלו את זה יהיו מעצבים שכבר יודעים לנסח הוראה טובה, לא מהנדסים.",
+          "why": "פורסם לפני שלושה שבועות בדיוק, 20.8.2026, וזה בדיוק הזמן שבו כלי חדש עובר מהכרזה לשימוש אמיתי בכיתה.",
+          "srcUrl": "https://releasebot.io/updates/anthropic/claude",
+          "srcLabel": "Releasebot, עדכוני Claude",
+          "srcDate": "20.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A small stack of paper notes with repeated identical scribbles folding and compressing into a single solid stamped tool icon, 1:1",
+            "video": "Flat editorial vector illustration style, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, no gradients, no text. A pile of identical scribbled paper notes repeatedly stacking on top of each other, then compressing and folding into one solid stamped tool icon that clicks into place, camera holds static, steady confident pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-09-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מהמפגש הראשון בפועל של קורס 53500, שקרה השבוע",
+          "hook": "ב-5.9.2026 קבעתי שמתכונת הבוקר שאני עצמי מלמד הופכת לברירת המחדל של הקורס, וב-7.9.2026 זה כבר לא היה החלטה על נייר, זה היה מפגש ראשון אמיתי.",
+          "angle": "פורמט: צ'ק-אין נבואה. אמרתי משהו בהחלטת סילבוס, ופחות משבוע אחר כך זה כבר עמד למבחן בכיתה אמיתית. עד היום עשרים המפגשים שלי היו הגרסה השנייה, נגזרת מהערב. מ-5.9.2026 הם הגרסה הראשונה, וגרסת הערב עכשיו נגזרת מהם. ואז, ב-7.9.2026, נפתח בפועל המפגש הראשון מתוך עשרים, אחרי חודשים של גרסאות סילבוס, שינויי מודולים ופגישות יישור קו. מפגש 3 כבר מוכן, מצגת שלמה על תמונה ווידאו עם תגית מחיר לכל כלי, חינמי, בתשלום או חלקי, כולל היגספילד, Runway, Seedream ו-FLUX. ההחלטה עברה למבחן. עכשיו התוכנית עצמה עומדת מול תלמידים אמיתיים, וזה תמיד השלב שבו מתגלה מה בסילבוס עבד רק על הנייר.",
+          "why": "עדכון החלטה מ-5.9.2026, ומפגש ראשון אמיתי ב-7.9.2026, פחות משבוע אחר כך.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb53500/",
+          "srcLabel": "אתר סילבוס מיישם AI 53500",
+          "srcDate": "7.9",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay door with the number one on it opening onto a tiny clay classroom scene, a folded paper syllabus resting just outside the door, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow teal palette, soft studio lighting, shallow depth of field. A folded paper syllabus slowly unfolds into a small clay door marked with the number one, the door creaks open by itself revealing a tiny clay classroom scene inside, camera holds a static wide shot, gentle stop-motion flicker, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Digital Learning Week, 8 to 11 September 2026",
+          "desc": "שבוע למידה דיגיטלית של אונסק\"ו, מתקיים ממש השבוע, עם דגש על AI בחינוך גלובלי.",
+          "meta": "UNESCO · 8-11.9",
+          "url": "https://www.unesco.org/en/weeks/digital-learning"
+        },
+        {
+          "title": "AI in Learning & Development Report 2026",
+          "desc": "דוח שנתי על איך AI משנה את ה-L&D הארגוני, רקע טוב למי שמלמד תוכן דומה.",
+          "meta": "Synthesia",
+          "url": "https://www.synthesia.io/reports/ai-in-learning-and-development-report-2026"
+        },
+        {
+          "title": "8 UX Patterns for AI-Native Products in 2026",
+          "desc": "דפוסי UX חוזרים במוצרים מבוססי AI, כשה-UX עצמו זז למקום אחר.",
+          "meta": "Design Bootcamp, Medium",
+          "url": "https://medium.com/design-bootcamp/8-ux-patterns-for-ai-native-workflows-in-2026-c469c35d7513"
+        }
+      ]
+    },
+    {
       "date": "2026-09-08",
       "dateLabel": "יום שלישי, 8 בספטמבר",
       "ideas": [
