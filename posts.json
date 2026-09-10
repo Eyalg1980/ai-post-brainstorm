@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-09-10",
+      "dateLabel": "יום חמישי, 10 בספטמבר",
+      "ideas": [
+        {
+          "id": "2026-09-10-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "פיגמה עכשיו נותנת לסוכן AI לגעת בשיידר בתוך הקובץ ולקחת אותו איתו ישר לתוך קוד React, בלי אף שלב ידני באמצע.",
+          "angle": "עדכון מ-8.9.2026 מרחיב את הפלאגינים הגנרטיביים והשיידרים של פיגמה כך שסוכן חיצוני, דרך MCP, יכול לערוך אפקט ויזואלי שנוצר בקנבס ולהעביר אותו ישירות למימוש קוד ב-React, בלי שמישהו כותב את זה מחדש בצד השני. עד היום אפקט גנרטיבי כזה היה תוצר סוף, יפה בפיגמה ומת ברגע שהוא צריך להפוך לקוד חי. עכשיו הוא נשאר חי גם אחרי המעבר. זה בדיוק סוג הפער שאני מראה לתלמידים בין קובץ עיצוב מרשים לבין מוצר שרץ, ופיגמה עצמה סוגרת אותו ברמת התשתית, לא רק ברמת ההסבר שלי בכיתה.",
+          "why": "התגלה בסריקת חדשות מ-8.9.2026, בדיוק השבוע שבו אני מסביר בכיתה למה קובץ עיצוב יפה ומוצר חי הם לא אותו דבר.",
+          "srcUrl": "https://ux-news.com/",
+          "srcLabel": "UX News, עדכון 8.9",
+          "srcDate": "8.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A glowing shader orb icon resting inside a small design canvas frame, a thin dashed line carrying it directly into an open code bracket symbol beside it, no hands, no gears, 1:1",
+            "video": "Flat editorial vector illustration style, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, no gradients, no text. A glowing shader orb sitting inside a small design canvas frame slides smoothly along a dashed path and passes directly into an open code bracket symbol without pausing, the bracket closes gently around it, camera holds static, calm confident pacing, single warm glow trailing the orb, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-10-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "כתבה מ-9.9.2026 טוענת ש-AI מקרב בין מעצבים למפתחים במקום להרחיק ביניהם, ואני רואה בדיוק את זה קורה בכיתה שלי החודש.",
+          "angle": "הכתבה מתארת איך כלי AI מטשטשים את הגבול בין מי שמעצב למי שמממש, ודוחפים לאחריות משותפת במקום העברת מסמך מיד ליד. זה בדיוק מה שקורה אצלי בקורס 53500, תלמיד שמעולם לא כתב שורת קוד מגיע השנה למודול 3 עם ציפייה לגעת בבנייה בעצמו, לא רק לתאר אותה למישהו אחר. שנים לימדתי מעצבים לכתוב בריף טוב למפתח. השנה אני מלמד את אותם אנשים לבנות משהו בעצמם ולדעת מתי לעצור ולהזמין מפתח אמיתי. זה לא צמצום של תפקיד המעצב, זה הרחבה שלו לשטח שהיה סגור בפניו עד עכשיו.",
+          "why": "פורסם ב-9.9.2026, יום אחד לפני הבריף הזה.",
+          "srcUrl": "https://ux-news.com/",
+          "srcLabel": "UX News, עדכון 9.9",
+          "srcDate": "9.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Two simple outline silhouettes, one holding a pencil and one holding a code bracket symbol, standing close together with their outlines overlapping slightly at the shoulder, 1:1",
+            "video": "Flat editorial vector illustration style, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, no gradients, no text. Two simple outline silhouettes, one holding a pencil and one holding a code bracket symbol, walk slowly toward each other from opposite edges of frame and their outlines merge into a single overlapping shape at the center, camera holds static, calm steady pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-10-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "ממצגת מפגש 3 שהכנת לקורס 53500 השבוע",
+          "hook": "8.9.2026, 14:00, קלוד דיזיין סיים לייצא לי מצגת שלמה של 80 שקפים לפאוארפוינט, קובץ תקין, גודל הגיוני, הכל נראה גמור. 8.9.2026, 19:00, גיליתי שקף אחרי שקף שאחד עשר מהם יצאו עם מלבן לבן ריק במקום התמונה.",
+          "angle": "פורמט: שתי נקודות בזמן. שעה 14:00, הייצוא הסתיים בלי שגיאה אחת על המסך. קובץ PPTX תקין, שמונים שקפים, גודל קובץ סביר, שום דגל אדום. סגרתי את הכלי בתחושת סיום. שעה 19:00, לפני שליחת המצגת למרצה השני שילמד את מפגש 3, עברתי שקף אחרי שקף בעין, כמו שאני תמיד אומר לתלמידים לעשות ולא תמיד עושה בעצמי. שקף 16 ריק במקום התמונה. שקף 33. שקף 57. בסוף אחד עשר שקפים מתוך שמונים. לצדם, כל פסקה בכל שקף יצאה מיושרת שמאלה בלי RTL, כאילו המסמך נכתב באנגלית. מה שלא השתנה מאז שהתחלתי ללמד, בדיקת קובץ תקין ובדיקת תוכן נכון הן שתי בדיקות שונות, והראשונה אף פעם לא מייתרת את השנייה. זה נכון מאז שהיינו מוציאים PSD בפוטושופ ובודקים שהשכבות לא זזו, וזה נכון בדיוק באותה מידה כשה-AI עושה את הייצוא בשבילך.",
+          "why": "קרה ממש השבוע, 8.9.2026, בהכנה למפגש 3 של קורס 53500.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb53500/",
+          "srcLabel": "אתר סילבוס מיישם AI 53500",
+          "srcDate": "8.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A neat grid of small presentation slide rectangles, most showing a faint dashed picture icon, one slide shown as a plain empty white rectangle, a small magnifying glass hovering directly over the empty one, 1:1",
+            "video": "Flat editorial vector illustration style, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, no gradients, no text. A neat grid of small presentation slide rectangles scrolls steadily downward, most slides showing a faint dashed picture icon, then one slide passes by as a plain empty white rectangle and a small magnifying glass appears and stops directly over it, camera holds static, calm confident pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Adobe Is Building a New AI Design Tool Called Project Oasis",
+          "desc": "אדובי בונים כלי עיצוב חדש מבוסס דפדפן עם AI מודע למותג, כבר פותחים למעצבים לבדיקה לפני השקה.",
+          "meta": "UX News · 8.9",
+          "url": "https://ux-news.com/"
+        },
+        {
+          "title": "What John Ternus's Leadership Could Mean for Apple's User Experience",
+          "desc": "איך הרקע ההנדסי של המנהיג החדש באפל עשוי להשפיע על אסטרטגיית המוצר ככל שבינה מלאכותית משנה את דפוסי האינטראקציה.",
+          "meta": "UX News · 7.9",
+          "url": "https://ux-news.com/"
+        },
+        {
+          "title": "ByteDance Prepares AI Model for Real-Time Spatial Video Generation",
+          "desc": "בלומברג על המרוץ למודלי עולם בזמן אמת, רקע טוב למי שעוקב אחרי לאן וידאו AI הולך אחרי הפריים הסטטי.",
+          "meta": "Bloomberg · 7.9",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-07/bytedance-founder-joins-ai-elite-in-race-to-perfect-world-models"
+        }
+      ]
+    },
+    {
       "date": "2026-09-09",
       "dateLabel": "יום רביעי, 9 בספטמבר",
       "ideas": [
