@@ -1,6 +1,83 @@
 {
  "days": [
   {
+   "date": "2026-09-14",
+   "dateLabel": "יום שני, 14 בספטמבר",
+   "ideas": [
+    {
+     "id": "2026-09-14-1",
+     "pillar": "Figma Weave",
+     "color": "#FF6B5E",
+     "me": null,
+     "hook": "בסבב השני של דניאל בוארון בקורס שלי הוא לא פתח מצגת, הוא הדביק לינק לפיגמה, וזהו.",
+     "angle": "פורמט: מהכיתה לשטח. דניאל הדגים בלייב, הדביק לינק לקובץ פיגמה, והסוכן כבר ידע לבד איזה קובץ ואיזה פריים מדובר, בלי שהוא הסביר מילה. משם הסוכן סרק את כל הטקסטים במסך מול מדריך סגנון קיים וסימן חוסר התאמות. עד עכשיו תיאור מסך לסוכן AI היה עבודה בפני עצמה, לתאר במילים מה יש בו ואיפה. עכשיו לינק אחד הוא כבר קונטקסט מלא. זה משנה מה זה בכלל תדריך עבודה מול סוכן, מתיאור מפורט למסירת כתובת. אני עוד לא בטוח שכל התלמידים שלי מבינים כמה זה משנה את ההרגל של לכתוב פרומפט ארוך.",
+     "why": "קרה בהרצאת האורח האחרונה שלו אצלי, ומתחבר ישר לפער שאני רואה כמעט בכל סדנת Weave בין תיאור מפורט להעברת קונטקסט אמיתי.",
+     "srcUrl": "https://eyalg1980.github.io/simpla-lab/",
+     "srcLabel": "מהסטודיו של סימפלה, הרצאת אורח בקורס",
+     "srcDate": "14.9",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single unfurling link-chain icon transforms into a small magnifying glass hovering over a neat stack of text lines with a checkmark beside them, calm precise composition, 1:1",
+      "video": "Flat editorial vector illustration style, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, no gradients, no text. A link-chain icon unfurls and morphs into a small magnifying glass that glides down over a stack of text lines, a checkmark quietly appears beside them, camera holds static, calm confident pacing, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-09-14-2",
+     "pillar": "UX + AI",
+     "color": "#7B61FF",
+     "me": null,
+     "hook": "נוטיון נתנו ב-12.9.2026 לבעלי ארגון שליטה נפרדת על איזה מודל AI כל סוכן מדבר איתו, וזו בדיוק השאלה שכל לקוח שואל אותי בפגישת פיילוט ראשונה.",
+     "angle": "העדכון מ-12.9.2026 מאפשר לבעלי workspace בנוטיון לנהל בנפרד את הגישה ל-Notion Agent ולסוכנים מותאמים אישית, כולל בחירת מודל ברירת מחדל לכל אחד. עד עכשיו בחירת המודל הייתה החלטה שקופה שקורה מאחורי הקלעים, ברירת מחדל של הספק. ברגע שהיא הופכת למסך ניהול אמיתי, זה אומר שבחירת מודל היא כבר לא שאלה טכנית של מפתח, היא פיצ'ר מוצר שצריך עיצוב, מי רואה אותו, איך מסבירים למה מודל אחד עולה יותר מהשני, מה קורה כשמחליפים לתלמיד או לצוות באמצע פרויקט. אני מצפה שתוך חודשים ספורים כל כלי AI ארגוני יצטרך מסך כזה, לא כתוספת, כבר בגרסה הראשונה.",
+     "why": "התכונה יצאה ב-12.9.2026, יומיים לפני היום, וממשיכה ישר את שיחת אבטחת המידע שכבר עלתה לי השבוע בפגישות פיילוט.",
+     "srcUrl": "https://ux-news.com/notion-ai-model-controls/",
+     "srcLabel": "UX News, נוטיון ובקרת מודלים",
+     "srcDate": "12.9",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Three small identical AI model chip icons in a row behind a thin dashed barrier, one chip lit and singled out by a small dial control beside it, orderly composition, 1:1",
+      "video": "Flat editorial vector illustration style, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, no gradients, no text. Three identical AI model chip icons sit in a row, a small dial control turns and one chip lights up while the others dim, a thin dashed barrier settles around the chosen chip, camera holds static, steady confident pacing, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-09-14-3",
+     "pillar": "הוראה והכשרה של AI",
+     "color": "#2BB3A3",
+     "me": "מההחלטה הטכנית שסגרתי השבוע לקורס 53500",
+     "hook": "בתחילת אוגוסט אמרתי שאני רוצה טעימה קלה של vibe coding כבר בפתיחת הקורס, בלי לפגוע בתהליך. ב-12.9.2026 זה קיבל צורה סופית, ולא בדיוק כמו שדמיינתי.",
+     "angle": "פורמט: צ'ק-אין נבואה. הרעיון המקורי היה תרגיל קטן ועדין. מה שיצא בפועל, אחרי סבב החלטות טכני מלא: Lovable הוא תרגיל של כשעתיים בלבד, לא מסלול, ומיד אחריו כל הכיתה עוברת יחד ל-Claude Code בתשלום. זה גורר שרשרת שינויים לא קטנה, Supabase זז למודול 3, צריך מפגש התקנות שלם לפני מפגש 5, וצריך להודיע על עלות המנוי כבר בפתיחת הקורס, לא באמצע. הטעימה הקלה שדמיינתי הייתה בעצם פתח לתשתית שלמה. זה תמיד ההבדל בין רעיון פדגוגי לבין הרגע שבו הוא נפגש עם עלות אמיתית וסדר יום אמיתי.",
+     "why": "החלטה טכנית שנסגרה השבוע, 12.9.2026, לקראת הקורס שנפתח בנובמבר.",
+     "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb53500/",
+     "srcLabel": "מסמך ההעברה הטכני, קורס 53500",
+     "srcDate": "12.9",
+     "prompts": {
+      "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A tiny bright clay spark shape sitting beside a much larger sturdy clay workbench with small clay tools resting on it, no text, 1:1",
+      "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow teal palette, soft studio lighting, shallow depth of field. A small bright clay spark flickers twice then settles and grows into a sturdy clay workbench, small clay tools rising into place on its surface one by one, camera holds a static wide shot, gentle stop-motion flicker, 9:16, 8 seconds"
+     },
+     "used": false
+    }
+   ],
+   "articles": [
+    {
+     "title": "The State of AI in UX & Product Design: 2026",
+     "desc": "סקירה מקיפה על מגמות AI בעיצוב מוצר לשנת 2026, רקע טוב לפגישות פיילוט.",
+     "meta": "Designlab · 2026",
+     "url": "https://designlab.com/blog/ai-in-ux-product-design-trends-2026"
+    },
+    {
+     "title": "AI in Design Report 2026, פרק הכלים",
+     "desc": "פרק שממפה את כלי ה-AI הרווחים בזרימת עבודה של מעצבים השנה.",
+     "meta": "State of AI Design · 2026",
+     "url": "https://stateofaidesign.com/chapters/tools"
+    },
+    {
+     "title": "How AI Is Transforming Learning and Development in 2026",
+     "desc": "נקודת מבט על איך AI משנה תוכן הדרכה ולמידה ארגונית, רלוונטי למי שבונה קורסים.",
+     "meta": "Emtrain · 2026",
+     "url": "https://emtrain.com/blog/workplace-culture/how-ai-is-transforming-learning-and-development-in-2026/"
+    }
+   ]
+  },
+  {
    "date": "2026-09-13",
    "dateLabel": "יום ראשון, 13 בספטמבר",
    "ideas": [
