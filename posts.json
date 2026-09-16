@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-09-16",
+      "dateLabel": "יום רביעי, 16 בספטמבר",
+      "ideas": [
+        {
+          "id": "2026-09-16-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "בכל תיקיית סקיל יש בעצם קובץ חובה אחד, וכל השאר בונוס שנטען רק כשצריך.",
+          "angle": "פורמט: רשימת כלים קצרה. מסבב ההרצאה השני של דניאל בוארון בקורס שלי: SKILL.md הוא הקובץ היחיד שחובה, ותיקיות references/ ו scripts/ הן אופציונליות ונטענות עצלנית רק כשהסוכן צריך אותן. סקריפט הוא קוד דטרמיניסטי שרץ אותו דבר בדיוק בכל פעם, לא ניחוש של מודל. וההבדל המשמעותי ביותר: סקיל קונטקסט רק מוסיף ידע, סקיל פעולה מפעיל כלים אמיתיים, כמו Figma MCP שמשמש ידיים של הסוכן בתוך הקובץ עצמו. ארבעה מרכיבים, לא תיאוריה מופשטת.",
+          "why": "כי כשאומרים לתלמיד תבנה סקיל זה נשמע כמו פרויקט תוכנה שלם, וזה בעצם תיקייה עם קובץ מארקדאון אחד חובה ושלוש תוספות אופציונליות.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/",
+          "srcLabel": "מהסטודיו של סימפלה, הרצאת האורח של דניאל בוארון בקורס שלי, סבב שני",
+          "srcDate": "14.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single open folder icon with one glowing required file inside marked as central, two dimmer optional sub-folders branching off lazily, one branch ending in a small mechanical hand icon representing an action skill reaching out, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera slowly pushes into a minimal folder icon, the one required file glows and locks into place first, then two optional branches fade in one after another, the last branch resolving into a small mechanical hand reaching forward, calm deliberate pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-16-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "כל שוט בסרט החימר של סימפלה שנראה בלופ חלק בלי קאט, הוא בעצם ארבע שניות ששיחקתי קדימה ואז אחורה, לא לופ אמיתי.",
+          "angle": "ב 13.9.2026 בניתי את אזור העבודה באתר החימר של סימפלה: שלושה קליפים שקטים בלופ, 960 על 540, שמונה שניות כל אחד, בנויים מארבע שניות שמנוגנות קדימה ואז אחורה כך שהלופ תפור בלי קרוספייד ובלי תפר נראה. זו לא רק טכניקת עריכה, זו החלטת UX: תשומת לב במסך תיק עבודות היא משאב מוגבל, ולופ חלק מחזיק אותה בלי לצעוק ובלי לעלות עוד רינדור.",
+          "why": "כי בעולם שבו כל שנייה של רינדור עולה קרדיטים, הפתרון הכי טוב הרבה פעמים הוא לא ליצור יותר חומר, אלא להסתכל אחרת על מה שכבר קיים בידיים.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/",
+          "srcLabel": "מהסטודיו של סימפלה, אתר החימר, אזור העבודה",
+          "srcDate": "13.9",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay filmstrip forming a closed loop shape with no visible seam, one frame subtly brighter where forward motion turns to reverse, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A clay ribbon of film loops smoothly forward then reverses seamlessly back on itself with no visible cut point, camera holds static and centered, gentle looping rhythm, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-16-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": null,
+          "hook": "חברת קיוריישן ללמידה ארגונית שחררה אתמול פיצ'ר שגומר בדקות משהו שלוקח למעצב קורס שעה, וזו בדיוק העבודה שאני עדיין מקפיד שתלמידים יעשו ביד קודם.",
+          "angle": "OpenSesame הרחיבו ב 15.9.2026 את עוזר הקיוריישן שלהם כך שהוא מטפל בכמה נושאים בשיחה אחת, במקום להתחיל כל חיפוש מחדש. לפי החברה זה מקצר בניית קטלוג של חמישה נושאים משעה שלמה לדקות. זה בדיוק התהליך שאני מלמד ידנית במודול הראשון של 53500: קודם עוברים על עשרה רעיונות ביד ולומדים למה טוב נראה, ורק אז מדברים על אוטומציה. הכלי הזה לא מבטל את השלב, הוא דוחף אותו הרבה יותר מוקדם על ציר הזמן.",
+          "why": "כי ברגע שקיוריישן הופכת לזמינה בקליק, ההבדל בין מרצה למאמן AI טוב הוא לא הידע, זה שיפוט: לדעת אם מה שהמכונה בחרה באמת נכון לכיתה הזאת.",
+          "srcUrl": "https://www.globenewswire.com/news-release/2026/09/15/3361975/0/en/opensesame-expands-ai-powered-curation-to-help-l-d-teams-turn-complex-learning-needs-into-action-faster.html",
+          "srcLabel": "OpenSesame, הודעה לעיתונות",
+          "srcDate": "15.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A clock face with its hour hand fast-forwarding from a full circle down to a small arc, five small topic tiles collapsing into one neat stack beside it, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A clock hand sweeps rapidly backward from a full hour down to two minutes while five scattered topic tiles snap into one organized stack, brisk confident motion, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "AI News Briefs Bulletin Board, ספטמבר 2026",
+          "desc": "עדכון חודשי שמרכז ידיעות AI קצרות, כולל כמה שנוגעות ישירות לכלי עיצוב ולמידה.",
+          "meta": "Radical Data Science · 14.9",
+          "url": "https://radicaldatascience.wpcomstaging.com/2026/09/14/ai-news-briefs-bulletin-board-for-september-2026/"
+        },
+        {
+          "title": "Figma: 19 עדכוני מוצר בספטמבר 2026",
+          "desc": "רשימה מרוכזת של כל השינויים שיצאו החודש בפיגמה, טובה לסריקה מהירה לפני שכותבים עליהם.",
+          "meta": "Spyingbee · ספטמבר 2026",
+          "url": "https://spyingbee.com/updates/figma/2026-09"
+        },
+        {
+          "title": "The most popular experience design trends of 2026",
+          "desc": "מיפוי של הטרנדים החוזרים בעיצוב חוויית משתמש השנה, נקודת מבט טובה לבדוק מולה את מה שמלמדים בכיתה.",
+          "meta": "UX Collective",
+          "url": "https://uxdesign.cc/the-most-popular-experience-design-trends-of-2026-3ca85c8a3e3d"
+        }
+      ]
+    },
+    {
       "date": "2026-09-15",
       "dateLabel": "יום שלישי, 15 בספטמבר",
       "ideas": [
