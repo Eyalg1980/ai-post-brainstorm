@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-09-17",
+      "dateLabel": "יום חמישי, 17 בספטמבר",
+      "ideas": [
+        {
+          "id": "2026-09-17-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "הריצה הראשונה של סוכן AI על המוצר שלך עולה יקר. הריצה העשירית כמעט בחינם, אם כתבת קובץ אחד נכון.",
+          "angle": "מהסבב השני של הרצאת האורח של דניאל בוארון בקורס שלי: כל פרויקט שסוכן AI עובד עליו צריך DESIGN_CONTEXT.md, קובץ אחד שממפה את מערכת העיצוב, רכיבי הליבה וכללי השימוש שלהם. הריצה הראשונה שבונה את הקובץ הזה סורקת את כל המוצר, יקרה בזמן וטוקנים. כל ריצה אחרי זה רק קוראת את הקובץ, זול. וכל אלמנט בעבודה מול הסוכן עובר לפי כלל שימוש-הרחבה-המצאה: קודם בודקים אם הרכיב כבר קיים במערכת, אם כן רק מרחיבים אותו, ורק אם אין ברירה בונים חדש מאפס.",
+          "why": "כי ההבדל בין סטודיו שמשלם על כל שיחה עם סוכן מחדש לסטודיו שמשלם פעם אחת ואז רק קורא, הוא בדיוק ההבדל בין פרומפט לזיכרון קבוע, אותו רעיון שאני מסביר כל שבוע רק בלבוש טכני אחר.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/",
+          "srcLabel": "מהסטודיו של סימפלה, חומרי הרצאת האורח של דניאל בוארון בקורס שלי",
+          "srcDate": "14.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single glowing document icon at center connected by thin dashed lines to many small scattered UI component icons that are fading and drifting into it, symbolizing a full product scan being distilled into one file, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Dozens of tiny scattered UI component icons drift inward from the edges of the frame and dissolve one by one into a single glowing document icon at center, then one thin dashed line remains and pulses gently outward from it, camera holds static, calm deliberate pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-17-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "קלוד עכשיו מריץ בעצמו 43 זרימות עבודה לעסק קטן, כולל חיבור ישיר ל-Zapier, Stripe ו-Xero.",
+          "angle": "ב-15.9.2026 הרחיבה אנתרופיק את Claude for Small Business ל-43 זרימות עבודה חדשות ו-27 אינטגרציות, כולל Shopify, Salesforce, Zoom, Xero, Gusto, Square, Stripe ו-Zapier, יותר מ-900 אלף התקנות מאז ההשקה במאי. הכיוון עבר מ'תעזור לי לנסח מייל' ל'תריץ בעצמך את התהליך המלא', מליד ועד הצעת מחיר ועד דוח.",
+          "why": "כי הבעיה של סטודיו קטן אף פעם לא הייתה חוסר ידע, היא זמן פנוי לחבר בין הכלים שכבר יש לו, וזו בדיוק הפער שאינטגרציה ישירה סוגרת בלי שצריך לכתוב שורת קוד אחת.",
+          "srcUrl": "https://releasebot.io/updates/anthropic/claude",
+          "srcLabel": "Releasebot, עדכוני Claude",
+          "srcDate": "15.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A small storefront icon at center with thin dashed lines radiating outward to small labeled node icons representing connected tools, one node glowing brighter than the rest, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Thin dashed lines shoot outward one by one from a small storefront icon to a ring of small tool-node icons that light up in sequence around it, camera holds static, calm confident pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-17-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מהמערכת הטכנית שאתה בונה עכשיו לתלמידי 53500",
+          "hook": "כל סמסטר אני אומר לתלמידים שההנחיה לסוכן צריכה להיות קובץ, לא משפט. השבוע כתבתי את זה פשוטו כמשמעו.",
+          "angle": "פורמט: צ'ק-אין נבואה. ב-12.9.2026 סגרתי את ההנחיות הטכניות לפרויקט המתגלגל של קורס 53500, ובתוך זה התברר משהו שאני מסביר בכיתה בלי הפסקה: ההנחיה לסוכן לא נכתבת כפרומפט שמדביקים בכל שיחה מחדש, היא נכתבת כקובץ CLAUDE.md בשורש הפרויקט שהסוכן קורא בעצמו לפני שהוא מתחיל לעבוד. תוצר שהיה אמור להיות מסמך אחד התפצל לשלושה: תבנית הקובץ עצמו, פרומפט מראיין שמוציא אותה מהתלמיד דרך עשרה היבטים, ופרומפט נפרד לפתיחת כל מפגש. כלל הברזל שיושב מתחת לכל זה: אף מפתח API לא נכנס לקוד שרץ בדפדפן, כי GitHub Pages שהתלמידים מפרסמים אליו ציבורי לגמרי.",
+          "why": "כי ההבדל בין ללמד להשתמש בסוכן לבין ללמד לכתוב לו זיכרון קבוע הוא בדיוק ההבדל בין מקצוע לתחביב, וזו בדיוק ההנחיה שאני נותן לתלמידים עכשיו לפני שהם כותבים שורת קוד ראשונה.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/",
+          "srcLabel": "מהסטודיו של סימפלה, ההנחיות הטכניות לקורס 53500",
+          "srcDate": "12.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single document icon at the root of a small folder tree splitting cleanly into three smaller labeled document icons beneath it, one small padlock icon floating separately away from a browser window icon, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. One document icon at the top splits cleanly into three smaller documents that settle in a row below it, then a small padlock icon detaches from a browser window icon and drifts to the side, camera holds a slow push in, calm deliberate pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "עדכוני Claude, ספטמבר 2026",
+          "desc": "רשימה מרוכזת של השחרורים האחרונים של אנתרופיק, כולל ההרחבה לעסקים קטנים ואינטגרציית Salesforce.",
+          "meta": "Releasebot · 15.9",
+          "url": "https://releasebot.io/updates/anthropic/claude"
+        },
+        {
+          "title": "עדכוני פיגמה, ספטמבר 2026",
+          "desc": "רשימה מרוכזת של השחרורים האחרונים של פיגמה, כולל הרחבת השיידרים הגנרטיביים והתמיכה המורחבת ב-MCP.",
+          "meta": "Releasebot · ספטמבר 2026",
+          "url": "https://releasebot.io/updates/figma"
+        },
+        {
+          "title": "gtStudios Weekly, 15 בספטמבר 2026",
+          "desc": "סיכום שבועי של חדשות AI, כולל השקת Gemini 3.8 ורכישת Glass Imaging על ידי OpenAI.",
+          "meta": "gtStudios · 15.9",
+          "url": "https://gtstu.com/gtstudios-weekly-september-15-2026/"
+        }
+      ]
+    },
+    {
       "date": "2026-09-16",
       "dateLabel": "יום רביעי, 16 בספטמבר",
       "ideas": [
