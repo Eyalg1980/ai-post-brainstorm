@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-09-18",
+      "dateLabel": "יום שישי, 18 בספטמבר",
+      "ideas": [
+        {
+          "id": "2026-09-18-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "פיגמה עכשיו נותנת לכל זרימת Weave להפוך לתבנית ציבורית, ולסוכן שלה יש סקילים משלו.",
+          "angle": "מסיכום Config 2026 של פיגמה: Weave, מנוע ה-workflow על הקנבס, יוצא מהניסוי הפרטי. אפשר לבנות זרימה, לפרסם אותה כתבנית, ובקרוב גם ככלי קהילה. במקביל סוכן הפיגמה יצא לכל המשתמשים ומקבל סקילים, כלומר חבילות הוראות קבועות שאפשר לארוז ולהשתמש בהן שוב, מחובר ל-Notion, Slack, GitHub ו-Atlassian. שיחות הסוכן גלויות לצוות כברירת מחדל. זו בדיוק המילה שאני משתמש בה כל שבוע בקורס, רק שהפעם פיגמה עצמה קוראת לזה ככה.",
+          "why": "כי ברגע שהחברה שבונה את הכלי מאמצת את המילה סקיל בתור המושג הרשמי שלה לזיכרון קבוע, המעבר מפרומפט חד פעמי לחבילת הוראות קבועה כבר לא תיאוריה שלי, זו תשתית.",
+          "srcUrl": "https://www.figma.com/blog/config-2026-recap/",
+          "srcLabel": "Figma Blog, סיכום Config 2026",
+          "srcDate": "18.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A node based flowchart diagram folding itself into a single labeled folder icon shown as an abstract tag shape, with small connector dots linking outward to four minimal service icons representing external tools, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A node based flowchart of small scattered icons drifts inward and connects itself in sequence, then the whole diagram compresses smoothly into a single folder tag icon, followed by four thin dashed lines extending outward from it to four service icons that pulse briefly, camera holds static, calm deliberate pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-18-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "קלוד עכשיו מחליט בעצמו מתי לעצור ולבקש אישור מבן אדם, וזו בדיוק הבעיה שאף אחד לא באמת פתר בעיצוב.",
+          "angle": "ב-10.9.2026 קלוד שחרר מצב אישורים אוטומטי לסוכנים מנוהלים: לפני כל קריאת כלי, השרת עצמו מעריך ומחליט אם להריץ, לחסום, או לעצור ולבקש אישור אנושי, וחושף את זה כשדה evaluation. זה הופך את רגע העצירה מחוק טכני קשיח לממשק אמון חי, שאלה של מתי הפרעה מרגישה מוצדקת ומתי היא מעצבנת.",
+          "why": "כי כל מוצר סוכנים היום מגיע לרגע הזה של לעצור או להמשיך, וכמעט אף אחד לא מעצב אותו טוב, ועכשיו יש לזה אפילו שם רשמי בתיעוד.",
+          "srcUrl": "https://platform.claude.com/docs/en/release-notes/overview",
+          "srcLabel": "Claude Platform, הערות שחרור, 10.9.2026",
+          "srcDate": "10.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single decision fork made of thin dashed lines splitting into three paths, one continuing straight, one curving into a small pause icon, one curving into a stop icon, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Three dashed paths draw themselves outward from a single starting point one after another, a small dot slides along the straight path smoothly and exits frame, then a second dot slides toward the curved path and gently halts and pulses at a small pause icon, camera holds static, calm deliberate pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-18-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "כשתלמיד שואל אותי למה הכפתור נראה כאילו הוא כבר עבד לפני שהשרת בכלל ענה, זה הרגע שאני מלמד אופטימיות מזויפת.",
+          "angle": "מתוך שיעור הבונוס C בקורס שלי, 10 התנהגויות UX מודרניות באתר: optimistic UI, כלומר הצגת מצב ההצלחה לפני שהשרת בכלל אישר, ואז שקט שמתקן אחורה אם זה נכשל. יש לזה כלל ברור מתי כן ומתי לא, וזה נכנס לכלל הזהב שאני חוזר עליו כל קורס, ביצועים לפני וואו, מקסימום שתי התנהגויות בעמוד.",
+          "why": "כי בדיוק עכשיו כל ממשק צ'אט AI מזייף תגובה מיידית בזמן שהמודל עוד מייצר, וההבנה למה זה עובד היא ההבדל בין להעתיק טרנד לבין להבין מנגנון.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "מחומרי הקורס שלי, שיעור בונוס C",
+          "srcDate": "18.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single button icon shown twice side by side, the left one glowing solid coral as if already confirmed while a thin dashed clock icon ticks behind it unfinished, the right one shown reverting with a small dashed undo arrow, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. The left button glows solid coral instantly on tap while a dashed clock behind it keeps ticking unfinished, then a cut reveals the right button quietly reverting with a small dashed undo arrow sliding backward, camera holds static, calm deliberate pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "10 UX design shifts you can't ignore in 2026",
+          "desc": "סקירה של הכיוונים שמעצבים בפועל משנים בעבודה שלהם השנה, לא ניחוש עתידני",
+          "meta": "UX Collective · ספטמבר 2026",
+          "url": "https://uxdesign.cc/10-ux-design-shifts-you-cant-ignore-in-2026-8f0da1c6741d"
+        },
+        {
+          "title": "8 UX Patterns for AI-Native Products in 2026",
+          "desc": "מיפוי דפוסי ממשק שחוזרים במוצרי AI, ולמה UX לא נעלם אלא רק זז",
+          "meta": "Bootcamp / Medium · 2026",
+          "url": "https://medium.com/design-bootcamp/8-ux-patterns-for-ai-native-workflows-in-2026-c469c35d7513"
+        },
+        {
+          "title": "Claude Developer Platform Updates, ספטמבר 2026",
+          "desc": "יומן השינויים הרשמי של קלוד למפתחים, כולל אישורי סוכנים ודחיסת הודעות",
+          "meta": "Releasebot · ספטמבר 2026",
+          "url": "https://releasebot.io/updates/anthropic/claude-developer-platform"
+        }
+      ]
+    },
+    {
       "date": "2026-09-17",
       "dateLabel": "יום חמישי, 17 בספטמבר",
       "ideas": [
