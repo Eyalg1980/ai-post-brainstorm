@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-09-20",
+      "dateLabel": "יום ראשון, 20 בספטמבר",
+      "ideas": [
+        {
+          "id": "2026-09-20-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "פיגמה עכשיו נותנת לקנבס ה-Weave לקרוא קובץ עיצוב קיים ישירות, בלי שמישהו יתאר לו מילה אחת ממה שיש בו.",
+          "angle": "ב-17.9.2026 פיגמה שחררו node חדש ל-Weave שמחבר קבצי פיגמה קיימים ישירות לקנבס הזרימה, כולל ייבוא פריימים, קלטי טקסט ותמונה שניתנים לעריכה, וסנכרון חי מהקובץ המקורי. עד עכשיו קונטקסט לזרימת עבודה היה חייב להיכתב במילים, עכשיו זה חיבור ישיר לקובץ עצמו. זה בדיוק העיקרון של שימוש-הרחבה-המצאה שדניאל בוארון הביא להרצאת האורח שלי: קודם בודקים אם הרכיב כבר קיים, ורק אז מרחיבים אותו. פיגמה עכשיו בונה את הבדיקה הזו כפיצ'ר בתוך הקנבס.",
+          "why": "כי זה הופך תדרוך זרימת עבודה מתיאור ארוך למסירת קובץ, וזה בדיוק הפער בין מה שאני מלמד בכיתה על קונטקסט לסוכן לבין מה שהכלי עצמו עושה עכשיו אוטומטית.",
+          "srcUrl": "https://releasebot.io/updates/figma",
+          "srcLabel": "Releasebot, עדכוני פיגמה, 17.9.2026",
+          "srcDate": "17.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single design file icon sliding directly into a node on a workflow canvas, thin dashed sync lines pulsing between the file and the node, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A design file icon glides smoothly into a workflow canvas node and locks into place, then a thin dashed line pulses steadily between them showing live sync, camera holds static, calm confident pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-20-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": "מהמנועים היומיים שרצים אצלך עכשיו",
+          "hook": "קלוד מיזג היום את הצ'אט ואת קאוורק לאפליקציה אחת, ושלושת המנועים היומיים שלי רצים בדיוק בתוך המיזוג הזה.",
+          "angle": "ב-16.9.2026 אנתרופיק איחדו את Claude Cowork ואת הצ'אט לאפליקציה אחת, עם Claude Docs ו-Claude Slides בבטא וכלי העיצוב עובד ישירות בתוך השיחה. עד עכשיו כלי הבנייה, כלי הכתיבה וכלי השיחה היו שלושה מקומות נפרדים. שלושת המנועים היומיים שלי, הבריף, הבמאי והישיבה, כבר רצים כריצות מתוזמנות בדיוק בתוך הסביבה הזאת, כלומר השינוי הזה לא תיאורטי בשבילי, הוא קורה מתחת לרגליים של הכלים שאני מפעיל כל בוקר.",
+          "why": "כי כשהפלטפורמה שמריצה את העבודה שלי משנה את הצורה שלה, זה לא עדכון רקע, זה משהו שאני צריך להבין לפני שהוא משנה גם את מה שהריצות שלי יכולות לעשות.",
+          "srcUrl": "https://releasebot.io/updates/anthropic/claude-code",
+          "srcLabel": "Releasebot, עדכוני קלוד, 16.9.2026",
+          "srcDate": "16.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Two separate rounded app windows merging smoothly into one single window, a small document icon and a small slide icon settling inside it, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Two separate rounded app windows slide toward each other and merge into one single window, a small document icon and a small slide icon settle inside it and pulse once, camera holds static, calm confident pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-20-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": null,
+          "hook": "פרומפט הוא בקשה. סקיל הוא זיכרון. וזו המשפט שהופך את כל הסמסטר להבנה אחת.",
+          "angle": "מתוך הסבב השני של הרצאת האורח של דניאל בוארון בקורס שלי: פרומפט הוא בקשה חד פעמית, ידנית ולא עקבית, בעוד סקיל הוא זיכרון מתמשך, מופעל אוטומטית, 100 אחוז עקבי, ומשותף לכל הצוות. הוא גם הביא שתי דרכים לבנות סקיל: תעשה ואז תסכם, כלומר לעשות את המשימה פעמיים בשיחה חופשית ואז לבקש מקלוד לסכם למסמך SKILL.md ולבדוק בשיחה חדשה, או תתאר ותייצר, כלומר לתאר בעל פה את שישה המרכיבים ולתת לסוכן לכתוב את הקובץ ישר. ההבדל בין השתיים הוא ההבדל בין ללמוד מהעשייה לבין לדעת מראש מה בדיוק אתה בונה.",
+          "why": "כי המשפט הזה הוא בדיוק הרגע שבו תלמיד מפסיק לשאול מה זה סקיל ומתחיל לשאול איך אני כותב לעצמי אחד, וזה המעבר האמיתי בין שימוש בכלי לבנייה של תשתית.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/",
+          "srcLabel": "מהסטודיו של סימפלה, הרצאת האורח של דניאל בוארון בקורס שלי, סבב שני",
+          "srcDate": "14.9",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay speech bubble labeled with a single exclamation mark standing next to a sturdy clay tablet with a tiny face, the tablet noticeably heavier and more solid, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow teal palette, soft studio lighting, shallow depth of field. A small clay speech bubble puffs up quickly and fades, while beside it a sturdy clay tablet with a tiny face stays solid and glows gently each time it is touched, camera holds a static wide shot, gentle stop-motion flicker, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Config 2026, Weave brings a new layer of precision design workflows to Figma",
+          "desc": "ניתוח מעמיק של Weave מ-Config 2026, איך הוא משנה את מערכת היחסים בין קנבס לקוד",
+          "meta": "diginomica · ספטמבר 2026",
+          "url": "https://diginomica.com/config-2026-weave-layer-precision-design-workflows-figma"
+        },
+        {
+          "title": "What's new from Config 2026",
+          "desc": "הסיכום הרשמי של פיגמה לכל מה שיצא בכנס, כולל הרחבת סוכן פיגמה וה-Weave",
+          "meta": "Figma Help Center · ספטמבר 2026",
+          "url": "https://help.figma.com/hc/en-us/articles/39582753756695-What-s-new-from-Config-2026"
+        },
+        {
+          "title": "Claude Code Updates, ספטמבר 2026",
+          "desc": "יומן השינויים של קלוד קוד, כולל עיצוב מחדש של Projects לעבודה מתמשכת עם זיכרון משותף",
+          "meta": "Releasebot · 17.9",
+          "url": "https://releasebot.io/updates/anthropic/claude-code"
+        }
+      ]
+    },
+    {
       "date": "2026-09-18",
       "dateLabel": "יום שישי, 18 בספטמבר",
       "ideas": [
