@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-09-21",
+      "dateLabel": "יום שני, 21 בספטמבר",
+      "ideas": [
+        {
+          "id": "2026-09-21-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "פיגמה סוף סוף נתנה למעצבים אנימציה מובנית בתוך הקנבס, ואף אחד עוד לא הסביר את זה בעברית כמו שצריך.",
+          "angle": "פורמט: חידה ויזואלית + פרומפט בתגובה ראשונה. ב-Config 2026 פיגמה השיקו את Figma Motion, כלי אנימציה נייטיבי שמאפשר להגדיר easing curves, keyframes ומעברים ישירות על הקנבס בלי לצאת לכלי חיצוני כמו Principle או After Effects. בדקתי, כמעט אין עליו תוכן בעברית. הרעיון: רשת של ארבע תמונות, כל אחת מייצגת עקומת easing כאובייקט פיזי, כדור מקפץ בשביל bounce, קפיץ נמתח בשביל spring, אבן שנופלת ומאיטה בשביל ease-out, זכוכית שנשברת באיטיות בשביל linear. שאלה אחת מתחת לתמונות, איזו עקומה שייכת לאיזו תמונה. הפרומפט המדויק של כל תמונה בתגובה הראשונה.",
+          "why": "כי זה סוג הפוסט שגורם לאנשים לעצור לגלול, קל לצרוך, ומכניס מושג טכני כמו easing דרך תמונה במקום דרך הרצאה.",
+          "srcUrl": "https://medium.com/@emilyharbord2/figma-finally-added-native-motion-design-a-full-guide-to-figma-motion-c63725675289",
+          "srcLabel": "Medium, Emilyharbord, מדריך מלא ל-Figma Motion",
+          "srcDate": "21.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A 2x2 grid of four small distinct objects representing motion easing curves: a bouncing ball mid bounce, a coiled spring stretching, a stone falling and slowing, a pane of glass slowly cracking, each in its own quadrant separated by a thin dashed divider line, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera holds static over a 2x2 grid of four quadrants, each quadrant briefly animates its object once in sequence, a bouncing ball, a stretching spring, a falling stone, a cracking glass pane, calm confident pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-21-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "אנתרופיק בנו פרויקט אחד שמנהל כמה שיחות מקבילות עם זיכרון משותף, וזה משנה מה זה בכלל אומר לתכנן עבודה ארוכה מול AI.",
+          "angle": "ב-17.9.2026 אנתרופיק שחררו בטא לעיצוב מחדש של Projects בקלוד. פרויקט אחד יכול עכשיו לתאם כמה thread מקבילים עם זיכרון משותף וספריית פרויקט אחת, לעבודה ארוכת טווח על פני כמה ריפוזיטוריז בבת אחת. עד עכשיו כל thread היה איזור עבודה מבודד עם זיכרון משלו, ועכשיו הפרויקט עצמו הוא היחידה שמתכננים סביבה, לא השיחה הבודדת.",
+          "why": "כי זה משנה את יחידת התכנון הבסיסית משיחה לפרויקט, וזה בדיוק ההבדל בין להשתמש בכלי AI לבין לבנות איתו תהליך עבודה.",
+          "srcUrl": "https://releasebot.io/updates/anthropic",
+          "srcLabel": "Releasebot, עדכוני אנתרופיק, 17.9.2026",
+          "srcDate": "17.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Several small separate chat bubble icons floating apart, each with a faint document ghost inside, converging toward one larger rounded folder shape that holds all of them at once, thin dashed connecting lines, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Several small separate chat bubble icons drift inward from different directions and settle together inside one larger rounded folder shape, a thin dashed outline pulses once around the folder confirming the merge, camera holds static, calm confident pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-21-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מהסילבוס של מיישם AI ואוטומציה 53500",
+          "hook": "כלי חדש נותן לכל עובד להזין מסמך אחד ולקבל ערכת הדרכה שלמה בלי לעבור דרך צוות ה-L&D, וזו בדיוק ההגדרה שאני נותן לתלמידים שלי ל-Citizen Developer.",
+          "angle": "כתבה מ-17.9.2026 מתארת איך כלים כמו Articulate Frontline מאפשרים למומחה תוכן בארגון, לא לאיש הדרכה מקצועי, להזין מסמכים, מצגות וסרטונים קיימים ולקבל ערכת הדרכה שלמה: קורס קצר, תרחישים, בוחן. הרעיון לא להחליף את צוות ה-L&D אלא להרחיב את הטווח שלו, כך שהמומחה מטפל בהדרכה השגרתית והצוות המקצועי מתפנה לאתגרי הלמידה המורכבים. זו בדיוק ההגדרה שאני נותן לתלמידי מיישם AI ואוטומציה: Citizen Developer הוא לא מי שמחליף את הצוות המקצועי, הוא מי שבונה לבד את מה שלא הצדיק פרויקט מלא.",
+          "why": "כי זו לא רק מגמה בהדרכה ארגונית, זו בדיוק הגדרת התפקיד שאני מלמד כל נובמבר, רק שהפעם היא כתובה בכתבה על שוק ה-L&D ולא בסילבוס שלי.",
+          "srcUrl": "https://businessexplainer.co.za/tech/ai/2026/09/17/ai-is-decentralising-corporate-training/",
+          "srcLabel": "Business Explainer, AI מבזר את ההדרכה הארגונית, 17.9.2026",
+          "srcDate": "17.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single document icon splitting into four smaller distinct icons arranged in an arc, a short course icon, a quiz icon, a scenario card icon, a slide deck icon, thin dashed lines connecting the original document to each one, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single document icon at the center splits smoothly into four smaller distinct icons that spread into an arc, a short course icon, a quiz icon, a scenario card icon, a slide deck icon, thin dashed lines trailing behind each one, camera holds static, calm confident pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "The State of AI in UX & Product Design: 2026",
+          "desc": "סקירה מקיפה של איך AI משנה את תהליך העיצוב השנה, רקע טוב לכל מי שמלמד את זה.",
+          "meta": "Designlab · 21.9",
+          "url": "https://designlab.com/blog/ai-in-ux-product-design-trends-2026"
+        },
+        {
+          "title": "Why Figma's MCP Update Is a Bigger Deal Than Any AI Demo",
+          "desc": "טיעון למה שרת ה-MCP של פיגמה חשוב יותר מכל דמו AI נוצץ, רלוונטי לכל מי שחושב על זרימת עיצוב לקוד.",
+          "meta": "Medium, Sebastian Buzdugan · 21.9",
+          "url": "https://medium.com/@sebuzdugan/why-figmas-mcp-update-is-a-bigger-deal-than-any-ai-demo-60ca89bd3b82"
+        },
+        {
+          "title": "AI is Decentralising Corporate Training",
+          "desc": "הכתבה המלאה שהרעיון של היום בפילר ההוראה מבוסס עליה, עם מספרים על שוק ההדרכה הארגונית.",
+          "meta": "Business Explainer · 17.9",
+          "url": "https://businessexplainer.co.za/tech/ai/2026/09/17/ai-is-decentralising-corporate-training/"
+        }
+      ]
+    },
+    {
       "date": "2026-09-20",
       "dateLabel": "יום ראשון, 20 בספטמבר",
       "ideas": [
