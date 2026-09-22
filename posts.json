@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-09-22",
+      "dateLabel": "יום שלישי, 22 בספטמבר",
+      "ideas": [
+        {
+          "id": "2026-09-22-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "פיגמה עכשיו נותנת לכל מעצב לפרסם כלי Weave מותאם אישית לקהילה, בדיוק כמו פלאגין. הקנבס הופך לחנות אפליקציות.",
+          "angle": "ב-16.9.2026 פיגמה פתחו את הפרסום לכלי Weave מותאמים אישית, כלים ליצירת תמונות ווקטורים שמישהו בנה בתוך workflow, ועכשיו אפשר לשתף אותם עם כל הקהילה בלי לצאת מהמוצר. זה בדיוק מה שקרה עם סקילים בקלוד בחודשים האחרונים, מעבר מכלי אישי לתשתית משותפת. בדקתי אילו כלים כבר עלו, ורוב הראשונים הם וריאציות על מחוללי אייקונים ולוגואים. יש כאן חלון של כמה שבועות לפני שהשוק מוצף, ולתלמידים בסדנאות Weave שלי אני כבר אומר: הכלי הראשון שתבנו הוא לא בשביל הפרויקט הנוכחי, הוא בשביל הקהילה.",
+          "why": "זה רגע שבו Weave מפסיק להיות תכונה בתוך פיגמה והופך לפלטפורמה עם אקוסיסטם, וזה שינוי אסטרטגי שכדאי להסביר לפני שכולם מדברים עליו.",
+          "srcUrl": "https://releasebot.io/updates/figma",
+          "srcLabel": "Releasebot, עדכוני פיגמה, 16.9.2026",
+          "srcDate": "16.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, a single app-store style grid of small tool icons floating above an open canvas frame, thin dashed outlines, generous negative space, no gradients, no text, 1:1",
+            "video": "Flat editorial vector illustration style animation, deep navy background with coral and warm yellow accents, camera slowly pulls back from a single design canvas as dozens of small tool icons fly out of it and arrange into a neat app-store grid, clean geometric motion, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-22-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "יש עכשיו כלי עם יותר מ-1,000 שחקני AI מוכנים לפרסומת, ואף אחד מהם לא באמת קיים.",
+          "angle": "כלי בשם arcads.ai נותן למותגים לבחור מתוך יותר מ-1,000 שחקנים דיגיטליים ולהפיק סרטוני UGC לפרסום בלי צלם, בלי סטודיו ובלי תיאום יומן. זה כבר לא כלי לאווטאר בודד כמו HeyGen, זו ספרייה שלמה של זהויות. השאלה שמטרידה אותי כמעצב UX היא לא אם זה עובד, זה עובד, אלא מה קורה לאמון כשהצופה כבר לא יכול להבדיל. בסדנאות שלי אני מראה את זה כבר בתור תרגיל פתיחה: תזהו מי אמיתי מתוך חמישה סרטונים, ורוב האנשים טועים.",
+          "why": "השוק הזה גדל מהר וכל מותג קטן שואל את זה השבוע, זו הזדמנות להביא נקודת מבט UX ולא רק שיווקית לשיחה.",
+          "srcUrl": "https://www.arcads.ai/",
+          "srcLabel": "מבנק הנושאים הקבועים, אתר הכלי arcads.ai",
+          "srcDate": "22.9",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, a long shelf lined with dozens of identical small clay figure busts each with a subtly different plasticine face, one figure at the end has a small red question mark clay tag, no text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, camera dollies slowly along a shelf of dozens of nearly identical clay figure busts, stopping on one with a small red question mark tag as it blinks, stop-motion jitter, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-22-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מהפילוסופיה שאתה מלמד בה",
+          "hook": "ב-2014 ישבתי מול סרטון הדרכה ארגוני וספרתי דקות עד הסוף. ב-16.9.2026 מומחית עלתה על במה ואמרה בדיוק למה זה הרגיש ככה.",
+          "angle": "פורמט: שתי נקודות בזמן. 2014, אני עובד זוטר מול סרטון הדרכה ארגוני, סופר דקות, שום דבר לא נשאר בזיכרון מעבר לשבוע. 16.9.2026, בכנס Learning Live, נציגת Learning with Experts עולה על הבמה ואומרת בקול רם את מה שהרגשתי אז: הבעיה מעולם לא הייתה שהלמידה מקוונת, הבעיה שהיא פסיבית, שאתה צופה בלי לגעת. שני העשורים שביניהם שינו הכל, פורמט הוידאו, הפלטפורמה, עכשיו גם ה-AI שבונה את הקורס בעצמו, אבל המשפט הזה לא זז. זו בדיוק הסיבה שכל שיעור שלי במיישם AI ואוטומציה נגמר בתוצר שאפשר לגעת בו, לא בסיכום שקפים. AI לא פותר את בעיית הפסיביות, הוא רק מוריד את המחיר של להיות אקטיבי עד שכבר אין תירוץ לא להיות.",
+          "why": "כי זה ההבדל בין להגיד שילבתי AI בהדרכה לבין להבין למה זה בכלל עובד, ומסר שמתאים גם לתלמידים שלי וגם ללקוחות שמזמינים תוכן L&D.",
+          "srcUrl": "https://learningnews.com/news/learning-news/2026",
+          "srcLabel": "Learning News, כנס Learning Live 2026",
+          "srcDate": "16.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration split into two vertical panels divided by a thin dashed line, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, left panel a small figure slumped in a chair facing a glowing rectangle screen, right panel a similar figure standing at a podium with one arm raised, thin dashed outlines, generous negative space, no gradients, no text, 1:1",
+            "video": "Flat editorial vector illustration style animation, deep navy background split into two panels by a thin dashed vertical line, camera holds still while the left panel figure slumped before a glowing screen fades and the right panel figure at a podium steps forward and raises an arm, subtle color shift from muted tones to coral and warm yellow, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Config 2026: Weave brings a new layer of precision design workflows to Figma",
+          "desc": "סיכום מעמיק על מה ש-Weave הביא בקונפיג 2026 ולאן זה הולך.",
+          "meta": "diginomica · 16.9",
+          "url": "https://diginomica.com/config-2026-weave-layer-precision-design-workflows-figma"
+        },
+        {
+          "title": "Training Industry Special Report: What AI Means for Corporate L&D in 2026",
+          "desc": "דוח מקיף על ההשפעה של AI על עולם ה-L&D הארגוני השנה.",
+          "meta": "Training Industry · ספטמבר 2026",
+          "url": "https://trainingindustry.com/magazine/winter-2026/training-industry-special-report-what-ai-means-for-corporate-ld-in-2026/"
+        },
+        {
+          "title": "AI Video Generation News: 2026 Latest Models & Updates",
+          "desc": "סיכום כלים ומודלים חדשים בעולם וידאו ה-AI, כולל היגספילד וראנוויי.",
+          "meta": "WaveSpeed Blog · ספטמבר 2026",
+          "url": "https://wavespeed.ai/blog/posts/ai-video-generation-news-2026/"
+        }
+      ]
+    },
+    {
       "date": "2026-09-21",
       "dateLabel": "יום שני, 21 בספטמבר",
       "ideas": [
