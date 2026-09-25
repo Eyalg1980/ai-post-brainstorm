@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-09-25",
+      "dateLabel": "יום שישי, 25 בספטמבר",
+      "ideas": [
+        {
+          "id": "2026-09-25-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "כל שיעור Weave שאני מעביר נגמר באותה שאלה, מה עם תנועה ולא רק פריים קפוא, ורוב האנשים לא יודעים שהתשובה כבר יושבת בתוך הכלי.",
+          "angle": "פיגמה כבר מאפשרת ליצור תנועה ומעברים ישירות מתוך אותה זרימת Weave שמייצרת עיצוב סטטי, בלי לצאת לכלי אנימציה נפרד. בעברית כמעט אין על זה תוכן מרוכז, ההסברים מפוזרים בין דף העזרה הרשמי לפורומים באנגלית. בסדנאות Weave שאני מעביר זו השאלה שחוזרת הכי הרבה, מה קורה כשרוצים גם תנועה, וכרגע התשובה דורשת חיפוש עצמאי במקום הסבר אחד ברור בעברית.",
+          "why": "כי הפער בין מה שהכלי כבר יודע לעשות לבין מה שהקהל בעברית יודע שהוא יודע לעשות הוא הזדמנות תוכן, לא רק פער ידע.",
+          "srcUrl": "https://help.figma.com/hc/en-us/articles/35965787376919-Figma-Weave-FAQ",
+          "srcLabel": "Figma Weave FAQ, Figma Help Center",
+          "srcDate": "25.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A static design frame with a thin glowing motion trail arcing out of one corner into a second identical frame beside it, 1:1",
+            "video": "Flat editorial vector illustration style animation, deep navy background with coral and warm yellow accents, a static design frame sits still as a thin glowing motion trail slowly draws itself out of one corner and arcs into a second identical frame beside it, which then pulses once, clean geometric motion, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-25-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "קלוד יצא השבוע עם חלון הקשר של מיליון טוקן ועלות נמוכה ב-40 אחוז, וזה משנה איפה שווה לחתוך שיחה, לא רק כמה היא עולה.",
+          "angle": "ב-22.9.2026 אנתרופיק שחררו את Opus 5.5, עם חלון הקשר של מיליון טוקן, חשיבה אדפטיבית שדולקת ברקע כל הזמן, ועלות נמוכה ב-40 אחוז מהגרסה הקודמת, זמין גם ב-API וגם בענן. עד עכשיו תכנון זרימת עבודה עם AI היה כרוך בפיצול קבוע לשיחות קטנות כדי לא לאבד הקשר. עכשיו אפשר לתכנן פרויקט שלם, מהבריף הראשוני ועד המסירה הסופית, בתוך אותה שיחה אחת שזוכרת הכל.",
+          "why": "כי זה הופך שאלה שכל מתכנן זרימת עבודה עם AI שואל, איפה לחתוך את השיחה, לשאלה פחות דחופה, וכדאי להסביר את זה לפני שכולם מדברים עליו.",
+          "srcUrl": "https://releasebot.io/updates/anthropic",
+          "srcLabel": "Releasebot, עדכוני אנתרופיק, 22.9.2026",
+          "srcDate": "22.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. One long unbroken dashed line stretching the full width of the frame connecting a small starting icon to a small finishing icon, no cuts along the line, 1:1",
+            "video": "Flat editorial vector illustration style animation, deep navy background with coral and warm yellow accents, one long dashed line draws itself smoothly across the full width of the frame from a small starting icon to a small finishing icon without a single cut or break, clean geometric motion, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-25-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מאחורי הקלעים של שלושת המנועים היומיים שלך",
+          "hook": "אנתרופיק פתחו את ריצות הענן של Claude Code לכולם, בדיוק העיקרון שכל שלושת המנועים היומיים שלי כבר רצים לפיו.",
+          "angle": "פורמט: צ'ק-אין נבואה. כשבניתי את הבריינסטורמר, הבמאי היומי וחדר הישיבות בתור משימות מתוזמנות שרצות בלי שהמחשב שלי פתוח, זה היה הימור על איך עבודה עם AI תיראה בהמשך. השבוע אנתרופיק הפכו בדיוק את זה לפיצ'ר רשמי, ריצות ענן ל-Claude Code שממשיכות לעבוד גם אחרי שהמחשב שהתחיל אותן מתנתק, עם קרדיט חד פעמי לנסות. זה בדיוק ההבדל שאני מלמד בקורס מיישם AI ואוטומציה בין פרומפט חד פעמי לבין תהליך שרץ לבד.",
+          "why": "כי תלמיד שרוצה לבנות אוטומציה אמיתית ולא רק תרגיל בכיתה צריך להבין את ההבדל הזה מהיום הראשון, ועכשיו יש לו דוגמה חיה מהשבוע.",
+          "srcUrl": "https://alphasignal.ai/news/anthropic-ships-claude-code-cloud-sessions-so-developers-can-code-without-a",
+          "srcLabel": "AlphaSignal, Anthropic Ships Claude Code Cloud Sessions",
+          "srcDate": "24.9",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay laptop with its lid halfway closed, a tiny glowing clay cloud floating just above it keeps pulsing softly on its own, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay hand slowly closes a laptop lid, and a tiny glowing clay cloud floating just above keeps pulsing and working on its own after the lid clicks shut, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "8 UX Patterns for AI-Native Products in 2026",
+          "desc": "מיפוי דפוסי UX חוזרים במוצרים מבוססי AI, טוב בשביל להשוות מול מה שכבר עולה בקורסים.",
+          "meta": "Medium, Bootcamp",
+          "url": "https://medium.com/design-bootcamp/8-ux-patterns-for-ai-native-workflows-in-2026-c469c35d7513"
+        },
+        {
+          "title": "Claude Code Cloud Sessions Are Now Live: Here's What Developers Need to Know",
+          "desc": "סיכום מה זה אומר בפועל שריצות הענן של Claude Code יצאו לזמינות מלאה, כולל התנאים לקבלת הקרדיט.",
+          "meta": "FrontierNews.ai · 24.9",
+          "url": "https://www.frontiernews.ai/news/article/claude-code-cloud-sessions-are-now-live-heres-what-d613c44e"
+        },
+        {
+          "title": "The State of AI in UX & Product Design: 2026",
+          "desc": "סקירה רחבה על איך AI משנה את תפקיד מעצב המוצר השנה, טוב בשביל הקשר כללי לפני שיחה עם לקוח.",
+          "meta": "Designlab",
+          "url": "https://designlab.com/blog/ai-in-ux-product-design-trends-2026"
+        }
+      ]
+    },
+    {
       "date": "2026-09-24",
       "dateLabel": "יום חמישי, 24 בספטמבר",
       "ideas": [
