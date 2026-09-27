@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-09-27",
+      "dateLabel": "יום ראשון, 27 בספטמבר",
+      "ideas": [
+        {
+          "id": "2026-09-27-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "יש אלמנט אחד בפיגמה שכל מעצב לחץ עליו היום בלי לחשוב פעם שנייה, ועד לפני כמה שנים הוא בכלל לא היה קיים.",
+          "angle": "פורמט: ביוגרפיה של אובייקט. ה-Frame בפיגמה נולד כדי לפתור בעיה אחת: פוטושופ נתן ארטבורד אחד קפוא, ופיגמה החליטה שהמסגרת עצמה תהיה אזרח מן השורה בקנבס, אפשר להזיז אליה שכבות, לקנן אותה בתוך מסגרת אחרת, ולתת לה אוטו-לייאאוט משלה. זו ההחלטה שהפכה קובץ עיצוב אחד לאתר שלם עם עשרות מסכים באותו מרחב. עכשיו Weave עושה לה את מה שהיא עשתה לארטבורד: המסגרת מפסיקה להיות רק מקום שמניחים בו עיצוב, והופכת לצומת בזרימת עבודה חיה, עם סוכן, עם קלט, עם פלט. אותו אובייקט, שדרוג שני באותה נקודה בדיוק.",
+          "why": "כי כל שיעור עיצוב שאני מלמד מתחיל מהמסגרת, ורוב הסטודנטים לא יודעים שהיא בעצמה נושא סיפור, לא רק כלי.",
+          "srcUrl": "https://help.figma.com/hc/en-us/articles/360041539473-Frames-in-Figma-Design",
+          "srcLabel": "Frames in Figma Design, Figma Help Center",
+          "srcDate": "27.9",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A single rectangular clay picture-frame standing upright on a small pedestal, with tiny clay layers and shapes nested neatly inside it, 1:1, no text",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A single rectangular clay picture-frame stands on a pedestal, then a second smaller clay frame slides in and nests itself neatly inside the first one, both frames glowing faintly at the seam, gentle stop-motion rhythm, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-27-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "השבוע קלוד מצא בעצמו מערכת אנזימים שאף ביולוג לא חיפש, ופתאום השאלה בכל פגישת מוצר היא לא מה AI יודע לענות, אלא מה הוא מוצא בלי שביקשו.",
+          "angle": "ב-24.9.2026 דיווחה אנתרופיק שקלוד זיהה מערכת אנזימים דמוית CRISPR מתוך ניתוח רצפים גולמי, בלי שהמחקר כוון לשם מראש. עד עכשיו הדיון על AI במוצר היה בעיקר על ביצוע, לתת לו משימה מוגדרת ולבדוק את הפלט. תגלית כמו זו מזיזה את השיחה למקום אחר, מה קורה כשנותנים לסוכן דאטה גולמי בלי שאלה מנוסחת, וסומכים עליו שימצא את מה ששווה לשאול עליו. בסדנאות שלי זו בדיוק הנקודה שסטודנטים מתקשים בה הכי הרבה, ההבדל בין לבקש תוצר לבין לבקש תובנה.",
+          "why": "כי זה לא עוד שיפור מודל, זה שינוי בתפקיד שה-AI ממלא בתהליך, ממבצע לשותף שמציע לאן להסתכל בכלל.",
+          "srcUrl": "https://www.aljazeera.com/economy/2026/9/24/ai-model-claude-discovers-crispr-like-enzyme-system-anthropic-says",
+          "srcLabel": "Al Jazeera, Anthropic",
+          "srcDate": "24.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single glowing dashed thread winding through a scattered field of small data-point dots, arriving unprompted at one dot that glows brighter than the rest, 1:1",
+            "video": "Flat editorial vector illustration style animation, deep navy background with coral and warm yellow accents, a glowing dashed thread slowly winds through a scattered field of small data-point dots with no fixed destination, then arrives at one dot that pulses and glows brighter than the rest, clean geometric motion, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-27-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "ממפגש 10 שמתקיים מחר בקורס UI/UX 45900 שלך",
+          "hook": "מחר מפגש 10 בקורס שלי, ובעוד יומיים דק זום צריך להיות מוכן, וכל הפער בין השניים נמדד היום במספר אחד: שבעים אחוז.",
+          "angle": "בקורס UI/UX 45900 יש נקודת החלטה קבועה בסוף מפגש 7: אם הפרויקט של הסטודנט לא מגיע למוצר חי בהיקף של שבעים אחוז, מבקשים מג'ון ברייס מפגש נוסף. עד עכשיו ההערכה הזאת נעשית בעין, מרגישים אם זה קרוב או רחוק. מחר מפגש 10, שני מפגשים לפני שיחת הזום עצמה באוקטובר, וזה בדיוק הרגע שבו סף שרירותי צריך להפוך למספר אמיתי מול מסכים אמיתיים, אחרת ההחלטה על מפגש נוסף היא ניחוש ולא מדידה.",
+          "why": "כי סף שקובעים מראש בלי דרך למדוד אותו הוא לא סף, הוא תקווה.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "דף הקורס, UI/UX 45900",
+          "srcDate": "27.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single dashed gauge arc filled to about seventy percent with a warm yellow glow, a small screen icon sitting exactly at the fill line, 1:1",
+            "video": "Flat editorial vector illustration style animation, deep navy background with coral and warm yellow accents, a dashed gauge arc fills steadily from empty toward seventy percent in a warm yellow glow and stops precisely there with a soft pulse, clean geometric motion, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "AI Product Design in 2026: Best Tools, Workflows & Challenges",
+          "desc": "סקירת כלים וזרימות עבודה לעיצוב מוצר עם AI, נקודת מוצא טובה למי שמשווה סטאק",
+          "meta": "Eleken · 27.9",
+          "url": "https://www.eleken.co/blog-posts/ai-product-design"
+        },
+        {
+          "title": "10 UX design shifts you can't ignore in 2026",
+          "desc": "עשרה שינויים בתפיסת ה-UX שכדאי להכיר לפני שמתכננים פרויקט חדש",
+          "meta": "UX Collective · 27.9",
+          "url": "https://uxdesign.cc/10-ux-design-shifts-you-cant-ignore-in-2026-8f0da1c6741d"
+        },
+        {
+          "title": "Corporate L&D Trends 2026: The View From The Trenches",
+          "desc": "מבט משטח ההדרכה הארגונית על מה שבאמת משתנה, לא רק על ההבטחות",
+          "meta": "eLearning Industry · 27.9",
+          "url": "https://elearningindustry.com/corporate-ld-trends-2026-the-view-from-the-trenches"
+        }
+      ]
+    },
+    {
       "date": "2026-09-25",
       "dateLabel": "יום שישי, 25 בספטמבר",
       "ideas": [
