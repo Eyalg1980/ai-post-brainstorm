@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-09-28",
+      "dateLabel": "יום שני, 28 בספטמבר",
+      "ideas": [
+        {
+          "id": "2026-09-28-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "בשבוע שעבר פיגמה שחררו פיצ'ר שאני מחכה לו כבר חצי שנה, הפריים בפיגמה הופך לבייסליין ויזואלי, וכל מה שAI בונה בקוד נבדק מולו אוטומטית.",
+          "angle": "פורמט: צ'ק-אין נבואה. בסדנאות Weave אני אומר כבר מיולי שברגע שה-AI כותב קוד מהר יותר משצוות מספיק לבדוק, מישהו יצטרך להפוך את הפריים לאמת יחידה. עכשיו פיגמה עשו את זה רשמית: Design Baselines, אינטגרציה עם Applitools מ-15.9.2026, שמסמנת חריגה בין העיצוב לקוד בלי ייצוא ידני של סקרינשוטים.",
+          "why": "כי זה בדיוק המשפט שכל תלמיד ב-Weave אומר בשלב מסוים: יופי, ה-AI בנה את זה, אבל זה לא מה שעיצבתי.",
+          "srcUrl": "https://webdesignerdepot.com/ai-can-build-your-ui-now-figma-can-tell-it-when-it-screwed-up/",
+          "srcLabel": "Web Designer Depot",
+          "srcDate": "15.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single Figma design frame rendered as a glowing dashed outline, with a ghostly duplicate frame slightly offset behind it in coral to show drift, a small alert triangle icon where the two edges misalign, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera slowly pushes in on a Figma design frame as a ghostly coral duplicate frame drifts out of alignment behind it, then snaps back into place as a small checkmark pulses in warm yellow, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-28-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "ב-16.9.2026 אנתרופיק מיזגו את Cowork והצ'אט לכלי אחד, והוסיפו שלושה משטחי יצירה חדשים בתוך אותה שיחה: Docs, Slides ו-Design.",
+          "angle": "זה בדיוק המנוע שמריץ את שלושת המנועים היומיים שלי, פוסט ברייסטורם, הבמאי היומי וחדר הישיבות, כולם רצים כ-Cowork בענן בלי שאני נוגע בהם. עכשיו אותה שיחה שמריצה אותם יכולה גם לפתוח מסמך או מצגת בלי לצאת ממנה.",
+          "why": "כי זה מראה לאן זה הולך: לא רק תכתוב לי טקסט, אלא תבנה לי פה את המשטח עצמו.",
+          "srcUrl": "https://www.explainx.ai/blog/claude-cowork-chat-merge-docs-slides-design-september-2026",
+          "srcLabel": "explainx.ai",
+          "srcDate": "16.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single chat bubble splitting open into three panels emerging from inside it: a document icon, a slide deck icon and a paint palette icon, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera pulls back from a single chat window as it unfolds into three floating panels, a document, a slide deck and a design canvas, arranging themselves side by side, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-28-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": null,
+          "hook": "לימדתי את הכיתה עשרה טרנדים של UX מודרני, אבל השיעור האמיתי הגיע רק בסוף: ארבעה חוקים שקובעים אם בכלל להשתמש בהם.",
+          "angle": "נגישות מעל וואו, מובייל קודם, מקסימום שני אפקטים למסך אחד, ותקציב ביצועים שלא עוברים. זה השיעור המשלים לכל מה שכתבתי בעבר על סקרול, פרלקס וכפתורים מגנטיים, הסינון שמפריד מעצב שרודף טרנד ממעצב שיודע למה בחר בו.",
+          "why": "כי בכל שיעור שאני מלמד עוד אפקט חדש, הכיתה שואלת אותה שאלה: אז מתי לא להשתמש בזה, וזו התשובה שחוזרת בכל פעם.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "אתר הקורס 45900",
+          "srcDate": "28.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Four simple dashed icon tiles in a row, an eye, a phone outline, a stopwatch and a speed gauge, evenly spaced on a grid, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera pans slowly across four dashed icon tiles, an eye, a phone outline, a stopwatch and a speed gauge, each lighting up in warm yellow in sequence as it is highlighted, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Before Monday: top 5 news for designers on hiring, AI, leadership and org power",
+          "desc": "סיכום שבועי קצר למעצבים, טוב בתור צ'ק-אין מהיר לפני שבוע חדש",
+          "meta": "uxmentor · ספטמבר 2026",
+          "url": "https://uxmentor.substack.com/p/before-monday-top-5-news-for-designers"
+        },
+        {
+          "title": "LTX-2",
+          "desc": "רקע על אחד ממודלי הווידאו הגנרטיבי שעולים החודש, שווה להכיר לפני שמדברים על תחרות בין המודלים",
+          "meta": "Wikipedia · 2026",
+          "url": "https://en.wikipedia.org/wiki/LTX-2"
+        },
+        {
+          "title": "What's new from Config 2026",
+          "desc": "מרכז הידע הרשמי של Weave על מה שהוצג בקונפיג, טוב לחזור אליו לפני סדנה",
+          "meta": "help.weavy.ai",
+          "url": "https://help.weavy.ai/en/articles/15623550-what-s-new-from-config-2026"
+        }
+      ]
+    },
+    {
       "date": "2026-09-27",
       "dateLabel": "יום ראשון, 27 בספטמבר",
       "ideas": [
