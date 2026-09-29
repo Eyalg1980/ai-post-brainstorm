@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-09-29",
+      "dateLabel": "יום שלישי, 29 בספטמבר",
+      "ideas": [
+        {
+          "id": "2026-09-29-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "ב-25.9.2026 פיגמה הוסיפו ל-Auto Layout wrap אנכי, עמודות שנשברות ומתארגנות מחדש בדיוק כמו flex-wrap בקוד.",
+          "angle": "זה נשמע פיצ'ר טכני קטן, אבל זה סוגר פער שכל מי שמעביר עיצוב ל-AI מכיר. עד עכשיו responsive אמיתי דרש כמה וריאנטים מוסתרים ותקווה שהקוד יידע לבחור נכון ביניהם. עכשיו הפריים עצמו יודע להתנהג כמו CSS, אז כשאני מבקש מקלוד או מ-Weave לייצר קוד מהפריים, אין תרגום, יש התאמה אחד לאחד.",
+          "why": "כי כל תלמיד ב-Weave שואל בשלב מסוים איך העיצוב יודע להישבר נכון במסך צר, ועכשיו התשובה היא שהוא פשוט יודע, מובנה בפריים.",
+          "srcUrl": "https://www.figma.com/release-notes/",
+          "srcLabel": "Figma Release Notes",
+          "srcDate": "25.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single wide rectangular frame splitting into three equal columns as content overflows, one column gently sliding down to a new row below the other two, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera holds steady as a row of small dashed rectangles fills up and one overflow rectangle smoothly wraps down into a new row beneath, snapping into a clean grid, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-29-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "ב-25.9.2026 NN Group פרסמו מסגרת בשם PACED שקובעת מתי בכלל צריך לגלות שתוכן נוצר עם AI.",
+          "angle": "אני בדיוק עכשיו בונה סקיל וידאו אישי, המפיק, שמראיין אותי על הקליפ שאני רוצה ואז מייצר לבד סטוריבורד, קול וטקסט קינטי. השאלה של PACED לא תאורטית בשבילי, זה בדיוק מה שאני אצטרך להחליט על כל קליפ שיוצא ללקוח, קהל, הקשר, אופי השימוש, המידה וההשלכה, חמש האותיות של המסגרת.",
+          "why": "כי ברגע שהכלי בונה קליפ שלם כמעט לבד, השאלה מפסיקה להיות אם לגלות ומתחילה להיות איך, ובאיזה טון.",
+          "srcUrl": "https://www.nngroup.com/articles/disclose-ai-paced/",
+          "srcLabel": "Nielsen Norman Group",
+          "srcDate": "25.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A small dashed label tag hovering beside a video play icon, undecided between fading in and staying hidden, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera pushes in slowly on a video play icon as a small dashed label tag flickers between appearing and disappearing beside it, then settles into a soft steady glow, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-09-29-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": null,
+          "hook": "תרגיל MoSCoW בכיתה לוקח בדרך כלל שעה שלמה, רבע כיתה מדביקים פתקים צבעוניים על הקיר.",
+          "angle": "פורמט: מדריך השוואתי עם מספרים. השבוע עשיתי את זה עם קלוד לפני השיעור, 12 דקות, אותה רשימה של 18 פיצ'רים, אותן ארבע קטגוריות, Must, Should, Could, Won't, אבל הפעם עם נימוק כתוב לכל שורה שאני יכול להעתיק ישר לתלמידים. בדקה הראשונה של השיעור אני מציג את שתי הרשימות זו לצד זו.",
+          "why": "כי הכלי לא באמת עשה את ההחלטה, הוא רק חסך את זמן הריכוז של הפתקים, ואני עדיין זה שצריך להסביר לכיתה למה פיצ'ר מסוים נפל מ-Should ל-Won't.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "אתר הקורס 45900",
+          "srcDate": "29.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Two rectangular boards side by side, the left one covered in dozens of small scattered sticky-note shapes, the right one showing four clean dashed columns already sorted, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera pans from a cluttered board of scattered sticky-note shapes on the left to a clean sorted four-column board on the right, a small stopwatch icon ticking down in the corner, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "AI Video Generation Trends: Late September 2026",
+          "desc": "סיכום מגמות בווידאו AI לסוף ספטמבר, טוב לפני שמדברים על עקביות דמות או שמע משולב",
+          "meta": "mean.ceo · ספטמבר 2026",
+          "url": "https://blog.mean.ceo/ai-video-generation-trends-september-2026/"
+        },
+        {
+          "title": "Artificial Intelligence Articles, Videos, Reports, and Training Courses",
+          "desc": "עמוד הריכוז של NN Group לכל מאמרי ה-AI, טוב לחזור אליו כל שבוע",
+          "meta": "Nielsen Norman Group",
+          "url": "https://www.nngroup.com/topic/ai/"
+        },
+        {
+          "title": "Figma Release Notes - September 2026 Latest Updates",
+          "desc": "כל עדכוני פיגמה של החודש במקום אחד, כולל Weave, טוב בתור סריקה שבועית",
+          "meta": "Releasebot · ספטמבר 2026",
+          "url": "https://releasebot.io/updates/figma"
+        }
+      ]
+    },
+    {
       "date": "2026-09-28",
       "dateLabel": "יום שני, 28 בספטמבר",
       "ideas": [
