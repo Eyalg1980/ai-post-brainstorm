@@ -1,6 +1,83 @@
 {
  "days": [
   {
+   "date": "2026-10-01",
+   "dateLabel": "יום חמישי, 1 באוקטובר",
+   "ideas": [
+    {
+     "id": "2026-10-01-1",
+     "pillar": "UX + AI",
+     "color": "#7B61FF",
+     "me": "מאחורי הקלעים שלך",
+     "hook": "אתמול, 30.9.2026, אנתרופיק שחררו Context Language Models, מודל שמתייחס להקשר כאל קובץ שאפשר לערוך, לא כפרומפט קפוא שצריך לכתוב מחדש בכל שיחה.",
+     "angle": "זה בדיוק האופן שבו שלושת המנועים שלי רצים כל בוקר. אף שיחה לא נפתחת מאפס, אני קורא את posts.json, videos.json ו-decisions.json מאתמול, מעדכן אותם, ודוחף הלאה. קלוד של היום לא זוכר את אתמול בעצמו, אבל הקובץ כן זוכר. ההבדל בין זיכרון שתלוי בחלון שיחה לזיכרון שיושב על הדיסק.",
+     "why": "כי ברגע שההקשר הוא קובץ ולא פרומפט, אפשר לבנות מערכת שרצה שבועות בלי לאבד את החוט, בדיוק מה ששלושת המנועים שלי עושים כל יום בלי שאני צריך להזכיר להם כלום.",
+     "srcUrl": "https://theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-september-30-2026",
+     "srcLabel": "theneuron.ai",
+     "srcDate": "30.9",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single dashed document icon with visible editable lines sitting open beside a cracked, frozen speech bubble shape, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera holds steady as a frozen speech bubble shape shatters into light fragments while a dashed document icon beside it stays open with its lines gently rewriting themselves, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-10-01-2",
+     "pillar": "Figma Weave",
+     "color": "#FF6B5E",
+     "me": null,
+     "hook": "לוטי, פורמט האנימציה שכמעט כל אפליקציה בטלפון שלך משתמשת בו, נולד ב-2017 כדי לפתור בעיה אחת, אנימציה שנראית מושלמת באפטר אפקטס ומתה ברגע שהיא נוגעת בקוד. אתמול, 30.9.2026, פיגמה סגרו לו את המעגל.",
+     "angle": "פורמט: ביוגרפיה של אובייקט. 2017, איירבנבי פותחים בקוד פתוח את Bodymovin כדי שאנימציית Lottie תרוץ כקובץ JSON קל במקום וידאו כבד. שנים של תלות בפלאגין חיצוני רק כדי לבדוק אם זה בכלל עובד. ב-17.9.2026 קנבס פיגמה דיזיין כבר התחבר ישירות לזרימות Weave, ואתמול, 30.9.2026, Figma Motion הוסיפו סטיילים מותאמים אישית, אודיו, אנימציית טקסט וייצוא Lottie ישיר, בלי לצאת מהכלי ובלי פלאגין באמצע.",
+     "why": "כי בכל סדנת Weave שאני מעביר יש את אותו רגע, מישהו שואל מה עם תנועה ולא רק פריים קפוא, ועד אתמול התשובה הייתה לצאת לכלי אחר. מעכשיו התשובה היא להישאר בפיגמה.",
+     "srcUrl": "https://releases.sh/figma",
+     "srcLabel": "Figma release notes",
+     "srcDate": "30.9",
+     "prompts": {
+      "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay figure shaped like a bouncing animated icon stepping out of a cracked plugin-shaped doorway into an open clay frame, 1:1",
+      "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. Camera holds steady as the clay plugin doorway crumbles into soft clay dust while the bouncing icon figure keeps moving smoothly inside the open frame, never pausing, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-10-01-3",
+     "pillar": "הוראה והכשרה של AI",
+     "color": "#2BB3A3",
+     "me": null,
+     "hook": "כל פעם שאני מלמד את עשרת הטרנדים של UX מודרני יש תלמיד אחד שמנסה לדחוף בנטו גריד לדף שלא צריך את זה.",
+     "angle": "בנטו גריד נראה כמו הפתרון לכל דף כי הוא נראה טוב בתיק עבודות. הכלל שאני נותן בכיתה: כן כשיש לפחות חמישה אלמנטים בגדלים שונים שמשתמש סורק ולא קורא ברצף, לא כשיש זרימה ליניארית אחת שהמשתמש חייב לעבור בסדר קבוע. הטעות הנפוצה: ריבועים שווים בגודל, זה לא בנטו, זה רק טבלה עם רווחים.",
+     "why": "כי השבוע שוב ראיתי את זה בפרויקט של תלמיד, דשבורד עם זרימה ברורה של שלושה צעדים שהפך לבנטו גריד של תשעה ריבועים שווים, ואף אחד לא ידע איפה להתחיל לקרוא.",
+     "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+     "srcLabel": "קורס UI/UX 45900",
+     "srcDate": "1.10",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. An uneven grid of differently sized dashed rectangles next to a single row of five identical dashed squares in a straight line, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera holds as the row of identical squares reshuffles into an uneven grid of varied sized rectangles, one large block settling into the center first, 9:16, 8 seconds"
+     },
+     "used": false
+    }
+   ],
+   "articles": [
+    {
+     "title": "Everything That Happened in AI Today (30.9.2026)",
+     "desc": "סיכום יומי שכולל גם Context Language Models של אנתרופיק וגם עדכון HeyGen לסצנות מלאות מטקסט",
+     "meta": "theneuron.ai · 30.9",
+     "url": "https://theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-september-30-2026"
+    },
+    {
+     "title": "New AI Educator Trainings, September 2026",
+     "desc": "גוגל מרחיבים את תוכנית ההכשרה למורים עם מודולים חודשיים ואירוע באדג' חי",
+     "meta": "blog.google · חינוך",
+     "url": "https://blog.google/products-and-platforms/products/education/new-ai-educator-trainings-september-2026/"
+    },
+    {
+     "title": "State of AI Video Tools 2026",
+     "desc": "מיפוי מקיף של כלי וידאו AI, אווטארים ועורכים לקראת הרבעון האחרון של השנה",
+     "meta": "kingy.ai · וידאו AI",
+     "url": "https://kingy.ai/blog/state-of-ai-video-tools-2026/"
+    }
+   ]
+  },
+  {
    "date": "2026-09-30",
    "dateLabel": "יום רביעי, 30 בספטמבר",
    "ideas": [
