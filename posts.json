@@ -1,6 +1,83 @@
 {
  "days": [
   {
+   "date": "2026-10-02",
+   "dateLabel": "יום שישי, 2 באוקטובר",
+   "ideas": [
+    {
+     "id": "2026-10-02-1",
+     "pillar": "UX + AI",
+     "color": "#7B61FF",
+     "me": "מאחורי הקלעים שלך",
+     "hook": "בכל סדנה ובכל אחת משלושת ההנחיות שמריצות את המנועים שלי כל בוקר אני כותב את אותו כלל, בלי טקסט בתוך התמונה, כי מודלים שוברים עברית. אתמול, 1.10.2026, היגספילד שחררו FLUX 3 Image וטענו שהם סוף סוף פותרים בדיוק את זה.",
+     "angle": "פורמט: צ'ק-אין נבואה. מאז שהתחלתי לכתוב פרומפטים לתמונות, הכלל קבוע: no text, כל כיתוב בעברית נכנס בעריכה אחרי הג'נרציה ולא בתוכה, כי כל מודל שניסיתי הופך עברית לגיבריש. אתמול, 1.10.2026, היגספילד הכריזו על FLUX 3 Image, מודל מולטימודלי חדש שמרנדר טקסט בדיוק גבוה יותר בכמה שפות ישר בתוך התמונה. אם זה אמיתי ולא עוד הבטחה של מודל שמתמוטט על אל״ף בי״ת לא לטיני, זה משנה לי את ה-pipeline של שלושת המנועים, כי הפרומפטים ב-videos.json וב-posts.json כתובים באנגלית בדיוק בגלל המגבלה הזאת.",
+     "why": "כי זו לא שאלה טכנית בשבילי, זו הסיבה שבגללה כל קריינות וכל כיתוב בעברית בכל סרטי הבמאי היומי נוספים בעריכה ולא בג׳נרציה, ואם זה משתנה, ה-workflow כולו משתנה איתו.",
+     "srcUrl": "https://higgsfield.ai/creator-hub/changelog",
+     "srcLabel": "Higgsfield Changelog",
+     "srcDate": "1.10",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single dashed speech-bubble icon on the left filled with broken jagged squiggle shapes, mirrored by a second speech-bubble icon on the right filled with the same shapes now rendered as clean aligned glyph blocks, a thin dashed arrow connecting them, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera holds static as the broken jagged squiggle shapes inside the left speech bubble glitch and reassemble into the clean aligned glyph blocks shown inside the right speech bubble, a thin dashed arrow drawing itself between the two, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-10-02-2",
+     "pillar": "Figma Weave",
+     "color": "#FF6B5E",
+     "me": null,
+     "hook": "סקיל שמתחבר ל-Figma MCP יכול להיות שני דברים שונים בתכלית, מוח שמחליט מה לעשות או יד שמבצעת מה שהוחלט, ורוב מי שבונה סקיל לא עושה את ההבחנה הזאת בכלל.",
+     "angle": "מהרצאת האורח השנייה של דניאל בוארון בקורס שלי: context skill נותן לסוכן את הידע כדי להחליט, מתי לפתוח פריים, איזו קומפוננטה מתאימה, ו-action skill הוא היד שמבצעת בפועל דרך Figma MCP, יוצרת, מזיזה, משנה טוקן. בלי ההבחנה הזאת אנשים כותבים סקיל אחד ענק שגם חושב וגם מבצע, ואז קשה לדבג אותו כי אף אחד לא יודע אם הבאג הוא בהחלטה או בביצוע.",
+     "why": "כי זה בדיוק מה שקורה כשתלמיד מביא לי סקיל שלא עובד, ברוב המקרים הבעיה היא שהוא דחף חשיבה ופעולה לקובץ markdown אחד.",
+     "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb53500/",
+     "srcLabel": "מהרצאת האורח של דניאל בוארון בקורס שלי, סבב שני",
+     "srcDate": "14.9",
+     "prompts": {
+      "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay brain shape sitting beside a small clay hand shape, both resting on an open clay picture frame, no text, 1:1",
+      "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. Camera holds steady as the clay brain shape glows softly and sends a small pulse of light along the frame toward the clay hand shape, which then taps the frame and a small clay block shifts gently into place, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-10-02-3",
+     "pillar": "הוראה והכשרה של AI",
+     "color": "#2BB3A3",
+     "me": null,
+     "hook": "אתמול, 1.10.2026, יצא מאמר שטוען שעד 2027 צוותים שבונים עם AI בלי שכבת הנחיות עיצוב כתובה יראו רשלניים, בדיוק המשפט שאני אומר לכיתה על CLAUDE.md כבר חודשיים.",
+     "angle": "דיגסט Design.md News מ-1.10.2026 טוען שקובץ markdown שמתעד חוקי עיצוב עוזר לסוכני AI לייצר מסכים עקביים ומצמצם סחיפה ויזואלית בין מסך למסך, ושעד 2027 זה יהיה סטנדרט ולא בונוס. זה אותו עיקרון בדיוק שאני מלמד בקורס 53500 על CLAUDE.md, קובץ שכתוב בשביל קלוד ולא בשביל התלמיד, רק ששם אלה חוקי קוד ופה אלה חוקי עיצוב. התזכורת שחוזרת עם כל כלי חדש: פרומפט הוא בקשה חד פעמית, קובץ הנחיות הוא זיכרון קבוע.",
+     "why": "כי זה אימות חוץ לעיקרון שאני מלמד כבר חודשיים, לא רק לקוד אלא גם לעיצוב, והראיה שזה לא רעיון שלי בלבד אלא כיוון שהתעשייה כולה הולכת אליו.",
+     "srcUrl": "https://blog.mean.ceo/design-md-news-october-2026/",
+     "srcLabel": "Design.md News, blog.mean.ceo",
+     "srcDate": "1.10",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single dashed document icon with visible rule-lines floating above a grid of small dashed screen icons, thin dashed connector lines linking the document down to each screen, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera holds static as the dashed document icon above pulses once, sending a thin line of light down to each dashed screen icon below, and all the screens settle into the same aligned proportions at once, 9:16, 8 seconds"
+     },
+     "used": false
+    }
+   ],
+   "articles": [
+    {
+     "title": "Design.md News | October, 2026",
+     "desc": "המאמר שטוען שעד 2027 שכבת הנחיות עיצוב כתובה תהיה סטנדרט לכל צוות שבונה עם AI",
+     "meta": "blog.mean.ceo · 1.10",
+     "url": "https://blog.mean.ceo/design-md-news-october-2026/"
+    },
+    {
+     "title": "Higgsfield Creator Hub Changelog",
+     "desc": "FLUX 3 Image, Genjutsu Restyle ותוסף הצ'אטג'יפיטי, כל השחרורים של השבוע האחרון במקום אחד",
+     "meta": "higgsfield.ai · 1.10",
+     "url": "https://higgsfield.ai/creator-hub/changelog"
+    },
+    {
+     "title": "Week in Review: Higgsfield On Track for $1 Billion Run Rate",
+     "desc": "קצב ההכנסות של היגספילד, שווה הקשר לפני שבוחרים על מה להתבסס לטווח ארוך",
+     "meta": "VideoWeek · 25.9",
+     "url": "https://videoweek.com/2026/09/25/week-in-review-netflix-ads-expands-in-europe-higgsfield-on-track-for-1-billion-run-rate-and-tvs-account-for-half-of-uk-youtube-viewing/"
+    }
+   ]
+  },
+  {
    "date": "2026-10-01",
    "dateLabel": "יום חמישי, 1 באוקטובר",
    "ideas": [
