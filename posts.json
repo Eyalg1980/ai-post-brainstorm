@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-10-05",
+      "dateLabel": "יום שני, 5 באוקטובר",
+      "ideas": [
+        {
+          "id": "2026-10-05-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "2019, סטודיו עיצוב: שולחים מסך קפוא בפיגמה ולידו קובץ MP4 נפרד, תראו איך זה אמור לזוז. ב-30.9.2026 פיגמה הוסיפו ל-Motion ציר זמן אודיו וייצוא ישיר, והקובץ הנפרד הזה סוף סוף מת.",
+          "angle": "פורמט: שתי נקודות בזמן. 2019, מעצב מצרף הערה ראה קובץ מצורף כי פיגמה לא ידעה לשאת תנועה וקול. 30.9.2026, אחרי ש-Motion קיבל סטיילים מותאמים אישית, ציר זמן אודיו ואנימציית טקסט עם ייצוא ישיר, אותו מעצב שולח פריים אחד שכבר זז ונשמע נכון. הנחיתה: מה שלא השתנה זו הבעיה האמיתית, לתקשר כוונה של תנועה למישהו שלא נמצא בראש שלך, רק שעכשיו הכלי עצמו נושא את הכוונה במקום הפתק.",
+          "why": "פיגמה פרסמו את העדכון הזה ב-30.9.2026, שישה ימים לפני היום, ועדיין כמעט אין עליו תוכן בעברית.",
+          "srcUrl": "https://releasebot.io/updates/figma",
+          "srcLabel": "Figma Release Notes, Releasebot",
+          "srcDate": "30.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a frozen flat rectangular frame on the left with a small paperclip icon beside it, an identical frame on the right now carrying a thin glowing audio waveform line beneath it, 1:1",
+            "video": "Flat editorial vector animation, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, camera holds static on a split screen, left half shows a flat frozen rectangle with a small paperclip icon, right half shows the same rectangle now pulsing gently with a thin audio waveform syncing beneath it, calm confident mood, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-05-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "גוגל שחררו ב-30.9.2026 את Gemini 4 Argon, ובמקום להשיק אותו לכולם הם נתנו אותו קודם רק למגיני סייבר מהימנים דרך תוכנית בשם Fairwind.",
+          "angle": "זה בדיוק מה שאני עושה במודול 3 של קורס 53500. Lovable הוא תרגיל של שעתיים בלבד, לא מסלול, וכל הכיתה עוברת אחר כך ל-Claude Code בתשלום, רק אחרי שרואים את זה עובד בקנה מידה קטן. גוגל לא משיקים מודל שלם לעולם, הם משיקים אותו לקבוצת אמון קטנה קודם ובודקים אם הוא מחזיק. זו לא זהירות שיווקית, זה עיצוב מוצר. השאלה שכל מי שבונה פיצ'ר AI צריך לשאול היא לא מתי נשיק אלא למי נשיק קודם ולמה דווקא להם.",
+          "why": "ההכרזה מ-30.9.2026, שישה ימים לפני היום, וזה דפוס שחוזר אצל כל חברות המודלים הגדולות בלי שמישהו קורא לו בשם.",
+          "srcUrl": "https://www.digitalapplied.com/blog/ai-model-releases-october-2026-tracker",
+          "srcLabel": "AI Model Releases Tracker, Digital Applied",
+          "srcDate": "30.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a tight cluster of three small warm glowing dots at the center, a much larger loose ring of dim unlit dots surrounding it at a distance, 1:1",
+            "video": "Flat editorial vector animation, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, camera holds static, a small cluster of three warm glowing dots at center pulses steadily while a large outer ring of dim dots slowly lights up one by one from the inside out, calm deliberate mood, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-05-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": null,
+          "hook": "בכל פעם שלימדתי את עשרת העקרונות של נילסן בקורס 45900, היה אותו רגע קבוע, סטודנט שואל אם AI כבר פתר את כל זה בשבילנו.",
+          "angle": "התשובה תמיד היתה אותה תשובה. AI לא פתר אף אחד מעשרת העקרונות, הוא רק הזיז מי שאחראי עליהם. מניעת שגיאות פעם היה עיצוב מסך, היום זה גם פרומפט שבולם סוכן לפני פעולה מסוכנת. נראות מצב המערכת פעם היה ספינר טעינה, היום זה הסטטוס שסוכן AI מציג לך באמצע ריצה ארוכה. הקורס נגמר לפני כמה ימים, ועכשיו כשאני עובר על פרויקטי הגמר אני בודק בדיוק את זה, האם התלמיד יישם את העיקרון או רק העתיק מסך שנראה נכון.",
+          "why": "כי זה נושא שתמיד עבר דרך אגב בשיעורים ומעולם לא קיבל פוסט עצמאי משלו, וסגירת הקורס היא הזמן הטבעי לכתוב אותו.",
+          "srcUrl": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+          "srcLabel": "10 Usability Heuristics, NN/g",
+          "srcDate": "1.10",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a small loading spinner icon on the left next to a small chat status bubble icon on the right, a thin dashed arrow connecting them, 1:1",
+            "video": "Flat editorial vector animation, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, camera holds static as a small loading spinner icon on the left morphs smoothly into a small chat status bubble icon on the right, a thin dashed line tracing the path between them, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Figma Release Notes - October 2026 Latest Updates",
+          "desc": "כל מה שפיגמה שחררו בשבוע האחרון כולל Motion, כפתור ה-riffs וה-wrap האנכי, נקודת מוצא לפני שכותבים פוסט על עדכון ספציפי",
+          "meta": "Releasebot · 10.2026",
+          "url": "https://releasebot.io/updates/figma"
+        },
+        {
+          "title": "AI Model Releases: October 2026 Tracker",
+          "desc": "יומן תאריכים של כל שחרור מודל AI בתחילת אוקטובר, כולל Gemini 4 Argon וכמה מודלים קטנים שאף אחד לא מדבר עליהם",
+          "meta": "Digital Applied · 10.2026",
+          "url": "https://www.digitalapplied.com/blog/ai-model-releases-october-2026-tracker"
+        },
+        {
+          "title": "This Week in AI: OpenAI, Anthropic, Google Push New Models and Features",
+          "desc": "סיכום שבועי של מהלכי שלוש חברות המודלים הגדולות, טוב כרקע כללי לפני שבודקים כל הכרזה בנפרד",
+          "meta": "Micro Center · 2.10.2026",
+          "url": "https://www.microcenter.com/site/mc-news/article/this-week-in-ai-oct-2-2026.aspx"
+        }
+      ]
+    },
+    {
       "date": "2026-10-04",
       "dateLabel": "יום ראשון, 4 באוקטובר",
       "ideas": [
