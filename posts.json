@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-10-09",
+      "dateLabel": "יום שישי, 9 באוקטובר",
+      "ideas": [
+        {
+          "id": "2026-10-09-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "לפני יומיים כתבתי כאן שלפיגמה אין לוח זמנים לחבר את Weave לקנבס הראשי. מתברר שזה כבר קרה, שבועות לפני שהפוסט ההוא בכלל נכתב.",
+          "angle": "פורמט: צ'ק-אין נבואה. בשבוע של ה-14.9.2026 Weave הפך לאזרח מן המניין על קנבס העיצוב הראשי: מסכים מזינים ישירות ל-Workflows, וכלים מותאמים שבונים בWeave חוזרים לפרסום בקהילה מתוך הקנבס עצמו, לא מכלי נפרד. הכתבה שהסתמכתי עליה ב-7.10 תיארה מצב ישן. זה לא רק טעות שלי, זה תזכורת שכתבה משנית אחת לא שווה מקור ראשון, במיוחד כשהתחום הזה זז כל שבוע.",
+          "why": "כי זו תזכורת לי ולכל מי שמסתמך על כתבה אחת, לבדוק תאריך פרסום לעומת תאריך שחרור בפועל, לא רק לקרוא כותרת.",
+          "srcUrl": "https://releases.sh/collections/productivity-apps/digest",
+          "srcLabel": "releases.sh · Productivity Apps Digest",
+          "srcDate": "14.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Two floating canvas frames drifting toward each other, a small flag marked with a dashed question mark falling away and dissolving between them, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Two floating canvas frames drift slowly toward each other, a small flag marked with a dashed question mark falls away and dissolves, the two frames touch and merge into one glowing frame, camera holds static, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-09-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "יש שרת MCP אחד שעושה דבר שאף סוכן עיצוב אחר לא עושה: הוא קורא את ספריית הקומפוננטות החיה שלך, לא מדמיין אותה.",
+          "angle": "כל סוכן שמתחבר לפיגמה יודע לקרוא עיצוב. סוכן שמתחבר ל-Storybook MCP יודע לקרוא קוד שרץ בפרודקשן בפועל: הפרופים שהקומפוננטה מקבלת, הסטייטים שהיא יודעת להציג, הדוגמאות שהצוות עצמו כתב. ההבדל הזה הוא בין סוכן שמנחש איך קומפוננטה מתנהגת לסוכן שבאמת יודע. למי שבונה סקיל עיצוב, זו הדרך לגשר בין מה שהעיצוב מצייר למה שהקוד כבר יודע לעשות, במקום להמציא קומפוננטה חדשה שכבר קיימת.",
+          "why": "כי זה הבסיס לכל סקיל עיצוב שרוצה להציע קומפוננטה קיימת במקום להמציא אחת חדשה, ועדיין אין עליו מספיק תוכן בעברית.",
+          "srcUrl": "https://storybook.js.org/",
+          "srcLabel": "Storybook",
+          "srcDate": "9.10",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A small robot eye reading a glowing component card with visible prop labels and state dots, a second faded ghost card nearby representing a guessed imagined version, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A small robot eye scans a glowing component card with visible prop labels and state dots one by one, a faded ghost card beside it flickers and fades out as the real card brightens, camera holds static, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-09-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מהחומרים שלך",
+          "hook": "מסך טעינה שמראה את השלד של מה שעומד לבוא, במקום עיגול מסתובב, זה לא קוסמטיקה, זה הבטחה. ועכשיו שאני יושב עם ציוני מפגש 11, אני מחפש בדיוק את ההבדל הזה.",
+          "angle": "סקלטון לואדינג טוב מספר לך מראש את הצורה של מה שבא, כרטיס, שורה, תמונה, לפני שהתוכן נטען. זה שונה מספינר כי הוא לא רק אומר רגע, הוא אומר זה מה שתקבל. בשני הפרויקטים האחרונים שבדקתי ראיתי בדיוק את הפער: פרויקט אחד השתמש בסקלטון שמשקף את המסך האמיתי שלו, השני הדביק ספינר גנרי כי זו הייתה ברירת המחדל שה-AI הציע. הציון לא נקבע לפי מי שידע להגיד יש לי loading state, הוא נקבע לפי מי שידע להסביר למה הבחירה הזו נכונה למסך הספציפי שלו.",
+          "why": "כי זה הרגע המדויק שמפריד תלמיד שמבין עיצוב ממי שמעתיק ברירת מחדל.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "דף הקורס 45900 של אייל",
+          "srcDate": "1.10",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow teal palette, soft studio lighting, shallow depth of field. A small clay card shape made of soft gray blocky shapes resembling a rough outline sketch, no text",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow teal palette, soft studio lighting, shallow depth of field. A rough gray clay outline card made of blocky placeholder shapes slowly resolves and sharpens frame by frame into a fully detailed small clay card with a tiny photo and lines of text, camera holds static, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "10 ההכרזות הגדולות מ-Figma Config 2026",
+          "desc": "סיכום של כל מה שפיגמה הציגו בכנס, רלוונטי כדי להבין את ההקשר שממנו Intelligent Canvas ו-Weave יצאו",
+          "meta": "Medium · Rythmuxdesigner",
+          "url": "https://medium.com/@Rythmuxdesigner/the-10-biggest-announcements-from-figma-config-2026-every-ux-designer-should-know-4c3c4c4588cc"
+        },
+        {
+          "title": "האם פיגמה מפסידה את מירוץ ה-AI",
+          "desc": "דעה חדה שמפקפקת בקצב של פיגמה מול מתחרים, זווית נגדית שימושית לכל מי שמלמד את הכלי",
+          "meta": "UX Planet",
+          "url": "https://uxplanet.org/is-figma-losing-the-ai-race-3ef52bcc33ca"
+        },
+        {
+          "title": "דוח מגמות AI ב-L&D לשנת 2026",
+          "desc": "דוח מגמות של תעשיית ההדרכה הארגונית, רלוונטי לכל מי שמוכר הכשרת AI לארגונים",
+          "meta": "Attensi · 2026",
+          "url": "https://attensi.com/learn/white-papers/trends-report-2026/"
+        }
+      ]
+    },
+    {
       "date": "2026-10-08",
       "dateLabel": "יום חמישי, 8 באוקטובר",
       "ideas": [
