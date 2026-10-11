@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-10-11",
+      "dateLabel": "יום ראשון, 11 באוקטובר",
+      "ideas": [
+        {
+          "id": "2026-10-11-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "לנוד בוויב יש ביוגרפיה קצרה. הוא נולד כצעד בודד בזרימת עבודה, ועוד לפני שהוא יודע לקרוא קובץ פיגמה אמיתי, הוא כבר יודע לזכור בשבילך כל שינוי.",
+          "angle": "פורמט: ביוגרפיה של אובייקט. וויב נולד כחברת Weavy שפיגמה רכשה, ונולד מחדש כ-Weave בקונפיג עם יותר מעשרים תבניות מוכנות. הפרט שלא ראיתי מודגש בעברית הוא שכל שלב בזרימה הוא נוד נפרד שאפשר לערוך בנפרד, וההנחיה שבתוכו היא מה שבאמת זז לתוך המודל. זה ההבדל בין כלי שמחזיר תוצאה סגורה לכלי שאתה פותח ומזיז בפנים. ולפי התוכנית, יום אחד הנוד הזה יגדל וידע לקבל פריים אמיתי מפיגמה, לא רק תיאור מילולי שלו, כך שכל שינוי בקובץ המקור ימשיך לזרום הלאה בלי לבנות מחדש.",
+          "why": "כי זה בדיוק השלב שעדיין חסר כשסדנת וויב נגמרת, מהתוצאה היפה בחזרה לקובץ האמיתי, וההבנה שזה כבר מתוכנן כצעד הבא משנה את מה שאני עונה לשאלה הזאת.",
+          "srcUrl": "https://diginomica.com/config-2026-weave-layer-precision-design-workflows-figma",
+          "srcLabel": "diginomica · Figma Weave, זרימת עבודה מבוססת נודים",
+          "srcDate": "3.7",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay gear shaped node with a single glowing thread reaching toward a floating clay picture frame nearby, no text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay gear shaped node extends a single glowing thread toward a floating clay picture frame, the thread gently pulls the frame closer until it settles beside the node, camera holds static, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-11-2",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מהחומרים שלך",
+          "hook": "87 אחוז מצוותי הלמידה וההדרכה כבר משתמשים ב-AI. רק 36 אחוז מהם בנו את זה לזרימת עבודה קבועה. הפער הזה הוא בדיוק המשפט שאני פותח איתו את מודול 3.",
+          "angle": "לפי Synthesia, 87 אחוז מצוותי L&D מדווחים על שימוש ב-AI, הסיבה המובילה היא ייצור תוכן מהיר יותר, אבל רק שליש בנו את זה לזרימת עבודה אמיתית ותשעה אחוז בלבד בקנה מידה. זה מספר שמאשר בדיוק את המשפט שדניאל בוארון נתן בהרצאת האורח שלו, פרומפט הוא בקשה חד פעמית, סקיל הוא זיכרון קבוע. 87 אחוז עושים בקשות. רק שליש בנו זיכרון. במודול 3 של מיישם AI ואוטומציה שלם מוקדש להבדל הזה, לא לזה ש-AI יודע לכתוב, אלא לזה שהוא זוכר לכתוב אותו דבר בפעם העשירית בלי שתבקש שוב.",
+          "why": "כי הסטטיסטיקה הזאת מספרת בדיוק את הסיפור שאני מספר כל שבוע בכיתה, רק עם מספרים אמיתיים מאחורי המילים.",
+          "srcUrl": "https://www.devlinpeck.com/content/ai-in-corporate-training-statistics",
+          "srcLabel": "devlinpeck.com · סטטיסטיקות AI ב-L&D",
+          "srcDate": "11.8",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A large glowing numeral eighty seven made of small dashed figure icons, only a third of them connected by a solid light line to a single gear at the center, the rest floating unconnected nearby, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A cluster of small dashed figure icons floats near a central gear, one by one a third of them connect to the gear with a solid glowing line while the rest drift and dim slightly, camera holds static, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-11-3",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "1.7 מיליון קבצי SKILL.md יושבים במקום אחד. זו לא תחרות בין אתר לאתר, זו מפה עם ארבע שכבות.",
+          "angle": "skillsmp.com מרכז 1.7 מיליון קבצי SKILL.md. skills.sh מריץ לוח מוביל חי, הסקיל הכי מותקן הוא frontend-design של אנתרופיק עם 552 אלף התקנות. SKILLS-IL הוא המקבילה העברית עם 187 סקילים. Taste Skill נלחם ב-slop עיצובי. ui-ux-pro-max עומד על 92.4 אלף כוכבים. כל אחד מהם פותר חלק אחר של הבעיה, גילוי, איכות, שפה, או התאמה לתחום. למי שנכנס לשוק הזה בפעם הראשונה זה נראה כמו בלבול, אבל זו בעצם מפה עם ארבע שכבות ברורות, לא אתר אחד נגד אתר אחר.",
+          "why": "כי כל שבוע מישהו בכיתה שואל אותי איפה מוצאים סקילים טובים, והתשובה האמיתית היא לא אתר אחד, זו מפה.",
+          "srcUrl": "https://skills.sh",
+          "srcLabel": "skills.sh · לוח מוביל סקילים",
+          "srcDate": "11.10",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A cluster of small folder icons of different sizes arranged like a map with thin dashed connecting lines, one larger folder at the center glowing brighter than the rest, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A scattered cluster of small folder icons slowly arranges itself into a map shape connected by thin dashed lines, one larger central folder brightens as the others settle into place around it, camera holds static, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "פיגמה מציגים את וויב מחדש, 20 זרימות עבודה ל-AI-native design",
+          "desc": "כתבה שמפרטת את לקוחות הבכורה של Weave, כולל DoorDash, Lyft ו-NVIDIA, ואיך הם משתמשים בקנבס הוויזואלי לייצור תוכן",
+          "meta": "ITWire · 2026",
+          "url": "https://itwire.com/guest-articles/company-news/reintroducing-figma-weave-with-20-new-workflows-for-ai-native-design.html"
+        },
+        {
+          "title": "מדריך מגמות L&D ו-AI לשנת 2026",
+          "desc": "סיכום מגמות למחלקות הדרכה שמתמודדות עם AI, זווית משלימה לסטטיסטיקות שבפוסט של היום",
+          "meta": "Guidde · 2026",
+          "url": "https://www.guidde.com/knowledge-hub/corporate-learning-and-development-trends-2026-guide"
+        },
+        {
+          "title": "שאלות ותשובות רשמיות על Figma Weave",
+          "desc": "דף שאלות נפוצות טכני, שימושי למי שרוצה להבין את ה-node based workflow ברמת הפרט",
+          "meta": "Weavy / Figma Help · 2026",
+          "url": "https://help.weavy.ai/en/articles/12692387-figma-weave-faq"
+        }
+      ]
+    },
+    {
       "date": "2026-10-09",
       "dateLabel": "יום שישי, 9 באוקטובר",
       "ideas": [
