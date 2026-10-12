@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-10-12",
+      "dateLabel": "יום שני, 12 באוקטובר",
+      "ideas": [
+        {
+          "id": "2026-10-12-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "שלושת המנועים שלי קוראים את הספק שלהם מהרשת בכל הפעלה אחת, אף פעם לא מעותק מקומי. זו לא פרנויה, זו ההבדל בין סקיל לפרומפט.",
+          "angle": "דניאל בוארון אמר את זה במשפט אחד: פרומפט הוא בקשה חד פעמית, סקיל הוא זיכרון קבוע. אבל יש שכבה נוספת שהוא גם רמז לה, וזו כלכלת ה-DESIGN_CONTEXT, הריצה הראשונה סורקת את כל המוצר וזה כבד, הריצה הבאה קוראת קובץ אחד וזה זול. בשלושת הסקילים שמריצים את המנועים היומיים שלי כתוב במפורש שהם לא שומרים אף כלל בתוכם, הם רק קוראים את הספק החי מהרשת בכל הפעלה, כי העתקת כלל פנימה היא בדיוק מה שהרג גרסאות קודמות של המנועים. זה כלל ה-use extend invent בפועל, לא כתיאוריה.",
+          "why": "היום בדיוק קראתי את שלושת הספקים מההתחלה כדי להפעיל את המנועים, ואם מישהו היה מעתיק כלל פנימה לפני חצי שנה, הייתי רץ עכשיו על גרסה מתה בלי לדעת.",
+          "srcUrl": "https://raw.githubusercontent.com/Eyalg1980/simpla-lab/main/daily-director/DIRECTOR-SPEC.md",
+          "srcLabel": "הספק החי של הבמאי היומי",
+          "srcDate": "12.10",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a single glowing document icon connected by three thin dashed lines to three small terminal window icons reading from it at once, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, camera slowly pushes in on a glowing document icon as three small terminal window icons pulse in sync reading from it, then one terminal icon briefly dims and disconnects before reconnecting to the same document, smooth minimal motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-12-2",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": null,
+          "hook": "פורמט: מהכיתה לשטח. מפגש 7 בקורס 53500, תלמיד מתלבט רגע ואז אומר, אין לי לוגו, אין לי פלטת צבעים, אין לי אפילו מסך ראשי שבחרתי. הוא לא היה היחיד.",
+          "angle": "ב-6.10.2026 הבנתי שהפרומפטים של שלב המפרט חייבים לעבוד בלי לוגו, בלי פלטת צבעים ובלי משפט סטייל, כי לא כל תלמיד מגיע עם כל אלה מוכן. זה נראה כמו תיקון טכני קטן, אבל זה בעצם העקרון השלם, כלי שנבנה בשביל המשתמש המוכן נכשל אצל כל מי שמגיע בלי הבסיס, ואלה רוב האנשים שמשתמשים בו בפועל. סקר של TalentLMS, שמצוטט בכתבה מעודכנת ליוני 2026, מצא ש-88 אחוז ממנהלי משאבי אנוש מצפים שבינה מלאכותית תשנה את איך עובדים צוברים ידע. אבל אף אחד מהסקרים האלה לא שואל מה קורה למי שמגיע לתהליך בלי הבסיס, וזה בדיוק מה שתלמיד אחד בכיתה שלי לימד אותי.",
+          "why": "זה קרה ממש בשבוע שעבר, בקורס שרץ עכשיו, לא סיפור ישן.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb53500-prompts/",
+          "srcLabel": "דף הפרומפטים של קורס 53500",
+          "srcDate": "6.10",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, a clay figure of a student shrugging with empty open hands beside a small blank clay logo placeholder shape, no text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, a clay student figure shrugs with empty hands as a blank logo shape and empty color swatches float away out of frame, then a single clay document sheet grows to fill the empty space and the student nods, gentle stop motion cadence, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-12-3",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "שגיאות ה-AI במשימות חשבונאיות נחתכות לחצי כל כמה חודשים, כך כתב יעקב נילסן השבוע. ובכל זאת, חמש מתוך שש השליפות שלי מול דפי אינטרנט נחסמות באותה שגיאת הרשאה בדיוק, שוב ושוב.",
+          "angle": "העקומה של היכולת עולה בצורה חלקה ומדידה, אבל הדבר שבאמת תוקע סוכני AI בעולם האמיתי הוא לא היכולת, זה חיבור שנכשל, הרשאה שלא עברה, דף שלא נטען. ה-UX של העתיד הזה לא יהיה עיצוב של עוד מודל חכם יותר, הוא יהיה עיצוב של מה קורה כשהחיבור לא עובד, כי זה מה שקורה כל יום בפועל.",
+          "why": "בדיוק היום, בזמן שחקרתי את הפוסט הזה, חמש מתוך שש השליפות שלי נכשלו באותה חסימת הרשאה, בלי שום קשר ליכולת של המודל.",
+          "srcUrl": "https://www.uxtigers.com/articles/tags/ai",
+          "srcLabel": "UX Roundup, יעקב נילסן",
+          "srcDate": "6.10",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a descending staircase graph made of thin dashed steps shrinking smoothly in height, beside it a single flat padlock icon stamped firmly shut over a small flat browser window icon, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, camera pans slowly across a descending staircase graph shrinking step by step smoothly, then stops sharply on a flat padlock icon snapping shut over a small browser window icon, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "וובינר L&D 2026, תובנות מאימוץ AI בלמידה ארגונית",
+          "desc": "תמונת מצב על איך צוותי הדרכה בארגונים משלבים AI בפועל, לא רק בתיאוריה",
+          "meta": "Synthesia · 2026",
+          "url": "https://www.synthesia.io/webinars/ai-in-l-d-2026-key-insights"
+        },
+        {
+          "title": "המדריך המלא ל-Higgsfield AI, יותר מ-15 מודלים ב-2026",
+          "desc": "סקירה מקיפה של כל המודלים והכלים בתוך היגספילד, שימושי כרפרנס מהיר",
+          "meta": "pasqualepillitteri.it · 2026",
+          "url": "https://pasqualepillitteri.it/en/news/677/higgsfield-ai-video-guide"
+        },
+        {
+          "title": "מגמות AI ב-L&D ל-2026, מסוכני AI לבניית יכולות אדם",
+          "desc": "כולל נתוני Docebo וTalentLMS על שיעורי אימוץ AI בצוותי הדרכה",
+          "meta": "eLearning Industry · עודכן 15.6",
+          "url": "https://elearningindustry.com/ai-trends-in-ld-for-2026-architecting-human-ai-capabilities-for-maximum-impact"
+        }
+      ]
+    },
+    {
       "date": "2026-10-11",
       "dateLabel": "יום ראשון, 11 באוקטובר",
       "ideas": [
