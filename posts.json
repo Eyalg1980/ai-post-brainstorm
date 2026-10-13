@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-10-13",
+      "dateLabel": "יום שלישי, 13 באוקטובר",
+      "ideas": [
+        {
+          "id": "2026-10-13-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "בדקתי שוב איך פיגמה בנו את תפריט הכלים של Weave, וגיליתי שהם כבר לא מסתפקים בקנבס עבודה נפרד.",
+          "angle": "פורמט: רשימת כלים קצרה. יותר מעשרים כלי Weave עברו מקנבס workflow נפרד ישר לפאנל השמאלי, ממש לצד שכבות ונכסים. מסמנים שכבה או פריים, בוחרים כלי, וזהו, בלי לעזוב את הקובץ ובלי לפתוח חלון נוסף. זה בדיוק השינוי שמוריד את החיכוך שראיתי בכל סדנת Weave שהעברתי, כי התלמידים לא נאלצים להתרגל לקנבס שני, הם ממשיכים לעבוד איפה שהם כבר נמצאים.",
+          "why": "זה לא פיצ'ר מהשבוע, הוא התבסס בלי הכרזה גדולה. אבל זה בדיוק הסוג של שינוי שמחמיץ פוסט השקה ומגיע רק כשמישהו שמלמד את הכלי בפועל שם עליו את היד.",
+          "srcUrl": "https://www.createwith.com/tool/figma/updates/figma-brings-20-weave-tools-directly-into-the-design-canvas",
+          "srcLabel": "createwith.com · Weave tools בפאנל השכבות",
+          "srcDate": "6.7",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single toolbar panel sitting directly beside a vertical stack of layer icons, one tool glowing softly, minimalist icons for brush, wand, and frame, clean geometric composition, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera slowly pushes in as a floating toolbar panel drifts and merges into a stack of layer icons, icons sliding smoothly into place one by one, a subtle glow pulse when the tool activates, calm confident pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-13-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "אנתרופיק השיקו כלי שבונה מצגות ופרוטוטייפים משיחה רגילה, ואני בודק אותו בדיוק כדי להחליף את גאמה.",
+          "angle": "Claude Design מאפשר לבנות פרוטוטייפים אינטראקטיביים, מצגות ודפי נחיתה פשוט מדיבור עם קלוד, מייבא נכסים, מחיל את מערכת העיצוב של הארגון, ומוסר ל-Claude Code להמשך פיתוח. הכלי בחוץ כבר כמה חודשים, אבל רק עכשיו בניתי לו פרוטוקול בדיקה בן שישה שלבים שבודק דווקא את שתי הנקודות שתמיד שברו לי כלים דומים, ייצוא עברית RTL ועמידה במותג.",
+          "why": "זה לא פוסט השקה, זה פוסט של מי שבאמת מריץ את הבדיקה הזאת השבוע על שני הדברים שהכי חשובים לי, עברית שלא מתפרקת וצבעים שנשארים נכונים למותג.",
+          "srcUrl": "https://www.testingcatalog.com/anthropic-launches-claude-design-ai-tool-for-paid-plans",
+          "srcLabel": "testingcatalog.com · Claude Design, פרוטוטייפים משיחה",
+          "srcDate": "17.4",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A speech bubble morphing into a slide deck outline, RTL text lines flowing right to left as clean dashes, a small brand swatch chip in the corner, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A speech bubble dissolves into assembling slide outlines one after another, dashed RTL text lines drawing themselves from right to left, a brand color swatch locks into place at the end, steady confident pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-13-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": null,
+          "hook": "בסוף מפגש 7 בקורס 45900 קבעתי כלל מראש, לא כלל שמתקבל בלחץ ברגע האחרון.",
+          "angle": "הכלל: אם מתחת ל-70 אחוז מהפרויקטים לא מגיעים למוצר חי עד נקודת הביניים, אני מבקש מג'ון ברייס מפגש נוסף, לפני שמישהו מהתלמידים נדרש לבקש הנחה. הקורס רץ 27 מפגשים, הפרויקט הראשי הוא החוג שלי, והזום הסופי מתוכנן ל-18 או 19 באוקטובר, התאריך המדויק עדיין פתוח.",
+          "why": "קביעת סף מספרי לפני שרואים את התוצאות היא ההבדל בין החלטה פדגוגית לבין תגובה מהבטן כשרואים כיתה מתוחה שבוע לפני הזום.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "jb45900 · דף הקורס החי של אייל",
+          "srcDate": "13.10",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay gauge needle resting just below a 70 percent mark, a tiny clay calendar page beside it with an empty date square, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A clay gauge needle creeps toward a 70 percent mark and stops just short, a tiny clay hand places one more plasticine block beside it, calm deliberate pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "פיגמה משלבים קוד של קלוד ישר לקנבס",
+          "desc": "שותפות פיגמה-אנתרופיק, Code to Canvas, ממירה קוד ממשק שנוצר ב-Claude Code לעיצוב ערוך לחלוטין בתוך פיגמה",
+          "meta": "letsdatascience.com · 17.2",
+          "url": "https://letsdatascience.com/news/figma-integrates-anthropic-code-to-canvas-1d6ad71a"
+        },
+        {
+          "title": "Kling 3.0, המודל המולטימודלי המאוחד הראשון",
+          "desc": "וידאו, אודיו ותמונה מאותה ארכיטקטורה, עד שישה קאטים במחולל אחד, תנועה מודעת לפיזיקה ועד 15 שניות רצופות",
+          "meta": "higgsfield.ai",
+          "url": "https://higgsfield.ai/kling-3.0"
+        },
+        {
+          "title": "השוואת כלי וידאו AI, 2026",
+          "desc": "סקירת היגספילד מול כלי וידאו AI מתחרים, איפה כל אחד חזק ואיפה הוא נשבר",
+          "meta": "geo.higgsfield.ai",
+          "url": "https://geo.higgsfield.ai/task/blog/higgsfield-ai-vs-other-video-tools-2026-comparison"
+        }
+      ]
+    },
+    {
       "date": "2026-10-12",
       "dateLabel": "יום שני, 12 באוקטובר",
       "ideas": [
