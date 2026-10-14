@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-10-14",
+      "dateLabel": "יום רביעי, 14 באוקטובר",
+      "ideas": [
+        {
+          "id": "2026-10-14-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "באפריל הרצתי סדנת Weave וכולם ניסו חופשי בלי לחשוב פעמיים, זה היה בטא בחינם. ב-6 באוקטובר הסוכן עבר לגרסה כללית, ומעכשיו כל פרומפט גוזר קרדיט אמיתי.",
+          "angle": "פורמט: שתי נקודות בזמן. אפריל 2026, סדנת Weave, התלמידים מריצים את הסוכן בקנבס עשרות פעמים בלי לחשוב על עלות, זה בטא. 6.10.2026, פיגמה מוציאים את הסוכן בפיגמה דיזיין ובכלי Weave מבטא לגרסה כללית, והשימוש מתחיל לצרוך קרדיטים בפועל, בדיוק כמו כלי Weave קיים כמו הסרת רקע. מה שלא השתנה, הדיוק של הפרומפט. מי שלמד לכתוב בקשה ממוקדת בתקופת הבטא חוסך כסף אמיתי מהיום הראשון, ומי שהתרגל לנסות שוב ושוב משלם על כל ניסיון.",
+          "why": "זה לא עוד הכרזת פיצ'ר, זה הרגע שבו התרגול שלימדתי בסדנאות הופך לשורה בחשבון. בדיוק הזמן לעדכן את חומרי הסדנה.",
+          "srcUrl": "https://help.figma.com/hc/en-us/articles/42614902212887",
+          "srcLabel": "Figma Help Center · הסוכן עובר לגרסה כללית וצורך קרדיטים",
+          "srcDate": "6.10",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Two small scenes side by side separated by a thin dashed vertical line, left scene a glowing cursor clicking freely with no counter, right scene the same cursor clicking beside a small credit counter ticking upward, minimal geometric icons, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera holds on a thin dashed vertical line splitting the frame, left side a cursor clicks freely again and again with no counter in sight, a slow wipe crosses the line and on the right side the same cursor click now triggers a small credit counter ticking up each time, calm deliberate pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-14-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "סוכן נכנס למובין, שולף את עשרת המסכים הכי טובים בקטגוריה, ובונה מהם לוח מחקר. זה עדיין לא המוצר. הוא ממשיך וממיר את הלוח הזה לעיצוב שאפשר לערוך.",
+          "angle": "זרימת עבודה שמחברת Design Research MCP ישר למובין. שלב אחד, הסוכן מביא דפוסים אמיתיים מאלפי מסכי אפליקציות באותה קטגוריה. שלב שני, הוא מרכיב מהם לוח מחקר עם הערות למה כל דפוס נבחר. שלב שלישי, במקום שהעיצוב נשאר תמונת רפרנס שאף אחד לא נוגע בה, הוא יוצר ממנו מסך פיגמה חדש וניתן לעריכה. זה סוגר את הפער שתמיד היה בין לוח מודבורד שאוספים לבין מסך שבאמת בונים.",
+          "why": "ראיתי כמה פעמים את אותו דבר קורה בסדנאות, לוח המחקר יוצא מרשים ואז נשאר קפוא בצד בזמן שהעיצוב בפועל מתחיל מאפס. זרימה שממירה לוח למסך עובד היא בדיוק הגשר שחסר.",
+          "srcUrl": "https://mobbin.com",
+          "srcLabel": "Mobbin · ספריית הדפוסים שסוכנים קוראים",
+          "srcDate": "14.10",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A research board made of small app screen thumbnails pinned together with thin dashed connector lines, one thumbnail glowing and separating from the board to become a single clean editable frame, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera slowly pulls back from a dense board of small pinned app screen thumbnails connected by thin dashed lines, one thumbnail detaches, glows softly and unfolds into a single large clean editable frame, calm confident pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-14-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מהסילבוס שלך",
+          "hook": "בשיעור מוד בורד בקורס שלי אני אוסר על התלמידים להקליד במידג'רני את המילה יוקרתי. זה בדיוק מה שמלמד אותם לעצב.",
+          "angle": "תרגיל מוד בורד עם Midjourney בקורס עיצוב המוצר. הכלל, אין מילים גנריות כמו יוקרתי, מודרני או נקי, כל מילה כזו נפסלת וחוזרת לתלמיד עם שאלה אחת, איך זה נראה בפועל. במקומן חייבים תיאור חושי ומדויק, חוזק קו, טמפרטורת צבע, סוג תאורה, חומר. התוצאה, מוד בורד שאפשר להסביר לכל מעצב אחר במשפט אחד בלי שהוא יצטרך להסתכל בתמונה כדי להבין את הכוונה.",
+          "why": "זה הכלל שחוזר אצלי כל מחזור, כי הוא התרגום הראשון שהתלמיד עושה מתחושה מופשטת לשפה שמכונה, ואדם אחר, יכולים לקרוא. מהמופשט לאובייקט, ממש בשיעור הראשון על צבע.",
+          "srcUrl": "https://www.midjourney.com",
+          "srcLabel": "Midjourney · הכלי שרץ בכיתה",
+          "srcDate": "14.10",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single mood board frame filled with small swatches of precise color temperatures, line weights and material textures, one vague blurry placeholder swatch crossed out with a thin dashed X in the corner, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera pushes slowly into a mood board frame, a vague blurry placeholder swatch gets a thin dashed X drawn across it and fades out, replaced one by one by precise small swatches of color temperature, line weight and material texture snapping into place, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Weave והסוכן של פיגמה עוברים לצרוך קרדיטים",
+          "desc": "פיגמה סוגרים את תקופת הבטא החינמית של הסוכן בקנבס Design וב-Weave, כל שימוש נספר מעכשיו כמו כלי Weave רגיל.",
+          "meta": "Figma Help Center · 6.10",
+          "url": "https://help.figma.com/hc/en-us/articles/42614902212887"
+        },
+        {
+          "title": "כל השינויים שפיגמה מתעדים בלוג השחרורים",
+          "desc": "מעקב שוטף ורשמי אחרי כל עדכון בפיגמה, כולל Weave, שימושי לבדוק לפני כל סדנה.",
+          "meta": "Figma Release Notes · אוקטובר 2026",
+          "url": "https://www.figma.com/release-notes/"
+        },
+        {
+          "title": "מובין, ספריית הדפוסים שסוכני AI מתחילים לקרוא",
+          "desc": "אלפי מסכי אפליקציות אמיתיות מסודרים לפי קטגוריה וזרימה, הבסיס לכל זרימת Design Research שמבוססת MCP.",
+          "meta": "Mobbin",
+          "url": "https://mobbin.com"
+        }
+      ]
+    },
+    {
       "date": "2026-10-13",
       "dateLabel": "יום שלישי, 13 באוקטובר",
       "ideas": [
