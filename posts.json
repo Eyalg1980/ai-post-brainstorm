@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-10-15",
+      "dateLabel": "יום חמישי, 15 באוקטובר",
+      "ideas": [
+        {
+          "id": "2026-10-15-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "NVIDIA שידרגו סצנת רובוט ל-12K בתוך Figma Weave, ופיגמה מספרים את זה כסיפור הצלחה. אני כבר יודע כמה עולה כל פיקסל שם, מהטבלה שלי בבית.",
+          "angle": "פורמט: מדריך השוואתי עם מספרים. כשפיגמה החזירו את Weave ב-17.4.2026 הם סיפרו שני סיפורי לקוח. לייפט לקחו צילום אחד ובנו ממנו מערכת שמחליפה רכבים, ערים ותאורה בלי צילום נוסף. NVIDIA לקחו מודל תלת מימד ברזולוציה נמוכה, הפיקו ממנו גרסאות 4K, והעלו את הסצנה הסופית ל-12K בעזרת סוכן AI מותאם, בשביל קינוט פתיחה בכנס. זה נשמע כמו קסם, אבל אני מריץ את אותו סוג שידרוג על ה-Higgsfield שלי כל שבוע, ויש לי את המחיר בשקלים ובקרדיטים. שידרוג סטנדרטי ל-4K עולה פי ארבע מרזולוציית עבודה רגילה, מעבר ב-Topaz לפאס אחד עולה 38 קרדיטים, ותמונות בודדות, שנראות כאילו הן בחינם ב-2 קרדיטים לפריים, הצטברו ביום אחד אחד ל-374 קרדיטים, כמעט כמו יום מלא של וידאו. הכותרת של פיגמה היא התוצאה, לא החשבון.",
+          "why": "כולם מראים את ה-12K הסופי. אף אחד לא מראה את הקבלה, ואני כבר יודע לקרוא אותה.",
+          "srcUrl": "https://itwire.com/guest-articles/company-news/reintroducing-figma-weave-with-20-new-workflows-for-ai-native-design.html",
+          "srcLabel": "itwire.com · Figma Weave, לקוחות NVIDIA ולייפט",
+          "srcDate": "17.4",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A small flat low-poly wireframe robot silhouette on the left sharpening through three dashed stepping stones into a crisp high-resolution version on the right, a tiny credit-counter icon ticking upward beneath the steps, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera holds steady as a low-poly wireframe robot silhouette sharpens through three dashed stepping stones into a crisp high-resolution version, a small credit-counter icon ticking upward in sync beneath each step, calm deliberate pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-15-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "תחנת חדשות אמריקאית הקדישה כתבה שלמה למקלדת שלא קיימת, Wispr Flow, אפליקציה שכותבת כל מה שמדברים אליה.",
+          "angle": "זה לא עוד כלי תמלול. Wispr Flow יושב ברקע ומזריק טקסט מדויק לכל שדה פתוח, אימייל, קוד, פרומפט לקלוד, בלי לפתוח אפליקציה נפרדת. הכתבה המקומית מ-21.9.2026 מציגה אותו כ'אפליקציית היום', אבל השינוי האמיתי הוא בכיוון העבודה עצמו. אנשים שכותבים ספים ובריפים ופרומפטים כבר לא מתחילים ממקלדת, הם מתחילים מדיבור, והטקסט מגיע מוכן. בדיוק הפעולה שבעבר דרשה לשבת ולהקליד הופכת לפעולה שאפשר לעשות תוך כדי הליכה.",
+          "why": "ברגע שכתיבת פרומפט הופכת לפעולה שאפשר לעשות בלי לשבת, גם איכות הפרומפטים משתנה, אנשים מנסים יותר כי העלות של לנסות שוב כל כך נמוכה.",
+          "srcUrl": "https://www.wrdw.com/2026/09/21/what-tech-app-day-wispr-flow/",
+          "srcLabel": "WRDW · App of the Day, Wispr Flow",
+          "srcDate": "21.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A small flat soundwave icon flowing directly into an open text field inside a minimal chat window shape, no keyboard visible anywhere in frame, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera holds on a small soundwave icon rippling steadily as it flows into an open text field inside a minimal chat window, text lines appearing smoothly in sync with the wave, no keyboard ever appears, calm steady pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-15-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": null,
+          "hook": "הזום הסופי של קורס 45900 יוצא לאוויר בעוד כמה ימים, ועדיין אין תאריך סגור, 18 או 19 באוקטובר.",
+          "angle": "27 מפגשים, פרויקט מרכזי אחד, החוג שלי, ועדיין התאריך המדויק של הזום הסופי לא נעול. זה יכול להישמע כמו באג ארגוני, אבל זה בעצם מראה את מה שבאמת חשוב בשבוע האחרון של קורס AI product design. זה לא עוד פיצ'ר, זה לא עוד מסך, זה היכולת של כל צוות להסביר בשלושים שנייה את ההחלטה האחת שעיצבה את הפרויקט שלהם. התאריך יכול לזוז, ההסבר הזה לא יכול להישאר רופף.",
+          "why": "זה קורה עכשיו, השבוע הזה, לא סיפור ישן מהקורס.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "jb45900 · דף הקורס החי של אייל",
+          "srcDate": "15.10",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay calendar page with two date numbers both circled lightly in a dashed line, a tiny clay microphone standing beside it, no text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay calendar page flips gently between two circled dates while a tiny clay microphone leans in closer, calm deliberate pacing, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "עיצוב תמונות מבוסס node ישר על קנבס פיגמה",
+          "desc": "איך כלי Weave מבוססי node נכנסים לזרימת העבודה הרגילה של הקנבס, לא רק כתוסף נפרד",
+          "meta": "designcompass.org · 26.6",
+          "url": "https://designcompass.org/en/2026/06/26/figma-weave-tools-community-workflows/"
+        },
+        {
+          "title": "Veo 3.1, פורמט אנכי ו-4K טבעי",
+          "desc": "המודל של גוגל מייצר וידאו 9:16 בלי קרופ, עם שדרוג ל-4K ועקביות דמויות בין סצנות, כולל watermark SynthID",
+          "meta": "ai.icai.org · 2026",
+          "url": "https://ai.icai.org/articles_details.php?id=320"
+        },
+        {
+          "title": "מדריך מלא ל-Wispr Flow",
+          "desc": "בדיקה מפורטת של אפליקציית הדיקטציה, כולל השוואה לכלים מתחרים",
+          "meta": "kripeshadwani.com · 2026",
+          "url": "https://kripeshadwani.com/wispr-flow-review/"
+        }
+      ]
+    },
+    {
       "date": "2026-10-14",
       "dateLabel": "יום רביעי, 14 באוקטובר",
       "ideas": [
