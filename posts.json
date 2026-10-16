@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-10-16",
+      "dateLabel": "יום שישי, 16 באוקטובר",
+      "ideas": [
+        {
+          "id": "2026-10-16-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "Config הגיע להודו אתמול. מה שהוצג ביוני בסן פרנסיסקו כבר לא חידוש מקומי, זה סטנדרט גלובלי.",
+          "angle": "ב-26.6.2026 פיגמה הציגו ב-Config את Intelligent Canvas, קנבס אחד שמאחד קוד, תנועה, שיידרים, סוכנים וכלי Weave. זה נשמע כמו עוד הכרזה מהכנס השנתי, אבל ב-15.10.2026, אתמול, הכנס עבר להודו, Config India בבנגלור, וזה הרגע שמראה שהעדכון לא נשאר בסן פרנסיסקו. בסקר השנתי של פיגמה, 8,403 תשובות ו-639 ראיונות, הדיווח על שינוי משמעותי באופן העבודה בגלל AI עלה פי שש משנתיים קודם, ו-77 אחוז ממנהלי המוצר כבר עובדים על הקנבס לפחות חצי מהזמן. אני מלמד סדנאות Weave כמה חודשים ותמיד הנחתי שהקהל בחדר מכיר רק את מה שאני מראה בו. ברגע שהכנס עצמו נוסע ליבשת אחרת, אני צריך להניח שתלמיד מגיע עם ציפייה אחרת ממני.",
+          "why": "זה לא עוד פיצ'ר, זה הרגע שבו הקנבס המאוחד עובר מהכרזה מקומית לנוכחות גלובלית אמיתית.",
+          "srcUrl": "https://itwire.com/business-it-news/business-software/at-config-2026-figma-introduces-the-intelligent-canvas-for-full-stack-creation.html",
+          "srcLabel": "itwire.com · Intelligent Canvas, Config India בבנגלור",
+          "srcDate": "15.10",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single flat conference-stage icon connected by a thin dashed line to a second distant stage icon, a soft ripple ring expanding outward from the second icon, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera holds steady as a flat marker travels along a thin dashed line from a first conference-stage icon to a second distant one, a soft ripple ring expanding outward on arrival, calm deliberate pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-16-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "63 אחוז מהמשווקים כבר משתמשים ב-AI לווידאו, והמאמר שמביא את המספר הזה כותב במפורש, אל תסמכו עליו.",
+          "angle": "כתבה שפורסמה ב-2.10.2026 מרכזת את מגמות ה-AI לווידאו של השנה, Veo 3.1, Runway Gen-4, Kling, סינתזיה ו-HeyGen לאווטארים, אבל הטענה המרכזית שלה לא על הכלים. היא כותבת במילים אלה, VIDEO VOLUME IS NOT A STRATEGY, ומזהירה מהמספר המצוטט של 63 אחוז בלי מתודולוגיה ברורה מאחוריו. ההמלצה שלה, לבדוק שאלה עסקית אחת בשלוש גרסאות ולמדוד תגובות בפועל, לא צפיות, בדיוק ההבדל שאני מנסה להשריש בכל סדנה. כלי AI מוריד את העלות של ניסוי אבל לא מחליט בשבילך מה בכלל לבדוק. מי שמייצר עשרים גרסאות בלי שאלה אחת ברורה מאחור מבלבל נפח עם תהליך, וזה נכון לעיצוב בדיוק כמו שזה נכון לווידאו.",
+          "why": "המספרים האלה חוזרים בכל כתבה כזו, הפעם מישהו כתב בפה מלא שהם לא אומרים הרבה בלי שאלה אחרי.",
+          "srcUrl": "https://blog.mean.ceo/?p=10990",
+          "srcLabel": "blog.mean.ceo · AI Video Generation Trends, October 2026",
+          "srcDate": "2.10",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single video-play icon multiplying into many identical copies fanning across the frame, one glowing copy breaking away and connecting with a dashed line to a single flat target icon while the rest fade out, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera holds as a single video-play icon multiplies into many identical copies fanning across the frame, most dissolve away while one glowing copy breaks off and connects with a dashed line to a single flat target icon, calm deliberate pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-16-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מהסילבוס שלך",
+          "hook": "חמישה מאגרי סקילים, ורק באחד מהם יש גם עברית.",
+          "angle": "פורמט: רשימת כלים קצרה. skillsmp.com כבר מארח 1.7 מיליון קבצי SKILL.md, לוח המובילים של skills.sh מראה שהסקיל frontend-design של אנתרופיק עצמה עבר 552 אלף התקנות, SKILLS-IL הוא המאגר העברי היחיד עם 187 סקילים, Taste Skill נבנה כדי לתפוס תוצרי AI גנריים לפני שהם יוצאים, ו-ui-ux-pro-max אוסף 92.4 אלף כוכבים בגיטהאב. בכל קורס מיישם AI שלי אני שולח את התלמידים לבדוק מה כבר קיים לפני שהם כותבים סקיל מאפס, וחמשת המאגרים האלה הם בדיוק המקום שאני מצביע עליו.",
+          "why": "זה לא עוד רשימת כלים, זה בדיוק ההרגל שאני בונה בכיתה, לבדוק מדף לפני שבונים מאפס.",
+          "srcUrl": "https://skillsmp.com",
+          "srcLabel": "skillsmp.com · מאגר הקהילה הגדול ביותר לקבצי SKILL.md",
+          "srcDate": "16.10",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. Five small clay shelf compartments each holding a different tiny labeled object, a clay hand reaching toward the shelf before lifting a single tool off it, no text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A clay hand scans slowly across five small shelf compartments each holding a different tiny object, pausing briefly at each before finally lifting a single tool off the shelf, gentle deliberate motion, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Weave חוזר עם עשרים תבניות לתמונה, וידאו ותלת מימד",
+          "desc": "גרסה נוספת לכתבה על השקת Weave מחדש, עם הרשימה המלאה של עשרים התבניות החדשות",
+          "meta": "createwith.com · 2026",
+          "url": "https://www.createwith.com/tool/figma/updates/figma-reintroducing-weave-with-20-new-templates-for-image-video-and-3d-workflows"
+        },
+        {
+          "title": "תנועה, קוד ושיידרים בתוך הקנבס",
+          "desc": "הצד הטכני של Config 2026 שלא תמיד מגיע לכותרות, Motion ו-Code Layers ישירות על הקנבס",
+          "meta": "createwith.com · 2026",
+          "url": "https://www.createwith.com/tool/figma/updates/figma-unveils-motion-code-layers-and-shader-effects-at-config"
+        },
+        {
+          "title": "הפער בין אימוץ AI בלמידה ארגונית לביטחון שהוא בונה יכולת",
+          "desc": "סקר Docebo מדווח ש-80 אחוז מצוותי L&D כבר משתמשים ב-AI, אבל רק מיעוט מרגיש בטוח שזה בונה מיומנויות לעתיד",
+          "meta": "elearningindustry.com",
+          "url": "https://elearningindustry.com/ai-trends-in-ld-for-2026-architecting-human-ai-capabilities-for-maximum-impact"
+        }
+      ]
+    },
+    {
       "date": "2026-10-15",
       "dateLabel": "יום חמישי, 15 באוקטובר",
       "ideas": [
