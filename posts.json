@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-10-18",
+      "dateLabel": "יום ראשון, 18 באוקטובר",
+      "ideas": [
+        {
+          "id": "2026-10-18-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "אמרתי בסדנה שעוד שנה נבחר מודל שפה כמו שבוחרים גופן, ישר מתוך הכלי. פיגמה כבר הגיעו לשם.",
+          "angle": "פורמט: צ'ק-אין נבואה. ב-Figma Make נפתחה אפשרות ניסיונית לבחור את Claude Opus 4.6 כמודל, ישר מתוך הגדרות הכלי, בלי לצאת לסביבה אחרת ובלי להחליף פלטפורמה. זה מראה כיוון שאני חוזר עליו בכל סדנת Weave: המודל עצמו הופך לרכיב תחליפי בתוך הזרימה, לא עולם סגור בפני עצמו. ברירת המחדל עדיין נעולה, זה אופציה ניסיונית בלבד, אבל זה בדיוק הצעד הראשון שמוביל לשם.",
+          "why": "כי כשכלי עיצוב מאפשר להחליף מודל שפה כמו שמחליפים גופן, השאלה שאני מלמד משתנה מ'איזה כלי לבחור' ל'איזה מודל לבחור', וזה שינוי בדרך חשיבה, לא רק תפריט חדש.",
+          "srcUrl": "https://www.createwith.com/tool/figma/updates/figma-make-adds-claude-opus-46-as-experimental-model-option",
+          "srcLabel": "createwith.com · Figma Make מוסיף את Claude Opus 4.6",
+          "srcDate": "5.2",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single flat dropdown menu icon open mid-air listing small abstract model tokens like font-name swatches, a dashed cursor arrow hovering over one, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera holds steady as a flat dropdown menu slides open revealing small abstract model tokens like font-name swatches, a dashed cursor arrow glides down and clicks one, it locks into place with a soft highlight, calm deliberate pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-18-2",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "אני מכין מפגש על אוטומציות בקורס שלי, ולפני זה אני עצמו עובר על N8N103 ועל מודול ה-Evals בקורס Agentic AI. המורה לומד כדי להישאר מורה.",
+          "angle": "בקורס מיישם AI ואוטומציה אני מלמד שלושת המסננים לפני שבונים כל אוטומציה: האם המשימה חוזרת, האם יש לה כללים ברורים, והאם טעות בה זולה. רק אחרי שעונים על שלושתן מחליטים אם זה אוטומציה פשוטה, AI בתוך אוטומציה, או שזה חייב להישאר אצל אדם. אני לא מלמד את זה מהספר, אני עובר על זה כל שבוע על הכלים והסקילים של עצמי, ולפעמים זה אומר לשבת וללמוד קורס שלם לפני המפגש.",
+          "why": "כי תלמידים בלי רקע בתכנות בונים כבר עכשיו אוטומציות אמיתיות שרצות בלי מגע יד, וההבדל בין כלי טוב לכלי שנשבר הוא בדיוק השאלה 'האם טעות כאן זולה'. זו בדיקת שפיות שכל מי שמטמיע AI בעסק צריך, לא רק סטודנטים בקורס.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb53500/",
+          "srcLabel": "jb53500 · דף הקורס החי של אייל, מודול 6",
+          "srcDate": "10.2026",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay figure with reading glasses sits cross-legged studying an open plasticine book, a tiny clay lightbulb glowing warm beside it, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. Camera holds steady as a small clay figure with reading glasses studies an open plasticine book, a tiny clay lightbulb flickers on beside it and glows warm, gentle handheld-feeling micro movement, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-18-3",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "תזכרו את הפעם האחרונה שראיתם פרזנטור בסרטון פרסומת. היה לו שם? היה לו חלק בסיפור שלכם?",
+          "angle": "ב-Arcads.ai יש כבר יותר מ-1,000 'שחקני' AI מוכנים לכל קמפיין וידאו, בלי צילומים, בלי ליהוק, בלי אולפן. זה לא עוד כלי וידאו, זה שינוי בשרשרת הערך של עיצוב תוכן: המעצב כבר לא בוחר תמונה מתוך בנק תוכן, הוא בוחר שחקן מתוך קטלוג ומכתיב לו טון, קצב ומבט.",
+          "why": "כי זה מזיז את העבודה של מעצב ה-UGC מ'לצלם' ל'לבמה', וזה תפקיד חדש שאף אחד עדיין לא קורא לו בשם, בדיוק כמו שעיצוב UX לא נקרא ככה עד שמישהו טבע את המילה.",
+          "srcUrl": "https://www.arcads.ai/",
+          "srcLabel": "arcads.ai · קטלוג שחקני AI לפרסום",
+          "srcDate": "2026",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A row of identical flat human-silhouette icons standing in a waiting line, one silhouette highlighted in coral with a small dashed direction arrow above it, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera holds steady on a row of identical flat human-silhouette icons standing in a waiting line, one silhouette lights up in coral as a dashed direction arrow appears above it and gently nudges its pose, calm deliberate pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "שלושה מוצרי AI שהתפרסמו השבוע: רצועת שריר, רובוט עם Gemini, ואלקסה בכל מקום",
+          "desc": "סקירה של Meta Neural Band, השת\"פ בין Boston Dynamics ל-Google DeepMind על Atlas, והתפשטות Alexa+ למכוניות ולמכונות קפה",
+          "meta": "blog.mean.ceo · 2.10",
+          "url": "https://blog.mean.ceo/?p=10966"
+        },
+        {
+          "title": "סוכני AI שעובדים ישירות על קנבס פיגמה",
+          "desc": "מאמר על המעבר מצ'אט בצד לסוכן שפועל ישירות בתוך הקנבס עצמו",
+          "meta": "designcompass.org · 25.3",
+          "url": "https://designcompass.org/en/2026/03/25/ai-agents-that-work-directly-on-the-figma-canvas/"
+        },
+        {
+          "title": "Claude Design מול Figma ו-Canva",
+          "desc": "סקירה על הכניסה של Claude Design לשוק כלי העיצוב, ואיך זה מתחרה בפיגמה ובקנבה",
+          "meta": "noqta.tn · 2026",
+          "url": "https://noqta.tn/en/news/anthropic-claude-design-tool-figma-canva-2026"
+        }
+      ]
+    },
+    {
       "date": "2026-10-16",
       "dateLabel": "יום שישי, 16 באוקטובר",
       "ideas": [
