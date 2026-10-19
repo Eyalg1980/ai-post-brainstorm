@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-10-19",
+      "dateLabel": "יום שני, 19 באוקטובר",
+      "ideas": [
+        {
+          "id": "2026-10-19-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "ב-Weave יש כבר יותר מ-20 תבניות מוכנות לתמונה, וידאו ותלת מימד, ופיגמה בעצמה עוד לא יודעת אם לחבר את זה לקנבס הראשי. היא שאלה את הקהל בלינקדאין.",
+          "angle": "ה-node-based workflow builder של Weave עושה כבר היום דברים ממשיים: שינוי גודל תמונות בכמות, אפקטים לוידאו, הנפשה מקבצים סטטיים. אבל אין עדיין חיבור לקנבס הראשי, ואין ציר זמן לכך. זה בדיוק המקרה של Use קודם Extend קודם Invent: פיגמה בנתה שימוש בסיסי (Use), עדיין לא בנתה את ההרחבה למשתמש הקיים (Extend), ובטח לא את הצעד שיידרש ממני בתור מעצב כדי להמציא עליו משהו חדש (Invent). כשאני מלמד את הכלל הזה בסדנת Weave, זו בדיוק הדוגמה שהייתי מביא: כלי יכול להיות שלם טכנית ולא שלם מוצרית.",
+          "why": "כי זה פער שחוזר על עצמו בכל כלי AI-native שאני בודק עם לקוחות: ה-Use כבר שם, אבל בלי Extend ברור הלקוח נשאר עם עוד כלי נפרד במקום עם שכבה בתוך התהליך שלו.",
+          "srcUrl": "https://www.createwith.com/tool/figma/updates/figma-weave-returns-with-workflow-builder-for-images-video-and-3d",
+          "srcLabel": "createwith.com · Weave חוזר עם בנאי workflows",
+          "srcDate": "17.4",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A chain of connected flat workflow node icons, the last node reaching with a dashed line toward a large canvas rectangle just out of reach, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera slowly pushes in along a chain of connected flat workflow node icons, the last node pulses softly and stretches a dashed line toward a large canvas rectangle just out of frame, calm deliberate pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-19-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "לפני חמישה ימים Higgsfield עברה מסרטון של דקה לסרטון של יותר מעשר דקות, מאה סצנות ברצף אחד שנשארות עקביות אחת לשנייה. זה לא עניין של אורך.",
+          "angle": "Higgsfield בנתה את זה על GPT-6 Astra של OpenAI, שמחזיק קונטקסט חזק מספיק לשמור על עקביות חזותית בין סצנות מרובות. ההדגמה שלהם הייתה סיפור של פירמידה במאה סצנות עם ווייסאובר קוהרנטי, ולצידו הכרזה על GPT-Live לפקודות קול בזמן אמת. אני עובד עם Higgsfield כל שבוע, וכל קליפ אצלי היה עד עכשיו 10-15 שניות שצריך לתפור ביד. הבעיה האמיתית מעולם לא הייתה האורך, היא הייתה visual drift בין קליפים מחוברים. אם זה אמיתי בשטח ולא רק בדמו, זה משנה את כל הפייפליין שלי מתפירת קליפים לכתיבת סצנה ארוכה אחת.",
+          "why": "כי זו בדיוק הבעייה שאני פותר ביד בכל פרויקט וידאו, וכלי שפותר אותה ברמת המודל ולא ברמת העריכה משנה את מי שעושה את העבודה.",
+          "srcUrl": "https://www.winzheng.com/en/article/higgsfield-gpt6-astra-10-minute-ai-video",
+          "srcLabel": "winzheng.com · Higgsfield עם GPT-6 Astra",
+          "srcDate": "14.10",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A long flat filmstrip unrolling into a hundred small scene frames, the frames near the end subtly drifting in shape and tone, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera tracks along a long flat filmstrip of a hundred scene frames, early frames sharp and aligned, later frames subtly drifting until a thin glowing coral thread stitches through all of them restoring alignment, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-19-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מהכיתה שלך",
+          "hook": "השבוע אני סוגר את הזום הסופי של קורס 45900, והתאריך עדיין לא נעול בין 18 ל-19 באוקטובר. זה לקח בפני עצמו.",
+          "angle": "פורמט: מהכיתה לשטח. מומנט קטן ואנונימי: לוח הזמנים של הקורס תלוי על תאריך אחד שעוד לא ננעל, ובכל זאת כל שאר העבודה ממשיכה כאילו הוא כבר קבוע. ההצגה, הדמו (החוג שלי כפרויקט המרכזי), החלוקה לנקודת ההחלטה של סוף מפגש 7, הכל נבנה על הנחה. זה מה שאף אחד לא מלמד על לו\"ז: אי ודאות באחד הצמתים לא נשארת שם, היא מדביקה חוסר ודאות לכל מה שתלוי בו, אפילו כשכל הצדדים הגיוניים ומוכנים. התלמיד בלי לשים לב מלמד אותי את זה כל קורס מחדש: תכנון טוב הוא לא תכנון עם הכל סגור, הוא תכנון שיודע בדיוק אילו שני דברים לא סגורים ומה הם עושים לכל השאר.",
+          "why": "כי זה קורה לי ממש השבוע, לא תאוריה מהספר. וזה חוזר בכל פרויקט מוצר שיש בו דדליין חיצוני אחד שלא בשליטתי.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "jb45900 · דף הקורס החי",
+          "srcDate": "19.10",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay calendar page with one loose unpinned date tile tilting, about to fall off, the other tiles neatly pinned in place, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. Camera holds steady as a small clay hand gently tries to press one loose unpinned date tile flat onto a calendar page while the neighboring tiles sit neatly pinned, soft handheld micro movement, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Weave מקבל שליטת שכבות מדויקת, מכנס Config 2026",
+          "desc": "כתבה שמסתכלת על שיפור השליטה בשכבות ב-Weave שהוצג בקונפיג של פיגמה.",
+          "meta": "diginomica · Config 2026",
+          "url": "https://diginomica.com/config-2026-weave-layer-precision-design-workflows-figma"
+        },
+        {
+          "title": "Higgsfield האיצה הפקת מודעות וידאו לעסקים קטנים עם GPT-6 Astra",
+          "desc": "עוד לפני הסרטונים הארוכים, Higgsfield השתמשה ב-GPT-6 Astra כדי לקצר את זמן ההפקה של מודעות וידאו לעסקים קטנים.",
+          "meta": "aitoolly.com · 22.9",
+          "url": "https://aitoolly.com/zh/ai-news/article/2026-09-22-higgsfield-ai-leverages-gpt-6-astra-to-accelerate-video-ad-feature-deployment-for-small-businesses"
+        },
+        {
+          "title": "OpenAI על השותפות עם Higgsfield: מפרומפט לפרודקשן עם Astra",
+          "desc": "הגרסה הרשמית של הסיפור, מהצד של OpenAI: איך הם רואים את הקפיצה באורך ובקול.",
+          "meta": "OpenAI · 14.10",
+          "url": "https://openai.com/el-GR/index/higgsfield-from-prompt-to-production-with-astra/"
+        }
+      ]
+    },
+    {
       "date": "2026-10-18",
       "dateLabel": "יום ראשון, 18 באוקטובר",
       "ideas": [
