@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-10-20",
+      "dateLabel": "יום שלישי, 20 באוקטובר",
+      "ideas": [
+        {
+          "id": "2026-10-20-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "ב-24 ביוני פיגמה פתחו ציר זמן אנימציה מלא בתוך הקנבס, קיי פריימים ופריסטים כלולים, וארבעה חודשים אחרי זה עדיין בקושי קיים בעברית.",
+          "angle": "ציר הזמן יושב ממש בתוך הפריים, בלי לעבור לכלי חוץ. יש פריסטים מוכנים, קיי פריימים לעריכה ידנית, וייצוא ישיר ל-CSS, JSON, React, MP4, WebM, SVG מונפש ו-GIF. אני בדיוק באמצע בנייה של עמוד נחיתה ופוסטים קידומיים ל-Weave, וזו השאלה שחוזרת בכל שיחה על הכלי: איך מראים תנועה בלי לפתוח קובץ After Effects נוסף. התשובה עברה מ'יש פלאגין שעושה את זה' ל'זה כבר בקנבס, תלחצו על הפריים'. זה שינוי קטן בתשובה וגדול בתהליך.",
+          "why": "כי אני צריך להסביר את זה בעברית למישהו חדש כל שבוע, ועדיין אין לאן להפנות אותו.",
+          "srcUrl": "https://www.cmswire.com/digital-experience/figma-launches-code-layers-motion-at-config-2026/",
+          "srcLabel": "CMSWire · Figma Motion ב-Config 2026",
+          "srcDate": "24.6",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A flat timeline strip with diamond keyframe markers sitting directly inside a large canvas frame, small export icons (CSS brackets, a play triangle, a film reel) branching off the end of the timeline, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera slowly pushes in on a flat timeline strip inside a canvas frame, diamond keyframe markers light up one by one left to right, then branching export icons at the end pulse softly, calm deliberate pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-20-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "שני אנשים בצוות יכולים כבר להריץ שני אייג'נטים על שני פריימים שונים באותו קובץ פיגמה, במקביל, בלי לשאול רשות אחד מהשני.",
+          "angle": "האייג'נט פועל בתוך הקנבס השיתופי עצמו, לא בחלון נפרד. בוחרים פריים או קומפוננטה, נותנים הוראה בשפה חופשית, והפלט נצמד לספריית הקומפוננטות ולטוקנים הקיימים של הצוות, לא קובץ פרוע שצריך לרדוף אחריו. מה שמעניין אותי זה לא הכלי, זה תהליך הביקורת. מי סוגר ריוויו כשהשינוי הגיע משני מקורות באותה דקה, ומה קורה לגרסה שמישהו היה באמצע לעצב כשהאייג'נט של מישהו אחר כבר שינה את הפריים הסמוך.",
+          "why": "כי זו לא שאלה של אם AI נכנס לקנבס המשותף, זו שאלה שמתחילה לעלות בכל צוות עיצוב שעובד עם יותר ממעצב אחד: איך ביקורת עובדת כשיש יותר מגרסה אחת רצה במקביל.",
+          "srcUrl": "https://framia.converge.ai/page/en-US/news/figma-ai-agent-collaborative-canvas-design",
+          "srcLabel": "Framia · TechCrunch",
+          "srcDate": "20.5",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Two flat cursor-arrow icons on opposite sides of one large canvas frame, each pointing at a different component tile, thin dashed lines connecting each cursor to a shared component library strip below, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera holds on one large canvas frame as two flat cursor-arrow icons move independently toward two different component tiles at the same time, each leaving a thin dashed trail back to a shared component library strip below, calm deliberate pacing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-20-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": null,
+          "hook": "פורמט: חידה ויזואלית. כפתור בורח מהעכבר כל עוד הוא לא ממש עליכם, ונדבק לאצבע ברגע האחרון. מה זה ולמה זה עובד?",
+          "angle": "זו ההתנהגות השמינית מתוך עשר שאני מלמד בבונוס C, magnetic buttons. הכפתור מגיב לקרבה, לא למגע עצמו, ונותן תחושת דיוק בלי שהמשתמש שם לב למה. פוסט החידה: תמונה או GIF של הכפתור בפעולה בלי כיתוב, שאלה אחת למטה, והפרומפט ליצירה בתגובה הראשונה. מהכלל הזה גם עולה אחד מארבעת החוקים שאני סוגר איתם את השיעור: מקסימום שתי התנהגויות בעמוד, כי שלוש כבר מתחרות על אותה תשומת לב.",
+          "why": "כי זה פורמט שעובד טוב בדיוק על חומר שבדרך כלל נראה טכני מדי לפוסט, ולא השתמשתי בו כמה ימים טובים.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "jb45900 · דף הקורס החי",
+          "srcDate": "20.10",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay button tilting and leaning toward a clay fingertip hovering just above it without touching, a thin stretch of clay forming between them like magnetism, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. Camera holds steady as a clay fingertip slowly approaches a small clay button, the button visibly stretches and leans toward the fingertip before contact then snaps back when the finger pulls away, soft handheld micro movement, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "כל מה שפיגמה הכריזו ב-Config 2026, הסיכום המלא",
+          "desc": "סיכום באנגלית של כל ההכרזות מהכנס, כולל Motion, Code Layers וה-AI agent בקנבס.",
+          "meta": "dev.classmethod.jp · Config 2026",
+          "url": "https://dev.classmethod.jp/en/articles/figma-config-2026-recap/"
+        },
+        {
+          "title": "Motion ו-Code Layers מצטרפים לפיגמה באותה הכרזה",
+          "desc": "זווית נוספת על אותה הכרזה, עם פוקוס על איך שני הכלים האלה משלימים זה את זה.",
+          "meta": "AlternativeTo · 2026",
+          "url": "https://alternativeto.net/news/2026/6/figma-launches-a-new-integrated-motion-design-tool-alongside-code-layers-and-new-ai-features/"
+        },
+        {
+          "title": "פרק פודקאסט: Claude Design משנה הכל, פיגמה בצרות?",
+          "desc": "דיון שמעמיד את Claude Design מול פיגמה וקנבה, שאלת תחרות ולא רק פיצ'רים.",
+          "meta": "Built This Week · פודקאסט",
+          "url": "https://podcastaddict.com/built-this-week/episode/222449347"
+        }
+      ]
+    },
+    {
       "date": "2026-10-19",
       "dateLabel": "יום שני, 19 באוקטובר",
       "ideas": [
