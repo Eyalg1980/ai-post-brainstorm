@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-10-21",
+      "dateLabel": "יום רביעי, 21 באוקטובר",
+      "ideas": [
+        {
+          "id": "2026-10-21-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "פורמט: צ'ק-אין נבואה. אמרתי בסדנה שהעתיד של Weave הוא בקרה מבחוץ, לא עוד כלי בתוך הקנבס. ב-14.10 פיגמה אישרו את זה בעצמם.",
+          "angle": "פיגמה הודיעו שה-MCP שלהם יכול להפעיל workflow שלם של Weave ישר מכלי AI חיצוני, בלי לפתוח את הקובץ בכלל. זה לא עוד תכונה בתוך הקנבס, זה קריאה שמגיעה מבחוץ ומריצה את כל השרשרת של Weave בעצמה.",
+          "why": "זה משנה את מה שאני בעצם בונה עכשיו. אני באמצע כלי הפרומו ל-Weave שעובר לדניאל כשיסתיים, והדמו לא יכול להישאר רק 'תראה את הקנבס פתוח'. הוא חייב להראות גם קריאה שמגיעה ממקום אחר ומפעילה את אותו workflow בלי יד על העכבר.",
+          "srcUrl": "https://releasebot.io/updates/figma",
+          "srcLabel": "Figma release notes, Build by design",
+          "srcDate": "14.10",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a single glowing node labeled with a small dashed connector line reaching toward a distant dashed-outline canvas frame, small directional arrows showing a command passing between them, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, camera slowly pushes in as a glowing node pulses and a dashed line travels from it to a distant canvas frame which lights up in response and produces a small finished shape, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-21-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "קלוד יודע כבר לקחת תמונת רפרנס אחת ולהעביר את הסטייל שלה לסרטון שלם, בלי שתכתוב LUT אחד.",
+          "angle": "Higgsfield השיקו ב-8.10 את Katana, סקיל קלוד שמייצר עריכת וידאו בסטייל Aura Farming, Motion או Clipping מתוך תמונה אחת שנותנים לו כרפרנס. זה לא מסנן, זה סקיל שמפרש את כל ה-mood של התמונה ומחיל אותו על קליפ שלם.",
+          "why": "זה אותו מעבר שקרה לעיצוב UI לפני שנתיים, רק שעכשיו הוא קורה לעריכת וידאו. מי שמכיר רפרנסים טובים ינצח, לא מי שיודע להפעיל כלי.",
+          "srcUrl": "https://higgsfield.ai/creator-hub/changelog",
+          "srcLabel": "Higgsfield changelog",
+          "srcDate": "8.10",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a single photographic reference frame on the left with a thin glowing line reaching into a film strip on the right that adopts its color and grain, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a reference photo frame pulses and its color and grain transfer along a glowing line into a film strip that visibly shifts its look mid motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-21-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": null,
+          "hook": "סקלטון לואדינג נראה כמו פרט טכני קטן, אבל רוב המעצבים שמים אותו במקום הלא נכון.",
+          "angle": "ההתנהגות התשיעית מתוך עשר שאני מלמד בבונוס C: skeleton loading. מתי כן (תוכן שבאמת לוקח זמן לטעון, כדי שהמשתמש יראה את המבנה מראש) ומתי לא (רשימה שנטענת תוך 200 מילישניות, שם ספינר קטן יותר כן מהר). הטעות הנפוצה: לשים סקלטון על כל דבר כי זה נראה מודרני, גם כשהוא לא צריך להופיע בכלל.",
+          "why": "כלי AI מייצרים היום סקלטונים אוטומטית מתוך ה-layout הקיים, בלי לשאול אם צריך אותם, אז הטעות הזו קל יותר לקרות בקנה מידה.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "דף הקורס החי, בונוס C",
+          "srcDate": "21.10",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, a row of clay placeholder bars and circles arranged like a phone screen layout, no text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, clay placeholder bars and circles shimmer gently then morph into real clay UI elements, a small photo shape and two lines of text, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "סיכום Config הודו 2026: Code Layers, Specs ו-Payload לכולם",
+          "desc": "פיגמה חזרו על ההכרזות של Config בסן פרנסיסקו, הפעם בהודו: code layers בבטא פתוחה, Specs משותפים, ובק-אנד Payload בתוך Figma Make.",
+          "meta": "Figma release notes · 15.10",
+          "url": "https://releasebot.io/updates/figma"
+        },
+        {
+          "title": "Higgsfield Ads Studio: מדף מוצר לקמפיין מודעות גמור",
+          "desc": "כלי חדש שלוקח קישור לדף מוצר ומפיק ממנו קריאייטיב מודעות סטטי מוכן, בלי צילום ובלי מעצב.",
+          "meta": "Yahoo Finance · 30.9",
+          "url": "https://finance.yahoo.com/media-advertising/articles/higgsfield-turns-product-page-finished-130000063.html"
+        },
+        {
+          "title": "Higgsfield AI Influencer: דמות AI קבועה לכל הסרטונים",
+          "desc": "כלי לבניית דמות AI ולשיבוץ שלה בעקביות בסרטונים, חלק מהגל של avatar-first קריאייטיב וידאו.",
+          "meta": "Higgsfield changelog · 2.10",
+          "url": "https://higgsfield.ai/creator-hub/changelog"
+        }
+      ]
+    },
+    {
       "date": "2026-10-20",
       "dateLabel": "יום שלישי, 20 באוקטובר",
       "ideas": [
