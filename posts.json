@@ -1,6 +1,83 @@
 {
  "days": [
   {
+   "date": "2026-10-23",
+   "dateLabel": "יום שישי, 23 באוקטובר",
+   "ideas": [
+    {
+     "id": "2026-10-23-1",
+     "pillar": "Figma Weave",
+     "color": "#FF6B5E",
+     "me": "מאחורי הקלעים שלך",
+     "hook": "ב-Config 2026 פיגמה הכריזו על Figma Agent. ארבעה חודשים אחר כך הוא עדיין בבטא סגורה, גם למשתמשים משלמים.",
+     "angle": "Code Layers קיבל גישה מוקדמת ביולי, אבל Agent עצמו עדיין נעול. בינתיים אני בונה קורס שלם בג'ון בסקול שמלמד להרכיב בעצמך את מה שפיגמה עדיין לא נתנו מוכן: 82 שעות, פרויקט גמר בשם ערכת תוכן למותג לשימוש חוזר, חלק וידאו שלם על Character Sheet ועריכת וידאו קיימת, ושני מפגשים נפרדים רק על קלוד ו-MCP.",
+     "why": "כל עוד Agent בבטא סגורה, הקורס שלי בעצם מלמד את הגשר: פיגמה ויב ביד אחת, קלוד ביד שנייה, ואתה זה שמחבר ביניהם.",
+     "srcUrl": "https://www.banani.co/blog/figma-ai-features-review",
+     "srcLabel": "Banani · סיכום פיצ'רי Figma AI ל-2026",
+     "srcDate": "7.2026",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a locked dashed padlock icon sitting inside one canvas frame while a second frame beside it shows two small hands made of simple geometric shapes passing a glowing object between them, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, camera holds on a locked dashed padlock inside a canvas frame, then pans to a second frame where two simple geometric hands pass a glowing object back and forth in a steady rhythm, calm deliberate pacing, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-10-23-2",
+     "pillar": "UX + AI",
+     "color": "#7B61FF",
+     "me": null,
+     "hook": "ב-7.10 אנתרופיק השיקו את Haiku 5.5, הכי מהיר והכי קטן שלהם. זה לא חידוש ביכולת, זה חידוש בזמן תגובה, וזה משנה מה אפשר לבנות בתוך כלי עיצוב.",
+     "angle": "כל עיכוב של שנייה וחצי בתוך כלי עיצוב הורג את הזרימה. דגם קטן ומהיר מספיק זה התשובה האמיתית לשאלה איך AI נכנס לתוך אינטראקציה חיה, לא עוד כפתור ג'נרט שאתה מחכה לו, אלא הצעה שמופיעה בזמן שאתה מצייר, גולל או עורך, כאילו הכלי עצמו חושב איתך.",
+     "why": "כי התחרות האמיתית בין כלי AI לעיצוב לא תיפתר ביכולת של המודל, היא תיפתר במי מצליח להריץ אותו כל כך מהר שהוא מפסיק להיות כלי ונכנס לתוך התהליך עצמו.",
+     "srcUrl": "https://www.anthropic.com/news",
+     "srcLabel": "Anthropic Newsroom · Claude Haiku 5.5",
+     "srcDate": "7.10",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a single small dashed-outline spark icon travelling instantly inside a cursor trail, no delay lines, no clock, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a cursor draws a simple line across the frame and a small dashed spark keeps pace with it instantly with zero lag, calm confident pacing, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-10-23-3",
+     "pillar": "הוראה והכשרה של AI",
+     "color": "#2BB3A3",
+     "me": null,
+     "hook": "פורמט: שתי נקודות בזמן. ב-2.10 אנתרופיק שמו 100 מיליון דולר על הכשרת 10,000 מהנדסים. לא דגם, לא פיצ'ר, הכשרה.",
+     "angle": "2.10.2026: מעבדת AI בסדר גודל מיליארדים בוחרת לשים 100 מיליון דולר לא על אימון מודל נוסף, אלא על הכשרת אנשים, 10,000 מהנדסים בפרויקט Frontier Academy. באותו שבוע, בקנה מידה אחד לאחד, אני סוגר סילבוס של 82 שעות לקורס אחד. הכלים שונים בסדרי גודל, אבל ההחלטה זהה: ההשקעה הכי טובה כרגע היא באנשים שיודעים להשתמש, לא בעוד יכולת שאף אחד לא יודע להפעיל.",
+     "why": "כי זה אישוש בגודל מיליארד דולר לדבר שאני עושה כבר שנה בקנה מידה הרבה יותר קטן: הפער האמיתי כרגע הוא לא ביכולת, הוא בכמה אנשים בפועל יודעים לעבוד עם זה.",
+     "srcUrl": "https://www.anthropic.com/news",
+     "srcLabel": "Anthropic Newsroom · Claude Frontier Academy",
+     "srcDate": "2.10",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, split frame down the middle, left side a large dashed building icon with many small dashed figures inside it, right side one small dashed desk with a single figure and a short stack of papers, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, split screen holds static on a large dashed building full of small figures on the left and one small dashed desk with a single figure on the right, a thin dashed line draws itself connecting the two sides, calm deliberate pacing, 9:16, 8 seconds"
+     },
+     "used": false
+    }
+   ],
+   "articles": [
+    {
+     "title": "Claude Frontier Academy: 100 מיליון דולר להכשרת 10,000 מהנדסים",
+     "desc": "אנתרופיק משקיעה בהכשרת אנשים בקנה מידה, לא רק באימון מודלים.",
+     "meta": "Anthropic Newsroom · 2.10",
+     "url": "https://www.anthropic.com/news"
+    },
+    {
+     "title": "Atlanta AI Ad Fest 2026: חינם, גלובלי, דדליין ב-25.10",
+     "desc": "פסטיבל פרסומות AI ראשון מסוגו באטלנטה, שלוש קטגוריות גיל, בלי דמי הגשה.",
+     "meta": "WBOC · 2026",
+     "url": "https://www.wboc.com/online_features/press_releases/atlanta-ai-ad-fest-announces-inaugural-2026-festival-and-awards-night/article_36203b52-81ca-53b0-a937-3d9f8ed7e2d8.html"
+    },
+    {
+     "title": "10 כלי UX עם AI שכדאי להכיר ב-2026",
+     "desc": "סקירה מעודכנת של כלי העיצוב שמשלבים AI בזרימת העבודה.",
+     "meta": "Clay.global · 2026",
+     "url": "https://clay.global/blog/ux-guide/ux-design-tools"
+    }
+   ]
+  },
+  {
    "date": "2026-10-22",
    "dateLabel": "יום חמישי, 22 באוקטובר",
    "ideas": [
