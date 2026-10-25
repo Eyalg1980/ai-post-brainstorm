@@ -1,6 +1,83 @@
 {
  "days": [
   {
+   "date": "2026-10-25",
+   "dateLabel": "יום ראשון, 25 באוקטובר",
+   "ideas": [
+    {
+     "id": "2026-10-25-1",
+     "pillar": "Figma Weave",
+     "color": "#FF6B5E",
+     "me": null,
+     "hook": "הדבקתי קישור לקובץ פיגמה בתוך הצ'אט, והסוכן פתח אותו בעצמו, קרא את מילות הממשק והחזיר הערות על הסטייל גיד, בלי שפתחתי את פיגמה פעם אחת.",
+     "angle": "זה figma-use, היכולת שנותנת לסוכן AI לקרוא קובץ פיגמה אמיתי, לא צילום מסך, ישר מתוך קישור, ולבדוק אותו מול מדריך סטייל קיים. בדקתי את זה על קובץ ישן של לקוח שחזר אליי החודש. במקום לפתוח את פיגמה ולעבור ידנית מסך אחרי מסך, הדבקתי את הקישור וקיבלתי רשימת חריגות מהסטייל גיד תוך שתי דקות.",
+     "why": "אני בתהליך החזרת לקוח ותיק בדיוק עכשיו, והכלי הזה חוסך לי בדיוק את החלק הכי משעמם בתהליך, לפתוח ישן ולהשוות עין בעין.",
+     "srcUrl": "https://help.figma.com/hc/en-us/articles/41301052048791",
+     "srcLabel": "Figma Help Center",
+     "srcDate": "10.2026",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a single chat bubble icon on the left sending a thin dashed line into a canvas frame on the right, a small checkmark icon and a small warning triangle icon appearing inside the canvas frame, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, camera holds on a chat bubble icon sending a thin dashed line into a canvas frame, then slowly reveals a checkmark icon and a warning triangle icon appearing one after another inside the frame, calm steady pacing, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-10-25-2",
+     "pillar": "UX + AI",
+     "color": "#7B61FF",
+     "me": null,
+     "hook": "חיפשתי חדשות AI טריות ומצאתי כתבה בטוחה בעצמה על Opus 4.7, מודל שכבר עברו אותו שני דורות. זאת בדיוק הבדיקה שאני מלמד לפני שסומכים על כל כתבה.",
+     "angle": "מנועי חיפוש עדיין מדרגים גבוה כתבות ישנות על גרסאות מודל שכבר הוחלפו, בלי תאריך פרסום בולט. כל מי שמבקש מ-AI מה חדש השבוע עלול לקבל בחזרה חידוש בן כמה חודשים, בניסוח שנשמע כמו הבוקר. הכלל שאני נותן לתלמידים: לבדוק את מספר הגרסה מול מה שבאמת יצא לאחרונה, לא רק את הביטחון של הכתבה.",
+     "why": "זה קרה לי ממש בזמן שחיפשתי חומר לבריף הזה, אז זו לא תאוריה, זו בדיקה שעשיתי הרגע.",
+     "srcUrl": "https://datanorth.ai/news/anthropic-releases-claude-opus-4-7",
+     "srcLabel": "datanorth.ai",
+     "srcDate": "10.2026",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a stack of three dated calendar pages with the top page highlighted in coral and the two beneath it faded grey, a small magnifying glass hovering over the highlighted page, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, camera slowly pans down a stack of three dated calendar pages as a small magnifying glass passes over the top highlighted page, calm deliberate pacing, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-10-25-3",
+     "pillar": "הוראה והכשרה של AI",
+     "color": "#2BB3A3",
+     "me": "מאחורי הקלעים שלך",
+     "hook": "פורמט: מהכיתה לשטח. תלמיד שאל אותי למה צריך ארבע מילים לועזיות כדי לתעדף פרויקט כשיש רק שבוע אחד לסיים אותו.",
+     "angle": "התעדוף הזה חוזר בכל פרויקט גמר שלי, ואני מסרב להשתמש במילים הלועזיות בכיתה הראשונה. במקום טבלה, כל תלמיד מקבל ארבע פתקיות צבע: אדום למה שחייב לעבוד כדי שהפרויקט בכלל יוצג, כתום למה שישפר אותו משמעותית, צהוב למה שנחמד אם יהיה זמן, ואפור למה שלא נכנס בסבב הזה. השאלה של התלמיד הזה חידדה לי שהכלל לא על ניהול זמן, הוא על להחליט מה מגדיר את הפרויקט בכלל.",
+     "why": "זה קרה לי השבוע בדיוק, וזה אותו עקרון שכל מי שבונה MVP צריך, לא רק תלמיד בכיתה.",
+     "srcUrl": "https://en.wikipedia.org/wiki/MoSCoW_method",
+     "srcLabel": "MoSCoW method",
+     "srcDate": "10.2026",
+     "prompts": {
+      "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, four small round clay sticky notes in red, orange, yellow and grey arranged in a row on a tiny clay desk, a small clay hand placing the red note slightly forward of the others, 1:1",
+      "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, camera slowly pushes in as a small clay hand places a red sticky note forward of a row of orange, yellow and grey notes, the other three staying still behind it, gentle handheld-feel motion, warm studio light, 9:16, 8 seconds"
+     },
+     "used": false
+    }
+   ],
+   "articles": [
+    {
+     "title": "9 כלי AI מובילים לעיצוב UX ב-2026",
+     "desc": "רשימה מרוכזת של כלי AI שמשרתים את תהליך העיצוב, ממיפוי משתמשים ועד פרוטוטייפ.",
+     "meta": "UX Design Institute · 10.2026",
+     "url": "https://www.uxdesigninstitute.com/blog/the-top-8-ai-tools-for-ux/"
+    },
+    {
+     "title": "מגמות AI בלמידה ופיתוח ל-2026",
+     "desc": "סיכום מגמות AI בעולם ה-L&D, רלוונטי לכל מי שבונה תוכן הדרכה.",
+     "meta": "eLearning Industry · 10.2026",
+     "url": "https://elearningindustry.com/ai-trends-in-ld-for-2026-architecting-human-ai-capabilities-for-maximum-impact"
+    },
+    {
+     "title": "דירוג מודלי הווידאו של AI",
+     "desc": "השוואה בין מודלים מובילים ליצירת וידאו ב-AI.",
+     "meta": "techsy.io · 10.2026",
+     "url": "https://techsy.io/blog/best-ai-video-models"
+    }
+   ]
+  },
+  {
    "date": "2026-10-23",
    "dateLabel": "יום שישי, 23 באוקטובר",
    "ideas": [
