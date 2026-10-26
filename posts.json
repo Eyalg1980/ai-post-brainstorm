@@ -1,6 +1,83 @@
 {
  "days": [
   {
+   "date": "2026-10-26",
+   "dateLabel": "יום שני, 26 באוקטובר",
+   "ideas": [
+    {
+     "id": "2026-10-26-1",
+     "pillar": "Figma Weave",
+     "color": "#FF6B5E",
+     "me": "מאחורי הקלעים שלך",
+     "hook": "לפני שלושה ימים כתבתי כאן שסוכן פיגמה נעול בבטא סגורה. הוא עבר ל-GA כבר ב-6.10, שבועיים לפני שכתבתי את זה, וגם זה לא היה מדויק.",
+     "angle": "התיקון מגיע ישר ממרכז העזרה של פיגמה: הסוכן בפיגמה דיזיין וב-Weave עבר מבטא פתוחה לזמינות כללית ב-6.10.2026, ומאותו יום הוא שואב מאותו תקציב קרדיטים משותף עם שאר כלי ה-AI, כולל Figma Make. אם התקציב נגמר, הסוכן מקבל פשוט אפס קרדיטים. הפוסט שכתבתי ב-23.10 הסתמך על סיכום מיולי שעדיין דיבר על בטא סגורה, ופספס את כל הסיפור: לא רק שהסוכן נפתח, הוא גם הפך לתחרות על תקציב עם כל שאר הכלים בחשבון.",
+     "why": "זו טעות שאני מספר על עצמי, לא על מישהו אחר. אני צריך להפסיק לבדוק סטטוס של כלי AI לפי כתבה מיולי כשיש לי את מרכז העזרה של היצרן עצמו מרחק קליק אחד, ואת זה אני צריך להגיד לתלמידים בסדנאות Weave לפני שאני בכלל מראה להם את הכלי.",
+     "srcUrl": "https://help.figma.com/hc/en-us/articles/42614902212887",
+     "srcLabel": "Figma Help Center · AI credit updates FAQ",
+     "srcDate": "6.10",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a small dashed padlock icon shown open instead of closed, beside it a thin circular credit meter icon already partway drained, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, camera holds on a small dashed padlock icon as it swings open, then a thin circular credit meter icon beside it visibly drains a notch the moment it opens, calm deliberate pacing, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-10-26-2",
+     "pillar": "UX + AI",
+     "color": "#7B61FF",
+     "me": "מאחורי הקלעים שלך",
+     "hook": "היגספילד שברו את תקרת עשר הדקות לווידאו AI עם מודל בשם GPT-6 Astra. השאלה שמעניינת אותי היא לא כמה זמן, זו מה נשאר מדיסציפלינת השוט ליסט כשאין יותר תקרה.",
+     "angle": "כל כלי הווידאו המרכזיים, קלינג, וו, היגספילד עצמה, בנו עד עכשיו על תקרה של כמה שניות לג'נרציה, וזה כפה משמעת של תכנון: לחשוב בשוטים, לכתוב רשימת שוטים, לתפור בעריכה. מודל שמייצר ברצף רצוף מעל עשר דקות לא רק גדול יותר, הוא שובר את ההנחה שהתכנון קורה לפני הג'נרציה. אם אפשר לייצר סצנה שלמה בלחיצה אחת, השאלה עוברת מתכנון מוקדם לבחירה בדיעבד, מה בתוך הרצף הזה שומרים.",
+     "why": "זו בדיוק המגבלה שהבמאי היומי בנוי עליה כרגע, כל רעיון שם מגיע עם שוט ליסט מלא כי אין ברירה אחרת. אותו נכס עולה היום גם כסרטון בהבמאי היומי, בדיוק כדי לבדוק את השאלה הזו בפועל.",
+     "srcUrl": "https://welcome.ai/content/higgsfield-ai-expands-video-production-capabilities-for-creators",
+     "srcLabel": "welcome.ai · Higgsfield GPT-6 Astra",
+     "srcDate": "13.10",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a row of short dashed clip-thumbnail rectangles capped by a thin dashed ceiling line above them, one thumbnail stretching past the ceiling into a single unbroken strip, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, camera holds on a row of short dashed clip-thumbnail rectangles under a thin dashed ceiling line, the ceiling line dissolves and one thumbnail stretches smoothly into a single long unbroken strip replacing the row, calm confident pacing, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-10-26-3",
+     "pillar": "הוראה והכשרה של AI",
+     "color": "#2BB3A3",
+     "me": "משיעור הבונוס שלך על 10 ההתנהגויות המודרניות באתרים, ההתנהגות השביעית שעדיין לא הגעת אליה בכיתה בפועל",
+     "hook": "בנטו גריד נראה כמו טרנד עיצובי, אבל הוא פותר בעיה אמיתית: איך מראים הרבה תוכן לא אחיד בלי שהעין תלך לאיבוד.",
+     "angle": "בנטו גריד הוא רשת מודולרית של אריחים בגדלים שונים, בדיוק כמו קופסת בנטו יפנית. מתי כן: עמוד שיש בו תוכן ממשקל שונה, פריט הרו גדול אחד וכמה פריטים קטנים לידו, כמו דף פיצ'רים או דשבורד. מתי לא: תוכן שבאמת אחיד, כמו קטלוג מוצרים שכל פריט בו שווה ערך, כי שם בנטו יוצר היררכיה מזויפת שלא קיימת בתוכן עצמו. הטעות הנפוצה: למלא כל אריח כדי שהרשת תיראה עמוסה ומרשימה, במקום להשאיר מקום ריק שבאמת מסמן מה חשוב.",
+     "why": "זו ההתנהגות השביעית ברשימת העשר שעדיין לא הגעתי אליה בכיתה בפועל.",
+     "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+     "srcLabel": "שיעור הבונוס, 10 התנהגויות UX מודרניות · קורס 45900",
+     "srcDate": "10.2026",
+     "prompts": {
+      "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, a small clay grid of mixed size tiles, one large tile and several small ones arranged like a bento box, one small tile left empty and unfilled on purpose, 1:1",
+      "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, camera slowly pushes in on a small clay grid of mixed size tiles arranged like a bento box, a clay hand tries to press a shape into the one tile left empty and then pulls back, leaving it open on purpose, gentle handheld micro movement, 9:16, 8 seconds"
+     },
+     "used": false
+    }
+   ],
+   "articles": [
+    {
+     "title": "דוח מגמות AI בלמידה ופיתוח ל-2026",
+     "desc": "דוח חדש שמסתכל על AI ב-L&D מזווית של ביצועים בכלכלה מבוססת מיומנויות, לא רק אימוץ כלים.",
+     "meta": "Attensi · 2026",
+     "url": "https://attensi.com/learn/white-papers/trends-report-2026/"
+    },
+    {
+     "title": "10 שינויים בעיצוב UX שאי אפשר להתעלם מהם ב-2026",
+     "desc": "רשימה שמנסה למפות לאן באמת הולך עיצוב המוצר השנה, לא רק אילו כלי AI יצאו.",
+     "meta": "UX Design CC · 2026",
+     "url": "https://uxdesign.cc/10-ux-design-shifts-you-cant-ignore-in-2026-8f0da1c6741d"
+    },
+    {
+     "title": "פיגמה מוציאה בשקט את ChatGPT Images 2.0 לדיזיין ול-Weave",
+     "desc": "מודל תמונות חדש זמין גם בקנבס הראשי וגם ב-Weave, בלי הכרזה רועשת.",
+     "meta": "createwith.com · 23.4",
+     "url": "https://www.createwith.com/tool/figma/updates/figma-rolls-out-chatgpt-images-20-across-design-and-weave-platforms"
+    }
+   ]
+  },
+  {
    "date": "2026-10-25",
    "dateLabel": "יום ראשון, 25 באוקטובר",
    "ideas": [
