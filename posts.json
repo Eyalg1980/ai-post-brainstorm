@@ -1,6 +1,83 @@
 {
  "days": [
   {
+   "date": "2026-10-27",
+   "dateLabel": "יום שלישי, 27 באוקטובר",
+   "ideas": [
+    {
+     "id": "2026-10-27-1",
+     "pillar": "Figma Weave",
+     "color": "#FF6B5E",
+     "me": "מאחורי הקלעים שלך",
+     "hook": "Figma Motion מבקש ממך משפט אחד באנגלית על התנועה שאתה רוצה, והסוכן של פיגמה בעצמו מוסיף את הקיי-פריימים לציר הזמן.",
+     "angle": "Motion עלה לבטא פתוחה ב-24.6.2026 ונותן לבנות אנימציה שמוכנה לפרודקשן בתוך קובץ הפיגמה עצמו, בלי לצאת לכלי אנימציה נפרד. יש פריסטים ועבודה עם קיי-פריימים ביד, אבל השלב המעניין הוא Generate a first pass: מתארים את התנועה במילים, והסוכן מוסיף בעצמו קיי-פריימים לציר הזמן שאחר כך מכוונים. ב-Dev Mode אפשר לפתוח את ציר הזמן בקריאה בלבד, להעתיק קוד ל-CSS, JSON או React, או לשלוח את הקונטקסט של האנימציה לכלי קוד ישירות דרך שרת ה-MCP של פיגמה. ייצוא הוא MP4, GIF, WEBM או SVG מונפש, ו-Lottie מתוכנן. הכלי פתוח בכל התוכניות, אבל פרסום קומפוננטות מונפשות, ג'נרציה עם הסוכן וייצוא ברזולוציה גבוהה דורשים Full seat בתוכנית בתשלום.",
+     "why": "אני עדיין לא הראיתי את Motion באף סדנת Weave, וזה בדיוק הפיצ'ר שממחיש את הגשר בין עיצוב לקוד שאני מלמד: לא רק מייצרים תנועה, מייצאים אותה כקוד אמיתי.",
+     "srcUrl": "https://help.figma.com/hc/en-us/articles/39582753756695",
+     "srcLabel": "Figma Help Center · Figma Motion",
+     "srcDate": "24.6",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a thin dashed timeline bar with a few keyframe diamond markers appearing one by one along it, a small speech bubble icon beside the timeline with three short dashed lines inside it suggesting a typed sentence, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, camera holds on a small speech bubble icon with three short dashed lines inside it, then a thin dashed timeline bar beside it fills with keyframe diamond markers appearing one by one in rhythm, calm confident pacing, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-10-27-2",
+     "pillar": "UX + AI",
+     "color": "#7B61FF",
+     "me": null,
+     "hook": "פורמט: מדריך השוואתי עם מספרים. 88 אחוז מהחוקרים מסמנים ניתוח בעזרת AI כטרנד המוביל של 2026 במחקר UX. רק 8 אחוז מהם בפועל מסנתזים תובנות בין כמה מחקרים בעזרתו.",
+     "angle": "הפירוט מאחורי המספר הגדול מספר סיפור אחר: 23 אחוז משתמשים ב-AI לניתוח ואיתור תבניות, 21 אחוז לתמלול ולכתיבת הערות, לפי Lyssna. דוח נפרד של LogRocket מדבר על צמיחה של 32 אחוז באימוץ AI במחקר, אבל 74 אחוז מהשימוש הוא ניתוח דאטה טכני ו-58 אחוז תמלול, לא סינתזה של תובנה. כשסופרים את כולם תחת כותרת אחת, AI-assisted research, נראה שהתחום כבר שם. כשמפרקים למה בפועל עושים איתו, מתברר שהוא נכנס לעבודה המכנית והחזרתית, ולא לרגע שבו קובעים מה המחקר אומר.",
+     "why": "ראיתי את הפער הזה גם בסדנאות: תלמידים מריצים תמלול אוטומטי בלי בעיה, אבל ברגע שמבקשים מה-AI למצוא את התובנה בעצמו, הם חוזרים לקרוא את כל התמלול ביד.",
+     "srcUrl": "https://blog.mean.ceo/?p=11521",
+     "srcLabel": "blog.mean.ceo · UX Research Statistics 2026 (מקורות Lyssna ו-LogRocket)",
+     "srcDate": "23.10",
+     "prompts": {
+      "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, two dashed circular progress rings side by side, the left ring almost full and the right ring mostly empty, a small magnifying glass hovering over the mostly empty ring, 1:1",
+      "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, camera holds on two dashed circular progress rings side by side, the left ring fills almost completely while the right ring barely fills at all, a small magnifying glass settles over the mostly empty ring, calm deliberate pacing, 9:16, 8 seconds"
+     },
+     "used": false
+    },
+    {
+     "id": "2026-10-27-3",
+     "pillar": "הוראה והכשרה של AI",
+     "color": "#2BB3A3",
+     "me": "משיעור הבונוס שלך על 10 ההתנהגויות המודרניות באתרים, ההתנהגות השמינית שעדיין לא הגעת אליה בכיתה בפועל",
+     "hook": "סקלטון לואדינג גורם למסך ריק להרגיש כאילו הוא כבר התחיל להיטען, גם כשהוא לא.",
+     "angle": "סקלטון לואדינג הוא צורות אפורות שמחקות מראש את המתאר של התוכן שעומד להיטען, במקום ספינר כללי. מתי כן: תוכן שהמתאר שלו ידוע מראש, פיד של כרטיסים, רשימה, דשבורד עם וידג'טים קבועים. מתי לא: תוכן שאי אפשר לדעת מראש איך הוא יראה, תוצאת חיפוש חופשי או תשובה שנוצרת, שם ספינר כן יותר ישר כי הוא לא מבטיח מבנה שלא קיים עדיין. הטעות הנפוצה: לעצב סקלטון מפורט ומהודר מדי שמתחרה בתשומת הלב עם התוכן האמיתי, או להשאיר אותו על המסך יותר מכמה שניות כשבפועל יש בעיית טעינה אמיתית שהוא מסווה.",
+     "why": "זו ההתנהגות השמינית ברשימת העשר שעדיין לא הגעתי אליה בכיתה בפועל.",
+     "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+     "srcLabel": "שיעור הבונוס, 10 התנהגויות UX מודרניות · קורס 45900",
+     "srcDate": "10.2026",
+     "prompts": {
+      "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, a small clay phone screen showing three flat grey rounded rectangle placeholders stacked like a loading list, one placeholder slowly morphing into a small colorful clay card, 1:1",
+      "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, camera slowly pushes in on a small clay phone screen showing three flat grey rounded rectangle placeholders stacked like a loading list, the top placeholder gently morphs into a small colorful clay card while the other two remain grey and waiting, gentle handheld micro movement, 9:16, 8 seconds"
+     },
+     "used": false
+    }
+   ],
+   "articles": [
+    {
+     "title": "איך AI בלמידה ופיתוח מעצב את עתיד ההכשרה בארגונים",
+     "desc": "סקירה על איך ארגונים משלבים AI בתוכניות הכשרה, עם דגש על מה שבאמת משנה מעבר לאימוץ כלים.",
+     "meta": "eLearning Industry · 10.2026",
+     "url": "https://elearningindustry.com/how-ai-in-learning-and-development-is-shaping-the-future-of-workforce-training"
+    },
+    {
+     "title": "צלילה מעמיקה ל-Figma Motion מ-Config 2026",
+     "desc": "פירוק מלא של Figma Motion כמו שהוצג ב-Config, לפני שהוא יצא בפועל לבטא ב-24.6.",
+     "meta": "designcompass.org · 26.6.2026",
+     "url": "https://designcompass.org/en/2026/06/26/figma-motion-config-2026/"
+    },
+    {
+     "title": "AI בעיצוב UX, מבט כולל",
+     "desc": "סיכום רחב של איך AI משתלב בתהליך העיצוב, טוב לקריאת רקע לפני שמתמקדים במספרים הספציפיים.",
+     "meta": "musemind.agency · 2026",
+     "url": "https://musemind.agency/blog/ai-in-ux-design"
+    }
+   ]
+  },
+  {
    "date": "2026-10-26",
    "dateLabel": "יום שני, 26 באוקטובר",
    "ideas": [
