@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-10-29",
+      "dateLabel": "יום חמישי, 29 באוקטובר",
+      "ideas": [
+        {
+          "id": "2026-10-29-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "אני בונה עכשיו קורס פיגמה ויב חדש לג'ון ברייס, ומפגש שלם בו מוקדש ל-Character Sheet, לפני שסטודנט בכלל נוגע בפרומפט וידאו.",
+          "angle": "פורמט: ביוגרפיה של אובייקט בגרסה הפוכה, לא על אובייקט אלא על סדר העבודה עצמו. למה עיגון דמות קודם לפרומפט, איך זה מתחבר לכל עבודת הWeave שאחריו, ולמה זו בדיוק הטעות שראיתי הכי הרבה בסדנאות.",
+          "why": "כי הטעות הכי נפוצה שאני רואה היא שאנשים קופצים ישר לפרומפט הווידאו ולא לעיגון דמות, ואז כל שוט נראה כמו דמות אחרת.",
+          "srcUrl": "https://www.figma.com/blog/figma-weave/",
+          "srcLabel": "Figma Blog - Weave",
+          "srcDate": "24.6",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay figure pinning up a wall of character reference sheets, each sheet showing the same little clay character from different angles, warm and playful mood, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. Camera slowly pushes in on a small clay figure pinning up character reference sheets one by one on a cream wall, gentle stop-motion flicker, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-29-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "קלוד קוד, Codex ו-Cursor יכולים כבר לשלוט ישירות בהיגספילד ולהריץ כמה וריאציות מודעה במקביל, בלי שאתה בכלל פותח את האפליקציה.",
+          "angle": "סוכן הקוד לא רק כותב קוד, הוא מפיק תוכן ויזואלי במקביל דרך MCP. מה זה אומר על התפקיד של במאי AI כשהבמאי הוא טרמינל.",
+          "why": "כי זה אומר שסוכן קוד הופך לבמאי: הוא לא רק כותב קוד, הוא מפיק תוכן ויזואלי במקביל לכתיבה עצמה.",
+          "srcUrl": "https://blog.mean.ceo/?p=11502",
+          "srcLabel": "Higgsfield News, אוקטובר 2026",
+          "srcDate": "22.10",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A terminal window on the left connected by a single dashed line to a grid of video thumbnail frames on the right, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients. The dashed line pulses from the terminal to the video grid, thumbnails flicker into existence one by one in sequence, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-29-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": null,
+          "hook": "לקורסור יש תאריך לידה. 1963, דאגלס אנגלברט, ואף אחד לא התכוון שהוא יהיה חץ.",
+          "angle": "פורמט: ביוגרפיה של אובייקט. סיפור הקורסור כאלמנט עיצוב: הלידה, המלחמה שהמגע כמעט הרג אותו, ומה AI עושה לו עכשיו (קורסורים מגנטיים, מצבי קורסור שנבנים בקוד במקום בעין). שיעור הבונוס C, 10 ההתנהגויות המודרניות, התנהגות שישית.",
+          "why": "כי כל סטודנט שבונה דף נחיתה שוכח שהקורסור הוא הזדמנות עיצובית, לא רק חץ בררת מחדל.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "שיעור בונוס C, 45900",
+          "srcDate": "29.10",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay arrow-cursor character standing next to an old boxy clay computer monitor, like a tiny mascot beside its birthplace, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. The clay cursor character hops across the cream studio floor leaving small arrow-shaped footprints, playful bounce, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "פיגמה: 21 עדכוני מוצר באוקטובר 2026",
+          "desc": "רשימה מסכמת של כל מה שפיגמה שינו החודש, שווה מעבר לפני שמתכננים שיעור או פוסט.",
+          "meta": "Spyingbee · 2026",
+          "url": "https://spyingbee.com/updates/figma/2026-10"
+        },
+        {
+          "title": "כל מה שאנתרופיק שחררו באוקטובר 2026",
+          "desc": "סיכום עדכוני קלוד של החודש, נקודת מוצא לבדוק מה חדש לפני פוסט או שיעור.",
+          "meta": "Releasebot · 2026",
+          "url": "https://releasebot.io/updates/anthropic/claude"
+        },
+        {
+          "title": "State of UX Design",
+          "desc": "סקירה כללית על מגמות עיצוב UX עם AI, שווה מעבר להשוואה.",
+          "meta": "DesignMonks",
+          "url": "https://www.designmonks.co/blog/state-of-ux-design"
+        }
+      ]
+    },
+    {
       "date": "2026-10-28",
       "dateLabel": "יום רביעי, 28 באוקטובר",
       "ideas": [
