@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-10-30",
+      "dateLabel": "יום שישי, 30 באוקטובר",
+      "ideas": [
+        {
+          "id": "2026-10-30-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "פיגמה הפכה את Weave מתוכנה שפותחים לתשתית שמפרסמים אליה. בעדכון האחרון, Riffs מפרסם ניסויים יצירתיים לפרופיל קהילה ציבורי, וכלי Weave מותאמים אישית הופכים לפרסום בקהילה שכל אחד מפעיל ישירות על הקנבס, בלי לפתוח Weave בכלל.",
+          "angle": "זה בדיוק הכיוון של הפרויקט המסכם בקורס Weave החדש שאני בונה לג'ון ברייס, ערכת תוכן למותג לשימוש חוזר. אני מלמד תלמידים לבנות workflow שמפעילים שוב ושוב, ופיגמה עצמה בונה בדיוק את התשתית הזאת ברמת המוצר.",
+          "why": "זה לא עדכון קוסמטי, זה שינוי תפקיד. Weave מפסיק להיות כלי הפקה פרטי והופך לשוק של workflows שאחרים מרכיבים ומפעילים.",
+          "srcUrl": "https://releases.sh/figma/overview.md",
+          "srcLabel": "Figma Changelog, releases.sh",
+          "srcDate": "22.10",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients. A single gear-shaped workflow icon on the left duplicating into three smaller identical icons spreading toward three separate screen outlines on the right, thin dashed connecting lines, no text, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients. A single gear-shaped workflow icon pulses once then splits into three identical copies that travel along dashed lines toward three separate screen outlines, each screen lighting up coral as the copy arrives, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-30-2",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "פרומפט הוא בקשה חד פעמית. סקיל הוא זיכרון קבוע, מופעל אוטומטית ועובד באופן עקבי לאורך זמן, ואפשר לחלוק אותו עם כל הצוות.",
+          "angle": "זה המשפט שמסביר לתלמידים לא טכניים מה בכלל ההבדל, ואני משתמש בו שוב ושוב בשיעור הסקילים. שתי דרכים לבנות אחד: תעשה ואז תסכם, שעושים את המשימה פעמיים בצ'אט, אוהבים את התוצאה ומבקשים מקלוד לסכם לקובץ SKILL.md ולבדוק בצ'אט נקי. או תתאר ותייצר, שמתארים במילים פשוטות שישה מרכיבים (מטרה, טריגרים, שיטה, הקשר ארגוני, פלט, כלים) וקלוד בונה את זה ישר.",
+          "why": "תלמיד ששומע קובץ markdown אחד נשמע לו מופשט. תלמיד ששומע זיכרון שהצוות שלך חולק מבין תוך שנייה.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "דף הסטטוס החי, קורס 45900",
+          "srcDate": "30.10",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients. A single sticky note icon dissolving into particles on the left, facing a circular looping arrow icon on the right that connects by dashed lines to three small identical figure outlines, no text, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients. A sticky note icon flickers and fades away on the left side of frame, while on the right a circular looping arrow icon stays lit and sends a pulse along three dashed lines to three small figure outlines in sequence, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-10-30-3",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "פורמט: רשימת כלים קצרה. ל-AI יש כבר יותר מאלף שחקנים וירטואליים מוכנים לפרסומות, וזה משנה לגמרי את מה שמעצב תוכן שיווקי בכלל צריך לדעת להפיק.",
+          "angle": "5 דברים שכדאי להכיר על עולם ה-AI UGC: ארקאדס עם מאגר שחקנים מוכנים לשימוש, למה זה שונה מיצירת אווטאר מאפס, מה זה אומר לגבי זמן הפקה, איפה זה שובר ואיפה זה עדיין מרגיש מזוהה כ-AI, ומה זה אומר לתפקיד של מעצב תוכן שיווקי.",
+          "why": "קמפיין שלקח שבועות של צילומים עובר לשעות, וזה משנה תמחור, לו\"ז ותפקיד בבת אחת.",
+          "srcUrl": "https://www.arcads.ai/",
+          "srcLabel": "Arcads",
+          "srcDate": "30.10",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients. A horizontal row of five identical simplified human-figure silhouettes behind a single camera-shutter icon, no text, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients. A row of five identical simplified human-figure silhouettes appears one by one behind a single pulsing camera-shutter icon, each figure subtly shifting pose as it appears, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "פיגמה פותחת עשרים כלי Weave ישר על הקנבס",
+          "desc": "סקירה של עדכון ה-Weave האחרון, מה עשרים הכלים עושים ואיך הם משתלבים בזרימת העבודה הרגילה בפיגמה.",
+          "meta": "Createwith · אוקטובר 2026",
+          "url": "https://www.createwith.com/tool/figma/updates/figma-brings-20-weave-tools-directly-into-the-design-canvas"
+        },
+        {
+          "title": "שמונה דפוסי UX שבונים אמון בסוכני AI",
+          "desc": "מאמר על דפוסי עיצוב שגורמים למשתמש לבטוח בסוכן AI, רלוונטי לכל מי שמעצב ממשק מעל כלי אוטונומי.",
+          "meta": "Towards AI · 2026",
+          "url": "https://pub.towardsai.net/designing-for-ai-agents-8-ux-patterns-that-build-trust-in-2026-713a0c926933"
+        },
+        {
+          "title": "מדריך הכשרת AI לעובדים 2026, בלי נאמנות לווendor אחד",
+          "desc": "מדריך משווה לכלי הכשרת AI לעובדים בארגון, שימושי כרפרנס מהיר לכל שאלה על L&D.",
+          "meta": "Dupple · 2026",
+          "url": "https://dupple.com/blog/ai-training-for-employees"
+        }
+      ]
+    },
+    {
       "date": "2026-10-29",
       "dateLabel": "יום חמישי, 29 באוקטובר",
       "ideas": [
