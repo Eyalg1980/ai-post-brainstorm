@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-01",
+      "dateLabel": "יום ראשון, 1 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-01-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "ל-Code Layers של פיגמה הובטחה גישת בטא סגורה כבר ביולי, ועכשיו נובמבר ועדיין רק רשימת המתנה. השכבה הזאת מכניסה קוד React רץ ממש לתוך הקנבס, לא עוד אנימציה שמדמה התנהגות.",
+          "angle": "זו שכבה שמריצה קוד React אמיתי לצד שכבת העיצוב, לא קירוב בסמארט אנימייט. גוררים מסך לשכבת קוד בקליק, מחברים ריפו של גיטהאב, או מבקשים מהאייג'נט של פיגמה ליצור שכבה מתיאור. Extract Designs מחזיר את זה לעיצוב ניתן לעריכה בכיוון ההפוך.",
+          "why": "זה לא פיצ'ר נוסף על הערימה, זה שינוי ביחס בין עיצוב לקוד. הפרוטוטייפ שמנהל רואה מריץ תלויות אמיתיות ולא מדמה אותן, וזה משנה מה אפשר להראות לפני שמתכנת נוגע בכלום. גם אם זה עדיין נעול מאחורי רשימת המתנה.",
+          "srcUrl": "https://noqta.tn/en/blog/figma-config-2026-code-layers-ai-design-workflow",
+          "srcLabel": "Noqta · סיכום Code Layers מ-Config 2026",
+          "srcDate": "1.7",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients. A single rectangular frame split down the middle, left half a plain wireframe box outline, right half filled with small interlocking code-bracket and gear icons glowing warm yellow, a thin dashed line connecting the two halves, a small hourglass icon floating above the right half, no text, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients. A rectangular frame split down the middle, the hourglass above it tips over, and the right half slowly fills from plain wireframe lines into glowing warm yellow code-bracket and gear icons while the dashed connecting line pulses coral, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-01-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "יש כבר יותר מ-1.7 מיליון קבצי SKILL.md פזורים ברשת, ומישהו כבר הקים להם לוח דירוג.",
+          "angle": "skills.sh מריץ לוח מוביל, סקיל ה-frontend-design של אנתרופיק לבדו עבר 552 אלף התקנות. יש גם SKILLS-IL עברי עם 187 סקילים ו-Taste Skill שנלחם בסלופ. זה בדיוק מה שאני מלמד בכיתה: סקיל הוא זיכרון קבוע שחולקים, לא עוד פרומפט חד פעמי, ועכשיו יש לזה שוק שלם סביבו.",
+          "why": "זה הרגע שסקילים הפסיקו להיות תוסף שוליים לקלוד והפכו לאקוסיסטם עם לוחות תוצאות ודירוגים. מי שבונה היום סקיל לא בונה בבידוד, ואני רואה את זה ישר בשאלות של התלמידים.",
+          "srcUrl": "https://skills.sh/",
+          "srcLabel": "skills.sh, לוח המוביל",
+          "srcDate": "1.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients. Many small identical sticky-note icons scattered across the canvas at different sizes, one larger sticky note in the center glowing warm yellow with a small ribbon badge icon attached, thin dashed lines connecting the smaller notes to the center one like a leaderboard constellation, no text, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients. The scattered small sticky-note icons drift and arrange themselves into a ranked vertical line beneath one larger glowing center note, its ribbon badge icon lighting up coral as the line settles, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-01-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": null,
+          "hook": "פורמט: מהכיתה לשטח. תלמיד גרר את הסליידר של וידאו הדמו קדימה ואחורה בלי לשים לב שהוא בדיוק ביצע את ההתנהגות שעמדנו ללמד, סקראבינג של וידאו לפי גלילה.",
+          "angle": "זו אחת מעשר ההתנהגויות ברשימה שלי, ולא תכננתי להגיע אליה דווקא דרך תלמיד. הווידאו לא רץ לבד, הוא מגיב לאצבע כמו פילם סטריפ שנגרר. זה עובד מצוין לסיפור מוצר קצר, ונורא רע לכל מי שמנווט במקלדת או עם מסך קורא, כי אין שום דרך להפעיל אותו חוץ מגלילה.",
+          "why": "ברגע שתלמיד מגלה שהגלילה שלו עצמה היא הפקד, הוא מבין בלי שום שקף למה אנחנו דורשים גם פקד נגיש חלופי לכל התנהגות שתלויה בתנועה. זה הלקח שהוא לימד אותי, לא להפך.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "דף הסטטוס החי, קורס 45900",
+          "srcDate": "1.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients. A single horizontal scrub bar with a round handle, a small film-strip icon attached to the handle, thin dashed outline, no text, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients. The round handle slides right along the horizontal scrub bar and the attached film-strip icon flips through three frames in sync with the handle position, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Config 2026: פיגמה הורידה את הרצפה, עכשיו מבקשים להרים את התקרה",
+          "desc": "ניתוח מה AI עושה לרף הכניסה בעיצוב, ולאן זה דוחף את מי שכבר בפנים",
+          "meta": "Design Systems Collective · Config 2026",
+          "url": "https://www.designsystemscollective.com/figma-config-2026-ai-lowered-the-floor-now-figma-wants-you-to-raise-the-ceiling-d853fbbe956e"
+        },
+        {
+          "title": "פיגמה מפסידה במירוץ ה-AI?",
+          "desc": "זווית ביקורתית על מיקומה של פיגמה מול כלי AI מתחרים לעיצוב",
+          "meta": "UX Planet",
+          "url": "https://uxplanet.org/is-figma-losing-the-ai-race-3ef52bcc33ca"
+        },
+        {
+          "title": "מגמות L&D לארגונים ל-2026, מהשטח",
+          "desc": "דוח מהשטח על איך AI משנה הכשרה ארגונית, לא עוד תחזיות כלליות",
+          "meta": "eLearning Industry",
+          "url": "https://elearningindustry.com/corporate-ld-trends-2026-the-view-from-the-trenches"
+        }
+      ]
+    },
+    {
       "date": "2026-10-30",
       "dateLabel": "יום שישי, 30 באוקטובר",
       "ideas": [
