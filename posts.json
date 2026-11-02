@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-02",
+      "dateLabel": "יום שני, 2 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-02-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "מחבר ה-MCP של פיגמה פתוח כבר לנוטיון ולסלאק, אבל לא לספריית הקומפוננטות החיה שלך.",
+          "angle": "זה הרעיון שחסר ל-Storybook MCP: סוכן שקורא את הקומפוננטה האמיתית שלך מהריפו, לא מנחש אותה מחדש בכל פעם שהוא לא מוצא את הישנה. פיגמה פתחה מחברי MCP לסוכן העיצוב שלה עם גישה לכלים חיצוניים, שלב שמראה בדיוק את הכיוון, אבל עדיין לא את הקומפוננטה עצמה. ההבדל בין סוכן שממציא מערכת עיצוב לסוכן שקורא אותה הוא ההבדל בין דמו למוצר.",
+          "why": "כי כל דיון על סוכני AI בעיצוב מדבר על 'הסוכן מבין את המערכת שלך', ובפועל הוא קורא רק את התיאור שלה. זה הפער שעושה את ההבדל בין פרומפט יפה למוצר שעובד.",
+          "srcUrl": "https://createwith.com/tool/figma/updates/figma-adds-mcp-connectors-to-design-agent-expanding-tool-integrations",
+          "srcLabel": "Createwith · פיגמה מוסיפה מחברי MCP לסוכן העיצוב",
+          "srcDate": "25.6",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single small UI button component sits in a thin dashed frame on the left, connected by a glowing coral dashed line to a larger grid of repeated identical button components on the right. Behind them, barely visible, a ghost outline of a button made of faint question marks fades into the navy background, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera holds static on a single small UI button component in a thin dashed frame, a glowing coral dashed line pulses outward toward a grid of repeated identical button components, while a faint ghost outline of a button made of question marks slowly dissolves into the dark background, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-02-2",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "אני מלמד את היוריסטיקות של נילסן עשרים שנה בלי להזכיר AI, והשנה הראשונה שבה חצי מהדוגמאות שלי הן על סוכן, לא על טופס.",
+          "angle": "עשר ההיוריסטיקות של נילסן נכתבו על ממשקים, לא על סוכנים, ובכיתה שלי בג'ון ברייס אני מגלה שהן עדיין מחזיקות גם כשהממשק הוא שיחה: 'נראות הסטטוס של המערכת' זה בדיוק מה ש-AI agent חייב להראות כשהוא מריץ שלושה כלים ברצף, 'מניעת טעויות' זה בדיוק מה שחוסר בבדיקה לפני שהסוכן שולח מייל בעצמו. אני בונה את השיעור הזה כך שכל היוריסטיקה מקבלת זוג, גרסת ממשק וגרסת סוכן, באותו שקף.",
+          "why": "כי תלמידים שלומדים UX בעידן ה-AI זקוקים לגשר בין השפה הישנה לממשק החדש, לא לרשימה חדשה.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "דף הסטטוס החי של קורס 45900",
+          "srcDate": "2.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Two columns of small identical icon frames face each other, the left column each icon showing a simple screen outline, the right column each icon showing a small chat bubble with a gear inside it, a thin coral dashed line links each pair across the middle, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Two columns of small identical icon frames face each other, screen outlines on the left, chat bubbles with gears on the right, the dashed coral lines linking each pair light up one at a time from top to bottom, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-02-3",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "2019, שעתיים של גרירת צילומי מסך לקלידו כדי לבנות תקציר מגמות מתחרים. 2026, הסוכן עצמו שולף את הדוגמאות וחוזר עם לוח מחקר שלם.",
+          "angle": "פורמט: שתי נקודות בזמן. 2019, מעצב UX פותח עשרים לשוניות, מצלם מסך אחרי מסך מאפליקציות מתחרות, מדביק לקלידו ומתייג ביד. 2026, Design Research skill מחובר ל-Mobbin MCP שולף בעצמו דוגמאות אמיתיות של התבנית המדויקת שהתבקשה, בונה לוח מחקר, ואז הופך את הדוגמה הנבחרת לעיצוב ערוך שאפשר לגעת בו. מה שלא השתנה: מישהו עדיין צריך להחליט איזו תבנית נכונה למוצר הזה, לא רק איזו קיימת.",
+          "why": "כי כל כלי שחוסך איסוף נתונים מעביר את העומס לשאלה שהוא לא יכול לענות עליה בשבילך, מה נכון כאן.",
+          "srcUrl": "https://mobbin.com/",
+          "srcLabel": "Mobbin, מאגר דפוסי האפליקציות",
+          "srcDate": "2.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Split composition, left half a cluttered grid of small rectangular screenshot thumbnails pinned with dashed lines, right half one clean glowing component frame with a small gear icon beside it, a thin vertical dashed line divides the two halves, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Split screen, camera holds static, the left half's cluttered grid of screenshot thumbnails slowly fades and consolidates into the right half's single glowing clean component frame, a thin dashed line sweeps once across the seam, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "תשעת כלי ה-AI המובילים ל-UX ב-2026",
+          "desc": "סקירת כלים עדכנית, שימושי כרשימת בדיקה לפני שממליצים לתלמיד על כלי חדש.",
+          "meta": "UX Design Institute · 2.11",
+          "url": "https://www.uxdesigninstitute.com/blog/the-top-8-ai-tools-for-ux/"
+        },
+        {
+          "title": "Uplimit מכניס סוכני AI שמאמנים אלף עובדים במקביל",
+          "desc": "דוגמה למה שקורה כש-L&D הופך לתשתית סוכנים, לא רק קורסים דיגיטליים.",
+          "meta": "VentureBeat · 2.11",
+          "url": "https://venturebeat.com/ai/uplimit-raises-stakes-in-corporate-learning-with-suite-of-ai-agents-that-can-train-1000-employees-simultaneously?rand=3490"
+        },
+        {
+          "title": "פיגמה מוסיפה מחברי MCP לסוכן העיצוב",
+          "desc": "הבסיס לרעיון של היום, שלב ראשון לקראת סוכן שמכיר את מערכת העיצוב שלך ולא רק מתאר אותה.",
+          "meta": "Createwith · 25.6",
+          "url": "https://createwith.com/tool/figma/updates/figma-adds-mcp-connectors-to-design-agent-expanding-tool-integrations"
+        }
+      ]
+    },
+    {
       "date": "2026-11-01",
       "dateLabel": "יום ראשון, 1 בנובמבר",
       "ideas": [
