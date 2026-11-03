@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-03",
+      "dateLabel": "יום שלישי, 3 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-03-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "לפריים בפיגמה יש יום לידה, 2016. עשר שנים הוא היה קופסה שמחזיקה שכבות, לא מקום שבו קורה משהו.",
+          "angle": "פורמט: ביוגרפיה של אובייקט. הפריים נולד כתשובה לארטבורד של סקצ', קופסה שמסדרת מסכים זה לצד זה, ועשר שנים הוא עשה בדיוק את זה ולא יותר. Weave, כלי האוטומציה של פיגמה למדיה, עדיין חי מחוץ לקנבס בכלי נפרד. פיגמה הודיעו שהם עובדים על להכניס אותו לתוך הקנבס עצמו ושאלו משתמשים אילו יכולות הם רוצים שם, בלי תאריך יעד. אם זה קורה, הפריים עובר ממחסן שכבות סטטי לתחנת עבודה שמריצה בעצמה ג'נרציה של מדיה. זה לא עוד פיצ'ר, זה שינוי תפקיד לאובייקט הכי בסיסי בכלי.",
+          "why": "כי כל תלמיד בקורס Weave החדש שאני בונה שואל אותי למה הוא צריך לצאת מפיגמה ולפתוח כלי אחר כדי להפעיל workflow. התשובה של פיגמה היא שזה זמני, והפריים הוא המקום שהם מתכננים לשנות.",
+          "srcUrl": "https://www.createwith.com/tool/figma/updates/figma-reintroduces-weave-with-20-new-templates-for-image-video-and-3d-workflows",
+          "srcLabel": "Createwith · פיגמה מחזירה את Weave, היעד הבא הוא הקנבס",
+          "srcDate": "23.4",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A single rectangular clay picture frame standing upright like a small stage, empty inside except a few thin clay layer strips stacked flat against its back wall, a tiny clay gear and paintbrush floating just outside the frame's open edge as if about to step inside, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. Camera holds static on the clay picture frame, the thin layer strips at the back slowly peel away and sink into the frame's floor, while the tiny clay gear and paintbrush drift inward through the open edge and settle inside, the frame's border glowing warm coral once they enter, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-03-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "לסוכן שקורא פיגמה יש כבר סקילים משלו. זה בדיוק המושג שאני מלמד תלמידים לא טכניים, רק שפיגמה הטביעה אותו הישר בתוך הכלי.",
+          "angle": "ב-31.3.2026 פיגמה פתחו בטא לכלי use_figma, פרוטוקול MCP שנותן לסוכן AI גישה לקרוא ולשנות קובץ פיגמה, קומפוננטות, פריסה ומאפיינים. לפי ההודעה הכלי מגיע עם סקילים שמלמדים את הסוכן איך להתנהג בסביבה של פיגמה, בלי שפיגמה מסבירים בדיוק מה יש בהם. זה אותו רעיון שאני חוזר עליו שוב ושוב בכיתה, סקיל הוא זיכרון קבוע שחולקים, לא פרומפט חד פעמי. ההבדל הוא שפה זה לא שיעור, זה תשתית מוצר.",
+          "why": "כי ברגע שחברה כמו פיגמה בונה סקילים כתשתית ולא כתוספת, השאלה בכיתה הופכת מ'מה זה סקיל' ל'איזה סקיל כבר רץ בכלי שאני משתמש בו בלי שידעתי'.",
+          "srcUrl": "https://www.createwith.com/tool/figma/updates/figma-launches-ai-agent-integration-with-mcp-tool-in-open-beta",
+          "srcLabel": "Createwith · פיגמה משיקה שילוב סוכן AI עם כלי MCP בבטא פתוחה",
+          "srcDate": "31.3",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A small robot-agent icon stands beside an open folder icon, a tiny sticky-note shape glowing warm yellow tucked inside the folder, a thin coral dashed line connects the sticky note to a larger frame icon in the background, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. The small robot-agent icon opens the folder icon, the glowing sticky note floats out and travels along the dashed line to the larger frame icon in the background, which lights up coral once it receives it, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-03-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": null,
+          "hook": "העכבר שלך כבר לא חץ. בטאב אחד הוא טיפת מים, בטאב הבא הוא מסגרת שמתרחבת. אף אחד לא שם לב אם זה שיפר משהו או רק מילא רגע ריק.",
+          "angle": "התנהגות מספר תשע ברשימת 10 ההתנהגויות שלי, custom cursor: החלפת הסמן הסטנדרטי בצורה, אנימציה או תגית שמגיבה לאלמנט שמתחתיו. עובד מצוין באתרי תיק עבודות ובפרויקטים קונספטואליים, כי הוא מוסיף אופי בלי לגעת בתוכן עצמו. נכשל כשהוא מכבה את סמן המערכת בלי חלופה, כי משתמש עם מקלדת, עם זום גבוה או עם מגע לא רואה את הסמן המקורי בכלל ונשאר בלי שום משוב ויזואלי.",
+          "why": "זו טעות שתלמיד תיקן בעצמו בכיתה אחרי שהוא בדק את התרגיל שלו עם מקלדת בלבד ופתאום לא ידע איפה הוא נמצא על המסך.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "דף הסטטוס החי, קורס 45900",
+          "srcDate": "3.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single custom cursor shaped like a glowing teal water droplet hovers over a plain rectangular button outline, a faint ghost outline of a standard arrow cursor fades in the corner of the frame, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. The glowing teal water droplet cursor drifts across the frame and morphs into a thin expanding frame shape as it passes over the button outline, while the faint ghost arrow cursor in the corner flickers and disappears, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "לקוחות כמו DoorDash, Lyft ו-NVIDIA כבר מריצים הפקת קריאייטיב שלמה ב-Weave",
+          "desc": "דוגמה מהשטח למה שתלמידי קורס Weave שלי שואלים, איך זה נראה בפועל בארגון גדול.",
+          "meta": "iTWire · 23.4",
+          "url": "https://itwire.com/guest-articles/company-news/reintroducing-figma-weave-with-20-new-workflows-for-ai-native-design.html"
+        },
+        {
+          "title": "מדריך מלא למודל Veo 3.1 של גוגל",
+          "desc": "מדריך שימושי לפני שמחליטים אם להמליץ על המודל הזה לתלמיד או ללקוח.",
+          "meta": "Higgsfield Blog · 3.11",
+          "url": "https://higgsfield.ai/blog/How-to-Use-Google-Veo-3.1-Complete-Guide-for-the-New-Model"
+        },
+        {
+          "title": "מגמות AI בעיצוב UX/UI ל-2026, המדריך המלא",
+          "desc": "סקירת מגמות שימושית כבדיקת שפה משותפת עם תלמידים לפני שיעור.",
+          "meta": "Veza Digital · 3.11",
+          "url": "https://vezadigital.com/post/ai-ux-ui-design-trends"
+        }
+      ]
+    },
+    {
       "date": "2026-11-02",
       "dateLabel": "יום שני, 2 בנובמבר",
       "ideas": [
