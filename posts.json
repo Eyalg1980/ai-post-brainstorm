@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-04",
+      "dateLabel": "יום רביעי, 4 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-04-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "ישבתי לבנות את שיעור ה-MCP בקורס Weave החדש ונתקעתי בדיוק על איך להראות לתלמידים שהעיצוב ממשיך ישר לקוד. פיגמה כבר פתרה לי את זה.",
+          "angle": "פורמט: מהכיתה לשטח. פיגמה פתחה ב-24.6 בטא פתוחה ל-Figma Motion, טיימליין אנימציה שיושב בתוך קובץ העיצוב עצמו ולא בכלי חוץ. מתארים לסוכן את התנועה שרוצים, הוא מכין דראפט, ואז מעדכנים קיי-פריימים ביד. הייצוא כולל CSS, React, JSON, MP4, WebM, SVG מונפש וגם קישור ישיר לקוד דרך MCP. זה בדיוק הגשר שאני בונה עכשיו בשני המפגשים על Claude ו-MCP, רק שהפעם פיגמה בנתה אותו בעצמה.",
+          "why": "כי זה ממש על השולחן שלי השבוע, אני כותב את הסילבוס לשני המפגשים על Claude ו-MCP, וזה פיצ'ר שרוב המעצבים בישראל עוד לא שמעו עליו.",
+          "srcUrl": "https://designcompass.org/en/2026/06/26/figma-motion-config-2026/",
+          "srcLabel": "Design Compass",
+          "srcDate": "26.6",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single Figma frame icon with a thin motion-trail arc sweeping out of its corner directly into a code bracket symbol, implying design flowing straight into running code, no text, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single Figma frame icon sits still, then a thin coral motion-trail arc sweeps out of its corner and thickens as it travels into a code bracket symbol that lights up warm yellow on contact, slow deliberate camera dolly in, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-04-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "במרץ Stitch של גוגל עדיין עבד מסך אחד בכל פעם. אז הוא הפך לקנבס אינסופי, ורוב המעצבים בארץ פספסו את זה.",
+          "angle": "פורמט: רשימת כלים קצרה, גרסה ממוקדת לכלי אחד. Stitch עבר שדרוג גדול ממסך בודד שנפתח מפרומפט אל קנבס AI-native אינסופי, מה שמאפשר לבנות פלואו שלם של כמה מסכים מחוברים במקום להדביק מסכים בודדים אחד אחד. השירות עדיין חינמי עם קרדיטים יומיים מוגבלים. במיקס הכלים שאני מלמד, Claude, Codex, Stitch, Mobbin ופיגמה, זה הכלי שסוגר את הפער בין פרומפט בודד לפלואו אמיתי לפני שעוברים לפיגמה.",
+          "why": "כי זה מגדיר מחדש איפה Stitch נכנס בתהליך, משלב פרוטוטייפ בודד לשלב מיפוי המסכים עצמו.",
+          "srcUrl": "https://www.designrush.com/agency/ui-ux-design/trends/ux-ui-ai-tools",
+          "srcLabel": "DesignRush",
+          "srcDate": "1.6",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay phone screen tile sitting alone, beside it a long unrolled clay ribbon covered with many connected screen tiles stretching into the distance, no text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A single clay screen tile slowly unrolls into a long ribbon of connected screen tiles, a stop-motion hand briefly visible shaping the ribbon's edge, gentle camera pan following the unrolling motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-04-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": null,
+          "hook": "שבעים אחוז ממה שלימדת נשכח תוך 24 שעות בלי חיזוק. זה לא פסימיות, זה המספר שחוזר בכל מחקר L&D.",
+          "angle": "הנתון הזה הוא הסיבה שאני לא בונה שיעור בלי תוצר מוחשי בסופו. ארגונים מוציאים בעולם קרוב ל-400 מיליארד דולר בשנה על הדרכות, ועדיין נתקעים באותה בעיה, אין חיזוק, אין זכירה. 'מהמופשט לאובייקט' זה לא סלוגן, זו תשובה ישירה לעקומת השכחה, כל מפגש מסתיים במשהו שהתלמיד בנה בעצמו ויכול לחזור אליו.",
+          "why": "כי אני בדיוק עכשיו בונה את תכני מיישם AI ואוטומציה לנובמבר, והשיטה המתגלגלת שלי קיימת כדי להילחם בדיוק בנתון הזה.",
+          "srcUrl": "https://elearningindustry.com/from-passive-to-purposeful-how-ai-is-reshaping-corporate-learning-strategies-in-2026",
+          "srcLabel": "eLearning Industry",
+          "srcDate": "6.4",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A dashed line curve dropping steeply then flattening at a coral dot marker, repeating three times along a short timeline, no text, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A dashed curve begins a steep drop, then at each coral reinforcement dot the line visibly catches and flattens before dropping again, slow horizontal camera pan tracking left to right along the timeline, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "לוח תחרויות AI לנובמבר-דצמבר 2026",
+          "desc": "רשימה של תחרויות קולנוע AI עם דדליין בחודשיים הקרובים, כולל דרישות הגשה ואורך. שימושי גם לצד הווידאו.",
+          "meta": "AI Film Contests · 21.9",
+          "url": "https://aifilmcontests.com/topics/ai-film-festival-deadlines-november-december-2026"
+        },
+        {
+          "title": "פיגמה משיקה Code Layers ו-Motion ב-Config 2026",
+          "desc": "סיכום שני הפיצ'רים המרכזיים שהוכרזו ב-Config 2026, Code Layers ליצירת קוד חי בתוך פיגמה ו-Motion לאנימציה בתוך הקובץ.",
+          "meta": "CMSWire · Config 2026",
+          "url": "https://www.cmswire.com/digital-experience/figma-launches-code-layers-motion-at-config-2026/"
+        },
+        {
+          "title": "איך מנהיגי L&D בונים הדרכות AI נכונות",
+          "desc": "מדריך ל-upskilling מבוסס AI ול-LMS חכם, עם המלצות מעשיות לצוותי הדרכה בארגונים.",
+          "meta": "TechClass",
+          "url": "https://www.techclass.com/resources/learning-and-development-articles/ai-for-l-and-d-leaders-transform-corporate-training-with-intelligent-upskilling-and-lms"
+        }
+      ]
+    },
+    {
       "date": "2026-11-03",
       "dateLabel": "יום שלישי, 3 בנובמבר",
       "ideas": [
