@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-05",
+      "dateLabel": "יום חמישי, 5 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-05-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "לפיגמה יש עכשיו שיידרים אמיתיים על הקנבס, לא פילטר שמייבאים מבחוץ.",
+          "angle": "זה פיצ'ר מ-Config 2026 שהגיע אליי רק השבוע כשבניתי שיעור Weave חדש: WebGPU מריץ דית'ר, פיקסלציה ובלור ישירות על השכבה בקנבס, בלי לעבור לפוטושופ ובלי לייצא כלום. יחד עם Motion ו-Code Layers זה שלושה כלים שפעם ישבו בשלוש תוכנות נפרדות ועכשיו חולקים קנבס אחד.",
+          "why": "ההבדל בין AI שיודע לעשות הכל לכלי שאני באמת מכניס לשיעור הוא תמיד אותו דבר: אני צריך להפעיל אותו בעצמי קודם. זה מה שקרה לי השבוע.",
+          "srcUrl": "https://news.ainauten.com/markdown/figma-now-has-ai-motion-graphics-and-shader-tools",
+          "srcLabel": "Ainauten (מקור: The Verge) · Figma now has AI motion graphics and shader tools",
+          "srcDate": "24.6",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single flat rectangular design canvas floating in the center, with three overlapping translucent effect swatches above it (a halftone dither pattern, a pixelated grid, a soft blur gradient), clean vector line art, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A flat rectangular canvas panel floats center frame while three translucent effect layers, a halftone dither pattern, a pixelated grid, and a soft gaussian blur, slide in sequentially from the edges and snap into the panel one at a time, camera static, clean mechanical motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-05-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "פורמט: רשימת כלים קצרה. ה-MCP של פיגמה יודע לקרוא את הקובץ שלך. הוא לא יודע לקרוא את ספריית הקומפוננטות החיה שלך.",
+          "angle": "חמש יכולות שסוגרות את הפער בין מחקר UX לקוד קומפוננטות חי, בלי שאף אחת מהן בפני עצמה פותרת את הכל: Mobbin שמביא דוגמאות אפליקציה אמיתיות, Storybook MCP שנותן לסוכן לקרוא את ספריית הקומפוננטות שלך ולא רק את הפיגמה, figma-use שמריץ ביקורת UX copy מול מדריך סטייל מודבק קישור, Figma MCP plugin שסוגר את הלופ חזרה לקנבס, וסוכן שמרכיב מכולם לוח מחקר אחד שהופך ישר לעיצוב עריכתי, זה ה-Vanta demo flow.",
+          "why": "הקישור בין פיגמה לסוכן AI כבר כאן (MCP בבטא פתוחה), אבל הוא עדיין לא יודע מה באמת בנוי בקוד. חמשת הכלים האלה הם מה שממלא את הפער הזה, לא עוד פיצ'ר אחד בפיגמה.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "דף הסטטוס החי, קורס 45900",
+          "srcDate": "5.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Five small abstract tool icons arranged in a horizontal row connecting a magnifying glass research icon on the left to a component grid icon on the right via a thin dashed line, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Five small abstract tool icons appear one by one along a thin dashed line connecting a magnifying glass research icon to a component grid icon, each icon popping in with a subtle bounce, camera static, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-05-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "השבוע הזה בדיוק בקורס מיישם AI ואוטומציה",
+          "hook": "פורמט: מהכיתה לשטח. תלמיד שאל אם אפשר לדלג על שלב התכנון ולהתחיל לפרומפט ישר, ועניתי לו בשאלה.",
+          "angle": "זו בדיוק הבדיקה שמפרידה בין ויב קודינג לתכנות ישן עם שם חדש: אם אתה לא יכול להסביר בשלוש מילים מה המסך הבא עושה, אתה עדיין לא מוכן לפרומפט. בקורס מיישם AI ואוטומציה שמתחיל עכשיו בנובמבר אני בונה את כל שיטת הפרויקט המתגלגל על הכלל הזה: כל שלב קטן מספיק שרואים אותו רץ באותו מפגש.",
+          "why": "זה הדיוק שחסר ברוב התוכן שמסביר vibe coding כקיצור דרך. זה לא קיצור דרך, זה תכנון שעבר למקום אחר.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "דף הסטטוס החי, קורס 45900",
+          "srcDate": "5.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single small step icon sits glowing at the start of a dashed path made of many small step icons, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A dashed path of small step icons extends one step at a time from left to right, each new step glowing briefly as it appears, camera static, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "פיגמה מסכמת את Config 2026: חומרים חדשים, כלים חדשים, קנבס עוד יותר מבטא",
+          "desc": "הסיכום הרשמי של פיגמה לכל מה שהוכרז ב-Config 2026, כולל Shaders, Motion ו-Code Layers באותו קנבס.",
+          "meta": "Figma · Config 2026 Recap",
+          "url": "https://www.figma.com/blog/config-2026-recap/"
+        },
+        {
+          "title": "היגספילד משיקים Cinema Studio 2.0: פי 16 מהיר יותר בהפקת סצנות",
+          "desc": "Grid Mode מרנדר 16 גרסאות שוט במחיר של אחת, פאנל בימוי עם שישה גופי מצלמה ו-11 עדשות, פלט 4K טבעי.",
+          "meta": "TechIntelPro · Higgsfield Cinema Studio 2.0",
+          "url": "https://techintelpro.com/news/marketing/ai/higgsfield-cinema-studio-20-16x-faster-ai-video-creation"
+        },
+        {
+          "title": "סקירת 2026 לכלי ה-AI של פיגמה: Make, Agent ו-Weave",
+          "desc": "מבט רחב על כל שכבות ה-AI שפיגמה בנתה השנה, מעבר ל-Make הבסיסי.",
+          "meta": "Banani · Figma AI Features Review",
+          "url": "https://www.banani.co/blog/figma-ai-features-review"
+        }
+      ]
+    },
+    {
       "date": "2026-11-04",
       "dateLabel": "יום רביעי, 4 בנובמבר",
       "ideas": [
