@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-06",
+      "dateLabel": "יום שישי, 6 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-06-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": "אני עוקב אחרי כלכלת הקרדיטים של כלי AI כבר חודשים, בעיקר בהיגספילד",
+          "hook": "פורמט: צ'ק-אין נבואה. חזיתי שזה יקרה, וב-6.10.2026 זה קרה גם לפיגמה.",
+          "angle": "חודשים שאני עוקב אחרי כלכלת הקרדיטים של כלי AI ורושם לעצמי שמה שמרגיש חינמי בבטא תמיד מתחיל לעלות כסף כשהוא יוצא ל-GA. ב-6.10.2026 זה קרה גם לפיגמה: הסוכן בפיגמה דיזיין וב-Weave עברו מבטא פתוחה לזמינות כללית, ומתחילים לצרוך קרדיטים מאותה תקציבה החודשית המשותפת ל-Figma Make. Weave גובה מחיר קבוע לכל כלי, הסוכן גובה לפי מורכבות הפרומפט והפעולות שהוא לוקח.",
+          "why": "זו לא תאוריה, זו בדיוק התחזית שלי שמתאשרת בשטח, ועכשיו יש לי סיבה אמיתית לחשב קרדיטים לפני שאני מריץ סדנת Weave שלמה ללקוח, לא רק אחרי.",
+          "srcUrl": "https://help.figma.com/hc/en-us/articles/42614902212887",
+          "srcLabel": "Figma Help Center · AI credits for the Figma agent and Weave tools",
+          "srcDate": "6.10",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single rectangular meter gauge, the left half empty and outlined only, the right half filled solid coral, a small flat robot-arm icon pointing at the filled side, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A flat rectangular meter gauge sits center frame, outlined and empty on the left half, solid coral fill sweeps in smoothly from left to right until the gauge is completely filled, a small flat robot arm icon beside it tilts down once as the fill completes, camera static, clean mechanical motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-06-2",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "ישר מההרצאה השנייה של דניאל בוארון בקורס מיישם AI ואוטומציה שלי",
+          "hook": "פרומפט הוא בקשה. סקיל הוא זיכרון. זה המשפט שסגר לי שיעור שלם בלי שום דיאגרמה.",
+          "angle": "בהרצאת האורח השנייה שלו בקורס מיישם AI ואוטומציה שלי, דניאל בוארון נתן את ההגדרה הכי חדה ששמעתי להבדל: פרומפט הוא בקשה חד פעמית, ידנית, לא עקבית. סקיל הוא זיכרון מתמשך, מופעל אוטומטית, עקבי במאה אחוז, ומשותף לכל הצוות. זה לא ניואנס טכני, זה ההבדל בין תלמיד שכותב את אותה הנחיה מחדש בכל פרויקט לבין תלמיד שבנה לעצמו תהליך שרץ בלי שהוא צריך לזכור אותו.",
+          "why": "זה המשפט שסוגר לי את כל השיעור על סקילים, ואני רוצה לתפוס אותו בדיוק כמו שהוא נאמר בכיתה לפני שהוא מתרכך בזיכרון שלי.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb53500/",
+          "srcLabel": "דף הסטטוס החי, קורס מיישם AI ואוטומציה 53500",
+          "srcDate": "6.11",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, no text. A small clay speech bubble shape melting and dissolving on the left, beside it a solid clay brain shape sitting steady and glowing softly on the right, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay speech bubble on the left slowly melts and dissolves into the cream surface, while a solid clay brain shape on the right glows softly and pulses once as if remembering something, camera static, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-06-3",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "פורמט: שתי נקודות בזמן. הסוכן של פיגמה מסדר קומפוננטות בכל הקובץ בלחיצה אחת. הוא עדיין לא מחליט בשבילך איזו קומפוננטה נכונה.",
+          "angle": "לפני: מעצב מחליף רכיב ביד במאה מסכים, משנה מרווח מסך אחרי מסך, ממלא פריימים בתוכן אמיתי שעה שלמה. אחרי: סוכן העיצוב של פיגמה עושה את כל זה בפקודה אחת, מקבץ פידבק לפי נושא ומראה התנגשויות בין הערות. אבל לפי התיעוד שלו עצמו הוא 'לא מחליט בשבילך', אין לו מושג מה המטרה העסקית או מה המשתמש צריך. מה שהשתנה זה כמה מהעבודה החזרתית, לא כמה מהשיקול.",
+          "why": "זה בדיוק מה שאני חוזר ואומר בכיתה כשתלמיד שואל אם ויב קודינג מחליף תכנון: הכלי מרוקן שכבה אחת של עבודה, לא מחליט בשבילך על השכבה שמתחתיה.",
+          "srcUrl": "https://feed.muz.li/?p=201840",
+          "srcLabel": "Muzli · Figma just put an agent inside your file, here's what it actually does",
+          "srcDate": "20.5",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Split composition, left side shows a single hand icon manually repeating the same small square icon across a grid, right side shows the identical grid completed instantly with one small flat arrow pointing into it, a faint outlined question mark hovers untouched above both sides, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Split frame, on the left a hand icon places one square tile at a time into a grid slowly, on the right the identical grid snaps fully complete at once as a small arrow icon flashes, a faint outlined question mark hovers above both sides and never changes, camera static, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "גוגל סטיץ' עובר מפיצ'רים לנקודת כניסה לתהליך AI design",
+          "desc": "עדכון שממקם את Stitch כנקודת פתיחה לתהליך תכנון שלם, לא עוד פיצ'ר בודד בתוך כלי.",
+          "meta": "Besthub · Google Stitch Update",
+          "url": "https://besthub.dev/articles/google-stitch-update-shifts-focus-from-features-to-ai-design-workflow-entry-79fcd6357f05"
+        },
+        {
+          "title": "AI משבש שוק הדרכות של 400 מיליארד דולר, לפי מחקר Bersin",
+          "desc": "מחקר שמראה עד כמה שוק ה-L&D הארגוני משתנה מהר מול AI, ולמה הדרכה בלי תוצר מוחשי מפסידה ראשונה.",
+          "meta": "Briefglance · Bersin Research",
+          "url": "https://briefglance.com/companies/the-josh-bersin-company/pulses/40499"
+        },
+        {
+          "title": "פיגמה מציגים את Weave מחדש: 20 תבניות חדשות לתמונה, וידאו ותלת מימד",
+          "desc": "הכתבה המקורית על השקת Weave עם 1,000 קרדיטים חינמיים ללקוחות נבחרים, הרקע לסיפור הקרדיטים של היום.",
+          "meta": "ITWire · Figma Weave relaunch",
+          "url": "https://itwire.com/guest-articles/company-news/reintroducing-figma-weave-with-20-new-workflows-for-ai-native-design.html"
+        }
+      ]
+    },
+    {
       "date": "2026-11-05",
       "dateLabel": "יום חמישי, 5 בנובמבר",
       "ideas": [
