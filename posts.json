@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-08",
+      "dateLabel": "יום ראשון, 8 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-08-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "לפלאגין של פיגמה היה תמיד תג מחיר נסתר. קוד. ב-26.6.2026 פיגמה הסירו אותו.",
+          "angle": "פורמט: ביוגרפיה של אובייקט. הפלאגין נולד כדי לפתור בעיה אחת ספציפית, ודרש ממך לדעת לתכנת כדי לבנות אותו בעצמך. אם לא ידעת, חיפשת מישהו שכתב כבר את הפלאגין שאתה צריך, וקיווית שהוא עדיין מתוחזק. ב-Config 2026 פיגמה הכריזו על Generative plugins, כלי שבונה פלאגין שלם מתיאור במשפט אחד, בלי סטאפ של דיבלופר. זה לא שדרוג לפלאגין הקיים, זה הסרה של השומר בשער. למדתי את זה על הבשר כשניסיתי להסביר לתלמיד לא טכני למה הוא לא יכול לבנות את הכלי הקטן שהיה חסר לו בזרימת העבודה. התשובה הזאת מתחילה להתחלף.",
+          "why": "כי זה הקו המפריד בין כלי שמישהו אחר בנה בשבילך לכלי שאתה כותב ברגע שאתה צריך אותו, וזה בדיוק העקרון שאני מלמד תחת מהמופשט לאובייקט.",
+          "srcUrl": "https://itwire.com/business-it-news/business-software/at-config-2026-figma-introduces-the-intelligent-canvas-for-full-stack-creation",
+          "srcLabel": "itwire, Config 2026",
+          "srcDate": "26.6",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, a small clay plugin puzzle piece breaking open a tiny padlock made of clay, revealing a glowing shape turning into a speech bubble, no text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, a padlock made of clay slowly dissolves and a tiny plugin puzzle piece floats up and clicks into an open toolbox, gentle stop motion jitter, camera slowly pushes in, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-08-2",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "ישר מההרצאה השנייה של דניאל בוארון בקורס מיישם AI ואוטומציה שלי",
+          "hook": "בהרצאה השנייה שלו דניאל בוארון סיכם את כל 2026 בשלושה הימורים ומשפט סוגר אחד. drop the FOMO, תבנה את הטולקיט שלך.",
+          "angle": "שלושת ההימורים: סקילים הם ספר המשחק של ה-AI שלך, אג'נטים הם צוות מקביל שעובד איתך ולא בשבילך, ו-Design.md הוא מערכת העיצוב שלך כתובה בשביל מכונה שתקרא אותה ולא רק בשביל אדם. בכיתה אני רואה את זה קורה בזמן אמת, תלמיד קופץ בין שלושה כלים שונים כל שבוע כי מישהו ברשת אמר שהם הכי חדשים, ומפסיק לבנות משהו אחד שהוא שלו. המשפט הסוגר של בוארון עצר את זה אצלי בכיתה יותר מכל הרצאה על פיצ'רים.",
+          "why": "כי זה לא עוד כלי, זה מסגרת החלטה שסוגרת את הדיון אם ללמוד עוד כלי או לבנות עם מה שיש.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb53500/",
+          "srcLabel": "חומרי קורס מיישם AI ואוטומציה",
+          "srcDate": "8.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, three simple labeled icons in a row, a tiny playbook, two overlapping figures as parallel teammates, a small document icon with a circuit pattern, a dashed path leading away from a cluttered pile of app logos toward the three icons, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a cluttered pile of small app logo shapes scatters and fades while three clean icons, a playbook, two parallel figures, a circuit document, slide into a tidy row, kinetic typography accents the motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-08-3",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "ב-Figma Make אפשר לבחור את קלוד אופוס 4.6 כמודל ניסיוני. הבריף נשאר אותו בריף. התוצאה לא נשארת אותה תוצאה.",
+          "angle": "זה לא עוד באדג' בתפריט. זה האות החד ביותר שראיתי לתלמידים שהבחירה של המודל היא בחירת עיצוב בפני עצמה, לא פרט טכני שמישהו אחר צריך להחליט במקומם. מודל אחד נוטה לפתרון שמרני, אחר קופץ ישר לרעיון מוזר שלא היית מבקש. אם אתה לא בודק את שניהם על אותו בריף, אתה בודק רק דעה אחת ומתייחס אליה כאמת.",
+          "why": "כי ברגע שיש בחירת מודל בתוך כלי העיצוב עצמו, זה כבר לא שיחה תיאורטית בכיתה, זה כפתור שהתלמיד רואה.",
+          "srcUrl": "https://www.createwith.com/tool/figma/updates/figma-make-adds-claude-opus-46-as-experimental-model-option",
+          "srcLabel": "createwith.com, Figma updates",
+          "srcDate": "11.2026",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, one identical wireframe brief icon splitting into two diverging paths leading to two differently shaped outcome icons, a small toggle switch with two dots sits above the split, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a single wireframe brief icon splits cleanly into two paths that animate toward two different outcome shapes, a toggle switch flips once at the start, kinetic typography accents, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "פיגמה חושפים עדכון AI גדול חדש לעיצוב ולדיבלופמנט",
+          "desc": "סיכום העדכונים האחרונים של פיגמה בצד הסוכנים והאינטגרציה עם קוד, כולל הכלי שהכותב מתרגש ממנו הכי הרבה.",
+          "meta": "TechRadar · 2026",
+          "url": "https://www.techradar.com/pro/figma-unveils-big-new-updates-for-design-and-dev-but-im-mostly-excited-about-the-rollout-of-this-one-tool"
+        },
+        {
+          "title": "סקירה מהירה של כלי ה-AI של פיגמה ל-2026",
+          "desc": "מבט מסודר על Make, Agent ו-Weave ביחד, טוב כהפניה כשתלמיד שואל מה ההבדל בין הכלים.",
+          "meta": "LogRocket · 2026",
+          "url": "https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview/"
+        },
+        {
+          "title": "מגמות AI בלמידה והדרכה בארגונים, מבט מהשטח",
+          "desc": "סקירת מגמות ל-L&D, המספר הבולט היחיד בה הוא ש-85 אחוז ממנהיגי הדרכה מצפים לעלייה בצורך בפיתוח מיומנויות.",
+          "meta": "eLearning Industry · 12.2025",
+          "url": "https://elearningindustry.com/corporate-ld-trends-2026-the-view-from-the-trenches"
+        }
+      ]
+    },
+    {
       "date": "2026-11-06",
       "dateLabel": "יום שישי, 6 בנובמבר",
       "ideas": [
