@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-09",
+      "dateLabel": "יום שני, 9 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-09-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "ל-5.11.2026 יש לפיגמה תאריך חדש בלוח: הסוכן שלה מצייר אייקון שלם, בשכבות שאפשר לפרק.",
+          "angle": "פורמט: חידה ויזואלית + פרומפט בתגובה ראשונה. מה-5.11.2026 הסוכן של פיגמה לא רק מצייר אייקון, הוא בונה אותו כוקטור עורך: קווי מתאר, שכבות מקובצות, ומבנה שמוכן לאנימציה. זה ההבדל בין תמונה סגורה לכלי עבודה. הפוסט: גריד של שלושה אייקונים שנוצרו כך, בלי לחשוף מה ביקשתי, ושאלה אחת: איזה מהם היית מנחש שמעצב בנה ביד. הפרומפט המדויק של כל אייקון יושב בתגובה הראשונה.",
+          "why": "כי זה בדיוק הקו שחצה הפלאגין לפני כמה חודשים: לא עוד תוצאה סופית, אלא קובץ שאפשר להמשיך לעבוד עליו.",
+          "srcUrl": "https://releasebot.io/updates/figma",
+          "srcLabel": "Releasebot, יומן השינויים של פיגמה",
+          "srcDate": "5.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a single oversized app icon built from visible interlocking vector layers peeling apart like pages, each layer a clean geometric shape, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, an oversized app icon assembles itself from separate vector layers sliding into place one by one, camera holds steady, gentle ease-in motion, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-09-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "ל-code layers של פיגמה חסר היה עד ה-3.11 דבר אחד פשוט: הם לא ידעו מה קורה בלחיצה על כפתור.",
+          "angle": "ב-3.11.2026 פיגמה פתחה בטא ל-code layers שקוראים את קשרי הפרוטוטייפ בין הפריימים, לא רק את הפריים הבודד. זה סוגר את הפער הכי כואב בזרימת AI-to-code: עד עכשיו המודל ידע לצייר מסך אבל לא ידע מה קורה כשלוחצים בו, מישהו היה צריך להסביר לו את זה במילים. עכשיו הוא קורא את זה ישר מהקשרים שהמעצב כבר בנה בפריים.",
+          "why": "כי זה המעבר מ'תייצר לי קוד לפי המסך' ל'תייצר לי קוד לפי מה שאמור לקרות בו', וזה ההבדל בין דמו לפיצ'ר.",
+          "srcUrl": "https://releasebot.io/updates/figma",
+          "srcLabel": "Releasebot, יומן השינויים של פיגמה",
+          "srcDate": "3.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, two overlapping wireframe frames connected by a single glowing dashed line representing a prototype interaction, a small code bracket icon floating beside the line, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a dashed line animates from one wireframe frame to another tracing a tap interaction, then morphs into a code bracket symbol, camera slowly pushes in, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-09-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "ישר מהשיעור בונוס C, 10 ההתנהגויות המודרניות, קורס UI/UX 45900",
+          "hook": "תלמיד בשיעור הבונוס רצה שכל האלמנטים בדף יקפצו לחיים כשגוללים. עצרתי אותו באמצע המשפט.",
+          "angle": "חשיפה בגלילה (scroll-triggered reveals) היא ההתנהגות השלישית מתוך 10 ההתנהגויות המודרניות שאני מלמד בשיעור הבונוס C. הכלל שפתחתי איתו את התלמיד: אלמנט אחד שנכנס במהירות הגלילה הטבעית שלו, לא שבעה אלמנטים שקופצים יחד. ברוב הדפים שאני בודק עם תלמידים, עומס האנימציה הזה הוא מה ששובר את התחושה של הדף, לא מה שבונה אותה.",
+          "why": "כי תלמיד שמבקש 'שהכל יזוז' צריך כלל אחד ברור, לא רק דוגמה יפה, וזה בדיוק מה שהכלל של מקסימום שתי התנהגויות לדף נותן לו.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "דף הסטטוס החי, קורס 45900",
+          "srcDate": "9.11",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, a single small clay shape rising gently out of a flat clay page as if waking up, one clean motion arc drawn in the clay surface, no text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, a single clay shape rises slowly out of a flat clay page in one smooth arc while six other clay shapes stay still and flat around it, gentle stop motion jitter, camera holds steady, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "יומן השינויים של פיגמה לנובמבר 2026: אייקונים שהסוכן מצייר וקוד שקורא פרוטוטייפ",
+          "desc": "רשימה מרוכזת של כל מה שפיגמה שינו בשבועיים האחרונים, מאייקונים ועד חיבור Weave ל-MCP חיצוני",
+          "meta": "Releasebot · 6.11",
+          "url": "https://releasebot.io/updates/figma"
+        },
+        {
+          "title": "פיגמה חושפת סוכני AI וכלים מבוססי קוד בכנס Config 2026",
+          "desc": "כתבה שמסכמת את הכיוון של פיגמה להפוך את הקנבס לסביבת עבודה מלאה, לא רק לוח ציור",
+          "meta": "analyticsindiamag.com",
+          "url": "https://analyticsindiamag.com/ai-news/figma-unveils-ai-agents-and-code-native-design-tools-at-config-2026"
+        },
+        {
+          "title": "מצב כלי הווידאו של AI בנובמבר 2026: היגספילד מול Veo ו-Kling",
+          "desc": "סקירה של המרחב הרב-מודלי שהיגספילד בנתה מול המתחרים, כולל שמע מסונכרן בווידאו",
+          "meta": "blog.mean.ceo · 6.11",
+          "url": "https://blog.mean.ceo/ai-video-news-november-2026/"
+        }
+      ]
+    },
+    {
       "date": "2026-11-08",
       "dateLabel": "יום ראשון, 8 בנובמבר",
       "ideas": [
