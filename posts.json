@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-12",
+      "dateLabel": "יום חמישי, 12 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-12-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "לוויב של פיגמה יש מהיום זיכרון. כל שלב בייצור נשאר צמוד לתוצאה הסופית, ואפשר לחזור ולשנות אותו בלי להתחיל מאפס.",
+          "angle": "פיגמה מסכמים בבלוג שלהם (פורסם 31.10, הכתבה עצמה מ-4.11) שלוויב יש שלושה מנגנונים חדשים: nodes שמייצגים כל שלב, הוספת תמונה, פרומפט, יצירה או עריכה, ומתחברים לשרשרת אחת. branches שמאפשרים לפצל נקודת התחלה אחת לכמה כיוונים, למשל כמה רקעים לאותה תמונת מוצר, או השוואה בין כמה מודלים על אותו פרומפט. ו-Weave tool שאורז תהליך חזור ונשנה לכלי שעובדים אחרים מפעילים בלי לגעת במבנה של הצ'יינים. גם מסגרת פיגמה אפשר להדביק לקנבס של Weave ולקשר למקור, כך שעדכון במסגרת זורם אל השלבים המקושרים.",
+          "why": "עד עכשיו כל גרסה חדשה בכלי AI שמרה רק את הפלט, לא את הדרך לשם. ב-4.11.2026 פיגמה הראו שה-Weave זוכר את השרשרת עצמה. זה הופך ייצור חד פעמי לנכס שניתן לשכפל ולשתף.",
+          "srcUrl": "https://designcompass.org/en/2026/11/04/figma-weave-ai-creative-workflows/",
+          "srcLabel": "designcompass.org",
+          "srcDate": "4.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single starting node branches into three connected nodes along thin dashed lines, each node a simple geometric shape holding a tiny icon for image, prompt or edit, one branch glowing coral to show the active path, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera glides along a chain of connected nodes as one splits into three branching paths, each path resolving into a different colored output panel, smooth linear motion, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-12-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "אמרתי בכיתה שההעברה בין עיצוב לפיתוח תתכווץ, ושקובץ העיצוב עצמו יפסיק להיות המטבע. השבוע קיבלתי הוכחה חיה.",
+          "angle": "פורמט: צ'ק-אין נבואה. ב-25.6.2026 מאמר ב-UX Collective ניסח בדיוק את מה שאמרתי בקורס: הערך עובר מהקובץ הפרטני, ה-.figma, לכוונה שניתנת להעברה בין כלים, טוקנים ולוגיקת קומפוננטות, לא רק קנבס סגור. ב-4.11.2026 פיגמה עצמם סיפקו את ההוכחה בשטח: Weave הופך שרשרת ייצור שלמה למבנה שניתן לשכפל ולשתף, לא קובץ קנבס יחיד.",
+          "why": "תחזית שמתאשרת פעמיים בתוך חמישה חודשים כבר לא תחזית, זה כיוון. ולמי שמלמד עיצוב, זה משנה מה חשוב להסביר לתלמידים: לא רק איך מציירים מסך, אלא איך הכוונה מאחוריו שורדת מעבר לכלי אחד.",
+          "srcUrl": "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5",
+          "srcLabel": "UX Collective",
+          "srcDate": "25.6",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single closed file icon on the left cracks open, releasing a stream of small token shapes flowing in a dashed arc toward three simple app window icons on the right, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A closed file icon cracks open and releases a stream of token shapes flowing in a dashed arc toward three app window icons, each icon lighting up coral as a token arrives, smooth continuous motion, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-12-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "לקראת מפגש ההמשך עם שגיא ברון על קורס 53500 היום ב-14:10",
+          "hook": "יש שתי דרכים לבנות סקיל לקלוד, ואף אחת מהן לא מתחילה בכתיבת קובץ.",
+          "angle": "דרך ראשונה, תעשה ואז תסכם: עושים את המשימה פעמיים בצ'אט רגיל, אם אהבתם את התוצאה מבקשים מקלוד לסכם אותה לקובץ SKILL.md ובודקים בצ'אט נקי. דרך שנייה, תתאר ותייצר: מתארים במילים פשוטות שישה מרכיבים, מטרה, טריגרים, שיטה, הקשר ארגוני, פלט וכלים, וקלוד בונה מהם סקיל ישר. היום ב-14:10 יש לי מפגש המשך עם שגיא ברון על קורס 53500, ושתי הדרכים האלה הן הדבר הראשון שאני רוצה שהתלמידים יצאו איתו.",
+          "why": "תלמידים נתקעים כשהם חושבים שסקיל זה קוד. שתי הדרכים האלה מראות שזו החלטה על זיכרון, לא על תחביר.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb53500/",
+          "srcLabel": "חומרי קורס מיישם AI ואוטומציה",
+          "srcDate": "12.11",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. Two small clay hands side by side, one hand repeating the same clay shape twice before flattening it into a simple tile, the other hand sculpting directly from six dots pressed into the table, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. Split screen, left hand molds the same small clay shape twice then presses it flat into a tile, right hand sculpts straight from six dots pressed into the table, both finish at the same moment, gentle stop motion rhythm, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "פיגמה מפרקים את Weave: nodes, branches וכלי לשכפול תהליכי ייצור AI",
+          "desc": "הפירוק הכי מפורט שמצאתי לעדכון Weave מה-31.10: איך nodes ו-branches עובדים, ואיך מקשרים מסגרת פיגמה חזרה למקור שלה.",
+          "meta": "designcompass.org · 4.11",
+          "url": "https://designcompass.org/en/2026/11/04/figma-weave-ai-creative-workflows/"
+        },
+        {
+          "title": "חושבים מחדש על פיגמה בעולם AI",
+          "desc": "ניתוח דעה שמסביר למה הערך של פיגמה עובר מהקנבס לכוונה ניידת בין כלים, ולמה זה מאתגר את מודל המושבים שלה.",
+          "meta": "UX Collective · 25.6",
+          "url": "https://uxdesign.cc/rethinking-figma-in-an-ai-world-0facba587ba5"
+        },
+        {
+          "title": "אמון דרך שקיפות, לא דרך קסם: מה סוכני AI צריכים להראות",
+          "desc": "סקירה שבועית עם כמה פריטים ששווה להכיר: GitHub מריץ פיילוט לסוכן נגישות, Notion פותחת פלטפורמה לסוכני AI, וסמאשינג מגזין מסביר למה ספינר טעינה נכשל בממשק אג'נטי.",
+          "meta": "AI UX Design Guide · 18.5",
+          "url": "https://aiuxdesignguide.beehiiv.com/p/this-week-in-aiux-visibility-beats-magic-description"
+        }
+      ]
+    },
+    {
       "date": "2026-11-11",
       "dateLabel": "יום רביעי, 11 בנובמבר",
       "ideas": [
