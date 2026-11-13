@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-13",
+      "dateLabel": "יום שישי, 13 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-13-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "לאובייקט בפיגמה יש עכשיו ציר שלישי, וברגע שסיבבת אותו קיבלת גם את הקוד שמתאר את הסיבוב.",
+          "angle": "ב-12.11.2026 פיגמה הוסיפה אפקט 3D transform, סיבוב על צירי X, Y ו-Z עם קונטרול על פרספקטיבה ועומק. אפשר להנפיש את הסיבוב עם Figma Motion, ובסוף השרשרת ה-CSS שמתאר אותו לא נשאר בפיגמה: מעתיקים אותו ישר מ-Dev Mode או שולחים אותו לסוכן קוד דרך Figma MCP. זה לא עוד אפקט ויזואלי, זה סגירת המעגל בין החלטה עיצובית בתלת מימד לקוד שמריץ אותה, בלי מתרגם אנושי באמצע.",
+          "why": "כי עד עכשיו 3D בפיגמה היה תמיד אפקט תצוגה, לא קוד אמיתי. 12.11.2026 זה התאריך שבו פיגמה חיברה בין מה שעיצבת לבין מה שהמכונה בונה מזה.",
+          "srcUrl": "https://releasebot.io/updates/figma",
+          "srcLabel": "Releasebot, יומן השינויים של פיגמה",
+          "srcDate": "12.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A simple geometric cube rotating on three dashed axis lines in perspective, one face peeling open into clean lines of CSS code flowing toward a small robot-agent icon, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A geometric cube rotates smoothly on three dashed axis lines showing depth and perspective, then one face unfolds and streams clean code lines toward a small robot-agent icon that lights up coral on arrival, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-13-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "AI כבר יודע לייצר תנועה חלקה. ב-10.11.2026 פיגמה נתנה לך לגעת בפיזיקה שמאחוריה, לא רק בתוצאה.",
+          "angle": "פיצ'ר Motion חדש בפיגמה (10.11.2026): לפני שמחילים פריסט אנימציה אפשר לראות אותו מתנגן על הקנבס עצמו. ה-springs הפיזיקליים ל-iOS ול-Android נפתחים לכוונון ממשי, מסה, קשיחות ודעיכה, ואפשר לשמור את הכוונון כערך בתוך מערכת העיצוב. גם קבצי Lottie מקבלים תצוגה מקדימה לפני ייצוא. זה ההפרש בין 'תן ל-AI תנועה יפה' לבין 'תן לי לשלוט בפרמטרים שבונים אותה'.",
+          "why": "כי שני כלי AI יכולים לייצר את אותה תנועה ולהרגיש אחד מהם מלאכותי. ברגע שהמסה, הקשיחות והדעיכה חשופים ולא קבועים בקוד סגור, האחריות על התחושה חוזרת לעיצוב, לא נשארת ניחוש של המודל.",
+          "srcUrl": "https://releasebot.io/updates/figma",
+          "srcLabel": "Releasebot, יומן השינויים של פיגמה",
+          "srcDate": "10.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Three small dial knobs labeled only by simple tick marks, connected by dashed lines to a bouncing spring shape mid-motion, one dial glowing coral, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Three dial knobs turn one at a time, each turn changing the bounce rhythm of a connected spring shape, the spring settling into a smooth natural motion by the end, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-13-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מתוך קורס מיישם AI ואוטומציה (53500), השבוע עם תלמידים שבונים אפליקציה חיה עם AI",
+          "hook": "תלמיד הקליד כותרת, לחץ שמור, וחיכה. שלוש שניות של מסך קפוא גרמו לו למחוק את הפרויקט כולו ולהתחיל מחדש.",
+          "angle": "פורמט: מהכיתה לשטח. בקורס מיישם AI ואוטומציה תלמיד בנה עם AI מסך הוספת משימה. הכל עבד נכון בשרת, אבל הכפתור חיכה לתשובת השרת לפני שהציג משהו על המסך. שלוש שניות של כלום הרגישו לו כמו תקלה, לא כמו המתנה. optimistic UI הוא ההפך: מציגים את התוצאה מיד, כאילו הצליחה, ומתקנים בשקט אם השרת אומר אחרת. זה לא טריק, זה הימור מחושב שהרוב מצליח ושההמתנה עולה יותר מהתיקון הנדיר. לימדתי את זה בדיוק אחרי שראיתי את הרגע הזה בכיתה.",
+          "why": "כי תלמידים שבונים עם AI מקבלים קוד שעובד אבל לא מרגיש נכון, והפער הזה תמיד בתזמון ובתחושה, לא בלוגיקה.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb53500/",
+          "srcLabel": "חומרי קורס מיישם AI ואוטומציה",
+          "srcDate": "13.11",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay hand presses a button and a clay checkmark appears instantly above it while a tiny clock shape fades in the background, no text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A clay hand presses a button, a clay checkmark pops up immediately above it, then a small clock shape quietly fades in and out behind it to show the real wait happening unseen, gentle stop motion rhythm, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "יומן השינויים של פיגמה, תחילת נובמבר 2026",
+          "desc": "כל העדכונים לפי תאריך: 3D transforms וחיבור ל-MCP (12.11), Figma Motion עם springs פיזיקליים (10.11), בחירת אובייקט בקליק אחד (6.11) ועוד.",
+          "meta": "Releasebot · 12.11",
+          "url": "https://releasebot.io/updates/figma"
+        },
+        {
+          "title": "פיגמה מחברת קוד, קונטקסט וסוכנים על קנבס יצירה אחד",
+          "desc": "סקירה על הכיוון הרחב שפיגמה מציגה: קנבס אחד שמחבר עיצוב, קוד וסוכני AI בלי לעבור בין כלים.",
+          "meta": "CXOToday",
+          "url": "https://cxotoday.com/media-coverage/figma-brings-code-context-and-agents-together-on-the-full-stack-creative-canvas/"
+        },
+        {
+          "title": "AI מגיע ל-UX: נפרדים מלקוחות, פרוטוטייפינג מתקדם בפיגמה",
+          "desc": "חשיבה על איך AI משנה לא רק את הכלים אלא את מבנה מקצוע ה-UX עצמו, מצד אחד של UX Collective.",
+          "meta": "UX Collective",
+          "url": "https://uxdesign.cc/ai-is-coming-for-ux-breaking-up-with-clients-advanced-figma-prototyping-b57c82892c2"
+        }
+      ]
+    },
+    {
       "date": "2026-11-12",
       "dateLabel": "יום חמישי, 12 בנובמבר",
       "ideas": [
