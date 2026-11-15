@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-15",
+      "dateLabel": "יום ראשון, 15 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-15-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "פיגמה נתנה לעריכת AI משהו שעריכת וידאו קיבלה מזמן: להריץ כמה עריכות במקביל ולא לנעול את המסך על אחת.",
+          "angle": "העדכון האחרון בווייב פותח כמה עריכות AI על הקנבס במקביל, עם מצב טעינה נפרד לכל אחת, ואפשר להמשיך לעבוד בזמן שהן רצות. פורמט: מדריך השוואתי עם מספרים. להריץ את אותו בריף בשלושה פרומפטים שונים במקביל ולמדוד כמה זמן זה חוסך מול לעבוד אחד אחד, בלי לנחש.",
+          "why": "זה ההבדל בין AI שמשרת משתמש אחד בכל פעם לבין AI שמתנהג כמו צוות קטן שעובד בשבילך. זה לא רק מהירות, זה שינוי בהרגל העבודה עצמו.",
+          "srcUrl": "https://figma.com/release-notes",
+          "srcLabel": "Figma Release Notes",
+          "srcDate": "15.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, three overlapping rectangular canvases each mid-edit with a small spinning loader icon in the corner, all three glowing softly at once, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, three rectangular canvases appear side by side each showing a different edit in progress with a spinning loader, all three loaders spin simultaneously then settle into finished states one after another, camera holds steady, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-15-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "שני כלים חדשים הבטיחו השבוע להחליף מעצב. מעצבים נרשמו לרשימת ההמתנה של שניהם, כולל של זה שמאיים עליהם.",
+          "angle": "הניוזלטר השבועי של UX Collective שם שני כלים זה לצד זה: Genius, קופיילוט שמציע הצעות תוך כדי עיצוב, ו-Galileo, שמציב לעצמו מטרה גבוהה יותר, להחליף את המעצב. ההרשמה המשותפת לשני הכלים היא הסיפור האמיתי, לא הפחד מ-AI אלא הסקרנות שגוברת עליו.",
+          "why": "זה מבחן שאני רואה בשטח יותר מפעם אחת: מעצב שמתנגד בפומבי ל-AI ובודק אותו בחשאי באותו שבוע. הפער בין ההצהרה לפעולה הוא מה שקובע מי ישרוד את המעבר, לא ההצהרה עצמה.",
+          "srcUrl": "https://uxdesign.cc/ai-is-coming-for-ux-breaking-up-with-clients-advanced-figma-prototyping-b57c82892c2",
+          "srcLabel": "UX Collective",
+          "srcDate": "15.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, two small robot assistant icons standing at opposite ends of a drafting table, one holding a pencil offered toward a human silhouette, the other quietly finishing a canvas alone, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a human silhouette stands at a drafting table between two small robot assistant icons, one offers a pencil toward the human while the other quietly completes a canvas alone, camera slowly pushes in, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-15-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "ישר מהשיעור בונוס C, 10 ההתנהגויות המודרניות, קורס UI/UX 45900",
+          "hook": "קליפ של שמונה שניות, בלי כותרת, רק גלילה שמריצה פריים אחרי פריים. מי שמזהה את ההתנהגות מרים יד בתגובות.",
+          "angle": "פורמט: חידה ויזואלית + פרומפט בתגובה ראשונה. video scrubbing היא ההתנהגות הראשונה מתוך 10 ההתנהגויות המודרניות שאני מלמד בשיעור הבונוס C, ועדיין לא הגעתי אליה בכיתה בפועל. הפוסט: קליפ שמראה גלילה שמריצה סרטון פריים פריים, בלי נגן, בלי כפתור פליי, בלי מילה שמסבירה מה קורה. השאלה היחידה: איזו התנהגות זו. השם והפרומפט שיצר את הקליפ יושבים בתגובה הראשונה.",
+          "why": "video scrubbing הוא בדיוק סוג ההתנהגות שקשה להסביר במילים וקל להראות בשנייה אחת, אז הפעם הפוסט עצמו הוא הדוגמה. אותו קליפ בדיוק עובד גם כסרטון ברשימה של היום, אסט אחד לשני ערוצים.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb45900/",
+          "srcLabel": "דף הסטטוס החי, קורס 45900",
+          "srcDate": "15.11",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, a clay filmstrip with a small clay scrubber handle gripping one frame, no text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, a small clay hand drags a scrubber handle along a clay filmstrip, each frame popping forward one at a time in sync with the drag, gentle stop motion jitter, camera holds steady, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "יומן השינויים של פיגמה: כמה עריכות AI במקביל, GPT-5.6 בפיגמה מייק",
+          "desc": "סיכום השינויים האחרונים בפיגמה, כולל עריכת AI מרובה בווייב ומודל חדש בפיגמה מייק",
+          "meta": "Figma Release Notes",
+          "url": "https://figma.com/release-notes"
+        },
+        {
+          "title": "AI מגיע ל-UX: קופיילוט מעצבים, וכלי שרוצה להחליף אותם",
+          "desc": "ניוזלטר שבועי שמציג את Genius ו-Galileo זה לצד זה, ואת התור שנרשמו אליו מעצבים לשניהם",
+          "meta": "UX Collective",
+          "url": "https://uxdesign.cc/ai-is-coming-for-ux-breaking-up-with-clients-advanced-figma-prototyping-b57c82892c2"
+        },
+        {
+          "title": "יומן השינויים של היגספילד לנובמבר: GPU מהצ'אט, סטודיו מודעות, קלינג 4.0 Flash",
+          "desc": "כל מה שהיגספילד שלחו בשבועיים האחרונים, משכירת GPU מתוך קלוד ועד מודל קלינג קל ומהיר",
+          "meta": "Higgsfield Changelog",
+          "url": "https://higgsfield.ai/changelog"
+        }
+      ]
+    },
+    {
       "date": "2026-11-13",
       "dateLabel": "יום שישי, 13 בנובמבר",
       "ideas": [
