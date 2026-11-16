@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-16",
+      "dateLabel": "יום שני, 16 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-16-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": "מאחורי הקלעים שלך: הסילבוס לקורס ה-Figma Weave החדש שלך בג'ון ברייס",
+          "hook": "ל-Weave יש סיפור מקור שרוב המעצבים לא מכירים. פיגמה לא בנתה אותו, היא קנתה אותו. מסטארטאפ ישראלי, ביותר מ-200 מיליון דולר.",
+          "angle": "פיגמה רכשה את הסטארטאפ הישראלי Weavy באוקטובר 2025, ופתחה עבורו מרכז R&D בתל אביב. היום זה Weave, חלק מחבילת AI שכוללת גם Figma Make, Sites, Buzz ו-Draw. אני בונה עכשיו סילבוס לקורס Weave חדש בג'ון ברייס, ופותח את המפגש הראשון עם הסיפור הזה: הכלי שהתלמידים לומדים נולד בשכונה ממש כאן, לא בקמפוס בסן פרנסיסקו.",
+          "why": "אני באמצע כתיבת הסילבוס לקורס, וההיסטוריה הזו משנה איך מציגים את הכלי: לא עוד פיצ'ר אמריקאי, אלא תוצר ישראלי שקיבל תקציב ענק להתפתח.",
+          "srcUrl": "https://blog.mean.ceo/figma-news-november-2026/",
+          "srcLabel": "Figma News, November 2026 (mean.ceo)",
+          "srcDate": "11.2026",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a small geometric building icon with a dollar sign flowing out of it into a larger layered canvas icon made of translucent stacked panels, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, camera pushes in on a small geometric building icon, a glowing coin trail flows out of it and morphs into a large layered canvas icon, layers fanning open one by one, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-16-2",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מתוך קורס מיישם AI ואוטומציה (53500), לקראת מפגש ההמשך עם שגיא ברון מחר",
+          "hook": "בסקר שפורסם לפני שבוע, השיעור שאמר שהמעסיק נותן הדרכת AI עלה מ-25 אחוז ל-58 אחוז בתוך שנה. ההדרכה שם, הזמן לתרגל לא.",
+          "angle": "לפי סקר של Workera שפורסם ב-5.11.2026, 56 אחוז מהעובדים שקיבלו הדרכת AI אמרו שאין להם זמן מוקצה בשעות העבודה כדי בפועל לתרגל. זה בדיוק הפער שבגללו כל מפגש בקורס מיישם AI שלי נגמר בתוצר מוחשי, לא בהרצאה. אין עוד הדרכה שתלמדו בבית, יש משימה שנבנית בזמן המפגש עצמו.",
+          "why": "מחר יש מפגש המשך עם שגיא ברון על הקורס, והנתון הזה מחזק בדיוק את הכיוון שבחרנו: זמן תרגול בתוך השעה, לא אחריה.",
+          "srcUrl": "https://www.reworked.co/learning-development/companies-pay-for-ai-training-but-dont-give-staff-time-to-learn/",
+          "srcLabel": "Reworked · David Barry",
+          "srcDate": "5.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a split hourglass icon, one side filled with small course and robot icons, the other side empty next to a still clock icon, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, camera holds on a split hourglass icon, the training-icons side fills quickly while the empty clock side stays frozen, a thin progress bar beneath it that never moves, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-16-3",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": "מאחורי הקלעים שלך: איך בניתי את הסקיל eyal-post-writer לקלוד",
+          "hook": "ב-SkillsMP רשומים מעל 800 אלף קבצי SKILL.md. בפועל כתבתי אחד משלי, כי אף אחד מה-800 אלף לא ידע לכתוב בקול שלי.",
+          "angle": "פורמט: רשימת כלים קצרה. ככה נראית מפת שוק הסקילים לקלוד ב-2026: Skills.sh כ-2,000 סקילים תחת Vercel, פעיל מאז ינואר; SkillsMP מעל 800,000, הסינון היחיד הוא שני כוכבים בגיטהאב; ClaudeSkills.info כ-658 סקילים חינמיים; הדירקטורי הרשמי של Anthropic, כ-20 סקילים מתויקים ביד. המספרים האלה אומרים דבר אחד: כמות לא שווה התאמה.",
+          "why": "ככל שהמספרים האלה גדלים, השאלה שחוזרת בקורסים שלי היא איך בוחרים נכון, לא איך מוצאים הכי הרבה. בניתי סקיל כתיבה אישי כי מתוך 800 אלף לא היה אחד שכותב כמוני.",
+          "srcUrl": "https://www.agensi.io/learn/best-ai-agent-skills-marketplaces-2026",
+          "srcLabel": "Agensi",
+          "srcDate": "11.2026",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, five small clay shelf boxes of different sizes lined up on a studio table, one tiny box glowing warmly brighter than the rest, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, camera trucks slowly past five clay shelf boxes of different sizes, stopping on the smallest one which lights up warmly, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "מה חדש בפיגמה בנובמבר 2026: Weave, Make, Sites, Buzz ו-Draw",
+          "desc": "סקירה של כל חבילת ה-AI של פיגמה, כולל סיפור רכישת Weavy הישראלית.",
+          "meta": "mean.ceo · 11.2026",
+          "url": "https://blog.mean.ceo/figma-news-november-2026/"
+        },
+        {
+          "title": "חברות משלמות על הדרכת AI, אבל לא נותנות זמן ללמוד",
+          "desc": "סקר Workera: הדרכת AI במקום העבודה עלתה מ-25 אחוז ל-58 אחוז, אבל 56 אחוז מהעובדים אין להם זמן לתרגל.",
+          "meta": "Reworked · 5.11",
+          "url": "https://www.reworked.co/learning-development/companies-pay-for-ai-training-but-dont-give-staff-time-to-learn/"
+        },
+        {
+          "title": "מפת שוק הסקילים לסוכני AI ב-2026",
+          "desc": "השוואה בין שבעה מאגרי סקילים לקלוד וסוכני AI אחרים, מ-Skills.sh ועד SkillsMP.",
+          "meta": "Agensi · 11.2026",
+          "url": "https://www.agensi.io/learn/best-ai-agent-skills-marketplaces-2026"
+        }
+      ]
+    },
+    {
       "date": "2026-11-15",
       "dateLabel": "יום ראשון, 15 בנובמבר",
       "ideas": [
