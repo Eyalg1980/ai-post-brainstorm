@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-17",
+      "dateLabel": "יום שלישי, 17 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-17-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "פעם, כדי לתרגם מסך בפיגמה היית בונה אותו מחדש בשפה השנייה, פיקסל פיקסל. ב-17.9.2026 פיגמה שינתה את זה.",
+          "angle": "פורמט: שתי נקודות בזמן. לפני: את מתקנת כותרת בעברית, ואז פותחת את הגרסה האנגלית, הערבית והצרפתית ומתקנת שם ביד, אחת אחת. אחרי 17.9.2026: פיגמה השיקה Figma node, חיבור שמביא כל פריים מהקנבס הרגיל לתוך תהליך Weave. מתקנים את המקור פעם אחת, והשינוי זורם אוטומטית לכל גרסאות התרגום, לכל איטרציה, ואפילו לגרסת הווידאו שנוצרה מהמסך. זה לא עוד תבנית AI, זו הפעם הראשונה שעריכת מקור אחת מעדכנת כמה פלטפורמות תוכן בלי לפתוח שום קובץ שני.",
+          "why": "כי זה בדיוק הפער שסטודיואים כמו סימפלה מרגישים כל שבוע: גרסאות תוכן שמתפצלות ברגע שמישהו מתקן דבר אחד במקור.",
+          "srcUrl": "https://createwith.com/tool/figma/updates/figma-node-connects-any-frame-to-weave-workflows",
+          "srcLabel": "Createwith",
+          "srcDate": "17.9",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Split composition: left side shows a single design frame with a dashed outline, right side shows the same frame connected by thin glowing coral lines to four small icons, a document, a globe, a play button and a stack of cards, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single design frame on the left pulses once, then thin glowing coral lines extend outward one by one to four connected icons, a document, a globe, a play button and a stack of cards, each lighting up in sequence as the line reaches it, camera holds static, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-17-2",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "ישר מהיום: מפגש ההמשך עם שגיא ברון על קורס 53500, 17.11.2026 ב-14:10",
+          "hook": "לתיקייה של סקיל יש קובץ חובה אחד, ושני קבצים אופציונליים שרוב האנשים שוכחים. ההבדל בין השניים הוא ההבדל בין סקיל טיפש לסקיל שעובד.",
+          "angle": "דניאל בוארון פירק את זה בהרצאת האורח שלו: SKILL.md הוא הקובץ היחיד שחייב להיות, references/ ו-scripts/ הם תוספות שנטענות רק כשצריך. ה-scripts הם לא עוד הזדמנות לקלוד לנחש, הם קוד דטרמיניסטי שרץ בדיוק אותו דבר בכל פעם. ואז יש את ההבחנה שחשובה יותר: סקיל קונטקסט נותן לקלוד ידע, איך אנחנו מדברים, מה חשוב לנו, וסקיל פעולה נותן לו ידיים, למשל חיבור ל-Figma MCP שבפועל לוחץ כפתורים בקובץ. היום, במפגש ההמשך עם שגיא, זו בדיוק השאלה שעולה: האם הסקיל שבניתם בכיתה הוא זיכרון, או כלי עבודה.",
+          "why": "כי תלמידים בכל מחזור בונים סקיל ראשון שהוא רק טקסט, ומתפלאים שהוא לא עושה כלום בפועל.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb53500/",
+          "srcLabel": "אתר קורס 53500",
+          "srcDate": "17.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single open folder icon with one solid glowing document at its center, two faint dashed-outline pages behind it, and a small robotic hand icon reaching toward the folder from the right, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A closed folder icon opens slowly, revealing one solid glowing document at its center while two dashed outline pages fade in behind it, then a small robotic hand icon reaches in from the right and taps the glowing document, camera holds static, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-17-3",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "יש MCP שמחבר לסוכן AI שלך יותר מ-620 אלף מסכי אפליקציה אמיתיים, וזה לא כדי לגנוב השראה.",
+          "angle": "Mobbin MCP מחבר את הארכיון של Mobbin, מעל 621,500 מסכי אפליקציה, לכלי AI כמו קלוד. במקום לתכנן מסך לפי טעימה, הסוכן שלך שואל את הארכיון איך עשרות אפליקציות פתרו את אותה בעיה בדיוק, בונה לוח מחקר עם הדוגמאות, ואז יוצר את ההפניה הזו כעיצוב ערוך שאפשר לשנות. זה סקיל Design Research בפעולה: לא עוד כלי שמנחש איך דף אמור להיראות, אלא ארכיון אמיתי שהופך להצעת עיצוב קונקרטית.",
+          "why": "כי רוב השיחות על AI בעיצוב עדיין מדברות על יצירה מאפס, ולא על הדבר שכבר קיים ועובד בעשרות אפליקציות אחרות.",
+          "srcUrl": "https://www.toools.design/newsletter/issues/figma-design-agent-ai-in-design-2026-motion-meditations-in-color-just-a-design-list",
+          "srcLabel": "TOOOLS #9",
+          "srcDate": "26.5",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A grid of nine small app-screen rectangles arranged 3x3 on the left, each connected by a single thin coral line converging into one larger screen outline on the right that mirrors their shared layout pattern, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Nine small app-screen rectangles arranged in a 3x3 grid pulse one by one from left to right, each sending a thin coral line converging toward a single larger screen outline on the right, which gradually fills in matching the shared pattern as the lines arrive, camera holds static, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "פיגמה בונה סוכן AI פנימי שמעצב איתך על הקנבס",
+          "desc": "כתבה על יוזמת פיגמה לבנות אסיסטנט AI מובנה שמשתלב בעבודה על הקנבס עצמו, ולא כפלאגין חיצוני שמתחבר מבחוץ.",
+          "meta": "TheNextWeb",
+          "url": "https://thenextweb.com/news/figma-builds-its-own-ai-assistant-that-can-design-alongside-you-on-the-canvas"
+        },
+        {
+          "title": "TOOOLS #9: הסוכן של פיגמה, ו-Mobbin MCP שמחבר ל-620 אלף מסכים",
+          "desc": "ניוזלטר העיצוב TOOOLS סוקר את Figma Design Agent, סוכן AI פנימי שמכבד קומפוננטות וטוקנים קיימים, ולצדו Mobbin MCP שמחבר ספריית אפליקציות עצומה לכלי AI.",
+          "meta": "TOOOLS · 26.5",
+          "url": "https://www.toools.design/newsletter/issues/figma-design-agent-ai-in-design-2026-motion-meditations-in-color-just-a-design-list"
+        },
+        {
+          "title": "קוד על הקנבס, סקילי AI ופלאגינים בקליק: מה פיגמה הציגה ב-Config 2026",
+          "desc": "סיכום ההכרזות מ-Config 2026: code layers שרצים React על הקנבס, סקילי AI שנבנים מפרומפט טקסט, ופלאגינים מותאמים אישית שנוצרים מתיאור בשפה חופשית.",
+          "meta": "TheNextWeb · 24.6",
+          "url": "https://thenextweb.com/news/figma-config-code-layers-ai-skills-plugins-animations"
+        }
+      ]
+    },
+    {
       "date": "2026-11-16",
       "dateLabel": "יום שני, 16 בנובמבר",
       "ideas": [
