@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-18",
+      "dateLabel": "יום רביעי, 18 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-18-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "בפיגמה אפשר כבר חודשים לבנות אנימציה על ציר זמן אמיתי, לא רק מעברים בין מסכים. ברוב החוג שלי עדיין אף אחד לא שמע על Figma Motion.",
+          "angle": "פורמט: רשימת כלים קצרה. מיפוי מהיר של מה ש-Figma Motion נותן שפרוטוטייפ קלאסי לא: טיימליין אמיתי, קיי-פריימים, ייצוא אנימציה. בעברית יש על זה כמעט אפס תוכן, אז זו גם הזדמנות SEO קטנה.",
+          "why": "זה כבר באוויר כמה חודשים אבל לא נספג. כל שבוע שאני שואל בכיתה מי מכיר, ידיים נשארות למטה.",
+          "srcUrl": "https://designcompass.org/en/2026/06/26/figma-motion-config-2026/",
+          "srcLabel": "Design Compass, Figma Motion Revealed",
+          "srcDate": "26.6",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A horizontal animation timeline with keyframe diamonds spaced along it, a small design frame icon sliding along the track leaving a soft motion trail, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, no gradients, no text. Camera slowly pushes in on a horizontal timeline, keyframe diamonds light up one by one left to right as a small UI card glides and bounces along the track, ending with all keyframes glowing, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-18-2",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "ב-10.11 קלוד פתח לוח שיתופי, Sheets ו-Data בלי קוד. בקורס מיישם AI זה כבר הדבר הראשון שאני פותח בשיעור.",
+          "angle": "חלק מהתלמידים ב'מיישם AI ואוטומציה' עדיין בונים ב-Excel ואז מעבירים ידנית. Claude Data עושה את זה בלי export, אז השבוע אני בונה סביב זה את השיעור הבא.",
+          "why": "השקה טרייה מ-10.11, ומדויקת בול לקהל הקורס: Citizen Developers שרוצים תוצאה מוחשית בלי לכתוב קוד.",
+          "srcUrl": "https://www.besthub.dev/articles/ai-invades-whiteboards-canvases-and-phones-5-key-nov-2026-updates-a65270c827e5",
+          "srcLabel": "BestHub, AI invades whiteboards, canvases and phones",
+          "srcDate": "10.11",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay figure sits at a desk pointing at a floating clay whiteboard covered in simple clay sticky notes with a tiny clay spreadsheet grid beside it, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A clay figure taps a floating whiteboard, clay sticky notes pop up one by one in stop motion, then a small spreadsheet grid rises beside it and fills with clay numbers, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-18-3",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "מחקר שהיה לוקח שבועיים, היום לוקח שעות. אם אתה חושב שזה אומר שתפקיד המעצב נגמר, פספסת את החלק המעניין.",
+          "angle": "פאנצ'קאט שמים את זה ישר: AI לא מחליף מעצבים, הוא מזיז אותם מעלה, לתפקיד שדומה יותר לדירקטור יצירתי. התפקיד עובר מביצוע לשיקול דעת, והמדדים עוברים מפיצ'רים שיצאו לזמן התאוששות משגיאה ולאמון.",
+          "why": "זה בדיוק הניסוח שחיפשתי כמה שבועות למה שאני רואה בשטח עם לקוחות, ועכשיו יש לו מקור כתוב.",
+          "srcUrl": "https://punchcut.com/perspectives/how-ai-is-reshaping-ui-ux-design-in-2026/",
+          "srcLabel": "Punchcut",
+          "srcDate": "2026",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A simple figure icon climbing a staircase of ascending platforms, from a pencil icon at the bottom step to a compass and megaphone icon at the top step, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, no gradients, no text. Camera tracks a simple figure icon climbing a staircase of ascending platforms, each step swapping its icon from pencil to ruler to compass to megaphone as the figure passes, ending at the top step glowing, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "AI פולש ללוחות, קנבסים וטלפונים: 5 עדכונים מרכזיים מנובמבר 2026",
+          "desc": "קלוד מקבל Whiteboards, Sheets ו-Data; אדובי מרחיבה את Firefly; גוגל שולחת גל Gemini לפיקסל. חמישה עדכונים מה-10.11.",
+          "meta": "BestHub · 10.11",
+          "url": "https://www.besthub.dev/articles/ai-invades-whiteboards-canvases-and-phones-5-key-nov-2026-updates-a65270c827e5"
+        },
+        {
+          "title": "איך AI מעצב מחדש את תפקיד המעצב ב-2026",
+          "desc": "לא תחליף, העברת תפקיד: מעצבים עולים לשכבת השיקול דעת, והמדדים עוברים מפיצ'רים לאמון ולזמן התאוששות משגיאה.",
+          "meta": "Punchcut · 2026",
+          "url": "https://punchcut.com/perspectives/how-ai-is-reshaping-ui-ux-design-in-2026/"
+        },
+        {
+          "title": "כל מה שצריך לדעת על Figma Motion",
+          "desc": "טיימליין אמיתי, קיי-פריימים וייצוא אנימציה בתוך פיגמה. בעברית אין עדיין הרבה תוכן על זה.",
+          "meta": "Design Compass · 26.6",
+          "url": "https://designcompass.org/en/2026/06/26/figma-motion-config-2026/"
+        }
+      ]
+    },
+    {
       "date": "2026-11-17",
       "dateLabel": "יום שלישי, 17 בנובמבר",
       "ideas": [
