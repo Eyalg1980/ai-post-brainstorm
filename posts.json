@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-19",
+      "dateLabel": "יום חמישי, 19 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-19-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "ב-Figma Weave כל שלב ביצירה עם AI נשאר על הקנבס כנוד שאפשר לחזור אליו. אתה לא מייצר מההתחלה כל פעם שמשהו קטן צריך לזוז.",
+          "angle": "ב-Weave כל צעד, הוספת תמונה, פרומפט, generate או edit, הוא נוד על קנבס. אפשר לחזור לנוד קודם ולשנות קלט, לפצל לכמה כיוונים (branch) ולהשוות טיוטות זו לזו, ואפילו להדביק פריים מפיגמה ולקשר אותו למקור כך ששינוי בפריים מזין את הנודים שמשתמשים בו. גם תיקון צבע, קרופ ואורך וידאו נשמרים כנוד, לא כפעולה חד פעמית שנמחקת ברגע שעברת הלאה.",
+          "why": "העדכון פורסם ב-4.11.2026, מבוסס על סיכום רשמי של פיגמה מ-31.10. זה הרגע להתייחס לוויב לא כ'עוד generator' אלא כסביבת production שאפשר להריץ עליה תהליך שלם, להשוות ולחזור אליו.",
+          "srcUrl": "https://designcompass.org/en/2026/11/04/figma-weave-ai-creative-workflows/",
+          "srcLabel": "Design Compass",
+          "srcDate": "4.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A chain of connected circular nodes on a canvas, one node branching into two parallel paths that reconverge, a small linked frame icon attached to one node with a dashed connector line, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A chain of connected circular nodes draws itself across the canvas, one node splits into two branching paths that draw outward then a dashed line connects back to a small frame icon, continuous smooth motion, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-19-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "יש כלי AI חדש שנקרא Galileo שהמטרה המוצהרת שלו היא להחליף מעצבים. מעצבים נרשמו לרשימת ההמתנה שלו בשמחה.",
+          "angle": "ניוזלטר UX Collective מצטט שני כלים: Genius, קופיילוט שמבין מה אתה מעצב ומציע הצעות, ו-Galileo, כלי שמתואר כמי שיכול להחליף מעצבים כליל. מה שמטריד יותר מהכלים עצמם: עדויות מספריות מצטברות שחשיפה גבוהה ל-AI בחברה מקטינה גיוס לא רק בתפקידים שגרתיים, גם בתפקידים יצירתיים. 'אי אפשר יותר לומר שהתפקידים היצירתיים שלנו חסינים ל-AI', כותבים בניוזלטר.",
+          "why": "המאמר המוביל בגיליון שואל אם האופטימיות הטכנולוגית שלנו היא נקודה עיוורת קולקטיבית. השאלה שבאמת חשוב ללמד עכשיו היא לא אם AI יחליף מעצבים, היא איזה מעצבים ילמדו להפעיל את הכלים האלה לפני שהכלים יפעילו אותם.",
+          "srcUrl": "https://uxdesign.cc/ai-is-coming-for-ux-breaking-up-with-clients-advanced-figma-prototyping-b57c82892c2",
+          "srcLabel": "UX Collective",
+          "srcDate": "11.2026",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Two simple figures stand in a dashed-outline waitlist line, one is human shaped, the other is a small geometric robot shape standing right behind in the same line, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A human shaped figure and a small geometric robot figure both step forward into the same dashed waitlist line one after another, the line extends further back, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-19-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מאחורי הקלעים שלך: הרצאת האורח של דניאל בוארון בקורס 53500",
+          "hook": "לקובץ טקסט אחד יש זיכרון שהפרומפט שלך לא מקבל. זה כל ההבדל בין משהו שתצטרך להסביר מחדש בכל פעם, לבין משהו שכבר יודע מה לעשות.",
+          "angle": "פורמט: ביוגרפיה של אובייקט. הגיבור הפעם הוא לא כלי, הוא קובץ טקסט אחד: SKILL.md. הוא נולד כתיקייה עם שם ותיאור, ולידו שני ילדים אופציונליים: references, לידע שנשען עליו בלי להיטען בכל קריאה, ו-scripts, לקוד דטרמיניסטי במקום שה-LLM ינחש. דניאל בוארון, מרצה אורח בקורס שלי, קרא לזה ככה: 'פרומפט הוא בקשה. סקיל הוא זיכרון.' פרומפט הוא חד פעמי, ידני, לא עקבי. סקיל הוא מתמשך, מופעל אוטומטית, עקבי ב-100 אחוז, ואפשר לחלוק אותו עם כל הצוות. הדרך לבנות אחד: עושים פעמיים בצ'אט ומבקשים מקלוד לסכם לקובץ ולבדוק בצ'אט נקי, או שמתארים בשפה פשוטה שישה מרכיבים (מטרה, טריגרים, שיטה, קונטקסט ארגוני, פלט, MCP וכלים). ההימור שלו לאן זה הולך: סקילים הם ה-playbook של ה-AI שלך, agents הם צוות מקביל, ו-Design.md הוא מערכת העיצוב שלך כתובה בשביל מכונות. השורה שסגרה את ההרצאה: Drop the FOMO. Build YOUR toolkit.",
+          "why": "מתוך מפגש ההמשך עם דניאל בוארון בקורס מיישם AI ואוטומציה, 53500. התלמידים שלי בונים היום סקילים כמו שלמדו לבנות קומפוננטות, לא עוד תרגיל חד פעמי.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb53500/",
+          "srcLabel": "הרצאת האורח של דניאל בוארון, חומרי קורס 53500",
+          "srcDate": "19.11",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay folder opens to reveal a single clay document standing upright inside it, with two tiny optional clay satellite folders orbiting beside it, no text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay folder opens, a single clay document floats up and glows softly while a few tiny clay gears turn around it on their own with no hand touching them, two small satellite folders drift in beside it, gentle stop motion rhythm, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Figma Weave: איך קנבס אחד שומר כל שלב יצירה כנוד שאפשר לחזור אליו",
+          "desc": "פירוק של מבנה הנודים, הענפים (branches) וחיבור הפריימים ב-Weave, לפי הסיכום הרשמי של פיגמה.",
+          "meta": "Design Compass · 4.11",
+          "url": "https://designcompass.org/en/2026/11/04/figma-weave-ai-creative-workflows/"
+        },
+        {
+          "title": "AI מגיע ל-UX: קופיילוט שמציע עיצוב, וכלי שאולי יחליף מעצבים כליל",
+          "desc": "ניוזלטר UX Collective על Genius ו-Galileo, ועל עדויות שחשיפה ל-AI כבר פוגעת גם בתפקידים יצירתיים.",
+          "meta": "UX Collective · 11.2026",
+          "url": "https://uxdesign.cc/ai-is-coming-for-ux-breaking-up-with-clients-advanced-figma-prototyping-b57c82892c2"
+        },
+        {
+          "title": "פיגמה וויב בפעולה: NVIDIA, Lyft ו-DoorDash בונים עם קנבס AI אחד",
+          "desc": "שני קייס סטאדי קונקרטיים: NVIDIA שבנתה סצנת רובוט קולנועית ל-CES, ו-Lyft שהפכה צילום מוצר אחד לספרייה אינסופית.",
+          "meta": "iTWire · 17.4",
+          "url": "https://itwire.com/guest-articles/company-news/reintroducing-figma-weave-with-20-new-workflows-for-ai-native-design.html"
+        }
+      ]
+    },
+    {
       "date": "2026-11-18",
       "dateLabel": "יום רביעי, 18 בנובמבר",
       "ideas": [
