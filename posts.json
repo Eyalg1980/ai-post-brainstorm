@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-20",
+      "dateLabel": "יום שישי, 20 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-20-1",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "כלי AI חדש הופך תיאור טקסט או קובץ PDF לשלושה לייאאוטים שונים של ממשק, עם קוד עובד מאחורי כל אחד. לא הדמיה, קוד שהכפתורים בו באמת לוחצים.",
+          "angle": "הכלי נקרא Moonchild. מדביקים תיאור או PDF, והוא מחזיר שלוש גרסאות שונות למסך, כל אחת עם קוד מוכן לשימוש וקומפוננטות אינטראקטיביות: כפתורים שלוחצים, מתגים שעובדים. הוא מצטרף לגל כלים חדשים שעלו בחודשים האחרונים (MockU למוקאפים, BentoGenerator לרשתות בנטו) שכולם עושים דבר אחד דומה: מקצרים את המרחק בין אידיאה לפרוטוטייפ שעובד, לא רק נראה טוב.",
+          "why": "זה בדיוק השלב שהכי כואב בתהליך עיצוב: לפני שיש לך ביטחון באיזה כיוון ללכת, אתה צריך לראות שלושה כיוונים חיים, לא שלוש תמונות סטטיות.",
+          "srcUrl": "https://uxplanet.org/new-ux-ui-ai-design-tools-you-need-to-try-8fdcdbe93073",
+          "srcLabel": "UX Planet",
+          "srcDate": "11.2026",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Three identical dashed rectangle screens standing side by side, each with a slightly different simple interface layout inside drawn only in outline, a small gear icon floating above the middle one, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Three dashed rectangle screens slide into frame one after another, each layout outline draws itself stroke by stroke, the small gear icon above the middle one slowly rotates, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-20-2",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מאחורי הקלעים שלך: השאלה שהוא פותח איתה את קורס מיישם AI ואוטומציה",
+          "hook": "77 אחוז מהעובדים שמשתמשים ב-AI בעבודה, משתמשים בכלים שהמעסיק שלהם לא אישר. זו לא סטטיסטיקת עניין, זו הסיבה שאני פותח כל סדנה בשאלה אחת.",
+          "angle": "פורמט: צ'ק-אין נבואה. בכל סדנה בקורס מיישם AI ואוטומציה אני אומר את אותו משפט: רוב הארגונים כבר עובדים עם AI, הם רק לא יודעים את זה רשמית. סקר של WalkMe בקרב עובדי משרד בבריטניה שם לזה מספרים: קרוב למחצית מהעובדים לא משתמשים ב-AI בעבודה בכלל, אבל מתוך אלה שכן, 77 אחוז משתמשים בכלים שהמעסיק שלהם לא אישר. 42 אחוז מסבירים את ההימנעות בחוסר הכשרה, ונשים (48 אחוז) נמנעות יותר מגברים (37 אחוז). זה בדיוק הפער שסדנת מיישם AI באה לסגור: לא עוד כלי, מדיניות ברורה ושעתיים תרגול.",
+          "why": "התחזית לא הייתה חכמה במיוחד, היא הייתה פשוט מה שראיתי בשטח בכל קבוצה. הסקר רק שם לה מספרים.",
+          "srcUrl": "https://www.trainingjournal.com/?p=10498",
+          "srcLabel": "TrainingJournal (סקר WalkMe)",
+          "srcDate": "11.2026",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A simple figure standing behind a small dashed podium, one hand raised mid question, a thought bubble shaped as a plain speech dash above, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A simple figure behind a dashed podium raises one hand slowly as a dashed speech bubble outline draws itself above, holds briefly, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-20-3",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "בפיגמה שינו את כל לשונית הקוד. עכשיו היא מחולקת לטיפוגרפיה, צבע, גבולות ועוד, ולוחצים להעתיק רק את מה שבאמת צריך.",
+          "angle": "הלשונית שנקראה Code Panel עברה שיפוץ ונקראת עכשיו Inspect Tab. במקום גוש CSS אחד ארוך, היא מציגה קטגוריות מופרדות: טיפוגרפיה, צבע, גבולות ועוד, וכל אחת ניתנת להעתקה בנפרד בלחיצה. זה שינוי קטן על הנייר, אבל הוא בדיוק מה שמקצר את השיחה בין מעצב למפתח בהנדאוף: אין יותר חיפוש בגוש קוד שלם, יש העתקה של הפרמטר שצריך, ברגע שצריך אותו.",
+          "why": "מלמד הנדאוף כבר שנה בקורסים, וזה בדיוק הסוג של שינוי שלא שם לב לו מי שלא מסתכל על הפיצ'רים השוטפים של פיגמה כל שבוע.",
+          "srcUrl": "https://www.figma.com/whats-new/",
+          "srcLabel": "Figma, What's New",
+          "srcDate": "11.2026",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A dashed outline panel split into four labeled sections by thin divider lines, a small cursor icon clicking on one section which highlights in the accent color, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A dashed outline panel assembles itself section by section, then a small cursor icon moves across and clicks one section which highlights briefly before fading back, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Figma News, נובמבר 2026 (מהדורת סטארטאפים)",
+          "desc": "סיכום שבועי של מה שקרה השבוע בעולם הסטארטאפים והכלים סביב פיגמה.",
+          "meta": "Mean.ceo · 11.2026",
+          "url": "https://blog.mean.ceo/figma-news-november-2026/"
+        },
+        {
+          "title": "9 כלי AI שכדאי להכיר לעיצוב UX",
+          "desc": "סקירה של UX Design Institute לכלים הנפוצים ביותר כרגע לעבודת UX עם AI.",
+          "meta": "UX Design Institute · 2026",
+          "url": "https://www.uxdesigninstitute.com/blog/the-top-8-ai-tools-for-ux/"
+        },
+        {
+          "title": "TJ Newsflash: AI, אימוץ ואי-אסטרטגיה בארגונים",
+          "desc": "עדכון שבועי של TrainingJournal על אימוץ AI במקום העבודה, פערי מדיניות וחששות עובדים.",
+          "meta": "TrainingJournal · 11.2026",
+          "url": "https://www.trainingjournal.com/?p=10498"
+        }
+      ]
+    },
+    {
       "date": "2026-11-19",
       "dateLabel": "יום חמישי, 19 בנובמבר",
       "ideas": [
