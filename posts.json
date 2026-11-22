@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-22",
+      "dateLabel": "יום ראשון, 22 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-22-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "Lyft הפך פוטושוט אחד של מכונית לאלפי גרסאות צבע, עיר ותאורה בלי לצלם מחדש. NVIDIA בנה איתו סצנת רובוט שלמה לכנס. שניהם עשו את זה בתוך Weave, לא בכלי ג'נרציה נפרד.",
+          "angle": "פיגמה מתעדת שתי דוגמאות ייצור אמיתיות ב-Weave: ב-Lyft, ה-Creative Studio הפנימי שלהם לוקח צילום פרסומת אחד ומפיק ממנו אלפי וריאציות של רכב, עיר ותאורה בלי לצלם מחדש. ב-NVIDIA, צוות הקריאייטיב בנה סצנת רובוט קולנועית לכנס דגם מתוך מודלים תלת-מימדיים בדיוק נמוך, עם סוכן AI מותאם שעזר בתאורה, והסצנה הסופית הועלתה לרזולוציה 12K. זה בדיוק ההבדל בין כלי AI ליצירת תמונה בודדת לבין תשתית production שחברה שלמה סומכת עליה.",
+          "why": "זה מה שאני מלמד בסדנאות Weave לארגונים: לא השאלה אם AI יודע ליצור תמונה יפה, השאלה אם אפשר לבנות עליו pipeline שחוזר על עצמו אלף פעם בלי לפתוח קובץ חדש.",
+          "srcUrl": "https://itwire.com/guest-articles/company-news/reintroducing-figma-weave-with-20-new-workflows-for-ai-native-design.html",
+          "srcLabel": "iTWire, Figma Weave in production at Lyft, DoorDash and NVIDIA",
+          "srcDate": "4.2026",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single camera icon on the left connects through branching dashed lines to a grid of small car silhouettes in different colors on the right, each slightly varied, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single camera icon pulses once, then dashed branching lines draw outward one by one into a growing grid of small varied car silhouettes, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-22-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "אדובי נותנת לך לתאר דף שיווקי בפרומפט אחד, לקבל ארבע גרסאות, ולהמשיך לערוך אותן בשיחה. באותו חודש היא גם מלמדת את עצמה לקרוא מיתוג מתוך PDF.",
+          "angle": "עדכון Adobe Express לנובמבר 2026 מביא שלושה דברים שרלוונטיים לכל מי שעושה מיתוג: AI Assistant בבטא, שמייצר ארבע גרסאות מתיאור טקסט ואז נותן לערוך אותן בשיחה (להחליף תמונה, לשנות צבעים, לתקן את הפריסה); Extract Brand, שמעלה PDF או תמונה ומחלץ ממנה צבעים, פונטים, לוגו וטון; ועיצוב ישירות בתוך צ'אטג'יפיטי, קלוד, קופיילוט וג'מיני בלי לפתוח את אקספרס בכלל. שלושת הפיצ'רים האלה בעצם ממירים כל קובץ קיים למערכת מיתוג מחולצת, בלי לעבור ידנית על קובץ ברנדינג ישן.",
+          "why": "זה בדיוק מה שאני עושה ללקוחות בעבודת מיתוג, לחלץ זהות מחומרים ישנים. אם הכלי עושה את השלב הראשון אוטומטית, אני מתחיל מהחלטה, לא מסקירה.",
+          "srcUrl": "https://community.adobe.com/announcements-327/what-s-new-in-adobe-express-november-2026-max-highlights-1654532",
+          "srcLabel": "Adobe Community, What's New in Adobe Express, November 2026",
+          "srcDate": "11.2026",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A dashed outline PDF page feeding into a small funnel shape, which outputs four tiny labeled swatches in a row below it, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A dashed outline PDF page slides down into a small funnel shape, four tiny swatches pop out one by one in sequence below it, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-22-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מאחורי הקלעים שלך: ההסבר שאתה נותן בקורס מיישם AI ואוטומציה לתלמידים לא טכניים",
+          "hook": "לתלמידים הלא טכניים בקורס אני לא מסביר סקיל כקוד, אני מסביר אותו כזיכרון קבוע. ברגע שהם מבינים את זה, הם מפסיקים לפחד מהמילה.",
+          "angle": "סקיל הוא בעיניי ההסבר הכי טוב למושג סט הוראות קבוע שהסוכן קורא לפני שהוא מתחיל, לא עוד קוד שצריך להבין. בקורס מיישם AI ואוטומציה (53500) למיישמים לא טכניים, זו הדרך שעובדת: במקום לכתוב פרומפט מההתחלה כל פעם, אתה כותב פעם אחת מה אתה רוצה שהסוכן ידע, וזה נשאר, מופעל אוטומטית, בלי שתזכיר את זה שוב. ברגע שתלמיד מבין שזה בדיוק כמו תדריך קבוע שנותנים לעוזר חדש, לא תחביר שצריך לפענח, הפחד נעלם.",
+          "why": "זו נקודת החיכוך הכי גדולה שראיתי בכיתה, המילה סקיל נשמעת טכנית לפני שהיא בכלל מוסברת.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb53500/",
+          "srcLabel": "חומרי קורס מיישם AI ואוטומציה, 53500",
+          "srcDate": "22.11",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay sticky note pinned above a tiny clay desk, glowing softly, no text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay sticky note appears pinned above a tiny clay desk and glows once gently, two small clay hands nearby stop reaching for a pen, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Figma Weave: סיפורי ייצור של Lyft, DoorDash ו-NVIDIA",
+          "desc": "התיעוד הרשמי של פיגמה על שימושי production אמיתיים ב-Weave.",
+          "meta": "iTWire · 4.2026",
+          "url": "https://itwire.com/guest-articles/company-news/reintroducing-figma-weave-with-20-new-workflows-for-ai-native-design.html"
+        },
+        {
+          "title": "מה חדש ב-Adobe Express, נובמבר 2026",
+          "desc": "AI Assistant בבטא, חילוץ מיתוג מ-PDF, ועיצוב ישיר בתוך קלוד וצ'אטג'יפיטי.",
+          "meta": "Adobe Community · 11.2026",
+          "url": "https://community.adobe.com/announcements-327/what-s-new-in-adobe-express-november-2026-max-highlights-1654532"
+        },
+        {
+          "title": "ספריית Figma לכלי AI לעיצוב UX",
+          "desc": "מאגר משאבים מתעדכן של פיגמה לכלים ול-workflows של AI בעיצוב UX.",
+          "meta": "Figma Resource Library",
+          "url": "https://figma.com/resource-library/ai-tools-for-ux-designers/"
+        }
+      ]
+    },
+    {
       "date": "2026-11-20",
       "dateLabel": "יום שישי, 20 בנובמבר",
       "ideas": [
