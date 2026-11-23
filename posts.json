@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-23",
+      "dateLabel": "יום שני, 23 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-23-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "לעוזר ה-AI של פיגמה יש גישה לקנבס שלך. עכשיו יש לו גם גישה ל-Notion, לאקסל ולגיטהאב, וליצירת סקיל קבוע מספיק פרומפט אחד.",
+          "angle": "פיגמה חושפת שהעוזר ה-AI המובנה שלה, זה שמעבד שכבות ומבצע עריכות על הקנבס, יכול להתחבר לכלים חיצוניים כמו Notion, Granola, Excel וגיטהאב כדי להבין הקשר ארגוני אמיתי ולא רק את מה שרשום בקובץ עצמו. במקביל, כל משתמש יכול לכתוב פרומפט טקסט שיוצר לעוזר סקיל קבוע וחוזר, או פרומפט שבונה פלאגין שלם (למשל מחולל פריסה או מעקב נתיבי וקטור) בלי שורת קוד אחת. זה הופך את העוזר מכלי עריכה חד-פעמי לדמות שזוכרת הקשר ומתפתחת איתך.",
+          "why": "זה בדיוק הפער שאני רואה בסדנאות Weave: אנשים מתייחסים לעוזר כצ'אטבוט שעונה שאלה ושוכח, לא כעמית שזוכר את ההקשר הארגוני שלהם.",
+          "srcUrl": "https://thenextweb.com/news/figma-config-code-layers-ai-skills-plugins-animations",
+          "srcLabel": "TheNextWeb, Figma Config 2026: code layers, AI skills, plugins",
+          "srcDate": "6.2026",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A central dashed outline canvas icon with four thin dashed lines branching outward to simple small icons for a notebook, a spreadsheet, a chat bubble and a code bracket, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. The central canvas icon pulses once, then four dashed lines draw outward one by one connecting to the notebook, spreadsheet, chat bubble and code bracket icons in sequence, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-23-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "בצוות העיצוב של Sierra יש פחות אנשים מספרת האחת של ההנדסה. הפתרון שלהם לא עוד כלי, זה איחוד של שמונה עשרה גרסאות של טבלה אחת לקומפוננטה אחת.",
+          "angle": "כתבה מתעדת איך צוות עיצוב קטן בסטארטאפ ה-AI agents סיירה, שעבר 200 מיליון דולר הכנסה שנתית בתוך שנתיים, מחזיק קצב עם מחלקת הנדסה עשרים פעמים גדולה ממנו. שלושה כללים: קודם בודקים עם דאטה אמיתי ולא דמו יפה, פיגמה לסקיצה ו-Cursor לפרוטוטייפ שרץ בפועל, כי המוצר דאטה-אינטנסיבי ולייאאוט שנראה טוב בפיגמה נשבר כשמכניסים דאטה אמיתי. שנית, בונים מערכות משותפות במקום לתקן מסך בודד, המעצב וויין פאן איחד שמונה עשרה גרסאות שונות של טבלת דאטה לקומפוננטה אחת גמישה עם מיון, חיפוש ודפדוף. שלישית, שומרים על מלאכת יד בכוונה, שעתיים הושקעו באייקון רפאים בגודל 16 על 16 פיקסלים לאחד הסוכנים שלהם, שהפך למסקוט הצוות.",
+          "why": "זה בדיוק מה שאני מנסה להעביר כשמלמדים מערכות עיצוב: AI לא פותר את השאלה מה שווה לתקן, הוא רק מקצר את הזמן אחרי שהחלטת.",
+          "srcUrl": "https://designerfund.substack.com/p/ai-design-sierra",
+          "srcLabel": "Designer Fund, How Sierra's design team keeps up with an engineering org 20x its size",
+          "srcDate": "20.7",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Eighteen tiny identical dashed table icons scattered loosely on the left side converging into a single larger clean table icon on the right, with a small ghost-shaped icon resting beside it, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Eighteen tiny dashed table icons on the left slide and merge one by one into a single larger clean table icon on the right, then a small ghost icon fades in beside it and gives one gentle bounce, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-23-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מאחורי הקלעים שלך: השלב הראשון שאתה מלמד בקורס מיישם AI ואוטומציה",
+          "hook": "לפני שתלמיד בקורס מיישם AI נוגע בכלי אחד, אני מבקש ממנו לשבור את התהליך לתרשים זרימה. לא כדי להיות מסודר, כדי לגלות שהוא לא יודע מה הוא בעצם רוצה לבנות.",
+          "angle": "פורמט: צ'ק-אין נבואה. בקורס מיישם AI ואוטומציה (53500), תרשים הזרימה הוא הכלי הראשון שאני מלמד, לפני כל כלי no-code. הסיבה: ברוב המקרים, התלמיד חושב שהוא רוצה 'אוטומציה', אבל כשהוא מצייר תיבות וחיצים מתגלה שיש לו בעצם שלושה תהליכים נפרדים, או תהליך אחד עם החלטה שהוא לא ידע לנסח במילים. AI טוב בלבנות את התרשים שמתואר לו, לא טוב בלגלות שהתרשים חסר. זה תמיד נשאר על התלמיד.",
+          "why": "זה החלק שהכי מפתיע את התלמידים הלא טכניים, חשבו שהם צריכים ללמוד כלי, ומתברר שהם צריכים ללמוד לשאול שאלה.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb53500/",
+          "srcLabel": "חומרי קורס מיישם AI ואוטומציה, 53500",
+          "srcDate": "23.11",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay diamond decision shape with two tiny clay arrows branching out toward two small clay boxes on either side, no text, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay diamond decision shape appears first, then two tiny clay arrows grow out one after another toward two small clay boxes on either side, no text, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Figma Config 2026: שכבות קוד, סקילים מותאמים ופלאגינים בפרומפט",
+          "desc": "סיכום ההכרזות של Config 2026: קוד שרץ על הקנבס, עוזר AI שמתחבר לכלים חיצוניים, ופלאגינים שנבנים מתיאור טקסט.",
+          "meta": "TheNextWeb · 6.2026",
+          "url": "https://thenextweb.com/news/figma-config-code-layers-ai-skills-plugins-animations"
+        },
+        {
+          "title": "איך צוות העיצוב של Sierra מחזיק קצב עם הנדסה עשרים פעמים גדולה",
+          "desc": "שלושה כללי עבודה של צוות עיצוב קטן בסטארטאפ AI agents שצומח מהר: דאטה אמיתי מוקדם, מערכות במקום מסכים, ומלאכת יד בכוונה.",
+          "meta": "Designer Fund · 20.7.2026",
+          "url": "https://designerfund.substack.com/p/ai-design-sierra"
+        },
+        {
+          "title": "פיגמה מכניסה סוכן AI לקנבס לשיתוף פעולה בזמן אמת",
+          "desc": "סוכן AI שעובד ישירות על קנבס המשתמשים המרובים, יוצר שכבות ומתקן קומפוננטות בלי לצאת מהכלי.",
+          "meta": "Analytics India Magazine · 5.2026",
+          "url": "https://analyticsindiamag.com/ai-news/figma-brings-ai-agent-for-real-time-design-collaboration"
+        }
+      ]
+    },
+    {
       "date": "2026-11-22",
       "dateLabel": "יום ראשון, 22 בנובמבר",
       "ideas": [
