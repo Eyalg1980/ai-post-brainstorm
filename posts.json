@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-24",
+      "dateLabel": "יום שלישי, 24 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-24-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "בפיגמה הוסיפו תפריט החלפת instances עם תמונות ממוזערות וחיפוש. זה נשמע שינוי קטן, אבל זה בדיוק המקום שבו עיצוב מאבד הכי הרבה דקות ביום.",
+          "angle": "פיגמה עדכנה את תפריט ה-Instance Swap. במקום לגלול רשימת שמות ארוכה ולנחש איזה variant זה, יש עכשיו תמונה ממוזערת לכל אפשרות, חיפוש טקסטואלי וקיצורי מקלדת. זה לא עדכון שמייצר כותרות, אבל זה בדיוק סוג השינוי שחוסך חמש דקות עשר פעמים ביום, מה שבסוף היום הוא שעה שלמה.",
+          "why": "כי שינויים כאלה לא מככבים בכתבות, אבל הם אלו שבאמת משנים איך עובדים בפיגמה כל יום. שווה להכיר לפני שנתקלים בזה בלי הקשר.",
+          "srcUrl": "https://www.figma.com/whats-new/",
+          "srcLabel": "Figma What's New",
+          "srcDate": "24.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single UI dropdown panel floating in space, showing small thumbnail squares in a neat grid with one highlighted by a dashed selection outline, a small magnifying glass icon beside a search field, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera slowly pushes in on a dropdown panel of thumbnail squares, one square gently pulses and locks into a dashed highlight as a cursor clicks it, subtle parallax on the grid behind it, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-24-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "השבוע קלטתי שהכלים לא מתחרים יותר על מי מצייר מסך יפה יותר. הם מתחרים על מי מבין את העבודה שקורית סביב המסך.",
+          "angle": "ניוזלטר The Only ממפה את זה יפה: הסוכן של פיגמה כבר שואב קבצי מחקר מגוגל דרייב לתוך הפרומפט, Canva Brush עורכת עיצוב קיים ומשאירה אותו ניתן לעריכה הלאה, Framer מריץ A/B טסטים דרך Convert ומדווח בעצמו, ו-Runway הופכת תהליך חוזר לכלי מתארח קטן. ארבעת הדוגמאות הן לא עוד generator, הן ניסיון לתפוס את ההחלטות שבדרך כלל נשארות סמויות בקובץ הסופי.",
+          "why": "כי אם זה נכון, התפקיד של מעצב זז. פחות זמן על ייצור כל variation, יותר זמן על הגדרת המערכת ובדיקת התוצאות.",
+          "srcUrl": "https://buttondown.com/theonly/archive/ai-is-learning-how-your-team-works/",
+          "srcLabel": "The Only newsletter",
+          "srcDate": "4.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Four small simple app-icon squares connected by thin dashed lines converging into one glowing layer hovering beneath a design canvas, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Four icon squares pulse one after another and send thin light trails converging into a glowing layer beneath a canvas frame, camera holds steady, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-24-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מאחורי הקלעים שלך: הכלל שאתה קובע ביום הראשון של קורס מיישם AI ואוטומציה",
+          "hook": "ביום הראשון של קורס מיישם AI אני אומר משפט אחד שתמיד מפתיע: אתם לא תקלידו אף פקודת git. לא היום, לא בסוף הקורס.",
+          "angle": "פורמט: מהכיתה לשטח. בקורס מיישם AI ואוטומציה קבעתי כלל ברזל: התלמיד לא מקליד פקודות, הוא מבקש מ-Claude Code או לוחץ ב-GitHub Desktop. ריפו ציבורי אחד, ענף main בלבד, תגית checkpoint בסוף כל מודול. תלמידה שאלה אותי בשבוע הראשון למה בכלל צריך לדעת מה זה git אם היא לא מקלידה כלום. התשובה שלי: היא לא צריכה לדעת את התחביר, היא צריכה להבין את הרעיון, שכל שינוי נשמר בצעד שאפשר לחזור אליו. זה בדיוק מה שקורה עכשיו בכל כלי AI שבונה אתרים ואפליקציות בשביל אנשים לא טכניים, המקלדת נעלמת אבל ההיגיון שמאחורי הכפתורים נשאר, ואם לא מבינים אותו בונים משהו שאי אפשר לתחזק.",
+          "why": "כי זה בדיוק הפער שרואים היום בכלי vibe coding: אנשים שיודעים ללחוץ כפתור אבל לא מבינים מה הכפתור עשה, ונתקעים ברגע הראשון שמשהו משתבש.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb53500/",
+          "srcLabel": "חומרי קורס 53500",
+          "srcDate": "24.11",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay keyboard slowly sinking into the cream background while a solid clay branch-and-checkpoint icon stays standing beside it, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A clay keyboard sinks slowly into the cream surface while a clay branch icon with small checkpoint flags stays upright and catches the light, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Figma What's New: תפריט Instance Swap חדש ולשונית Inspect משודרגת",
+          "desc": "עמוד העדכונים הרשמי של פיגמה עם הפיצ'רים האחרונים: תפריט החלפת instances עם תמונות ממוזערות וחיפוש, ולשונית Code שהפכה ל-Inspect עם מפרטים לפי נושא.",
+          "meta": "Figma · 24.11",
+          "url": "https://www.figma.com/whats-new/"
+        },
+        {
+          "title": "The Only: AI לומד איך הצוות שלך באמת עובד",
+          "desc": "סקירה על כלים שעוברים מציור מסכים לניהול העבודה סביב העיצוב: פיגמה שואבת מחקר מדרייב, Canva עורכת עיצוב קיים, Framer מריץ A/B טסטים לבד.",
+          "meta": "The Only · 4.11",
+          "url": "https://buttondown.com/theonly/archive/ai-is-learning-how-your-team-works/"
+        },
+        {
+          "title": "UX Collective: כפתורי הניצוץ, אוטונומיה בעיצוב וה-AI reckoning",
+          "desc": "דיגסט של UX Collective עם כמה זוויות על AI בעיצוב: הביקורת על כפתור הניצוץ שמופיע בכל מוצר, ומאמר שטוען שהתחום כבר עבר טלטלות כאלה פעמיים בעבר.",
+          "meta": "UX Collective",
+          "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3"
+        }
+      ]
+    },
+    {
       "date": "2026-11-23",
       "dateLabel": "יום שני, 23 בנובמבר",
       "ideas": [
