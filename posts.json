@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-25",
+      "dateLabel": "יום רביעי, 25 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-25-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "בפיגמה מוטיישן אפשר עכשיו לראות איך אנימציה נראית לפני שמיישמים אותה, וגם להגדיר קפיץ פיזיקלי אמיתי במקום לנחש משך זמן.",
+          "angle": "העדכון מ-10.11 מוסיף שלושה דברים: תצוגה מקדימה של כל סגנון אנימציה על הקנבס לפני שמיישמים, קפיצים עם מסה קשיחות ודעיכה אמיתיים ל-iOS ול-Android שאפשר לשמור בספריית העיצוב לשימוש חוזר, ותצוגה מקדימה של קובץ Lottie לפני הייצוא. בעברית כמעט אין על זה תוכן. בקורס פיגמה וויב שלי זה בדיוק ההבדל בין מעצב שמנחש משך אנימציה למעצב שמגדיר התנהגות פיזיקלית אמיתית.",
+          "why": "עדכון טרי מ-10.11, ועדיין כמעט לא מכוסה בעברית. למי שבונה מערכת עיצוב, זה משנה את כל הדרך לחשוב על תנועה.",
+          "srcUrl": "https://forum.figma.com/product-updates-3/new-figma-motion-updates-physics-based-springs-style-and-lottie-export-previews-59976",
+          "srcLabel": "Figma Forum, Product Updates",
+          "srcDate": "10.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single animated UI card mid bounce, a motion trail of thin arcs coiled behind it like a spring, small dashed grid marks showing its before and after position, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A UI card drops in and overshoots with a soft spring bounce, settles with one gentle wobble, dashed trail lines fade in behind its motion path and then disappear, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-25-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "מי מעצב את כפתור העצירה? UX Collective שאלו את זה השבוע, וזאת בדיוק השאלה שחסרה בכל שיחה על אוטונומיה של סוכני AI.",
+          "angle": "הכתבה של מיכל קרשטון בדיגסט של UX Collective טוענת שהשאלות הקשות באמת לא נוגעות ליכולות של הסוכן, אלא לאיפה האוטונומיה שלו נגמרת. מי מחליט מתי לעצור תהליך, איך זה נראה למשתמש, ומה קורה כשהעצירה עצמה דורשת החלטה. זה בדיוק התפקיד שחוזר אצלי בכל פרויקט שיש בו שכבת AI: לא לעצב את הפיצ'ר, לעצב את נקודת היציאה ממנו.",
+          "why": "כל שבוע עוד מוצר מוסיף שכבת סוכן. אף אחד עדיין לא פתר איך העצירה אמורה להיראות ולהרגיש.",
+          "srcUrl": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8",
+          "srcLabel": "UX Collective (מיכל קרשטון)",
+          "srcDate": "24.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single red stop button icon floating above a maze of thin dashed arrows branching like an AI agent's possible paths, one path cut off right at the button, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. The stop button pulses once, one dashed branching path flickers and fades to nothing while the other paths keep moving steadily, camera holds static, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-25-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מאחורי הקלעים שלך",
+          "hook": "2013, אני מלמד עיצוב ממשק ומסביר שההבדל בין מעצב טוב לרע הוא כמה שאלות הוא שואל לפני שהוא פותח את פיגמה. 2026, אני מלמד בדיוק אותו דבר, רק שעכשיו הכלי שעונה על השאלות הוא קלוד.",
+          "angle": "פורמט: שתי נקודות בזמן. ג'יי אראגונס כתב השבוע מה הוא למד מללמד פרוטוטייפינג עם AI באוניברסיטה, וזה הזכיר לי בדיוק מעבר שעברתי בקורס מיישם AI. ב-18.11, במפגש הרביעי, תלמיד שאל אותי למה הוא צריך נוסחת פרומפט אם הוא יכול פשוט לבקש מה שהוא רוצה. התשובה שלי הייתה זהה למה שהייתי עונה ב-2013 על שאלה דומה לגבי תבניות עיצוב: הכלי לא פותר בשבילך מה השאלה. הוא רק מריץ אותה מהר יותר.",
+          "why": "הכלים התחלפו לגמרי. מה שלא השתנה: מי שלא יודע לשאול שאלה טובה, מקבל תשובה טובה בקצב מהיר יותר לבעיה הלא נכונה.",
+          "srcUrl": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8",
+          "srcLabel": "UX Collective (ג'יי אראגונס)",
+          "srcDate": "24.11",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. A small clay figure of a student raising one hand in a tiny classroom, a small clay speech bubble floating above their head, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field. The clay student's hand rises slowly, the clay speech bubble above tilts and wobbles as if about to speak, camera pushes in gently, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "Kling AI משיקים Video O1: מודל וידאו אחד ליצירה ועריכה",
+          "desc": "קלינג משלבת יצירת וידאו ועריכה במודל אחד. אפשר להחליף דמות, לשנות מזג אוויר או סגנון בפרומפט בודד במקום לעבור בין כלים נפרדים.",
+          "meta": "The Decoder · 1.12",
+          "url": "https://the-decoder.com/klings-video-o1-launches-as-the-first-all-in-one-video-model-for-generation-and-editing/"
+        },
+        {
+          "title": "מ-AI פסיבי ל-AI שימושי: איך ארגונים בונים למידה מונעת ביצועים",
+          "desc": "IBM, יוניליוור ו-וולמארט מריצים פלטפורמות AI שממליצות על תוכן לפי נתוני תפקיד וביצועים. הטענה המרכזית: המדד האמיתי הוא שינוי התנהגות, לא השלמת קורס.",
+          "meta": "eLearning Industry · 6.4",
+          "url": "https://elearningindustry.com/from-passive-to-purposeful-how-ai-is-reshaping-corporate-learning-strategies-in-2026"
+        },
+        {
+          "title": "Design by Numbers: דיגסט שבועי על AI ועיצוב",
+          "desc": "אוסף שבועי של UX Collective: מי מעצב את כפתור העצירה, מה אפשר ללמוד מהוראת פרוטוטייפינג עם AI באוניברסיטה, ולמה פוליש בעיצוב מפסיק להבדיל כש-AI מייצר אותו בחינם.",
+          "meta": "UX Collective · 24.11",
+          "url": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8"
+        }
+      ]
+    },
+    {
       "date": "2026-11-24",
       "dateLabel": "יום שלישי, 24 בנובמבר",
       "ideas": [
