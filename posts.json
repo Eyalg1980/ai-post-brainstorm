@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-26",
+      "dateLabel": "יום חמישי, 26 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-26-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "עד השבוע כדי להחליף רקע או להוסיף לוגו לתמונה היית צריך לצאת מפיגמה דיזיין ולהיכנס לאפליקציית Weave הנפרדת. עכשיו הכלים האלה יושבים ישר בתוך הקנבס.",
+          "angle": "פיגמה פתחה בטא ל-Weave tools in Figma Design: כלים ממוקדים להחלפת רקע, הוספת לוגו ושינוי יחס תמונה, בלי לעזוב את הקובץ. זמין ב-Professional, Organization ו-Enterprise, ובלי לצרוך AI credits. זה המעבר מ-Weave כאפליקציה נפרדת ל-Weave כתכונה טבעית בתוך תהליך העבודה הרגיל.",
+          "why": "כי זה סוגר את הפער בין כלי AI מגניב לכלי שבאמת משתמשים בו כל יום. כלי שדורש לפתוח אפליקציה נפרדת מת אחרי שבוע. כלי שיושב בתוך העבודה נשאר.",
+          "srcUrl": "https://help.figma.com/hc/en-us/articles/41301052048791",
+          "srcLabel": "Figma Help Center, מה חדש מ-Config 2026",
+          "srcDate": "26.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, scene of a design canvas with a floating toolbar of simple icons (background swap, logo, aspect ratio) merging directly into a frame, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, no text: a separate floating toolbar panel slides and snaps directly into a design frame, icons settle into place, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-26-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "לעוזר ה-AI של פיגמה יש עכשיו זיכרון. לא עוד פרומפט חד פעמי, אלא סקיל שמור שכל הצוות יכול להשתמש בו שוב.",
+          "angle": "הדוגמה הרשמית היא /contrast-improvements: פקודת סלאש שמחליפה זוגות צבעים בניגודיות נמוכה בחלופות עומדות בתקן WCAG, בלחיצה אחת. מעל זה, מחברי MCP מביאים הקשר חי מ-Linear, Notion, Hex, GitHub, Slack ועוד ישר לתוך השיחה עם העוזר.",
+          "why": "זה בדיוק ההבדל בין פרומפט לסקיל: פרומפט הוא בקשה חד פעמית, סקיל הוא זיכרון קבוע שחוזר על עצמו באופן עקבי. פיגמה הפכה את זה למוצר אמיתי, לא למושג תיאורטי.",
+          "srcUrl": "https://www.figma.com/blog/agent-custom-tools-context-skills/",
+          "srcLabel": "Figma Blog, Agent custom tools and skills",
+          "srcDate": "26.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text, a small labeled tag or tile repeating itself into a row of identical tiles, suggesting a saved command reused many times, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, no text: one small tile duplicates itself in a quick rhythmic sequence across the frame, each copy identical, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-26-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מאחורי הקלעים שלך: המשפט שאתה חוזר עליו כל שיעור על ההבדל בין פרומפט לסקיל",
+          "hook": "בכל שיעור אני אומר את אותו משפט: פרומפט הוא בקשה, סקיל הוא זיכרון. השבוע פיגמה הוכיחה שזה לא סלוגן, ככה נראה מוצר AI אמיתי.",
+          "angle": "פורמט: צ'ק-אין נבואה. חודשים לפני שפיגמה שחררה skills לעוזר שלה, כבר לימדתי את זה בהרצאת האורח של דניאל בוארון בקורס 53500: סקיל הוא לא קוד, הוא זיכרון קבוע שמופעל אוטומטית ומשותף לצוות. עכשיו יש לזה שם רשמי בפיגמה, slash commands כמו contrast-improvements, ודוגמה חיה בשטח.",
+          "why": "כי זה מה שסטודנטים לא טכניים צריכים לשמוע: המודל המנטלי שאני מלמד אותם היום הוא בדיוק הכיוון שהתעשייה הולכת אליו. זה לא ניחוש, זה תהליך שכבר קורה.",
+          "srcUrl": "https://www.figma.com/blog/agent-custom-tools-context-skills/",
+          "srcLabel": "Figma Blog, Agent custom tools and skills",
+          "srcDate": "26.11",
+          "prompts": {
+            "image": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting, shallow depth of field, a small clay figure of a teacher pointing at a glowing clay tile shaped like a repeating stamp, 1:1",
+            "video": "Claymation stop-motion style, handcrafted plasticine, visible fingerprints in clay, cream studio background, coral yellow and teal palette, soft studio lighting: a clay teacher figure stamps the same glowing tile shape onto several small clay screens in a row, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "איך Weave בכלל הגיעה לפיגמה",
+          "desc": "הרקע לרכישה: פיגמה קנתה את Weavy, הפלטפורמה שהפכה ל-Figma Weave, עם גישה למודלים כמו Veo 3, GPT img 1 ו-Ideogram V3 במקום אחד.",
+          "meta": "TechRadar · 30.10",
+          "url": "https://www.techradar.com/pro/software-services/figma-boosts-its-ai-editing-tools-as-it-combines-forces-with-popular-ai-platform-weavy"
+        },
+        {
+          "title": "מה עוזר ה-AI של פיגמה באמת עושה בתוך הקובץ שלך",
+          "desc": "פירוק מעשי של יכולות עוזר הפיגמה: מה הוא רואה בקובץ, מה הוא יכול לשנות, ואיפה עובר הגבול.",
+          "meta": "Muzli · נובמבר",
+          "url": "https://muz.li/blog/figma-just-put-an-agent-inside-your-file-heres-what-it-actually-does/"
+        },
+        {
+          "title": "פיגמה מרחיבה את אפליקציית העיצוב עם עוזר AI",
+          "desc": "סקירה על ההרחבה של עוזר ה-AI בפיגמה לכל שטח העבודה, מנקודת מבט גרמנית.",
+          "meta": "Heise · נובמבר",
+          "url": "https://heise.de/-11302671"
+        }
+      ]
+    },
+    {
       "date": "2026-11-25",
       "dateLabel": "יום רביעי, 25 בנובמבר",
       "ideas": [
