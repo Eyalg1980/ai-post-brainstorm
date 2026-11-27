@@ -1,6 +1,83 @@
 {
   "days": [
     {
+      "date": "2026-11-27",
+      "dateLabel": "יום שישי, 27 בנובמבר",
+      "ideas": [
+        {
+          "id": "2026-11-27-1",
+          "pillar": "Figma Weave",
+          "color": "#FF6B5E",
+          "me": null,
+          "hook": "ב-Weave אפשר עכשיו להריץ אותו פרומפט דרך כמה מודלים AI במקביל ולראות את כל התוצאות זו לצד זו, בלי לצאת מהקנבס ובלי להמר על מודל אחד מראש.",
+          "angle": "המדריך הרשמי של פיגמה ל-Weave מפרק את זה לרכיבים: Prompt node ו-Run Any LLM node מריצים את אותה בקשה דרך מספר מודלים במקביל, Branches שומרים את הגרסה המקורית ופותחים ענף נפרד לכל ניסיון חדש, ו-Compositor מרכיב את הפלטים האלה בחזרה לתוצאה אחת. השכבה המעניינת יותר היא ש-Weave tools, חבילות עבודה שחבר צוות מריץ בלי לגעת בצמתים עצמם, זמינות עכשיו גם לפרסום בקהילה. זה בדיוק ה-Use, Extend, Invent שאני מלמד: מישהו בונה את הזרימה פעם אחת, כל השאר רק מריצים אותה.",
+          "why": "כי זה הופך תהליך שהיה תלוי לגמרי באדם אחד שזוכר אילו הגדרות עבדו, לתהליך שאפשר להעביר הלאה כמו קובץ. זה בדיוק מה שחסר היום ברוב הצוותים שעובדים עם AI.",
+          "srcUrl": "https://www.figma.com/blog/the-tldr-on-figma-weave/",
+          "srcLabel": "Figma Blog, The TL;DR on Figma Weave",
+          "srcDate": "11.2026",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. One small canvas node branching into three parallel paths, each path ending in a different simple AI model icon square, all three converging into one glowing comparison frame, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A single node splits into three branching paths that each pulse toward a small icon square, then all three send light trails converging into one glowing frame, camera holds steady, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-27-2",
+          "pillar": "UX + AI",
+          "color": "#7B61FF",
+          "me": null,
+          "hook": "עשרים שנה של מחקר UX על מסכי אין עדיין נתונים נגמרו, וזה לא בגלל כלי חדש למסכים. זה בגלל שאין יותר רגע ריק למלא.",
+          "angle": "עדי לויים כותבת ב-UX Collective טענה חדה: מוצרי AI ביטלו את כל הז'אנר של ה-empty state. המסך שהיה פעם צריך איור נחמד, כותרת מעודדת וכפתור להתחלה, מוחלף היום בתוכן אמיתי שה-AI כבר יוצר תוך שנייה, טיוטה, הצעה, ניחוש ראשון. השאלה שעובדי UX לא שואלים מספיק: אם אין יותר רגע ריק, מה קורה לכל הכישורים שנבנו סביבו, כתיבת מיקרו-קופי מעודד, עיצוב מצב ראשוני, בניית אמון ברגע ההתחלה? הם לא נעלמים, הם עוברים לתפקיד חדש: לתת למשתמש לתקן מהר את הניחוש הראשון של ה-AI.",
+          "why": "כי צוותים עדיין מתקצבים זמן עיצוב למסכי ריקון קלאסיים, בזמן שאף אחד לא מלמד את הכישור שבאמת נדרש עכשיו, איך לעצב את רגע התיקון של הניחוש הראשון.",
+          "srcUrl": "https://uxdesign.cc/be-like-water-the-death-of-the-empty-state-ai-for-ux-88654390e8ee",
+          "srcLabel": "UX Collective (עדי לויים)",
+          "srcDate": "11.2026",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. A classic empty state illustration frame cracking apart into light particles while a small filled content card instantly appears floating beside it, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. An empty state illustration dissolves into drifting particles that reform mid air into a small filled content card, camera holds steady, 9:16, 8 seconds"
+          },
+          "used": false
+        },
+        {
+          "id": "2026-11-27-3",
+          "pillar": "הוראה והכשרה של AI",
+          "color": "#2BB3A3",
+          "me": "מאחורי הקלעים שלך: למה בדיוק שעתיים עם Lovable לפני שעוברים ל-Claude Code",
+          "hook": "בקורס מיישם AI ואוטומציה הסטודנטים מקבלים שעתיים בדיוק עם Lovable. לא פחות, לא יותר. ואז כל הכיתה עוברת ל-Claude Code לכל שאר הסמסטר.",
+          "angle": "פורמט: מדריך השוואתי עם מספרים. שעתיים מול סמסטר שלם, וההבדל הוא לא רמת המוצר, הוא איפה האצבעות נוגעות. ב-Lovable התרגיל נותן טעימה מהירה מהתחושה של vibe coding, בלי קובץ, בלי Git, בלי להבין מה קרה מתחת לכפתור. אחרי שעתיים כל הכיתה עוברת ל-Claude Code דסקטופ בתשלום, כי שם הסטודנט נוגע בקובץ עצמו, בהיסטוריית Git, ובפרויקט שנבנה על ריפו ציבורי אחד עם ענף main בלבד ותגית checkpoint בסוף כל מודול. ההחלטה הזו גוררת שתי החלטות נוספות: מפגש התקנות שלם לפני מפגש 5, ועדכון על עלות המנוי שנאמר בפתיחת הקורס ולא באמצע. שעתיים מספיקות כדי לדעת שזה לא זה, וסמסטר שלם כדי לבנות את השריר שבאמת צריך.",
+          "why": "כי סטודנט שנשאר רק עם הכלי המהיר לא בונה את השריר של קריאת קוד ותיקון שלו, וזה בדיוק השריר שהוא יצטרך ברגע שמשהו משתבש בפרויקט האמיתי.",
+          "srcUrl": "https://eyalg1980.github.io/simpla-lab/jb53500/",
+          "srcLabel": "חומרי קורס 53500",
+          "srcDate": "27.11",
+          "prompts": {
+            "image": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Two simple timer dials side by side, a small one reading a short duration next to a much larger one wrapped in a long continuous ribbon, 1:1",
+            "video": "Flat editorial vector illustration, deep navy #0D1533 background, coral #F7636B and warm yellow #FFE94A accents, thin dashed outlines, generous negative space, no gradients, no text. Camera pans from a small quick timer dial toward a large ribbon wrapped timer that keeps slowly unwinding, 9:16, 8 seconds"
+          },
+          "used": false
+        }
+      ],
+      "articles": [
+        {
+          "title": "ה-TL;DR של Figma Weave: איך הופכים תהליך יצירה לחוזר ושמיש",
+          "desc": "המדריך הרשמי של פיגמה ל-nodes, branches ול-Weave tools שאפשר עכשיו לפרסם לקהילה",
+          "meta": "Figma Blog · 11.2026",
+          "url": "https://www.figma.com/blog/the-tldr-on-figma-weave/"
+        },
+        {
+          "title": "מות ה-empty state במוצרי AI",
+          "desc": "עדי לויים טוענת ש-AI מוצרים ביטלו עשרים שנה של מחקר UX על מסכי ריקון",
+          "meta": "UX Collective · 11.2026",
+          "url": "https://uxdesign.cc/be-like-water-the-death-of-the-empty-state-ai-for-ux-88654390e8ee"
+        },
+        {
+          "title": "איך AI מעצב מחדש את עולם ה-UI/UX ב-2026",
+          "desc": "סקירה רחבה על המעבר מכלי לציור מסכים לכלים שמבינים הקשר והעבודה סביב המסך",
+          "meta": "Punchcut",
+          "url": "https://punchcut.com/perspectives/how-ai-is-reshaping-ui-ux-design-in-2026/"
+        }
+      ]
+    },
+    {
       "date": "2026-11-26",
       "dateLabel": "יום חמישי, 26 בנובמבר",
       "ideas": [
